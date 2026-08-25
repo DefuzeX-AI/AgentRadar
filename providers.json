@@ -1,0 +1,67 @@
+{
+  "providers": [
+    {
+      "id": "anthropic",
+      "packages": ["anthropic", "langchain-anthropic"],
+      "imports": ["anthropic", "langchain_anthropic"],
+      "environment_variables": ["ANTHROPIC_API_KEY"],
+      "access_model": "commercial"
+    },
+    {
+      "id": "exa",
+      "packages": ["exa-py", "langchain-exa"],
+      "imports": ["exa_py", "langchain_exa"],
+      "environment_variables": ["EXA_API_KEY"],
+      "access_model": "commercial_or_free_tier"
+    },
+    {
+      "id": "fireworks",
+      "packages": ["fireworks-ai", "langchain-fireworks"],
+      "imports": ["fireworks", "langchain_fireworks"],
+      "environment_variables": ["FIREWORKS_API_KEY"],
+      "access_model": "commercial_or_free_tier"
+    },
+    {
+      "id": "google_genai",
+      "packages": ["google-generativeai", "google-genai", "langchain-google-genai"],
+      "imports": ["google.generativeai", "google.genai", "langchain_google_genai"],
+      "environment_variables": ["GOOGLE_API_KEY", "GEMINI_API_KEY"],
+      "access_model": "commercial_or_free_tier"
+    },
+    {
+      "id": "groq",
+      "packages": ["groq", "langchain-groq"],
+      "imports": ["groq", "langchain_groq"],
+      "environment_variables": ["GROQ_API_KEY"],
+      "access_model": "commercial_or_free_tier"
+    },
+    {
+      "id": "mistral",
+      "packages": ["mistralai", "langchain-mistralai"],
+      "imports": ["mistralai", "langchain_mistralai"],
+      "environment_variables": ["MISTRAL_API_KEY"],
+      "access_model": "commercial_or_free_tier"
+    },
+    {
+      "id": "openai",
+      "packages": ["openai", "langchain-openai"],
+      "imports": ["openai", "langchain_openai"],
+      "environment_variables": ["OPENAI_API_KEY"],
+      "access_model": "commercial"
+    },
+    {
+      "id": "pinecone",
+      "packages": ["pinecone", "pinecone-client", "langchain-pinecone"],
+      "imports": ["pinecone", "langchain_pinecone"],
+      "environment_variables": ["PINECONE_API_KEY"],
+      "access_model": "commercial_or_free_tier"
+    },
+    {
+      "id": "tavily",
+      "packages": ["tavily-python", "langchain-tavily"],
+      "imports": ["tavily", "langchain_tavily"],
+      "environment_variables": ["TAVILY_API_KEY"],
+      "access_model": "commercial_or_free_tier"
+    }
+  ]
+}
