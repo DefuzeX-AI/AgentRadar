@@ -1,0 +1,4712 @@
+[
+  {
+    "repo": "TauricResearch/TradingAgents",
+    "reviewed_sha": "a33fd4c0f134485a43553a2c23a63cb14adbd88f",
+    "reviewed_at": "2026-08-24T22:01:12Z",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_framework",
+    "direction": "finance_trading",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable multi-agent trading system with analyst, researcher, trader, risk, and portfolio-manager agents.",
+    "evidence": [
+      "README: TradingAgents Framework",
+      "README: Analyst Team, Researcher Team, Trader Agent, Risk Management and Portfolio Manager"
+    ]
+  },
+  {
+    "repo": "bytedance/deer-flow",
+    "reviewed_sha": "ff0a6768c25927c4045b151f399c247b446b8fce",
+    "reviewed_at": "2026-08-24T23:57:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_harness",
+    "direction": "general_purpose",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README presents a runnable super-agent harness with sub-agents, memory, skills, sandboxes, and setup instructions.",
+    "evidence": [
+      "README rechecked at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "assafelovic/gpt-researcher",
+    "reviewed_sha": "6f998577d547b1e54ec662dac63583aa11e3b84b",
+    "reviewed_at": "2026-08-24T22:01:12Z",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_application",
+    "direction": "research",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README defines a research agent that plans questions, gathers sources with execution agents, and produces cited reports.",
+    "evidence": [
+      "README: GPT Researcher overview",
+      "README: Architecture"
+    ]
+  },
+  {
+    "repo": "langchain-ai/deepagents",
+    "reviewed_sha": "dfde21e379201c833da4162444ef4a13b46980fd",
+    "reviewed_at": "2026-08-24T22:01:12Z",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_harness",
+    "direction": "general_purpose",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README identifies an out-of-the-box agent harness with planning, tools, sub-agents, memory, filesystem, and human approval.",
+    "evidence": [
+      "README: Deep Agents overview",
+      "README: Principles and Features"
+    ]
+  },
+  {
+    "repo": "confident-ai/deepeval",
+    "reviewed_sha": "2194dae4bc1ebc0476c98f72bdfd5c51e5ea0651",
+    "reviewed_at": "2026-08-24T23:57:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README defines an LLM evaluation framework, not a task-performing agent.",
+    "evidence": [
+      "README rechecked at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Canner/WrenAI",
+    "reviewed_sha": "f2841bcbdf8daed9cab9bd5d83275bc51c176594",
+    "reviewed_at": "2026-08-24T22:01:12Z",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "agent_platform",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "README explicitly links the Apache-2.0 license; GitHub API returned NOASSERTION",
+    "confidence": "high",
+    "reason": "README presents a governed GenBI and semantic-layer engine used by external agents rather than a standalone agent.",
+    "evidence": [
+      "README: What WrenAI is",
+      "README: Why agent builders pick WrenAI"
+    ]
+  },
+  {
+    "repo": "NVIDIA/SkillSpector",
+    "reviewed_sha": "d486d0a84d1ab2f90081fde5713638a7d3538e11",
+    "reviewed_at": "2026-08-24T22:01:12Z",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "security_tool",
+    "direction": "security",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a scanner for agent skills; optional LLM analysis does not make the scanner itself an agent project.",
+    "evidence": [
+      "README: Security scanner for AI agent skills",
+      "README: Features"
+    ]
+  },
+  {
+    "repo": "Arize-ai/phoenix",
+    "reviewed_sha": "59c247a19f868f157da511b1feca0338adef28e3",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "langchain-ai/open-swe",
+    "reviewed_sha": "aa13a720d7e5d474e300d12002515f5d792e26aa",
+    "reviewed_at": "2026-08-24T23:57:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_framework",
+    "direction": "coding",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a customizable internal coding-agent architecture with sandboxes, sub-agents, Slack and Linear invocation, and PR creation.",
+    "evidence": [
+      "README rechecked at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "GetBindu/Bindu",
+    "reviewed_sha": "7d5b6d256364abdbcff97bd96c82581a03607096",
+    "reviewed_at": "2026-08-24T22:01:12Z",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "agent_infrastructure",
+    "direction": "agent_identity_communication",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub API returned NOASSERTION and the reviewed README excerpt does not identify a license",
+    "confidence": "high",
+    "reason": "README describes identity, communication, payments, and transport infrastructure that wraps an existing agent rather than implementing the agent itself.",
+    "evidence": [
+      "README: Bindu overview",
+      "README: Quickstart"
+    ]
+  },
+  {
+    "repo": "traceloop/openllmetry",
+    "reviewed_sha": "62e24c2ffde6c1ee04dc290e52d8d5dbda054cff",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README defines OpenTelemetry instrumentation and an observability SDK.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "xerrors/Yuxi",
+    "reviewed_sha": "393bacdad2d12e371c7f4972d20e568a3231a7c2",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a deployable knowledge-agent platform with multi-agent orchestration.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "GoogleCloudPlatform/agent-starter-pack",
+    "reviewed_sha": "659f047742457bd55e5db0edd088cf678b6f0669",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a generator of agent templates and deployment infrastructure.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "microsoft/agent-governance-toolkit",
+    "reviewed_sha": "b5705588883fac48b88cbe6fd0bd7d48c798453e",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes governance controls for agents rather than an agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "rllm-org/rllm",
+    "reviewed_sha": "9beb6e0f676a46d38858991fd79ac5f8e0b16d4c",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes reinforcement-learning infrastructure for training language agents.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "PurpleAILAB/Decepticon",
+    "reviewed_sha": "0cf691e9b06e53e1a90f5de4e863a9493988c9b9",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README provides an autonomous red-team agent runnable from its CLI.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "EvoScientist/EvoScientist",
+    "reviewed_sha": "8383f343aed3397936e9520504d12e7ac93b497a",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "coding_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a ready-to-use autonomous scientific research system.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "JoshuaC215/agent-service-toolkit",
+    "reviewed_sha": "0c58abfce18ba97d10507f0ffd0b151d5a843e74",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README includes a complete runnable LangGraph agent service and demo application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Awarexone/Agentic-Bug-Hunter",
+    "reviewed_sha": "186568a0f65c11ad168afb0ee53e68dd18c2e9a2",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a standalone autonomous security-testing agent CLI.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "lemony-ai/cascadeflow",
+    "reviewed_sha": "2e3b45d690fdf48ef95f2f72cf10ca681a57fb13",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a model-routing and runtime intelligence layer.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "langchain-ai/langchain-mcp-adapters",
+    "reviewed_sha": "cc0f2843fd5becf2cdb641c910533c3747c3b1ef",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes an adapter library used by agents.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "truera/trulens",
+    "reviewed_sha": "bf2180beae78cfcf4be46a66d1689e121c08f898",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes tracing, evaluation, and observability tooling.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "simonlin1212/TradingAgents-astock",
+    "reviewed_sha": "ed778c51eeb2c4c3431f6fa7aae68103cd441acc",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README provides a runnable multi-agent stock-trading system.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "wassim249/fastapi-langgraph-agent-production-ready-template",
+    "reviewed_sha": "36c7e2b87bc2e60ee230348e857e6c9d9570a46e",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a complete runnable LangGraph agent service template.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "NVIDIA/NeMo-Agent-Toolkit",
+    "reviewed_sha": "2d2e342549fe3b9c5092fb9af611645b17581b25",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a toolkit for building and profiling agent workflows.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "apache/burr",
+    "reviewed_sha": "f7989f05195b8d66a999af7871f7fab8d870728c",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes an application state-machine framework used to build agents.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "beenuar/AiSOC",
+    "reviewed_sha": "98e8dfc809bf89f9962c3025775ea6dd7d3402eb",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a self-hosted security-operations agent that triages alerts.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "1517005260/graph-rag-agent",
+    "reviewed_sha": "4296b7c66307a856d0467c6ca635534c447c976b",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a runnable GraphRAG question-answering agent system.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "guy-hartstein/company-research-agent",
+    "reviewed_sha": "52c904c8169f0a36ee8c1de46d5745aee731a0b4",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README provides a multi-agent company research application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "ai-christianson/RA.Aid",
+    "reviewed_sha": "e71bb83dcfdf8796d41c746ad99bf4838d1d5914",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "coding_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README provides an autonomous software-development agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "agentstack-ai/AgentStack",
+    "reviewed_sha": "8f79b9decb3bc5e19cdf4e8934befa996e7ac689",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a CLI that scaffolds agent projects.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "olaxbt/ai-market-maker",
+    "reviewed_sha": "dd711507690450e9c4c9b170829b01f1e7d7f1b6",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: AGPL-3.0",
+    "confidence": "high",
+    "reason": "README provides an agentic crypto market-making and trading system.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "zi-yue-1129/DATAGEN",
+    "reviewed_sha": "8f969d18dfa5c7b3e7064439a9c5fe9b3006e1ec",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a multi-agent data-analysis application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "ginlix-ai/LangAlpha",
+    "reviewed_sha": "5f99002a8ecca2789e2c131d21e9984b47b28f70",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README provides a multi-agent investing and financial-analysis application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "langchain-ai/langgraph-supervisor-py",
+    "reviewed_sha": "88859b34017ac3569bbd4a3092c7e77593a0a960",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a reusable multi-agent supervisor library.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "langchain-ai/langmem",
+    "reviewed_sha": "29cbe41e58528f92e9efa773c12e15c47be3808c",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes memory primitives and tooling for agents.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "langchain-ai/langgraph-swarm-py",
+    "reviewed_sha": "749d4450f248838f4340ec47da16e5a0f14d3078",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a reusable multi-agent swarm library.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "ShenSeanChen/waku-agent",
+    "reviewed_sha": "8328f567ab52d07921445cb40feed23cbc5ea2ad",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a runnable local-first personal assistant.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "rotemweiss57/gpt-newspaper",
+    "reviewed_sha": "b86aff2d2c208c6abc44a51f443948bfae2d08cc",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides an autonomous multi-agent personalized newspaper application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "darwin-lau/langmanus",
+    "reviewed_sha": "a69eabf7e0a3e78936a4711934b65d8fa3597aeb",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a runnable general-purpose AI automation agent system.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "plurai-ai/intellagent",
+    "reviewed_sha": "4125d1c18ec351655b2e37df5d396d08eaa4fa60",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes simulation and evaluation of conversational agents.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "rcortx/kiwiq",
+    "reviewed_sha": "e1dc6486cbf8425ca146970d515415e29e569679",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes the deployable marketing-agent platform used in production.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "SalesforceAIResearch/enterprise-deep-research",
+    "reviewed_sha": "59f8f2ad318e70b8615ddb036e3042036a924f2d",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README provides a runnable multi-agent enterprise research application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "langchain-ai/openevals",
+    "reviewed_sha": "bdb122e440070b3afe86717b4be7da23564f198e",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes evaluation utilities for LLM applications.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Azure-Samples/chat-with-your-data-solution-accelerator",
+    "reviewed_sha": "5a3eb1add0dc3733bfa48f0f28d4e5719c84131c",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a deployable document-grounded conversational assistant.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "LycheeMem/LycheeMem",
+    "reviewed_sha": "9c4ba5e5c046d06063cb5159297a73a3ec1eb112",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a memory system intended for use by agents.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "aegra/aegra",
+    "reviewed_sha": "392a5457b25754cdc828f14b0053abdefe8b6766",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes self-hosted LangGraph deployment infrastructure.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "i-am-bee/agentstack",
+    "reviewed_sha": "79c786049d39684841d77fef9abfd8457a58b0bf",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runtime and management platform for running other agents.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "NVIDIA-NeMo/Gym",
+    "reviewed_sha": "89918cb176eb7c66de607305e5121afda428df16",
+    "reviewed_at": "2026-08-24T23:57:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "coding_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes environments for evaluating and improving agents.",
+    "evidence": [
+      "README rechecked at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "fetchai/innovation-lab-examples",
+    "reviewed_sha": "2a73dba7e5f286e96d161fb5783b386236740551",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README explicitly describes a collection of many standalone examples.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "test-zeus-ai/testzeus-hercules",
+    "reviewed_sha": "fa2b469e1a6a134074171e9e900ae7179b29aa70",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: AGPL-3.0",
+    "confidence": "high",
+    "reason": "README provides an autonomous software-testing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "EuniAI/Prometheus",
+    "reviewed_sha": "acb83608ed7fcf3737a967f3059b799bbc3d2b6f",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "coding_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: GPL-3.0",
+    "confidence": "high",
+    "reason": "README describes a runnable hierarchical multi-agent system.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "vndee/llm-sandbox",
+    "reviewed_sha": "af9c8137aeb71fabdc18688aa413ccf4fe8ce0a1",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes secure code-execution infrastructure integrated with agent frameworks.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "hinthornw/trustcall",
+    "reviewed_sha": "8c7312b591542cf9349ce00d2811e890ea6eef91",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a structured-output and extraction library.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Emiyaaaaa/HiveMind",
+    "reviewed_sha": "5de312e945b069f4ee65e77a8de1676b104c74c5",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README describes runtime infrastructure for multi-agent applications.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Jwuthri/Tracely-ai",
+    "reviewed_sha": "a0b3fbae18dcd2c1e6381506f5387e5401f9b046",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes agent observability and regression-testing infrastructure.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Fullive-AI/Anima",
+    "reviewed_sha": "ea1542ff8420d37089926d558ff0d6cc2174eac8",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README provides a local-network smart-hardware agent runtime with an operative brain.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "splx-ai/agentic-radar",
+    "reviewed_sha": "65a7e4bd01e2034c7cb52e9620eeed287688cc53",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a security analysis scanner for existing agent systems.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "hrithikkoduri/WebRover",
+    "reviewed_sha": "c8fadb97e317066dbcd7a9354d861a5490bd865d",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a web research and browsing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "mikekelly/AgentK",
+    "reviewed_sha": "e9ec892bddeb0b9afd77fbb130f0a89c5b715cb7",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a self-evolving multi-agent system that completes tasks.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "QVerisAI/QVerisFlow",
+    "reviewed_sha": "be8890466a325a670da56edd70ae639f44a6f943",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes a visual and conversational builder that generates agent definitions.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "FareedKhan-dev/production-grade-agentic-system",
+    "reviewed_sha": "20def050e099d12c079f501aa6e85b48fe8783bc",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README accompanies a runnable production-agent architecture rather than only conceptual material.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "XD-MHLOO/Osintgraph",
+    "reviewed_sha": "c9bbcabb20604e2db1ae14f5ae7ba91d7938c33a",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: GPL-3.0",
+    "confidence": "high",
+    "reason": "README provides an OSINT agent for natural-language investigation.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "zamalali/DeepGit",
+    "reviewed_sha": "940c14e1c1cb0a63a08d6f46feec728165868b39",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README provides a LangGraph agentic workflow for researching GitHub repositories.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Pan-Chera/Multi-Agent-CAD",
+    "reviewed_sha": "f31a2f65aa1b1e16fa6c45f1d642142fb696db28",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a multi-agent system that generates printable CAD models.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "lc2panda/alphastream",
+    "reviewed_sha": "abc3398c49ac2ad0ff3be34ca787b03c67004ead",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a financial-analysis platform with runnable collaborating agents.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "cuga-project/cuga-agent",
+    "reviewed_sha": "5de53ade77c36166da6ace906af488b2b445454f",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "coding_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README provides a configurable generalist enterprise agent harness.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "agentscope-ai/agentscope-runtime",
+    "reviewed_sha": "22072fd7075ce0c6f43cb39509d6a14b0e60ddb5",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a production runtime for agent applications.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "NVIDIA-AI-Blueprints/aiq",
+    "reviewed_sha": "11023149399a11261a988f2e29bad7f227d80736",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README provides runnable deep-research agents through CLI and web interfaces.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "icey1287/SuperMew",
+    "reviewed_sha": "f997821db835c9c080accaf1f78c2c4a602fe4b7",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "medium",
+    "reason": "README identifies a runnable agent project with a backend application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "langchain-ai/react-agent",
+    "reviewed_sha": "91092e0e124ac989f2f4ddb9854090a4b9d89723",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a complete runnable ReAct agent template.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "victordibia/designing-multiagent-systems",
+    "reviewed_sha": "67314785850ce8e7a6b02c9bdc760852fb8c679e",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README identifies the repository as companion code for a teaching book.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "nirbar1985/ai-travel-agent",
+    "reviewed_sha": "930d9c49148c9adeb43ac92c1ef71a922e8182a8",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a runnable LangGraph travel agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Haohao-end/openagent",
+    "reviewed_sha": "4013ab216b543372c214855e6fe1ce4aeb6db5cc",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a platform for building and operating other AI applications.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "aws/bedrock-agentcore-sdk-python",
+    "reviewed_sha": "d53af20a00db4d4b0140c4e55dc3a6734df7814b",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes an SDK for hosting agents on Bedrock AgentCore.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "vinay-gatech/stocks-insights-ai-agent",
+    "reviewed_sha": "375efb4041014bd4394354a8a272fdee3a6dcb18",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README provides an agentic stock-data research and insight application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "NVIDIA-AI-Blueprints/rag",
+    "reviewed_sha": "f20716d73ae69a544ad4a692f38d6178a64e6f36",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a reference RAG pipeline rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Chen-zexi/open-ptc-agent",
+    "reviewed_sha": "425b9575bfdcaf949b0a4053e981cf8070c70e03",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a runnable agent with tools and parallel subagents.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "isoftstone-data-intelligence-ai/efflux-backend",
+    "reviewed_sha": "c25742b0c76663265e42fdc67385a4bf78ee15c3",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README provides a runnable MCP-enabled agent chat application backend.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "braincrew-lab/langgraph-mcp-agents",
+    "reviewed_sha": "d4694e9db841343a2bd4dd3a30175a02b63d9144",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "medium",
+    "reason": "README provides a Docker-runnable LangGraph agent project integrated with MCP.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "langchain-ai/agentevals",
+    "reviewed_sha": "946ad15b9f2ce9bc9843edd2bb773bd07d78ca7e",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes evaluators and utilities for assessing agents.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "stophobia/deerflow2.0-enhanced",
+    "reviewed_sha": "814bde32f7954ea55cac0cbcc2195b91a43da7a2",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a runnable enhanced DeerFlow research-agent harness.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Bessouat40/RAGLight",
+    "reviewed_sha": "c21e3ae0e44b66b85950340c5e10beb1dbce0f79",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a modular RAG library installed as a Python package.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Westlake-AGI-Lab/AppAgentX",
+    "reviewed_sha": "d0fcaeb1f9a1f784192dac596e319a8004a5dec2",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README provides an implemented smartphone GUI agent from a research project.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "wshobson/maverick-mcp",
+    "reviewed_sha": "6c66c910059f5163da2a81d1c43d10c2ebf9ae73",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a stock-analysis MCP server consumed by agents.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "nuglifeleoji/Options-Analytics-Agent",
+    "reviewed_sha": "9de22c3184598440ae2209be87bcd764bd1349af",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README provides a conversational financial-options analysis agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "langtalks/swe-agent",
+    "reviewed_sha": "5946af4f57cba03761015837ad5f87ef5c8d99e9",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a software-engineering agent with planning and implementation stages.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "tablegpt/tablegpt-agent",
+    "reviewed_sha": "26bc576bb21fc1c296d829e863c97290e92bfd8e",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README provides the implemented TableGPT data agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "BrandPeng/Langchain1.0-Langgraph1.0-Learning",
+    "reviewed_sha": "c20eeee8e7045a34f7c541c36501e0799b3521fd",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README identifies the repository as a LangChain and LangGraph learning guide.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "zhongyu09/openchatbi",
+    "reviewed_sha": "c8786cb180081dbdd18d841efa33b70d77b633e9",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides chat agents for natural-language SQL and BI analysis.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "martimfasantos/ai-agents-frameworks",
+    "reviewed_sha": "21c5ab8768c9b3f9b80c7effb399eb20ee5094c4",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a comparison collection of agent frameworks.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "51bitquant/ai-hedge-fund-crypto",
+    "reviewed_sha": "c6750e0041cb2e528856864783585427c45cc34d",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides an agentic cryptocurrency trading decision system.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "wassim249/YT-Navigator",
+    "reviewed_sha": "61e3ddfbb8c52ed23c01a03cc73498fb48bc7a5a",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides an AI application for researching and querying YouTube content.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "esxr/langgraph-mcp",
+    "reviewed_sha": "16944242d980bafe56876f78224982efd2c1c074",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README provides a runnable universal assistant using LangGraph and MCP.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "langchain-ai/langgraph-bigtool",
+    "reviewed_sha": "0bb7f9227d349afa4d4207c6630e800658c80894",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a reusable tool-selection library for agents.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "NicholasGoh/fastapi-mcp-langgraph-template",
+    "reviewed_sha": "2bd004a51e5d741e8eaf5bb01716b6a673684a53",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README provides a runnable agentic orchestration service template.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "psyray/oasis",
+    "reviewed_sha": "60388ad4f8e929c281e58a84d233cc0946c01e18",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: GPL-3.0",
+    "confidence": "medium",
+    "reason": "README provides an AI-powered autonomous code-security auditing application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "secureagentics/Adrian",
+    "reviewed_sha": "739ff1add4cd0ea4f323ee2076802b61c37d8e3d",
+    "reviewed_at": "2026-08-24T23:54:58+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes runtime security monitoring and control for other agents.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "michaelalbada/BuildingApplicationsWithAIAgents",
+    "reviewed_sha": "eeb325ab6e3af8eeba2e5e0d46f0185fc5933197",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "bcefghj/multi-agent-ecommerce-system",
+    "reviewed_sha": "faf0fd8309c550426f3b2cce057dd4566e209e09",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Floe-Labs/floe-guard",
+    "reviewed_sha": "71cc042a2e48856be6ebc18495c3bf47484c2761",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "coding_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "girijesh-ai/ai-interview-codex",
+    "reviewed_sha": "9d46d6c32772afcb72bb726fd2783c8d838a691e",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "agulli/atlas-agents",
+    "reviewed_sha": "2b2199859a506715c9999545becf95b4a0fbfb81",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "medium",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "vibesurf-ai/VibeSurf",
+    "reviewed_sha": "cd6e519d507cdd4d63061300bf60fb176e1f57e0",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "runagent-dev/runagent",
+    "reviewed_sha": "aaf9d338fd9d7737bb002fc4b0d3d6bdbeb1753b",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "wjayesh/mahilo",
+    "reviewed_sha": "6c49bca1e39568a1e54ca7fefc01d1142cf78687",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "medium",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "NanGePlus/LangGraphChatBot",
+    "reviewed_sha": "30621c9243ef2e15f25eff1be94f5c7491090f1b",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "datawhalechina/easy-langent",
+    "reviewed_sha": "820cbf8ac9d2fee959424bf28fab3394ff172dfe",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "modelscope/easydistill",
+    "reviewed_sha": "aeb8ca3eab8b2a82f754c01c3d1f59ad276268c3",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Annyfee/agent-craft",
+    "reviewed_sha": "f54de7f1ed504ddc977704ed7642032814b84922",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "zamalali/langchain-code",
+    "reviewed_sha": "d75d039ce2b4d1d2bff01d7f8858068209564ecc",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "SponsioLabs/Sponsio",
+    "reviewed_sha": "5b69e178f46f31ab6a73697e1e6ef503ccde9534",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Tswoen/Paper-Agent",
+    "reviewed_sha": "c68778fdb96b15025b86d45cbcd7fc9f20e52a43",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "brainqub3/jar3d_meta_expert",
+    "reviewed_sha": "3403118db9765938400f5f8311d7085a5740c547",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "oracle/agent-spec",
+    "reviewed_sha": "c9b0a20f1a5d09aecb081c49e760ee2f77325c76",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "john-adeojo/graph_websearch_agent",
+    "reviewed_sha": "fbeaf583625c488b6f9f61e22a2b8f5994c0ab2a",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Arvo-AI/aurora",
+    "reviewed_sha": "7ffb464bce4dcf47d689c3d0a96ef0ee2451f8d0",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Repello-AI/Agent-Wiz",
+    "reviewed_sha": "009989d5a5c86c1cfbe1bc33ac0d0e9274a574ec",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "leonyangdev/lc-studylab",
+    "reviewed_sha": "996c23719ae55e26a95298f75a7aecdc0b321411",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "skygazer42/GustoBot",
+    "reviewed_sha": "e91b74d660dfd45d67267e4d2866ef6f0398e47e",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Sean-V-Dev/HMLR-Agentic-AI-Memory-System",
+    "reviewed_sha": "7a0a6393d2bbc759b7f0ab8fb297a34992b0991b",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Xeron2000/openOii",
+    "reviewed_sha": "8fb0f70f74968522ef2c1949071554b90e67a35a",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "togethercomputer/open_deep_research",
+    "reviewed_sha": "66e43b47bfb8722ef9aad38139453922d1feef2a",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "amanv1906/GENAI-CareerAssistant-Multiagent",
+    "reviewed_sha": "9d37cbf7617275df6549bd3e2390900ebc496f81",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "kaymen99/sales-outreach-automation-langgraph",
+    "reviewed_sha": "2e2761ccc16c26fe20adf101b4ec702cd0876b15",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "bcefghj/smart-cs-multi-agent",
+    "reviewed_sha": "e045f0256d42db3c800662f60bd957d9c78374a4",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "NVlabs/SpatialClaw",
+    "reviewed_sha": "b062f82962549391a02cc70e022641c1f4d8ac2b",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "temporalio/samples-python",
+    "reviewed_sha": "e652a4d0e85042a34ec8fc46a4a03e51681fd7f9",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "NanGePlus/ReActAgentsTest",
+    "reviewed_sha": "6e729511dd454caef24dcc5f2be6dbfe222b2245",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "cnunescoelho/kiroku",
+    "reviewed_sha": "4b09df89774d74e5608a7978d171cccf4bead9a1",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "NVIDIA-AI-IOT/remembr",
+    "reviewed_sha": "964faab296fe70f8a8dbb9135adf20fecb758525",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "CronusL-1141/AI-company",
+    "reviewed_sha": "f782a2b22495a4ececa3652e633e89726189c272",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "EthanXiang777/circuit-framework",
+    "reviewed_sha": "7ab0137caef9e09b5666c8fbb1e10353aa4eb4b3",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "langchain-ai/langchain-aws",
+    "reviewed_sha": "0434c7f94f6c27bfa275534f8ff1b0c3f1738144",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "GoogleCloudPlatform/cymbal-air-toolbox-demo",
+    "reviewed_sha": "7a405212542aac30c130250946dfb47552410fce",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "ivebotunac/PrimoAgent",
+    "reviewed_sha": "878f6719f3795546b16ccb43e9859e054a06cca1",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Negai-ai/AgentClaw",
+    "reviewed_sha": "034efd10375f5f7ca7f59e9ee50c1e398ed894e7",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "monocle2ai/monocle",
+    "reviewed_sha": "850a6099e0f836c7b76c59c9b3a7ea9d89256094",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "lhh737/LangChain-ReAct-Agent",
+    "reviewed_sha": "5923949e7647a31899e67c48cc34ce261633c2ee",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "ttguy0707/CyberClaw",
+    "reviewed_sha": "e991445398507cbfc562a6378601ae93bbd48bc8",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "verl-project/verl-recipe",
+    "reviewed_sha": "461b830cfee4f5a67c21edc300c24373230babc7",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "didilili/shopkeeper-agent",
+    "reviewed_sha": "8045fa4d61608f58df551fda6cd1a70529bb5b67",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Mason-zy/Langchain1.0-Study",
+    "reviewed_sha": "30af73916075a8120181dbb791cab95cd9bd8283",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Moh4696/build-ai-agents-free",
+    "reviewed_sha": "1a4f3009a8f7bed11317c5c097b0f5da9e263dbb",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "kmeanskaran/stock-agent-ops",
+    "reviewed_sha": "4f283bf8a24a65064d0c1c1f1eb2b2dca9f4aedf",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "ATaC-team/ATaC",
+    "reviewed_sha": "86a9341a63c68bff90971275e4a22b6550e7fc27",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "jd-opensource/JoySafeter",
+    "reviewed_sha": "12234a11a9d96acef85577afb1fa5682169d6171",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "NapthaAI/automcp",
+    "reviewed_sha": "19044443371570218ea60ff089bcd40318be1cae",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "liangdabiao/langgraph_multi-agent-rag-customer-support",
+    "reviewed_sha": "a30f9646fb1df73b7b5547b86ce3035765034176",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "hongbo-miao/hongbomiao.com",
+    "reviewed_sha": "324ce86f24d7950bf6e629df15b4d8d85990ddee",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "hwchase17/langchain-streamlit-template",
+    "reviewed_sha": "3c676a670d1f69bcc4c76b692126db1922101d5f",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "foreveryh/mentis",
+    "reviewed_sha": "7859b536b98b236a2266aa8e866b4f0c33fcf0c5",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "research_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "yolo-hyl/medical-rag",
+    "reviewed_sha": "4ec5871ad874344d228b19aeed7ab38c4ba0b940",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "dhruvsinghal09/Adaptive-Rag",
+    "reviewed_sha": "6f6401e80687437064b669815d13242bf5703d37",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "HKUSTDial/DeepFund",
+    "reviewed_sha": "e31f1c2eae845b8627fe65621ba4febaf55c2385",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "langchain-ai/new-langgraph-project",
+    "reviewed_sha": "f7e2ee300d483b5c0602d57518f3351ad5d55850",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "goruck/home-generative-agent",
+    "reviewed_sha": "acd4b22259d5785f1bd6093e9c2056228dd9e577",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "GenseeAI/cognify",
+    "reviewed_sha": "1d39763b22ea0afaddab8eb007b46cfa5ba806ba",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "jarrycyx/openlens-ai",
+    "reviewed_sha": "01accec060782c35c1c29d33b28a07a2260089c1",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "NVIDIA-AI-Blueprints/ai-virtual-assistant",
+    "reviewed_sha": "c4a7f87f4fe0aec75ab080352db51e24aa6cd9a2",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "quarqlabs/argus",
+    "reviewed_sha": "b56a9bc73ef3676a343dcc90a8103c024c9449a3",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "kaymen99/langgraph-email-automation",
+    "reviewed_sha": "9ea0f54cb30a493bbc25114cfc1769a25d45169a",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "dapr/python-sdk",
+    "reviewed_sha": "e4ad1818079c5089814e4d1610b585286d28b98f",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "samwit/agent_tutorials",
+    "reviewed_sha": "fbb59eac3c9f15372ce4463b105221f328b24003",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "SecurityClaw/SecurityClaw",
+    "reviewed_sha": "dbccec572c6f4622000f4845df1bb7e39aa9805b",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "LayerLens/stratix-python",
+    "reviewed_sha": "ec971f9c0ffac9ecf3e040ab92b8ee2baf9d325f",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "zenml-io/kitaru",
+    "reviewed_sha": "09bb53aacb69c69853ee3d31fdc4135311d5e7a0",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "coding_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "DinobaseHQ/dinobase",
+    "reviewed_sha": "2dd06369fc333cd51663c27b7d47a21a7946757b",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Lyra-stellAI/BYO-LLM-WIKI",
+    "reviewed_sha": "0316fb7d01c0c5be590580ebedc02688a6f27d73",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "artnoage/Podcast",
+    "reviewed_sha": "9d0f3c4e261fb7363ef419639371443febbf0c13",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "lingxi-agent/Lingxi",
+    "reviewed_sha": "1f2e5dc4c87072cb4827c9c65d31450ae05ac482",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "shihongDev/evalyn",
+    "reviewed_sha": "909132358c7918ecf0b109e9e8a5f62303300c6a",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "mfmezger/conversational-agent-langchain",
+    "reviewed_sha": "b58c9b603bbdca2f61f9eb535b89a552ab65eca4",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "tyxben/AI_novel",
+    "reviewed_sha": "3332ae3001470d106e696ae604ed6694616fc923",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "bernatsampera/event-deep-research",
+    "reviewed_sha": "b5b82fcbddb874d9beee1bca29aea362589efbf2",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Y-Research-SBU/PosterGen",
+    "reviewed_sha": "8a54325f871ee10fa6545de3b3a9b771aa12620c",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "datawhalechina/vibe-blog",
+    "reviewed_sha": "7fc79703a0c6ee47437e0791333b673c60e4713a",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "huygiatrng/AlpacaTradingAgent",
+    "reviewed_sha": "8d9d770da9ecc108d70fd8a97caae032c53caad0",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "KodyKendall/LlamaBot",
+    "reviewed_sha": "884cd2a491a26e6a01488e7757908429c20dddf1",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: AGPL-3.0",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "lgesuellip/langgraph-whatsapp-agent",
+    "reviewed_sha": "69b9bdd341e0c379b5452b8d3d46879c25e660fc",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "billy-enrizky/openbrowser-ai",
+    "reviewed_sha": "168d43e3aa9563609106f0bb96aa36b65f2fca5f",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "NVIDIA-AI-Blueprints/vulnerability-analysis",
+    "reviewed_sha": "d6fe0ef74c1ae12fb78f6f0ae7af388f5a21bbe5",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "lkpAgent/openAgent",
+    "reviewed_sha": "99d81776c302f676ffb79dedbdcadbdcfb7444b5",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "wshobson/financial-chat",
+    "reviewed_sha": "55a12290cee8046462bf3c2be91875de3011318c",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "finance",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "redis-developer/langgraph-redis",
+    "reviewed_sha": "32de20776e4dd4128b2c9eeafeea9742dc7a819b",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "nicoladisabato/MultiAgenticRAG",
+    "reviewed_sha": "05cc844d6cdf5451ba4d5e0d001faacd3651d1a8",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Jasper-zh/Multi-Agent-Playground",
+    "reviewed_sha": "0fa7c4b16ea23f0b5c076db136a3c402dbbe288e",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "eosho/langchain_data_agent",
+    "reviewed_sha": "9081abf1f118a18b9152b5966ce1c65c7a704baf",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Wood-Q/MokioAgent",
+    "reviewed_sha": "4ca74f958301228cb48cb1e9c7d15463fa1d8e74",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "growgraph/ontocast",
+    "reviewed_sha": "e44005d1ad8db8a600cf966f269bc204f925b896",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "responsibleai/ASSERT",
+    "reviewed_sha": "a2f964cb5be0e746aafb60ee60a1c14a9ac7fd98",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "arklexai/arksim",
+    "reviewed_sha": "1d48d81d11537d0c501682c54c46c82deab5f9a5",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "qualixar/superlocalmemory",
+    "reviewed_sha": "9d30aa4cae99b3d7719e25ead0397beb21e43df6",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: AGPL-3.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "aakriti1318/multi-agent-generator",
+    "reviewed_sha": "2bf55b5a665340295ab8d3fc28e684cbc9256c06",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "louisgthier/decompai",
+    "reviewed_sha": "0c2398c09e318be1bb6f6a52d13e572fac7c519b",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Nachoeigu/agentic-customer-service-medical-clinic",
+    "reviewed_sha": "b76b8e742b1554716eb221ea9fc32813726b437c",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "jamwithai/observable-job-agent",
+    "reviewed_sha": "5839e4fb2ba845e1c5f11c9f43d3a74ccc8e0166",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Gen-Future/ExcelMind",
+    "reviewed_sha": "d8bc5c8bdd26e5bf5944807a01cc4732bb0250a9",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "kulkarnirohit123/cra-agent",
+    "reviewed_sha": "4d819a56d825ca14013997958eeb3d0e13ab7ebb",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Yanyutin753/LambChat",
+    "reviewed_sha": "b33dfe3b5338f796f0c368455480b7628be7a057",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "langchain-ai/langgraph-cua-py",
+    "reviewed_sha": "4743d36c92d76c1b0032117354153c25e8bd6c55",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "jkmaina/LangGraphProjects",
+    "reviewed_sha": "0d32f308bfc7332586bb5e0c02aaf66da40c3192",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Yonom/assistant-ui-langgraph-fastapi",
+    "reviewed_sha": "269ae8b21a647850f0e6299e6a29166de6af3b0d",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "HezaoHezao/poirot",
+    "reviewed_sha": "86bf279ad90c180f0ba696755620dd7d6661465e",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "nexi-lab/nexus",
+    "reviewed_sha": "b82a727d420fd28ae83f176383b2ebcadd7666b6",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "fzn0x/watchtower",
+    "reviewed_sha": "e0cc24178debc291c0bf684fa3b551b566a533d0",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "luml-ai/luml",
+    "reviewed_sha": "ab71e185c626bf3f48d11ce80e8cb3664a7f1d20",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "yycyyv/M-Cube",
+    "reviewed_sha": "75ab640723e19dd612cd13c284c5d6a059e2547b",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "jank/curiosity",
+    "reviewed_sha": "41c91954788f04b15332d2b86e265c5433fa4813",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "muratcankoylan/readwren",
+    "reviewed_sha": "3d0bfe481a340f247c749c082b7a65c877c12de1",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "tavily-ai/meeting-prep-agent",
+    "reviewed_sha": "1601434862f092b70960b77fd06a08413deabb90",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "ZhangJinHaHaHa/FinchainAgent",
+    "reviewed_sha": "f6f04ed5605ea7875b3cb8c91faa5bd54bbc4d40",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "guangshu100/BidMaster-Pro",
+    "reviewed_sha": "a09716f4e73838bb8ba7ec3e3dc2656f5567380e",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: AGPL-3.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "tevslin/meeting-reporter",
+    "reviewed_sha": "525f6bbdcb36c5aeceb6662591dbaea29e08eb97",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: GPL-3.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "ai-forever/giga_agent",
+    "reviewed_sha": "83872f08dbb54e7aa8b357216126723425432354",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "duartecaldascardoso/article-explainer",
+    "reviewed_sha": "2cf067dc4b9158b03361c7b3e2544e067b75f1ae",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "chatchat-space/LangGraph-Chatchat",
+    "reviewed_sha": "0ae53b7ef7f23b04fe37062a8ad031b39e8f11a3",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "juliepy/AI-Engineer-from-scrach",
+    "reviewed_sha": "056b88684c347dcf5636867fb86a86a793fb5ff2",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "velocitybolt/open-extract",
+    "reviewed_sha": "57d48fb99f8da2bf8da4d93ef4d5b4182daf199e",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "kubeflow/mcp-apache-spark-history-server",
+    "reviewed_sha": "e058c872832c3d5e76ddf5e35cb347ad96b6e86e",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "mahdin75/gis-mcp",
+    "reviewed_sha": "be8a33d25aefccf256136f3de0f18124f6efa16f",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "didilili/deepsearch-agents",
+    "reviewed_sha": "d0f6eed1e14b1b457942ba2a0195f65731aaf444",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "OS3Lab/agent4kdump",
+    "reviewed_sha": "db08e0ad30922d34e574249f4f5e79c425260a08",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: GPL-3.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "akamai/patchdiff-ai",
+    "reviewed_sha": "d52b9deb09841681dc53dcc28a918a2f78c5e7dd",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "tarun7r/deep-research-agent",
+    "reviewed_sha": "a974b4cd03436d37d459170f2a524dace13d8482",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "skygazer42/Weaver",
+    "reviewed_sha": "745693afbf1e8a5b68dad5f616b2681cb2042ee9",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "kaymen99/personal-ai-assistant",
+    "reviewed_sha": "c96fefb4e106df812ad6c63822e3eef51d8390c6",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Yourdaylight/stock_datasource",
+    "reviewed_sha": "f18044670ee8d011e6e0d46953e974f3a19b7a3a",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "apify/apify-sdk-python",
+    "reviewed_sha": "e3245755d9e04233994ec2cdb5cca9c3d3ea2718",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "biheto/DevAgent-Studio",
+    "reviewed_sha": "d937324c40fe66b8c153fc98ac36f85a7c88ecf5",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "YUHAO-corn/manufacturing-agents",
+    "reviewed_sha": "407bc6aa4f44566d6fcf4e334099a12d9c0b917a",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "GU-Cryptography/anykb",
+    "reviewed_sha": "aa7c02e8d70a383c2535cd31109a43e11aa303bd",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "ob-labs/agentseek",
+    "reviewed_sha": "c0be96179d8a71631ee245de54613ed259b564c1",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "EYamanS/texel-studio",
+    "reviewed_sha": "8af1558e239edc954ea21309da1b1bc0ada27a53",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "midodimori/langrepl",
+    "reviewed_sha": "b0d3780878441ee33d10062b040e5415c8b5da59",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Y-Research-SBU/TimeSeriesScientist",
+    "reviewed_sha": "41b396316fee25462c56cb53635b42660042d890",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "OpenDCAI/One-Eval",
+    "reviewed_sha": "ecf0c57eb454d44f83dfaface64630af2a27b446",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "coding_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "FeiCoder/BreadFree-Simu",
+    "reviewed_sha": "6e5d9dde204728e5b93571c027a9030fb22eb94c",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "CopilotKit/scene-creator-copilot",
+    "reviewed_sha": "27fdb841df1ebf3c9a3dc8d3b8efeeff6c421e4c",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "FareedKhan-dev/scalable-rag-pipeline",
+    "reviewed_sha": "3b115e4ca858098600bbe1214f51c2e889eea9b8",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "nowledge-co/community",
+    "reviewed_sha": "f04bc1b98a7a1e07d4412c1f86ad7556f091df99",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "coding_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "medium",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "kaymen99/Upwork-AI-jobs-applier",
+    "reviewed_sha": "074dc0dbb38a841a373c1b68bccf5e56b37d1131",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "AMAP-ML/MobilityBench",
+    "reviewed_sha": "c05a055bd3847ef8e14ddcf9f5c3a2846747e629",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "depalmar/ai_for_the_win",
+    "reviewed_sha": "1edcf3b088d698d33fcb1a2d6b5114bd041ed282",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "nihalashetty/Forge",
+    "reviewed_sha": "048fdc658527b0dd60babbb65ee5729e3af1a79d",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "kargarisaac/telegram_link_summarizer_agent",
+    "reviewed_sha": "4d60395aca42e37cca330745b80f4a242419a455",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "xiongQvQ/AI_Find_Customer",
+    "reviewed_sha": "9b2fde8f719623c627516da2663707a893ee6805",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "itshyao/proxyless-llm-websearch",
+    "reviewed_sha": "67a9160ffc22d89598ade17952445f39b34493a1",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "shenjianan97/persistent-agent-runtime",
+    "reviewed_sha": "9d148c398a6cb9e9e894cc664bc077cc9c3c51b5",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "langchain-ai/langgraph-fullstack-python",
+    "reviewed_sha": "64c7af2aaddf3037e233f83b61fda621d5cd86cb",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "123-qw-as/Beacon",
+    "reviewed_sha": "36b0b7de6774bc619dc39a80a00a41639909d7e9",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "iblameandrew/open-deepthink",
+    "reviewed_sha": "b440af10fd8fc9550b3a70fc76761465aede7a4b",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "BjornMelin/docmind-ai-llm",
+    "reviewed_sha": "d32fb3cb654fcd49813ed570f26e3774363c54e9",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "UiPath/skills",
+    "reviewed_sha": "33e76a6b8f19e29d6af48adb9799d602c196c3cb",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "coding_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "argonne-lcf/ChemGraph",
+    "reviewed_sha": "77ba6d6092acbf6c78815c97b4a1919002885223",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Ganador1/FenixAI_tradingBot",
+    "reviewed_sha": "bd7373d59bee48addea51989796df27f69193a34",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "hwchase17/autoresearch-agents",
+    "reviewed_sha": "552fd6a1bd607f6645cd4baba0a98858d62e8815",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "coding_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "leonzzz435/garmin-ai-coach",
+    "reviewed_sha": "54a64942d52a04d624df4bb7cbc7fdc28c39113e",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "EricHong123/B-agent",
+    "reviewed_sha": "4e449f26c944fabed0d112cb54b057e9b5e48121",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "neopen/story-shot-agent",
+    "reviewed_sha": "87664e7431d8b43e9e7ebce7ff6199491378fdf7",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "kevin333353/jobsmith",
+    "reviewed_sha": "f5427c156d4d0289463f048a2beedb87c80e802b",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "bamboo-moon/zhisaotong-Agent",
+    "reviewed_sha": "92569e61ac22ef4d902953a7d916e941921ab92f",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "waseens/deep-search-pro",
+    "reviewed_sha": "678c55c09e572ac86170869d1115d59c30b239fc",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Neon549/Alpha_stock",
+    "reviewed_sha": "1abf6606d333c94f8134b456809d6a0b713e35fa",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "colossus-lab/openarg_backend",
+    "reviewed_sha": "cb19f5edcb6e6516376b71fadd7ac1ae66b13861",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "NVIDIA-AI-Blueprints/biomedical-aiq-research-agent",
+    "reviewed_sha": "b5cd7b4c7ae544c1e21ac79ef9fa67641eeff5a4",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "trpc-group/trpc-agent-python",
+    "reviewed_sha": "7f45fdd3a4edab30c8b7164a5f274cbddaef0fe3",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub SPDX: NOASSERTION",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "kaymen99/local-rag-researcher-deepseek",
+    "reviewed_sha": "98e83829a7e506b1092e90467245e0caed686331",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "little51/agent-dev",
+    "reviewed_sha": "e0567371c9e3fbf24c0c8882a0c075a76e3e4ec0",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "browser_automation",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "ro-anderson/multi-agent-rag-customer-support",
+    "reviewed_sha": "86b17b603e0fd9d453203664134475d136f1c2ed",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "SriLaxmi1993/Generative-AI-Projects",
+    "reviewed_sha": "03735f65f071dc98da2d5e889a1c4972b5c034cd",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "UnicomAI/UniHarness",
+    "reviewed_sha": "757bf3d60f763706aae60b040d775e8563b9c577",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "twanew/OmniWriter",
+    "reviewed_sha": "2d0aedc00552795bfa366fcbc123888042493dea",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "IatomicreactorI/CSGOTrading",
+    "reviewed_sha": "d3f67c1c2379fbf04442011664dff3e844278ea6",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "jaguarliuu/xunlong",
+    "reviewed_sha": "f1f93642f9f0435aa10bb34fc8ddd4639c614702",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "wanmol/goal-flow",
+    "reviewed_sha": "258a3b176ed9b6b63d7ef6dd2711a75bc5486e04",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "Eldergenix/Plato-Scientific-Research-Autonomous-Agent",
+    "reviewed_sha": "b0a1fdce26567b9a01187d87c99ff81380527f8f",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: GPL-3.0",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "bcefghj/medical-multi-agent-system",
+    "reviewed_sha": "09936ed696d8f5b1bd6a1cc0c1c9caf05d50f002",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "coding_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "qiaojoin586-droid/RAG_LearnLittleCode",
+    "reviewed_sha": "faeab7519c16102f838c7f9ad88b3e18178e9fea",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "alibaba/loongsuite-python",
+    "reviewed_sha": "22aaa207760354cc7c91ff8632ba02b7d1650e03",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "medium",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "seanlxh/Air-Lingjing",
+    "reviewed_sha": "d23060cc83b7e2e2fadef0db64f16de40c68ebc6",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "agruai/company-research-agent",
+    "reviewed_sha": "bf299b7a44299ea9a5c8fe4aa600671034015c48",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "multi_agent",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "yaalalabs/agent-kernel",
+    "reviewed_sha": "557046e11ce63c568ae5b114563dc3e18098901b",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "shodan1q/zeroapp",
+    "reviewed_sha": "78e6920c584c0a6d6eadc726c908d02e8c7a0c9d",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "data_sql",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "bcefghj/agent-knowledge-hub",
+    "reviewed_sha": "bce7b13d088d206f85aed9edd4ad0cfdefec3401",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "hidai25/eval-view",
+    "reviewed_sha": "6de4d8d8087705905cddec0246c5e69581a28034",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "research_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "KRATSZ/LabScript-AI",
+    "reviewed_sha": "747db2c4d6d213e0b04cc97ccdbbf243768c423a",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "high",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "dkedar7/fast_dash",
+    "reviewed_sha": "021e6ece7f8640c1785e4aa1f01f502fa03e3e87",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "browser_automation",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "bonigarcia/context-engineering",
+    "reviewed_sha": "189683c4ce2446b3ebbd66defc0e79cc5c3fa842",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "rag_knowledge",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "aarora79/aws-cost-explorer-mcp-server",
+    "reviewed_sha": "67a50d7de430495b5482bad7fde56d2abc4884ea",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "ljxpython/ai-agent-platform",
+    "reviewed_sha": "303c473c6b8db4bfe5c4d641fc0595eacb427cd3",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "yes",
+    "project_type": "agent_project",
+    "direction": "rag_knowledge",
+    "open_source_status": "unknown",
+    "open_source_basis": "GitHub license metadata unavailable",
+    "confidence": "medium",
+    "reason": "README describes a runnable task-performing agent or complete agent application.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "kevaldekivadiya2415/fastapi-genai-boilerplate",
+    "reviewed_sha": "629e719f502a14fe4ccda6aebd827a56a6755115",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "multi_agent",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "aws-samples/sample-agentic-platform",
+    "reviewed_sha": "e41eca1e5a13a89d42e56c58d6aa880837864171",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "data_sql",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: MIT-0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  },
+  {
+    "repo": "cyberark/agentwatch",
+    "reviewed_sha": "56012207e0b2570c1a9716b6fec72288c3958d48",
+    "reviewed_at": "2026-08-25T00:34:31+00:00",
+    "reviewer_version": "codex-host-v1",
+    "agent_project": "no",
+    "project_type": "supporting_tool_or_material",
+    "direction": "unknown",
+    "open_source_status": "yes",
+    "open_source_basis": "GitHub SPDX: Apache-2.0",
+    "confidence": "high",
+    "reason": "README describes supporting tooling, infrastructure, evaluation, learning material, or a project collection rather than a task-performing agent.",
+    "evidence": [
+      "README reviewed at the recorded commit SHA"
+    ]
+  }
+]

@@ -1,0 +1,90 @@
+repo	agent_project	confidence	reason
+confident-ai/deepeval	no	high	README defines an LLM evaluation framework, not a task-performing agent.
+traceloop/openllmetry	no	high	README defines OpenTelemetry instrumentation and an observability SDK.
+xerrors/Yuxi	yes	high	README describes a deployable knowledge-agent platform with multi-agent orchestration.
+GoogleCloudPlatform/agent-starter-pack	no	high	README describes a generator of agent templates and deployment infrastructure.
+microsoft/agent-governance-toolkit	no	high	README describes governance controls for agents rather than an agent.
+rllm-org/rllm	no	high	README describes reinforcement-learning infrastructure for training language agents.
+PurpleAILAB/Decepticon	yes	high	README provides an autonomous red-team agent runnable from its CLI.
+EvoScientist/EvoScientist	yes	high	README describes a ready-to-use autonomous scientific research system.
+JoshuaC215/agent-service-toolkit	yes	high	README includes a complete runnable LangGraph agent service and demo application.
+Awarexone/Agentic-Bug-Hunter	yes	high	README provides a standalone autonomous security-testing agent CLI.
+lemony-ai/cascadeflow	no	high	README describes a model-routing and runtime intelligence layer.
+langchain-ai/langchain-mcp-adapters	no	high	README describes an adapter library used by agents.
+truera/trulens	no	high	README describes tracing, evaluation, and observability tooling.
+simonlin1212/TradingAgents-astock	yes	high	README provides a runnable multi-agent stock-trading system.
+wassim249/fastapi-langgraph-agent-production-ready-template	yes	high	README provides a complete runnable LangGraph agent service template.
+NVIDIA/NeMo-Agent-Toolkit	no	high	README describes a toolkit for building and profiling agent workflows.
+apache/burr	no	high	README describes an application state-machine framework used to build agents.
+beenuar/AiSOC	yes	high	README provides a self-hosted security-operations agent that triages alerts.
+1517005260/graph-rag-agent	yes	high	README provides a runnable GraphRAG question-answering agent system.
+guy-hartstein/company-research-agent	yes	high	README provides a multi-agent company research application.
+ai-christianson/RA.Aid	yes	high	README provides an autonomous software-development agent.
+agentstack-ai/AgentStack	no	high	README describes a CLI that scaffolds agent projects.
+olaxbt/ai-market-maker	yes	high	README provides an agentic crypto market-making and trading system.
+zi-yue-1129/DATAGEN	yes	high	README provides a multi-agent data-analysis application.
+ginlix-ai/LangAlpha	yes	high	README provides a multi-agent investing and financial-analysis application.
+langchain-ai/langgraph-supervisor-py	no	high	README describes a reusable multi-agent supervisor library.
+langchain-ai/langmem	no	high	README describes memory primitives and tooling for agents.
+langchain-ai/langgraph-swarm-py	no	high	README describes a reusable multi-agent swarm library.
+ShenSeanChen/waku-agent	yes	high	README provides a runnable local-first personal assistant.
+rotemweiss57/gpt-newspaper	yes	high	README provides an autonomous multi-agent personalized newspaper application.
+darwin-lau/langmanus	yes	high	README provides a runnable general-purpose AI automation agent system.
+plurai-ai/intellagent	no	high	README describes simulation and evaluation of conversational agents.
+rcortx/kiwiq	yes	medium	README describes the deployable marketing-agent platform used in production.
+SalesforceAIResearch/enterprise-deep-research	yes	high	README provides a runnable multi-agent enterprise research application.
+langchain-ai/openevals	no	high	README describes evaluation utilities for LLM applications.
+Azure-Samples/chat-with-your-data-solution-accelerator	yes	high	README provides a deployable document-grounded conversational assistant.
+LycheeMem/LycheeMem	no	high	README describes a memory system intended for use by agents.
+aegra/aegra	no	high	README describes self-hosted LangGraph deployment infrastructure.
+i-am-bee/agentstack	no	high	README describes a runtime and management platform for running other agents.
+NVIDIA-NeMo/Gym	no	high	README describes environments for evaluating and improving agents.
+fetchai/innovation-lab-examples	no	high	README explicitly describes a collection of many standalone examples.
+test-zeus-ai/testzeus-hercules	yes	high	README provides an autonomous software-testing agent.
+EuniAI/Prometheus	yes	high	README describes a runnable hierarchical multi-agent system.
+vndee/llm-sandbox	no	high	README describes secure code-execution infrastructure integrated with agent frameworks.
+hinthornw/trustcall	no	high	README describes a structured-output and extraction library.
+Emiyaaaaa/HiveMind	no	high	README describes runtime infrastructure for multi-agent applications.
+Jwuthri/Tracely-ai	no	high	README describes agent observability and regression-testing infrastructure.
+Fullive-AI/Anima	yes	high	README provides a local-network smart-hardware agent runtime with an operative brain.
+splx-ai/agentic-radar	no	high	README describes a security analysis scanner for existing agent systems.
+hrithikkoduri/WebRover	yes	high	README provides a web research and browsing agent.
+mikekelly/AgentK	yes	high	README provides a self-evolving multi-agent system that completes tasks.
+QVerisAI/QVerisFlow	no	medium	README describes a visual and conversational builder that generates agent definitions.
+FareedKhan-dev/production-grade-agentic-system	yes	medium	README accompanies a runnable production-agent architecture rather than only conceptual material.
+XD-MHLOO/Osintgraph	yes	high	README provides an OSINT agent for natural-language investigation.
+zamalali/DeepGit	yes	high	README provides a LangGraph agentic workflow for researching GitHub repositories.
+Pan-Chera/Multi-Agent-CAD	yes	high	README provides a multi-agent system that generates printable CAD models.
+lc2panda/alphastream	yes	high	README provides a financial-analysis platform with runnable collaborating agents.
+cuga-project/cuga-agent	yes	high	README provides a configurable generalist enterprise agent harness.
+agentscope-ai/agentscope-runtime	no	high	README describes a production runtime for agent applications.
+NVIDIA-AI-Blueprints/aiq	yes	high	README provides runnable deep-research agents through CLI and web interfaces.
+icey1287/SuperMew	yes	medium	README identifies a runnable agent project with a backend application.
+langchain-ai/react-agent	yes	high	README provides a complete runnable ReAct agent template.
+victordibia/designing-multiagent-systems	no	high	README identifies the repository as companion code for a teaching book.
+nirbar1985/ai-travel-agent	yes	high	README provides a runnable LangGraph travel agent.
+Haohao-end/openagent	no	high	README describes a platform for building and operating other AI applications.
+aws/bedrock-agentcore-sdk-python	no	high	README describes an SDK for hosting agents on Bedrock AgentCore.
+vinay-gatech/stocks-insights-ai-agent	yes	high	README provides an agentic stock-data research and insight application.
+NVIDIA-AI-Blueprints/rag	no	high	README describes a reference RAG pipeline rather than a task-performing agent.
+Chen-zexi/open-ptc-agent	yes	high	README provides a runnable agent with tools and parallel subagents.
+isoftstone-data-intelligence-ai/efflux-backend	yes	high	README provides a runnable MCP-enabled agent chat application backend.
+braincrew-lab/langgraph-mcp-agents	yes	medium	README provides a Docker-runnable LangGraph agent project integrated with MCP.
+langchain-ai/agentevals	no	high	README describes evaluators and utilities for assessing agents.
+stophobia/deerflow2.0-enhanced	yes	high	README provides a runnable enhanced DeerFlow research-agent harness.
+Bessouat40/RAGLight	no	high	README describes a modular RAG library installed as a Python package.
+Westlake-AGI-Lab/AppAgentX	yes	high	README provides an implemented smartphone GUI agent from a research project.
+wshobson/maverick-mcp	no	high	README describes a stock-analysis MCP server consumed by agents.
+nuglifeleoji/Options-Analytics-Agent	yes	high	README provides a conversational financial-options analysis agent.
+langtalks/swe-agent	yes	high	README provides a software-engineering agent with planning and implementation stages.
+tablegpt/tablegpt-agent	yes	high	README provides the implemented TableGPT data agent.
+BrandPeng/Langchain1.0-Langgraph1.0-Learning	no	high	README identifies the repository as a LangChain and LangGraph learning guide.
+zhongyu09/openchatbi	yes	high	README provides chat agents for natural-language SQL and BI analysis.
+martimfasantos/ai-agents-frameworks	no	high	README describes a comparison collection of agent frameworks.
+51bitquant/ai-hedge-fund-crypto	yes	high	README provides an agentic cryptocurrency trading decision system.
+wassim249/YT-Navigator	yes	high	README provides an AI application for researching and querying YouTube content.
+esxr/langgraph-mcp	yes	high	README provides a runnable universal assistant using LangGraph and MCP.
+langchain-ai/langgraph-bigtool	no	high	README describes a reusable tool-selection library for agents.
+NicholasGoh/fastapi-mcp-langgraph-template	yes	medium	README provides a runnable agentic orchestration service template.
+psyray/oasis	yes	medium	README provides an AI-powered autonomous code-security auditing application.
+secureagentics/Adrian	no	high	README describes runtime security monitoring and control for other agents.
