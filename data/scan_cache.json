@@ -1766,8 +1766,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "59c247a19f868f157da511b1feca0338adef28e3",
-    "pushed_at": "2026-08-25T00:00:31Z"
+    "head_sha": "49cf5a722c77ee4569ee01c8f30c39f6b6779bec",
+    "pushed_at": "2026-08-26T04:15:25Z"
   },
   "Arvo-AI/aurora": {
     "analysis": {
@@ -2168,7 +2168,7 @@
   },
   "BerriAI/litellm": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-25T00:07:40Z",
+    "pushed_at": "2026-08-26T07:55:44Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "Bessouat40/RAGLight": {
@@ -3110,8 +3110,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "f2841bcbdf8daed9cab9bd5d83275bc51c176594",
-    "pushed_at": "2026-08-21T11:25:17Z"
+    "head_sha": "11184dc69d4a9f72a6ee8db2263f82231b8f14ac",
+    "pushed_at": "2026-08-26T03:02:58Z"
   },
   "ChaitanyaEswarRajeshJakki/gemini-youtube-automation": {
     "analysis": {
@@ -7172,8 +7172,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "99e84abaad965f75dd15cab2fcb0f3f61d30577b",
-    "pushed_at": "2026-08-24T08:16:29Z"
+    "head_sha": "5cd08ee1bd5c28e856b20acae3d077ed9bd919ce",
+    "pushed_at": "2026-08-25T08:55:38Z"
   },
   "HKUSTDial/DeepEar": {
     "analysis": {
@@ -10561,7 +10561,7 @@
   },
   "LearningCircuit/local-deep-research": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-24T22:49:36Z",
+    "pushed_at": "2026-08-26T08:00:56Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "LegalQuants/lq-ai": {
@@ -13513,8 +13513,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "d486d0a84d1ab2f90081fde5713638a7d3538e11",
-    "pushed_at": "2026-08-24T23:56:43Z"
+    "head_sha": "374939a5d94e8cb09df8bcea3774ecac80a50ecb",
+    "pushed_at": "2026-08-25T21:47:25Z"
   },
   "NVlabs/SpatialClaw": {
     "analysis": {
@@ -15381,8 +15381,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "4dc0e825a38fdb1b44569f014d52dbb964d2aa84",
-    "pushed_at": "2026-08-22T16:09:41Z"
+    "head_sha": "cce3d8e8f7654e29b7ef4da19657c5b2f0c9943c",
+    "pushed_at": "2026-08-26T07:57:03Z"
   },
   "Pan-Chera/Multi-Agent-CAD": {
     "analysis": {
@@ -27010,12 +27010,12 @@
           "type": "import"
         },
         {
-          "line": 15,
+          "line": 16,
           "path": "backend/packages/harness/deerflow/mcp/tools.py",
           "type": "import"
         },
         {
-          "line": 359,
+          "line": 400,
           "path": "backend/packages/harness/deerflow/mcp/tools.py",
           "type": "import"
         },
@@ -27130,7 +27130,7 @@
           "type": "import"
         },
         {
-          "line": 815,
+          "line": 816,
           "path": "backend/packages/harness/deerflow/runtime/runs/worker.py",
           "type": "import"
         },
@@ -27785,7 +27785,7 @@
           "type": "import"
         },
         {
-          "line": 657,
+          "line": 972,
           "path": "backend/tests/test_mcp_session_pool.py",
           "type": "import"
         },
@@ -28150,17 +28150,17 @@
           "type": "import"
         },
         {
-          "line": 941,
+          "line": 977,
           "path": "backend/tests/test_threads_router.py",
           "type": "import"
         },
         {
-          "line": 1302,
+          "line": 1338,
           "path": "backend/tests/test_threads_router.py",
           "type": "import"
         },
         {
-          "line": 1333,
+          "line": 1369,
           "path": "backend/tests/test_threads_router.py",
           "type": "import"
         },
@@ -28321,8 +28321,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "ff0a6768c25927c4045b151f399c247b446b8fce",
-    "pushed_at": "2026-08-24T23:49:38Z"
+    "head_sha": "788a890bd022689ef293e6bbfa2c12988173db6c",
+    "pushed_at": "2026-08-26T07:04:01Z"
   },
   "cft0808/edict": {
     "analysis": {
@@ -29074,7 +29074,7 @@
   },
   "comet-ml/opik": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-24T21:20:20Z",
+    "pushed_at": "2026-08-26T07:57:28Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "confident-ai/deepeval": {
@@ -29417,8 +29417,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "2194dae4bc1ebc0476c98f72bdfd5c51e5ea0651",
-    "pushed_at": "2026-08-24T22:28:19Z"
+    "head_sha": "eb61968725bb2414c5d8d453e6224f156d470291",
+    "pushed_at": "2026-08-26T07:53:19Z"
   },
   "csml-rpi/Foam-Agent": {
     "analysis": {
@@ -36487,8 +36487,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "774db13c1c0d3ee6d3b606cf879c399f3eb68c49",
-    "pushed_at": "2026-08-24T22:47:25Z"
+    "head_sha": "b4849f5cc245a88dfd8d2db2d89bd6674cd68b4a",
+    "pushed_at": "2026-08-26T05:09:50Z"
   },
   "ilsilfverskiold/Awesome-LLM-Resources-List": {
     "analysis": {
@@ -41762,6 +41762,11 @@
           "type": "import"
         },
         {
+          "line": 25,
+          "path": "examples/rubric_middleware/rubric_agent.py",
+          "type": "import"
+        },
+        {
           "line": 59,
           "path": "libs/acp/deepagents_acp/server.py",
           "type": "import"
@@ -41847,6 +41852,11 @@
           "type": "import"
         },
         {
+          "line": 36,
+          "path": "libs/code/deepagents_code/agent.py",
+          "type": "import"
+        },
+        {
           "line": 37,
           "path": "libs/code/deepagents_code/agent.py",
           "type": "import"
@@ -41872,27 +41882,22 @@
           "type": "import"
         },
         {
-          "line": 42,
-          "path": "libs/code/deepagents_code/agent.py",
-          "type": "import"
-        },
-        {
-          "line": 24,
+          "line": 26,
           "path": "libs/code/deepagents_code/ask_user.py",
           "type": "import"
         },
         {
-          "line": 52,
+          "line": 54,
           "path": "libs/code/deepagents_code/auto_mode.py",
           "type": "import"
         },
         {
-          "line": 53,
+          "line": 55,
           "path": "libs/code/deepagents_code/auto_mode.py",
           "type": "import"
         },
         {
-          "line": 79,
+          "line": 81,
           "path": "libs/code/deepagents_code/auto_mode.py",
           "type": "import"
         },
@@ -41902,17 +41907,17 @@
           "type": "import"
         },
         {
-          "line": 298,
+          "line": 329,
           "path": "libs/code/deepagents_code/built_in_skills/deepagents-thread-inspector/scripts/inspect_sessions.py",
           "type": "import"
         },
         {
-          "line": 299,
+          "line": 330,
           "path": "libs/code/deepagents_code/built_in_skills/deepagents-thread-inspector/scripts/inspect_sessions.py",
           "type": "import"
         },
         {
-          "line": 300,
+          "line": 331,
           "path": "libs/code/deepagents_code/built_in_skills/deepagents-thread-inspector/scripts/inspect_sessions.py",
           "type": "import"
         },
@@ -41932,32 +41937,27 @@
           "type": "import"
         },
         {
-          "line": 27,
+          "line": 29,
           "path": "libs/code/deepagents_code/configurable_model.py",
           "type": "import"
         },
         {
-          "line": 74,
+          "line": 76,
           "path": "libs/code/deepagents_code/cost_tracking.py",
           "type": "import"
         },
         {
-          "line": 88,
+          "line": 90,
           "path": "libs/code/deepagents_code/cost_tracking.py",
           "type": "import"
         },
         {
-          "line": 37,
-          "path": "libs/code/deepagents_code/goal_rubric.py",
+          "line": 1634,
+          "path": "libs/code/deepagents_code/cost_tracking.py",
           "type": "import"
         },
         {
-          "line": 69,
-          "path": "libs/code/deepagents_code/goal_rubric.py",
-          "type": "import"
-        },
-        {
-          "line": 70,
+          "line": 39,
           "path": "libs/code/deepagents_code/goal_rubric.py",
           "type": "import"
         },
@@ -41967,17 +41967,27 @@
           "type": "import"
         },
         {
-          "line": 25,
+          "line": 72,
+          "path": "libs/code/deepagents_code/goal_rubric.py",
+          "type": "import"
+        },
+        {
+          "line": 73,
+          "path": "libs/code/deepagents_code/goal_rubric.py",
+          "type": "import"
+        },
+        {
+          "line": 27,
           "path": "libs/code/deepagents_code/goal_tools.py",
           "type": "import"
         },
         {
-          "line": 26,
+          "line": 28,
           "path": "libs/code/deepagents_code/goal_tools.py",
           "type": "import"
         },
         {
-          "line": 59,
+          "line": 61,
           "path": "libs/code/deepagents_code/goal_tools.py",
           "type": "import"
         },
@@ -41987,17 +41997,17 @@
           "type": "import"
         },
         {
-          "line": 36,
+          "line": 38,
           "path": "libs/code/deepagents_code/hooks/server_middleware.py",
           "type": "import"
         },
         {
-          "line": 83,
+          "line": 85,
           "path": "libs/code/deepagents_code/hooks/server_middleware.py",
           "type": "import"
         },
         {
-          "line": 40,
+          "line": 49,
           "path": "libs/code/deepagents_code/local_context.py",
           "type": "import"
         },
@@ -42007,7 +42017,7 @@
           "type": "import"
         },
         {
-          "line": 3116,
+          "line": 3452,
           "path": "libs/code/deepagents_code/main.py",
           "type": "import"
         },
@@ -42052,23 +42062,8 @@
           "type": "import"
         },
         {
-          "line": 18,
-          "path": "libs/code/deepagents_code/reliable_rubric.py",
-          "type": "import"
-        },
-        {
-          "line": 29,
-          "path": "libs/code/deepagents_code/reliable_rubric.py",
-          "type": "import"
-        },
-        {
-          "line": 76,
+          "line": 78,
           "path": "libs/code/deepagents_code/resume_state.py",
-          "type": "import"
-        },
-        {
-          "line": 20,
-          "path": "libs/code/deepagents_code/sessions.py",
           "type": "import"
         },
         {
@@ -42077,32 +42072,37 @@
           "type": "import"
         },
         {
-          "line": 726,
+          "line": 22,
           "path": "libs/code/deepagents_code/sessions.py",
           "type": "import"
         },
         {
-          "line": 1191,
+          "line": 730,
           "path": "libs/code/deepagents_code/sessions.py",
           "type": "import"
         },
         {
-          "line": 1192,
+          "line": 1195,
           "path": "libs/code/deepagents_code/sessions.py",
           "type": "import"
         },
         {
-          "line": 1238,
+          "line": 1196,
           "path": "libs/code/deepagents_code/sessions.py",
           "type": "import"
         },
         {
-          "line": 1239,
+          "line": 1242,
           "path": "libs/code/deepagents_code/sessions.py",
           "type": "import"
         },
         {
-          "line": 1539,
+          "line": 1243,
+          "path": "libs/code/deepagents_code/sessions.py",
+          "type": "import"
+        },
+        {
+          "line": 1543,
           "path": "libs/code/deepagents_code/sessions.py",
           "type": "import"
         },
@@ -42122,7 +42122,7 @@
           "type": "import"
         },
         {
-          "line": 1462,
+          "line": 1498,
           "path": "libs/code/deepagents_code/tui/textual_adapter.py",
           "type": "import"
         },
@@ -42177,22 +42177,22 @@
           "type": "import"
         },
         {
-          "line": 499,
+          "line": 530,
           "path": "libs/code/tests/unit_tests/skills/test_thread_inspector.py",
           "type": "import"
         },
         {
-          "line": 500,
+          "line": 531,
           "path": "libs/code/tests/unit_tests/skills/test_thread_inspector.py",
           "type": "import"
         },
         {
-          "line": 546,
+          "line": 577,
           "path": "libs/code/tests/unit_tests/skills/test_thread_inspector.py",
           "type": "import"
         },
         {
-          "line": 630,
+          "line": 661,
           "path": "libs/code/tests/unit_tests/skills/test_thread_inspector.py",
           "type": "import"
         },
@@ -42212,12 +42212,7 @@
           "type": "import"
         },
         {
-          "line": 17,
-          "path": "libs/code/tests/unit_tests/test_agent.py",
-          "type": "import"
-        },
-        {
-          "line": 24,
+          "line": 18,
           "path": "libs/code/tests/unit_tests/test_agent.py",
           "type": "import"
         },
@@ -42227,7 +42222,12 @@
           "type": "import"
         },
         {
-          "line": 5175,
+          "line": 26,
+          "path": "libs/code/tests/unit_tests/test_agent.py",
+          "type": "import"
+        },
+        {
+          "line": 5268,
           "path": "libs/code/tests/unit_tests/test_agent.py",
           "type": "import"
         },
@@ -42272,12 +42272,12 @@
           "type": "import"
         },
         {
-          "line": 2716,
+          "line": 2703,
           "path": "libs/code/tests/unit_tests/test_auto_mode.py",
           "type": "import"
         },
         {
-          "line": 2717,
+          "line": 2704,
           "path": "libs/code/tests/unit_tests/test_auto_mode.py",
           "type": "import"
         },
@@ -42317,7 +42317,7 @@
           "type": "import"
         },
         {
-          "line": 69,
+          "line": 70,
           "path": "libs/code/tests/unit_tests/test_cost_tracking.py",
           "type": "import"
         },
@@ -42467,17 +42467,12 @@
           "type": "import"
         },
         {
-          "line": 2724,
+          "line": 2739,
           "path": "libs/code/tests/unit_tests/test_sessions.py",
           "type": "import"
         },
         {
-          "line": 2768,
-          "path": "libs/code/tests/unit_tests/test_sessions.py",
-          "type": "import"
-        },
-        {
-          "line": 2991,
+          "line": 2783,
           "path": "libs/code/tests/unit_tests/test_sessions.py",
           "type": "import"
         },
@@ -42487,12 +42482,17 @@
           "type": "import"
         },
         {
-          "line": 3098,
+          "line": 3021,
           "path": "libs/code/tests/unit_tests/test_sessions.py",
           "type": "import"
         },
         {
-          "line": 3099,
+          "line": 3120,
+          "path": "libs/code/tests/unit_tests/test_sessions.py",
+          "type": "import"
+        },
+        {
+          "line": 3121,
           "path": "libs/code/tests/unit_tests/test_sessions.py",
           "type": "import"
         },
@@ -42572,22 +42572,32 @@
           "type": "import"
         },
         {
+          "line": 21,
+          "path": "libs/deepagents/deepagents/middleware/_tool_exclusion.py",
+          "type": "import"
+        },
+        {
+          "line": 22,
+          "path": "libs/deepagents/deepagents/middleware/_tool_exclusion.py",
+          "type": "import"
+        },
+        {
           "line": 23,
           "path": "libs/deepagents/deepagents/middleware/async_subagents.py",
           "type": "import"
         },
         {
-          "line": 33,
-          "path": "libs/deepagents/deepagents/middleware/filesystem.py",
-          "type": "import"
-        },
-        {
-          "line": 34,
-          "path": "libs/deepagents/deepagents/middleware/filesystem.py",
-          "type": "import"
-        },
-        {
           "line": 35,
+          "path": "libs/deepagents/deepagents/middleware/filesystem.py",
+          "type": "import"
+        },
+        {
+          "line": 36,
+          "path": "libs/deepagents/deepagents/middleware/filesystem.py",
+          "type": "import"
+        },
+        {
+          "line": 37,
           "path": "libs/deepagents/deepagents/middleware/filesystem.py",
           "type": "import"
         },
@@ -42607,7 +42617,12 @@
           "type": "import"
         },
         {
-          "line": 59,
+          "line": 52,
+          "path": "libs/deepagents/deepagents/middleware/rubric.py",
+          "type": "import"
+        },
+        {
+          "line": 62,
           "path": "libs/deepagents/deepagents/middleware/rubric.py",
           "type": "import"
         },
@@ -42617,7 +42632,7 @@
           "type": "import"
         },
         {
-          "line": 24,
+          "line": 26,
           "path": "libs/deepagents/deepagents/middleware/subagents.py",
           "type": "import"
         },
@@ -42737,7 +42752,12 @@
           "type": "import"
         },
         {
-          "line": 29,
+          "line": 30,
+          "path": "libs/deepagents/tests/unit_tests/middleware/test_rubric_middleware.py",
+          "type": "import"
+        },
+        {
+          "line": 31,
           "path": "libs/deepagents/tests/unit_tests/middleware/test_rubric_middleware.py",
           "type": "import"
         },
@@ -42764,6 +42784,11 @@
         {
           "line": 15,
           "path": "libs/deepagents/tests/unit_tests/middleware/test_subagent_middleware_init.py",
+          "type": "import"
+        },
+        {
+          "line": 16,
+          "path": "libs/deepagents/tests/unit_tests/middleware/test_tool_exclusion.py",
           "type": "import"
         },
         {
@@ -43079,8 +43104,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "dfde21e379201c833da4162444ef4a13b46980fd",
-    "pushed_at": "2026-08-24T21:13:54Z"
+    "head_sha": "9f3a1dd38f8b5dbd828d2f366e9b03dad359fadf",
+    "pushed_at": "2026-08-26T07:51:46Z"
   },
   "langchain-ai/langchain": {
     "analysis": {
@@ -43990,8 +44015,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "69505d861bdf729c5a3cab098c983bb68035c930",
-    "pushed_at": "2026-08-24T23:34:10Z"
+    "head_sha": "43bed06205603e6e4f0ce8fc80a73f92910a9cd5",
+    "pushed_at": "2026-08-26T04:41:35Z"
   },
   "langchain-ai/langchain-aws": {
     "analysis": {
@@ -51414,7 +51439,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "38031739e551638e373fb553453256c23feeb41f",
-    "pushed_at": "2026-08-24T21:45:59Z"
+    "pushed_at": "2026-08-26T02:36:11Z"
   },
   "langchain-ai/langgraph-bigtool": {
     "analysis": {
@@ -52132,6 +52157,7 @@
       "agent_factories_confirmed": 0,
       "conditional_edges_confirmed": 0,
       "direct_dependencies": [
+        "basedpyright",
         "cryptography",
         "deepagents",
         "exa-py",
@@ -52162,7 +52188,7 @@
         "uvicorn",
         "websockets"
       ],
-      "direct_dependency_count": 29,
+      "direct_dependency_count": 30,
       "direction": "browser_automation",
       "external_apis_confirmed": [
         {
@@ -52282,11 +52308,6 @@
           "type": "import"
         },
         {
-          "line": 18,
-          "path": "agent/middleware/dynamic_tools.py",
-          "type": "import"
-        },
-        {
           "line": 19,
           "path": "agent/middleware/dynamic_tools.py",
           "type": "import"
@@ -52297,22 +52318,17 @@
           "type": "import"
         },
         {
-          "line": 6,
-          "path": "agent/middleware/ensure_no_empty_msg.py",
+          "line": 21,
+          "path": "agent/middleware/dynamic_tools.py",
           "type": "import"
         },
         {
           "line": 7,
-          "path": "agent/middleware/ensure_no_empty_msg.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
           "path": "agent/middleware/notify_step_limit.py",
           "type": "import"
         },
         {
-          "line": 9,
+          "line": 8,
           "path": "agent/middleware/notify_step_limit.py",
           "type": "import"
         },
@@ -52339,16 +52355,6 @@
         {
           "line": 15,
           "path": "agent/middleware/refresh_github_proxy.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "agent/middleware/sandbox_circuit_breaker.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "agent/middleware/sandbox_circuit_breaker.py",
           "type": "import"
         },
         {
@@ -52537,7 +52543,7 @@
           "type": "import"
         },
         {
-          "line": 8,
+          "line": 7,
           "path": "agent/tools/notify_automation_channel.py",
           "type": "import"
         },
@@ -52624,6 +52630,11 @@
         {
           "line": 3,
           "path": "agent/tools/slack_add_reaction.py",
+          "type": "import"
+        },
+        {
+          "line": 7,
+          "path": "agent/tools/slack_attach_html.py",
           "type": "import"
         },
         {
@@ -52772,7 +52783,7 @@
           "type": "import"
         },
         {
-          "line": 9,
+          "line": 7,
           "path": "tests/sandbox/test_sandbox_recovery.py",
           "type": "import"
         },
@@ -52823,8 +52834,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "aa13a720d7e5d474e300d12002515f5d792e26aa",
-    "pushed_at": "2026-08-24T23:53:51Z"
+    "head_sha": "d0bfaf3cc69327cfabaebc3e2394c61f69460f44",
+    "pushed_at": "2026-08-26T03:44:03Z"
   },
   "langchain-ai/openevals": {
     "analysis": {
@@ -57218,7 +57229,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "39bc02330563764e7d4465f1ecff5f002d94da1a",
-    "pushed_at": "2026-08-24T20:06:40Z"
+    "pushed_at": "2026-08-25T17:24:13Z"
   },
   "mfmezger/conversational-agent-langchain": {
     "analysis": {
@@ -57741,8 +57752,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "b5705588883fac48b88cbe6fd0bd7d48c798453e",
-    "pushed_at": "2026-08-21T21:11:27Z"
+    "head_sha": "46463ef8689433817fcc0c582a7881f515d4df15",
+    "pushed_at": "2026-08-25T18:09:18Z"
   },
   "midodimori/langrepl": {
     "analysis": {
@@ -58210,7 +58221,7 @@
   },
   "mlflow/mlflow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-24T23:53:04Z",
+    "pushed_at": "2026-08-26T07:26:52Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "modelscope/easydistill": {
@@ -60801,7 +60812,7 @@
   },
   "opensandbox-group/OpenSandbox": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-24T13:58:31Z",
+    "pushed_at": "2026-08-26T02:16:48Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "oracle/agent-spec": {
@@ -67839,6 +67850,10 @@
         "mark_zuckerberg",
         "llm_overview",
         "policy_node_id",
+        "n1",
+        "n2",
+        "n1",
+        "n2",
         "a",
         "b",
         "n1",
@@ -67862,7 +67877,7 @@
         "alice",
         "bob"
       ],
-      "nodes_confirmed": 165,
+      "nodes_confirmed": 169,
       "nodes_dynamic_unknown": true,
       "project_kind": "unknown",
       "state_field_names_confirmed": [],
@@ -67875,8 +67890,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "4217f23df21db653c85a7d29d3ecd54224b431b2",
-    "pushed_at": "2026-08-24T17:49:45Z"
+    "head_sha": "97f71542207a965d47a472a951267cf886e4c50e",
+    "pushed_at": "2026-08-25T16:17:08Z"
   },
   "shenjianan97/persistent-agent-runtime": {
     "analysis": {
@@ -73008,7 +73023,7 @@
   },
   "vectorize-io/hindsight": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-24T23:44:35Z",
+    "pushed_at": "2026-08-26T03:38:56Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "velocitybolt/open-extract": {
@@ -73796,8 +73811,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "dbb68d661dbb7ddb4aadb78404d0181d151f1141",
-    "pushed_at": "2026-08-24T06:42:58Z"
+    "head_sha": "15b057c832a55b8d42d3b64e12677ecd631b0474",
+    "pushed_at": "2026-08-25T04:08:40Z"
   },
   "vndee/llm-sandbox": {
     "analysis": {
@@ -73842,7 +73857,7 @@
   },
   "volcengine/OpenViking": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-24T17:32:02Z",
+    "pushed_at": "2026-08-26T07:01:05Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "vstorm-co/full-stack-ai-agent-template": {
@@ -75661,8 +75676,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "393bacdad2d12e371c7f4972d20e568a3231a7c2",
-    "pushed_at": "2026-08-24T13:16:58Z"
+    "head_sha": "509b5e15695cff91d61a710677703ccf72da6da5",
+    "pushed_at": "2026-08-26T06:05:19Z"
   },
   "xiongQvQ/AI_Find_Customer": {
     "analysis": {
@@ -76266,8 +76281,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "d56d45a286f16439a0fba2e66ff85f598c42ef41",
-    "pushed_at": "2026-08-18T23:12:08Z"
+    "head_sha": "e9c7a9351dee5861707a7ec5560248bf5e7b84b5",
+    "pushed_at": "2026-08-25T22:56:41Z"
   },
   "yolo-hyl/medical-rag": {
     "analysis": {
@@ -76929,7 +76944,7 @@
   },
   "zenml-io/zenml": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-24T19:07:10Z",
+    "pushed_at": "2026-08-25T14:21:23Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "zezhishao/DailyArXiv": {
