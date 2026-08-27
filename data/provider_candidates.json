@@ -59,6 +59,12 @@
     ]
   },
   {
+    "signal": "BASETEN_API_KEY",
+    "repositories": [
+      "langchain-ai/open-swe"
+    ]
+  },
+  {
     "signal": "BING_API_KEY",
     "repositories": [
       "assafelovic/gpt-researcher"
