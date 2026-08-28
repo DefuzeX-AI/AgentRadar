@@ -653,6 +653,12 @@
     ]
   },
   {
+    "signal": "SERPLY_API_KEY",
+    "repositories": [
+      "bytedance/deer-flow"
+    ]
+  },
+  {
     "signal": "SHODAN_API_KEY",
     "repositories": [
       "PurpleAILAB/Decepticon"
