@@ -1766,8 +1766,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "b86acacca3f70b58e1eac2e685ecd0cd82e424af",
-    "pushed_at": "2026-08-28T19:25:27Z"
+    "head_sha": "c48e50e9906fcc56c1c103ebd93ef3c95ed6b6e7",
+    "pushed_at": "2026-08-29T07:46:06Z"
   },
   "Arvo-AI/aurora": {
     "analysis": {
@@ -2168,7 +2168,7 @@
   },
   "BerriAI/litellm": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-28T19:26:27Z",
+    "pushed_at": "2026-08-29T13:11:28Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "Bessouat40/RAGLight": {
@@ -7172,8 +7172,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "e69626ad7ed38db8e2cc00a54f363928fe29e1d7",
-    "pushed_at": "2026-08-28T15:48:29Z"
+    "head_sha": "e90b6c6cd9fea23067a85667e7fbf74f9d73ea48",
+    "pushed_at": "2026-08-29T04:59:38Z"
   },
   "HKUSTDial/DeepEar": {
     "analysis": {
@@ -10561,7 +10561,7 @@
   },
   "LearningCircuit/local-deep-research": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-28T16:28:16Z",
+    "pushed_at": "2026-08-29T10:38:33Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "LegalQuants/lq-ai": {
@@ -18051,7 +18051,7 @@
   },
   "WenyuChiou/awesome-agentic-ai-zh": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-28T12:50:48Z",
+    "pushed_at": "2026-08-29T11:33:15Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "Westlake-AGI-Lab/AppAgentX": {
@@ -27703,57 +27703,57 @@
           "type": "import"
         },
         {
-          "line": 1699,
+          "line": 1761,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 1700,
+          "line": 1762,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 1740,
+          "line": 1802,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 1741,
+          "line": 1803,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 1889,
+          "line": 1951,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 1986,
+          "line": 2048,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 1987,
+          "line": 2049,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 2067,
+          "line": 2129,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 2068,
+          "line": 2130,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 2161,
+          "line": 2223,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 2162,
+          "line": 2224,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
@@ -28093,22 +28093,22 @@
           "type": "import"
         },
         {
-          "line": 1285,
+          "line": 1281,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 1327,
+          "line": 1323,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 1359,
+          "line": 1355,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 1400,
+          "line": 1396,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
@@ -28124,6 +28124,11 @@
         },
         {
           "line": 2831,
+          "path": "backend/tests/test_subagent_executor.py",
+          "type": "import"
+        },
+        {
+          "line": 3579,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
@@ -28243,12 +28248,12 @@
           "type": "import"
         },
         {
-          "line": 9,
+          "line": 10,
           "path": "backend/tests/test_tool_receipt_middleware.py",
           "type": "import"
         },
         {
-          "line": 217,
+          "line": 257,
           "path": "backend/tests/test_tool_receipt_middleware.py",
           "type": "import"
         },
@@ -28362,8 +28367,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "bf3e792a6a390e1c437b865f8b2a41c631e5c745",
-    "pushed_at": "2026-08-28T14:24:10Z"
+    "head_sha": "c6f6a01f56b04b6c99d73df82ed6053beb8c1a10",
+    "pushed_at": "2026-08-29T09:21:29Z"
   },
   "cft0808/edict": {
     "analysis": {
@@ -29115,7 +29120,7 @@
   },
   "comet-ml/opik": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-28T19:19:00Z",
+    "pushed_at": "2026-08-29T11:03:39Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "confident-ai/deepeval": {
@@ -29459,7 +29464,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "9404fb2d47fd3b0f87b25de9e46fe89bc0b922a7",
-    "pushed_at": "2026-08-28T08:13:55Z"
+    "pushed_at": "2026-08-29T10:06:44Z"
   },
   "csml-rpi/Foam-Agent": {
     "analysis": {
@@ -33596,8 +33601,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "7f09b5a095f93f3851e0118f5d5634dc2f1071db",
-    "pushed_at": "2026-08-28T13:11:19Z"
+    "head_sha": "c18d6778184c55e3be28f5ae3e5821930b361d47",
+    "pushed_at": "2026-08-29T06:15:05Z"
   },
   "getzep/zep": {
     "analyzer_version": 1,
@@ -41923,7 +41928,7 @@
           "type": "import"
         },
         {
-          "line": 150,
+          "line": 151,
           "path": "libs/code/deepagents_code/agent.py",
           "type": "import"
         },
@@ -41973,12 +41978,12 @@
           "type": "import"
         },
         {
-          "line": 340,
+          "line": 345,
           "path": "libs/code/deepagents_code/client/remote_client.py",
           "type": "import"
         },
         {
-          "line": 951,
+          "line": 1025,
           "path": "libs/code/deepagents_code/client/remote_client.py",
           "type": "import"
         },
@@ -42008,12 +42013,7 @@
           "type": "import"
         },
         {
-          "line": 39,
-          "path": "libs/code/deepagents_code/goal_rubric.py",
-          "type": "import"
-        },
-        {
-          "line": 72,
+          "line": 40,
           "path": "libs/code/deepagents_code/goal_rubric.py",
           "type": "import"
         },
@@ -42024,6 +42024,11 @@
         },
         {
           "line": 74,
+          "path": "libs/code/deepagents_code/goal_rubric.py",
+          "type": "import"
+        },
+        {
+          "line": 75,
           "path": "libs/code/deepagents_code/goal_rubric.py",
           "type": "import"
         },
@@ -42123,7 +42128,7 @@
           "type": "import"
         },
         {
-          "line": 1050,
+          "line": 1060,
           "path": "libs/code/deepagents_code/offload_middleware.py",
           "type": "import"
         },
@@ -42133,7 +42138,7 @@
           "type": "import"
         },
         {
-          "line": 38,
+          "line": 37,
           "path": "libs/code/deepagents_code/reliable_rubric.py",
           "type": "import"
         },
@@ -42228,57 +42233,57 @@
           "type": "import"
         },
         {
-          "line": 13,
+          "line": 12,
           "path": "libs/code/tests/unit_tests/hooks/test_engine.py",
           "type": "import"
         },
         {
-          "line": 24,
+          "line": 21,
           "path": "libs/code/tests/unit_tests/hooks/test_server_lifecycle.py",
           "type": "import"
         },
         {
-          "line": 25,
+          "line": 22,
           "path": "libs/code/tests/unit_tests/hooks/test_server_lifecycle.py",
           "type": "import"
         },
         {
-          "line": 26,
+          "line": 23,
           "path": "libs/code/tests/unit_tests/hooks/test_server_lifecycle.py",
           "type": "import"
         },
         {
-          "line": 186,
+          "line": 170,
           "path": "libs/code/tests/unit_tests/skills/test_thread_inspector.py",
           "type": "import"
         },
         {
-          "line": 240,
+          "line": 224,
           "path": "libs/code/tests/unit_tests/skills/test_thread_inspector.py",
           "type": "import"
         },
         {
-          "line": 280,
+          "line": 264,
           "path": "libs/code/tests/unit_tests/skills/test_thread_inspector.py",
           "type": "import"
         },
         {
-          "line": 530,
+          "line": 370,
           "path": "libs/code/tests/unit_tests/skills/test_thread_inspector.py",
           "type": "import"
         },
         {
-          "line": 531,
+          "line": 371,
           "path": "libs/code/tests/unit_tests/skills/test_thread_inspector.py",
           "type": "import"
         },
         {
-          "line": 577,
+          "line": 417,
           "path": "libs/code/tests/unit_tests/skills/test_thread_inspector.py",
           "type": "import"
         },
         {
-          "line": 661,
+          "line": 481,
           "path": "libs/code/tests/unit_tests/skills/test_thread_inspector.py",
           "type": "import"
         },
@@ -42298,12 +42303,7 @@
           "type": "import"
         },
         {
-          "line": 18,
-          "path": "libs/code/tests/unit_tests/test_agent.py",
-          "type": "import"
-        },
-        {
-          "line": 25,
+          "line": 19,
           "path": "libs/code/tests/unit_tests/test_agent.py",
           "type": "import"
         },
@@ -42313,27 +42313,32 @@
           "type": "import"
         },
         {
-          "line": 3387,
+          "line": 27,
           "path": "libs/code/tests/unit_tests/test_agent.py",
           "type": "import"
         },
         {
-          "line": 3419,
+          "line": 2829,
           "path": "libs/code/tests/unit_tests/test_agent.py",
           "type": "import"
         },
         {
-          "line": 3462,
+          "line": 2872,
           "path": "libs/code/tests/unit_tests/test_agent.py",
           "type": "import"
         },
         {
-          "line": 3463,
+          "line": 2873,
           "path": "libs/code/tests/unit_tests/test_agent.py",
           "type": "import"
         },
         {
-          "line": 5863,
+          "line": 2899,
+          "path": "libs/code/tests/unit_tests/test_agent.py",
+          "type": "import"
+        },
+        {
+          "line": 4502,
           "path": "libs/code/tests/unit_tests/test_agent.py",
           "type": "import"
         },
@@ -42348,88 +42353,63 @@
           "type": "import"
         },
         {
+          "line": 37,
+          "path": "libs/code/tests/unit_tests/test_auto_mode.py",
+          "type": "import"
+        },
+        {
           "line": 38,
           "path": "libs/code/tests/unit_tests/test_auto_mode.py",
           "type": "import"
         },
         {
-          "line": 39,
+          "line": 87,
           "path": "libs/code/tests/unit_tests/test_auto_mode.py",
           "type": "import"
         },
         {
-          "line": 40,
+          "line": 2481,
           "path": "libs/code/tests/unit_tests/test_auto_mode.py",
           "type": "import"
         },
         {
-          "line": 41,
+          "line": 2482,
           "path": "libs/code/tests/unit_tests/test_auto_mode.py",
           "type": "import"
         },
         {
-          "line": 42,
-          "path": "libs/code/tests/unit_tests/test_auto_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 101,
-          "path": "libs/code/tests/unit_tests/test_auto_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 2863,
-          "path": "libs/code/tests/unit_tests/test_auto_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 2864,
-          "path": "libs/code/tests/unit_tests/test_auto_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 21,
-          "path": "libs/code/tests/unit_tests/test_compact_tool.py",
-          "type": "import"
-        },
-        {
-          "line": 38,
+          "line": 30,
           "path": "libs/code/tests/unit_tests/test_cost_tracking.py",
           "type": "import"
         },
         {
-          "line": 39,
+          "line": 31,
           "path": "libs/code/tests/unit_tests/test_cost_tracking.py",
           "type": "import"
         },
         {
-          "line": 40,
+          "line": 32,
           "path": "libs/code/tests/unit_tests/test_cost_tracking.py",
           "type": "import"
         },
         {
-          "line": 41,
+          "line": 33,
           "path": "libs/code/tests/unit_tests/test_cost_tracking.py",
           "type": "import"
         },
         {
-          "line": 42,
-          "path": "libs/code/tests/unit_tests/test_cost_tracking.py",
-          "type": "import"
-        },
-        {
-          "line": 43,
-          "path": "libs/code/tests/unit_tests/test_cost_tracking.py",
-          "type": "import"
-        },
-        {
-          "line": 70,
+          "line": 59,
           "path": "libs/code/tests/unit_tests/test_cost_tracking.py",
           "type": "import"
         },
         {
           "line": 21,
           "path": "libs/code/tests/unit_tests/test_end_to_end.py",
+          "type": "import"
+        },
+        {
+          "line": 29,
+          "path": "libs/code/tests/unit_tests/test_goal_rubric.py",
           "type": "import"
         },
         {
@@ -42448,48 +42428,38 @@
           "type": "import"
         },
         {
-          "line": 33,
+          "line": 70,
           "path": "libs/code/tests/unit_tests/test_goal_rubric.py",
           "type": "import"
         },
         {
-          "line": 99,
-          "path": "libs/code/tests/unit_tests/test_goal_rubric.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
+          "line": 9,
           "path": "libs/code/tests/unit_tests/test_goal_tools.py",
           "type": "import"
         },
         {
-          "line": 11,
+          "line": 10,
           "path": "libs/code/tests/unit_tests/test_memory_guard.py",
           "type": "import"
         },
         {
-          "line": 23,
-          "path": "libs/code/tests/unit_tests/test_memory_guard.py",
-          "type": "import"
-        },
-        {
-          "line": 30,
+          "line": 26,
           "path": "libs/code/tests/unit_tests/test_model_retry.py",
           "type": "import"
         },
         {
-          "line": 1349,
+          "line": 379,
           "path": "libs/code/tests/unit_tests/test_model_retry.py",
           "type": "import"
         },
         {
-          "line": 1545,
-          "path": "libs/code/tests/unit_tests/test_model_retry.py",
+          "line": 21,
+          "path": "libs/code/tests/unit_tests/test_offload.py",
           "type": "import"
         },
         {
           "line": 22,
-          "path": "libs/code/tests/unit_tests/test_offload.py",
+          "path": "libs/code/tests/unit_tests/test_reliable_rubric.py",
           "type": "import"
         },
         {
@@ -42503,117 +42473,77 @@
           "type": "import"
         },
         {
-          "line": 25,
+          "line": 41,
           "path": "libs/code/tests/unit_tests/test_reliable_rubric.py",
           "type": "import"
         },
         {
-          "line": 39,
-          "path": "libs/code/tests/unit_tests/test_reliable_rubric.py",
-          "type": "import"
-        },
-        {
-          "line": 256,
+          "line": 142,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 265,
+          "line": 151,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 283,
+          "line": 163,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 432,
+          "line": 251,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1202,
+          "line": 746,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1212,
+          "line": 756,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1219,
+          "line": 763,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1226,
+          "line": 770,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1235,
+          "line": 779,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1244,
+          "line": 788,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1263,
+          "line": 807,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1269,
-          "path": "libs/code/tests/unit_tests/test_remote_client.py",
-          "type": "import"
-        },
-        {
-          "line": 1276,
-          "path": "libs/code/tests/unit_tests/test_remote_client.py",
-          "type": "import"
-        },
-        {
-          "line": 1282,
-          "path": "libs/code/tests/unit_tests/test_remote_client.py",
-          "type": "import"
-        },
-        {
-          "line": 16,
+          "line": 12,
           "path": "libs/code/tests/unit_tests/test_sessions.py",
           "type": "import"
         },
         {
-          "line": 2774,
+          "line": 1679,
           "path": "libs/code/tests/unit_tests/test_sessions.py",
           "type": "import"
         },
         {
-          "line": 2818,
-          "path": "libs/code/tests/unit_tests/test_sessions.py",
-          "type": "import"
-        },
-        {
-          "line": 3041,
-          "path": "libs/code/tests/unit_tests/test_sessions.py",
-          "type": "import"
-        },
-        {
-          "line": 3056,
-          "path": "libs/code/tests/unit_tests/test_sessions.py",
-          "type": "import"
-        },
-        {
-          "line": 3155,
-          "path": "libs/code/tests/unit_tests/test_sessions.py",
-          "type": "import"
-        },
-        {
-          "line": 3156,
+          "line": 1723,
           "path": "libs/code/tests/unit_tests/test_sessions.py",
           "type": "import"
         },
@@ -42623,7 +42553,7 @@
           "type": "import"
         },
         {
-          "line": 16,
+          "line": 14,
           "path": "libs/code/tests/unit_tests/tui/test_textual_adapter.py",
           "type": "import"
         },
@@ -42873,12 +42803,12 @@
           "type": "import"
         },
         {
-          "line": 30,
+          "line": 31,
           "path": "libs/deepagents/tests/unit_tests/middleware/test_rubric_middleware.py",
           "type": "import"
         },
         {
-          "line": 31,
+          "line": 32,
           "path": "libs/deepagents/tests/unit_tests/middleware/test_rubric_middleware.py",
           "type": "import"
         },
@@ -43227,8 +43157,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "a233ded7cffd4cc5c81e5767780bf93472dd8fe7",
-    "pushed_at": "2026-08-28T19:28:08Z"
+    "head_sha": "a1af029e6e73cb17c36bff823d227747b28e91e1",
+    "pushed_at": "2026-08-29T08:17:05Z"
   },
   "langchain-ai/langchain": {
     "analysis": {
@@ -44139,7 +44069,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "5893459c4f2bfac6c8d3262cae1e3f2246d9287f",
-    "pushed_at": "2026-08-28T16:19:21Z"
+    "pushed_at": "2026-08-29T08:14:11Z"
   },
   "langchain-ai/langchain-aws": {
     "analysis": {
@@ -52968,8 +52898,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "2f3020da6ef66671e67e466f5692662ff81bffeb",
-    "pushed_at": "2026-08-28T19:25:19Z"
+    "head_sha": "66a23eee305af29c3823a0371dfb1fb23eb562fe",
+    "pushed_at": "2026-08-29T08:22:34Z"
   },
   "langchain-ai/openevals": {
     "analysis": {
@@ -58355,7 +58285,7 @@
   },
   "mlflow/mlflow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-28T16:11:46Z",
+    "pushed_at": "2026-08-29T13:06:55Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "modelscope/easydistill": {
@@ -67720,6 +67650,7 @@
         "setuptools",
         "shapely",
         "shellingham",
+        "simple-salesforce",
         "six",
         "smart-open",
         "smmap",
@@ -67794,7 +67725,7 @@
         "zipp",
         "zstandard"
       ],
-      "direct_dependency_count": 409,
+      "direct_dependency_count": 410,
       "direction": "rag_knowledge",
       "external_apis_confirmed": [
         {
@@ -67849,6 +67780,10 @@
       "langgraph_evidence": [],
       "langgraph_status": "unknown",
       "node_names_confirmed": [
+        "alice",
+        "bob",
+        "acme",
+        "new_york",
         "category_id",
         "maker_id",
         "node_id",
@@ -67976,6 +67911,10 @@
         "semantic_anchor",
         "semantic_neighbor",
         "python",
+        "alice",
+        "bob",
+        "acme",
+        "new_york",
         "onto_a",
         "onto_b",
         "person_a",
@@ -68035,7 +67974,7 @@
         "alice",
         "bob"
       ],
-      "nodes_confirmed": 185,
+      "nodes_confirmed": 193,
       "nodes_dynamic_unknown": true,
       "project_kind": "unknown",
       "state_field_names_confirmed": [],
@@ -68048,8 +67987,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "da642f12fa221b31c046f472d1ccb895a5f6168f",
-    "pushed_at": "2026-08-28T19:19:40Z"
+    "head_sha": "30592b12857f0cb617e89312d46c8e61daab2f13",
+    "pushed_at": "2026-08-29T10:26:29Z"
   },
   "shenjianan97/persistent-agent-runtime": {
     "analysis": {
@@ -73181,7 +73120,7 @@
   },
   "vectorize-io/hindsight": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-28T18:58:46Z",
+    "pushed_at": "2026-08-29T07:22:41Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "velocitybolt/open-extract": {
@@ -74015,7 +73954,7 @@
   },
   "volcengine/OpenViking": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-28T17:26:29Z",
+    "pushed_at": "2026-08-29T12:37:49Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "vstorm-co/full-stack-ai-agent-template": {
@@ -77102,7 +77041,7 @@
   },
   "zenml-io/zenml": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-28T18:48:53Z",
+    "pushed_at": "2026-08-29T00:43:58Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "zezhishao/DailyArXiv": {
