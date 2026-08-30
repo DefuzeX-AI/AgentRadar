@@ -1436,7 +1436,7 @@
   },
   "Arindam200/awesome-ai-apps": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-28T16:49:38Z",
+    "pushed_at": "2026-08-30T12:33:10Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "Arize-ai/phoenix": {
@@ -1766,8 +1766,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "c48e50e9906fcc56c1c103ebd93ef3c95ed6b6e7",
-    "pushed_at": "2026-08-29T07:46:06Z"
+    "head_sha": "37916d7351002222fc5a3ee8560528834da85134",
+    "pushed_at": "2026-08-29T18:18:53Z"
   },
   "Arvo-AI/aurora": {
     "analysis": {
@@ -2168,7 +2168,7 @@
   },
   "BerriAI/litellm": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-29T13:11:28Z",
+    "pushed_at": "2026-08-30T12:57:01Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "Bessouat40/RAGLight": {
@@ -7172,8 +7172,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "e90b6c6cd9fea23067a85667e7fbf74f9d73ea48",
-    "pushed_at": "2026-08-29T04:59:38Z"
+    "head_sha": "fb5013c2e37ff992ce2e76f0e19219d631eebc2b",
+    "pushed_at": "2026-08-30T12:06:04Z"
   },
   "HKUSTDial/DeepEar": {
     "analysis": {
@@ -10561,7 +10561,7 @@
   },
   "LearningCircuit/local-deep-research": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-29T10:38:33Z",
+    "pushed_at": "2026-08-30T05:13:20Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "LegalQuants/lq-ai": {
@@ -13516,7 +13516,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "1b875933a666b627c3ed1b695f066a21a6773dc4",
-    "pushed_at": "2026-08-28T07:41:21Z"
+    "pushed_at": "2026-08-30T05:46:12Z"
   },
   "NVlabs/SpatialClaw": {
     "analysis": {
@@ -16851,7 +16851,7 @@
   },
   "Shubhamsaboo/awesome-llm-apps": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-22T04:01:54Z",
+    "pushed_at": "2026-08-30T07:42:00Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "SponsioLabs/Sponsio": {
@@ -17422,7 +17422,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "a33fd4c0f134485a43553a2c23a63cb14adbd88f",
-    "pushed_at": "2026-07-18T15:55:05Z"
+    "pushed_at": "2026-08-30T07:03:07Z"
   },
   "TeleAI-UAGI/Awesome-Agent-Memory": {
     "analysis": {
@@ -18051,7 +18051,7 @@
   },
   "WenyuChiou/awesome-agentic-ai-zh": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-29T11:33:15Z",
+    "pushed_at": "2026-08-30T12:35:16Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "Westlake-AGI-Lab/AppAgentX": {
@@ -26555,7 +26555,7 @@
         "sse-starlette",
         "starlette",
         "tavily-python",
-        "tenki-sandbox",
+        "tenki",
         "textual",
         "tiktoken",
         "uvicorn",
@@ -27498,6 +27498,11 @@
           "type": "import"
         },
         {
+          "line": 15,
+          "path": "backend/tests/test_command_tool_result_semantics.py",
+          "type": "import"
+        },
+        {
           "line": 8,
           "path": "backend/tests/test_context_compaction.py",
           "type": "import"
@@ -27828,7 +27833,7 @@
           "type": "import"
         },
         {
-          "line": 1012,
+          "line": 1014,
           "path": "backend/tests/test_mcp_session_pool.py",
           "type": "import"
         },
@@ -28043,6 +28048,11 @@
           "type": "import"
         },
         {
+          "line": 811,
+          "path": "backend/tests/test_sandbox_authorization.py",
+          "type": "import"
+        },
+        {
           "line": 10,
           "path": "backend/tests/test_sandbox_middleware.py",
           "type": "import"
@@ -28093,42 +28103,42 @@
           "type": "import"
         },
         {
-          "line": 1281,
+          "line": 1485,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 1323,
+          "line": 1527,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 1355,
+          "line": 1559,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 1396,
+          "line": 1600,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 2501,
+          "line": 2821,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 2830,
+          "line": 3150,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 2831,
+          "line": 3151,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 3579,
+          "line": 3899,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
@@ -28198,17 +28208,17 @@
           "type": "import"
         },
         {
-          "line": 977,
+          "line": 980,
           "path": "backend/tests/test_threads_router.py",
           "type": "import"
         },
         {
-          "line": 1338,
+          "line": 1341,
           "path": "backend/tests/test_threads_router.py",
           "type": "import"
         },
         {
-          "line": 1369,
+          "line": 1372,
           "path": "backend/tests/test_threads_router.py",
           "type": "import"
         },
@@ -28367,8 +28377,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "c6f6a01f56b04b6c99d73df82ed6053beb8c1a10",
-    "pushed_at": "2026-08-29T09:21:29Z"
+    "head_sha": "8eda71fd978b4dc4b26843fe995407f09f4aa87e",
+    "pushed_at": "2026-08-30T07:37:38Z"
   },
   "cft0808/edict": {
     "analysis": {
@@ -29120,7 +29130,7 @@
   },
   "comet-ml/opik": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-29T11:03:39Z",
+    "pushed_at": "2026-08-30T12:42:05Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "confident-ai/deepeval": {
@@ -29464,7 +29474,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "9404fb2d47fd3b0f87b25de9e46fe89bc0b922a7",
-    "pushed_at": "2026-08-29T10:06:44Z"
+    "pushed_at": "2026-08-29T15:56:12Z"
   },
   "csml-rpi/Foam-Agent": {
     "analysis": {
@@ -33601,8 +33611,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "c18d6778184c55e3be28f5ae3e5821930b361d47",
-    "pushed_at": "2026-08-29T06:15:05Z"
+    "head_sha": "8b61fce9f003cc3a05e246f6201f8b782dfe6546",
+    "pushed_at": "2026-08-30T09:09:02Z"
   },
   "getzep/zep": {
     "analyzer_version": 1,
@@ -43157,8 +43167,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "a1af029e6e73cb17c36bff823d227747b28e91e1",
-    "pushed_at": "2026-08-29T08:17:05Z"
+    "head_sha": "1c14626d068ee5e1724d53dc17927d37987ebe36",
+    "pushed_at": "2026-08-30T09:10:09Z"
   },
   "langchain-ai/langchain": {
     "analysis": {
@@ -43723,6 +43733,11 @@
           "type": "import"
         },
         {
+          "line": 12,
+          "path": "libs/langchain_v1/tests/unit_tests/agents/middleware/core/test_framework.py",
+          "type": "import"
+        },
+        {
           "line": 15,
           "path": "libs/langchain_v1/tests/unit_tests/agents/middleware/core/test_internal_call_transformer.py",
           "type": "import"
@@ -44068,8 +44083,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "5893459c4f2bfac6c8d3262cae1e3f2246d9287f",
-    "pushed_at": "2026-08-29T08:14:11Z"
+    "head_sha": "e92c8a08bf382121cc1e95f7e75ddc8cb9c01ab0",
+    "pushed_at": "2026-08-30T08:14:57Z"
   },
   "langchain-ai/langchain-aws": {
     "analysis": {
@@ -51492,7 +51507,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "11ee185999b86bfea2d8c0e69cef9a5e37acf686",
-    "pushed_at": "2026-08-28T16:36:39Z"
+    "pushed_at": "2026-08-30T00:53:55Z"
   },
   "langchain-ai/langgraph-bigtool": {
     "analysis": {
@@ -52898,8 +52913,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "66a23eee305af29c3823a0371dfb1fb23eb562fe",
-    "pushed_at": "2026-08-29T08:22:34Z"
+    "head_sha": "4bed1112362d4ce74db86e704329fda0f3412b69",
+    "pushed_at": "2026-08-30T08:22:15Z"
   },
   "langchain-ai/openevals": {
     "analysis": {
@@ -58285,7 +58300,7 @@
   },
   "mlflow/mlflow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-29T13:06:55Z",
+    "pushed_at": "2026-08-30T12:57:02Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "modelscope/easydistill": {
@@ -67987,8 +68002,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "30592b12857f0cb617e89312d46c8e61daab2f13",
-    "pushed_at": "2026-08-29T10:26:29Z"
+    "head_sha": "56b174781f7368e3064e7d1beb575b14a886f6a3",
+    "pushed_at": "2026-08-30T12:30:21Z"
   },
   "shenjianan97/persistent-agent-runtime": {
     "analysis": {
@@ -73120,7 +73135,7 @@
   },
   "vectorize-io/hindsight": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-29T07:22:41Z",
+    "pushed_at": "2026-08-30T03:31:31Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "velocitybolt/open-extract": {
@@ -73954,7 +73969,7 @@
   },
   "volcengine/OpenViking": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-29T12:37:49Z",
+    "pushed_at": "2026-08-30T06:31:10Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "vstorm-co/full-stack-ai-agent-template": {
@@ -75773,8 +75788,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "fb62b9fa8123bc78ca6baa6d599cea0792dae1dd",
-    "pushed_at": "2026-08-28T04:00:23Z"
+    "head_sha": "a31f1c95f9d61512fc4846c1f6011c7e3f26574e",
+    "pushed_at": "2026-08-30T06:55:46Z"
   },
   "xiongQvQ/AI_Find_Customer": {
     "analysis": {
@@ -77041,7 +77056,7 @@
   },
   "zenml-io/zenml": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-29T00:43:58Z",
+    "pushed_at": "2026-08-30T08:25:02Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "zezhishao/DailyArXiv": {
