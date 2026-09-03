@@ -30,6 +30,12 @@
     ]
   },
   {
+    "signal": "ASSEMBLYAI_API_KEY",
+    "repositories": [
+      "confident-ai/deepeval"
+    ]
+  },
+  {
     "signal": "ATLASCLOUD_API_KEY",
     "repositories": [
       "assafelovic/gpt-researcher"
@@ -92,6 +98,12 @@
     "signal": "BRAVE_SEARCH_API_KEY",
     "repositories": [
       "bytedance/deer-flow"
+    ]
+  },
+  {
+    "signal": "CARTESIA_API_KEY",
+    "repositories": [
+      "confident-ai/deepeval"
     ]
   },
   {
@@ -192,6 +204,12 @@
     "signal": "DEEPAGENTS_CODE_OPENAI_API_KEY",
     "repositories": [
       "langchain-ai/deepagents"
+    ]
+  },
+  {
+    "signal": "DEEPGRAM_API_KEY",
+    "repositories": [
+      "confident-ai/deepeval"
     ]
   },
   {
@@ -736,6 +754,12 @@
     "signal": "TRACELOOP_API_KEY",
     "repositories": [
       "traceloop/openllmetry"
+    ]
+  },
+  {
+    "signal": "VAPI_API_KEY",
+    "repositories": [
+      "confident-ai/deepeval"
     ]
   },
   {

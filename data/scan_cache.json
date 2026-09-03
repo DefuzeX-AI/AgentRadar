@@ -1550,7 +1550,6 @@
         "pyyaml",
         "qdrant-client",
         "requests",
-        "respx",
         "scikit-learn",
         "scipy",
         "sphinx",
@@ -1572,7 +1571,7 @@
         "websockets",
         "wrapt"
       ],
-      "direct_dependency_count": 127,
+      "direct_dependency_count": 126,
       "direction": "data_sql",
       "external_apis_confirmed": [
         {
@@ -1767,8 +1766,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "a1ad1c5dda9b65d841ed7778765109c8986f9add",
-    "pushed_at": "2026-09-02T06:53:03Z"
+    "head_sha": "1db2a9140ae93decf61a44371c3ccb87ae23f2e3",
+    "pushed_at": "2026-09-03T11:30:57Z"
   },
   "Arvo-AI/aurora": {
     "analysis": {
@@ -2169,7 +2168,7 @@
   },
   "BerriAI/litellm": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-02T11:48:52Z",
+    "pushed_at": "2026-09-03T11:59:04Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "Bessouat40/RAGLight": {
@@ -3111,8 +3110,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "8d23753e1e4bd2198064d8c55ddca9d688aec731",
-    "pushed_at": "2026-09-02T03:40:06Z"
+    "head_sha": "10a6432afb24c5ba92f87d13693393e8b0a66401",
+    "pushed_at": "2026-09-03T08:30:12Z"
   },
   "ChaitanyaEswarRajeshJakki/gemini-youtube-automation": {
     "analysis": {
@@ -10562,7 +10561,7 @@
   },
   "LearningCircuit/local-deep-research": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-02T11:54:56Z",
+    "pushed_at": "2026-09-03T10:01:39Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "LegalQuants/lq-ai": {
@@ -15396,8 +15395,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "dd9540ddcceafbb45e673ca0fb127c1b67bda486",
-    "pushed_at": "2026-09-02T02:15:08Z"
+    "head_sha": "97ac84ca0dce89fde5b6867485d097508b56b793",
+    "pushed_at": "2026-09-03T02:52:55Z"
   },
   "Pan-Chera/Multi-Agent-CAD": {
     "analysis": {
@@ -16854,7 +16853,7 @@
   },
   "Shubhamsaboo/awesome-llm-apps": {
     "analyzer_version": 1,
-    "pushed_at": "2026-08-31T04:54:57Z",
+    "pushed_at": "2026-09-02T23:13:03Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "SponsioLabs/Sponsio": {
@@ -26823,11 +26822,6 @@
           "type": "import"
         },
         {
-          "line": 14,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/summarization_middleware.py",
-          "type": "import"
-        },
-        {
           "line": 15,
           "path": "backend/packages/harness/deerflow/agents/middlewares/summarization_middleware.py",
           "type": "import"
@@ -26839,6 +26833,11 @@
         },
         {
           "line": 17,
+          "path": "backend/packages/harness/deerflow/agents/middlewares/summarization_middleware.py",
+          "type": "import"
+        },
+        {
+          "line": 18,
           "path": "backend/packages/harness/deerflow/agents/middlewares/summarization_middleware.py",
           "type": "import"
         },
@@ -27153,7 +27152,7 @@
           "type": "import"
         },
         {
-          "line": 1002,
+          "line": 1006,
           "path": "backend/packages/harness/deerflow/runtime/runs/worker.py",
           "type": "import"
         },
@@ -27503,17 +27502,17 @@
           "type": "import"
         },
         {
-          "line": 163,
+          "line": 165,
           "path": "backend/tests/test_client.py",
           "type": "import"
         },
         {
-          "line": 1782,
+          "line": 1784,
           "path": "backend/tests/test_client.py",
           "type": "import"
         },
         {
-          "line": 3263,
+          "line": 3265,
           "path": "backend/tests/test_client.py",
           "type": "import"
         },
@@ -27668,7 +27667,7 @@
           "type": "import"
         },
         {
-          "line": 7,
+          "line": 10,
           "path": "backend/tests/test_ensure_sandbox_initialized.py",
           "type": "import"
         },
@@ -27783,12 +27782,12 @@
           "type": "import"
         },
         {
-          "line": 3389,
+          "line": 3407,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 3390,
+          "line": 3408,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
@@ -28028,17 +28027,17 @@
           "type": "import"
         },
         {
-          "line": 3245,
+          "line": 3393,
           "path": "backend/tests/test_run_worker_rollback.py",
           "type": "import"
         },
         {
-          "line": 3246,
+          "line": 3394,
           "path": "backend/tests/test_run_worker_rollback.py",
           "type": "import"
         },
         {
-          "line": 3384,
+          "line": 3532,
           "path": "backend/tests/test_run_worker_rollback.py",
           "type": "import"
         },
@@ -28103,6 +28102,11 @@
           "type": "import"
         },
         {
+          "line": 13,
+          "path": "backend/tests/test_sandbox_middleware.py",
+          "type": "import"
+        },
+        {
           "line": 297,
           "path": "backend/tests/test_setup_agent_e2e_user_isolation.py",
           "type": "import"
@@ -28138,42 +28142,47 @@
           "type": "import"
         },
         {
-          "line": 1493,
+          "line": 1554,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 1535,
+          "line": 1613,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 1567,
+          "line": 1655,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 1608,
+          "line": 1687,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 2867,
+          "line": 1728,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 3223,
+          "line": 2989,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 3224,
+          "line": 3345,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
         {
-          "line": 4044,
+          "line": 3346,
+          "path": "backend/tests/test_subagent_executor.py",
+          "type": "import"
+        },
+        {
+          "line": 4170,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
@@ -28412,8 +28421,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "08b27aef730174c724c8f44b81ce1d8495535e95",
-    "pushed_at": "2026-09-02T11:16:56Z"
+    "head_sha": "e5977320a096e9096caa250aa21ff12a6a24f25d",
+    "pushed_at": "2026-09-03T11:53:59Z"
   },
   "cft0808/edict": {
     "analysis": {
@@ -29165,7 +29174,7 @@
   },
   "comet-ml/opik": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-02T12:04:40Z",
+    "pushed_at": "2026-09-03T11:58:20Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "confident-ai/deepeval": {
@@ -29234,8 +29243,11 @@
         }
       ],
       "external_apis_unknown": [
+        "ASSEMBLYAI_API_KEY",
         "AZURE_OPENAI_API_KEY",
+        "CARTESIA_API_KEY",
         "CONFIDENT_API_KEY",
+        "DEEPGRAM_API_KEY",
         "DEEPSEEK_API_KEY",
         "ELEVENLABS_API_KEY",
         "GROK_API_KEY",
@@ -29243,6 +29255,7 @@
         "LIVEKIT_API_KEY",
         "MOONSHOT_API_KEY",
         "OPENROUTER_API_KEY",
+        "VAPI_API_KEY",
         "WEAVIATE_API_KEY"
       ],
       "langgraph_dependency": false,
@@ -29508,8 +29521,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "009cec6836ca69244e6a1b2efd38cf744668f6db",
-    "pushed_at": "2026-09-02T04:47:52Z"
+    "head_sha": "077c81b1bffc7eabc3733f950f21b87c09d695ad",
+    "pushed_at": "2026-09-03T10:35:12Z"
   },
   "csml-rpi/Foam-Agent": {
     "analysis": {
@@ -33646,8 +33659,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "11538f6d45561bcce9a4400b374fb2dc533dccb6",
-    "pushed_at": "2026-09-01T23:09:36Z"
+    "head_sha": "a6e026f8fca27af9c1fc4cfe359c3834dc9655bb",
+    "pushed_at": "2026-09-03T10:34:16Z"
   },
   "getzep/zep": {
     "analyzer_version": 1,
@@ -36579,7 +36592,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "b36f545c64284a31bbef45f4dc55f19b5a989621",
-    "pushed_at": "2026-09-02T05:52:53Z"
+    "pushed_at": "2026-09-02T13:44:17Z"
   },
   "ilsilfverskiold/Awesome-LLM-Resources-List": {
     "analysis": {
@@ -39599,8 +39612,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "60e4a0b52ec718bdfd9492a51037e02f94101cb8",
-    "pushed_at": "2026-08-27T15:29:10Z"
+    "head_sha": "e1d7dca5fc9daab3e7b98fde5cce3024504c67b1",
+    "pushed_at": "2026-09-02T19:29:21Z"
   },
   "juliepy/AI-Engineer-from-scrach": {
     "analysis": {
@@ -43104,17 +43117,17 @@
           "type": "import"
         },
         {
-          "line": 24,
+          "line": 26,
           "path": "libs/partners/quickjs/langchain_quickjs/middleware.py",
           "type": "import"
         },
         {
-          "line": 25,
+          "line": 27,
           "path": "libs/partners/quickjs/langchain_quickjs/middleware.py",
           "type": "import"
         },
         {
-          "line": 29,
+          "line": 31,
           "path": "libs/partners/quickjs/langchain_quickjs/middleware.py",
           "type": "import"
         },
@@ -43203,8 +43216,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "0b83235c5cd7b0ffc17dd8d9e7108e2d38329ce3",
-    "pushed_at": "2026-09-02T08:54:57Z"
+    "head_sha": "54fe91fd3745e285899961bfe74380c837674164",
+    "pushed_at": "2026-09-03T09:15:35Z"
   },
   "langchain-ai/langchain": {
     "analysis": {
@@ -43218,6 +43231,7 @@
         "chromadb",
         "exa-py",
         "fastembed",
+        "fastmcp",
         "fireworks-ai",
         "groq",
         "httpx",
@@ -43278,7 +43292,7 @@
         "uuid-utils",
         "vcrpy"
       ],
-      "direct_dependency_count": 66,
+      "direct_dependency_count": 67,
       "direction": "rag_knowledge",
       "external_apis_confirmed": [
         {
@@ -43366,6 +43380,31 @@
         {
           "line": 98,
           "path": "libs/core/tests/unit_tests/test_tools.py",
+          "type": "import"
+        },
+        {
+          "line": 22,
+          "path": "libs/langchain_v1/examples/mcp/destructive_interrupt.py",
+          "type": "import"
+        },
+        {
+          "line": 23,
+          "path": "libs/langchain_v1/examples/mcp/destructive_interrupt.py",
+          "type": "import"
+        },
+        {
+          "line": 20,
+          "path": "libs/langchain_v1/examples/mcp/elicitation.py",
+          "type": "import"
+        },
+        {
+          "line": 21,
+          "path": "libs/langchain_v1/examples/mcp/elicitation.py",
+          "type": "import"
+        },
+        {
+          "line": 16,
+          "path": "libs/langchain_v1/examples/mcp/graph_factory.py",
           "type": "import"
         },
         {
@@ -43631,6 +43670,11 @@
         {
           "line": 38,
           "path": "libs/langchain_v1/langchain/agents/middleware/types.py",
+          "type": "import"
+        },
+        {
+          "line": 23,
+          "path": "libs/langchain_v1/langchain/mcp/elicitation.py",
           "type": "import"
         },
         {
@@ -44064,6 +44108,16 @@
           "type": "import"
         },
         {
+          "line": 14,
+          "path": "libs/langchain_v1/tests/unit_tests/mcp/test_elicitation.py",
+          "type": "import"
+        },
+        {
+          "line": 15,
+          "path": "libs/langchain_v1/tests/unit_tests/mcp/test_elicitation.py",
+          "type": "import"
+        },
+        {
           "line": 24,
           "path": "libs/partners/anthropic/langchain_anthropic/middleware/anthropic_tools.py",
           "type": "import"
@@ -44119,8 +44173,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "530290a9d445069d80a68cdcd4d0da768f2aa2b0",
-    "pushed_at": "2026-09-02T08:37:59Z"
+    "head_sha": "8330dfe987988c1bcbbc5e8d9af9a67e5a1c2744",
+    "pushed_at": "2026-09-03T08:17:49Z"
   },
   "langchain-ai/langchain-aws": {
     "analysis": {
@@ -51542,8 +51596,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "c0a13bb22da80db8a4a90b5f0056facb4591d415",
-    "pushed_at": "2026-09-02T09:52:42Z"
+    "head_sha": "11738d83db4320bb191804342b5c76ae7eca54a0",
+    "pushed_at": "2026-09-03T00:38:34Z"
   },
   "langchain-ai/langgraph-bigtool": {
     "analysis": {
@@ -52293,7 +52347,7 @@
         "websockets"
       ],
       "direct_dependency_count": 30,
-      "direction": "browser_automation",
+      "direction": "coding_agent",
       "external_apis_confirmed": [
         {
           "access_model": "commercial",
@@ -52393,8 +52447,13 @@
           "type": "import"
         },
         {
-          "line": 10,
-          "path": "agent/integrations/stagehand_browser.py",
+          "line": 8,
+          "path": "agent/github/thread_token.py",
+          "type": "import"
+        },
+        {
+          "line": 12,
+          "path": "agent/github/token.py",
           "type": "import"
         },
         {
@@ -52428,12 +52487,12 @@
           "type": "import"
         },
         {
-          "line": 7,
-          "path": "agent/middleware/notify_step_limit.py",
+          "line": 19,
+          "path": "agent/middleware/model_errors.py",
           "type": "import"
         },
         {
-          "line": 8,
+          "line": 7,
           "path": "agent/middleware/notify_step_limit.py",
           "type": "import"
         },
@@ -52478,11 +52537,6 @@
           "type": "import"
         },
         {
-          "line": 15,
-          "path": "agent/middleware/settle_review_check.py",
-          "type": "import"
-        },
-        {
           "line": 11,
           "path": "agent/middleware/subdir_agents.py",
           "type": "import"
@@ -52528,11 +52582,6 @@
           "type": "import"
         },
         {
-          "line": 22,
-          "path": "agent/review/findings.py",
-          "type": "import"
-        },
-        {
           "line": 27,
           "path": "agent/reviewer.py",
           "type": "import"
@@ -52548,8 +52597,18 @@
           "type": "import"
         },
         {
+          "line": 28,
+          "path": "agent/run_config.py",
+          "type": "import"
+        },
+        {
           "line": 1,
           "path": "agent/runtime/execution.py",
+          "type": "import"
+        },
+        {
+          "line": 24,
+          "path": "agent/sandboxes/state.py",
           "type": "import"
         },
         {
@@ -52560,6 +52619,11 @@
         {
           "line": 7,
           "path": "agent/scheduler.py",
+          "type": "import"
+        },
+        {
+          "line": 21,
+          "path": "agent/server.py",
           "type": "import"
         },
         {
@@ -52573,28 +52637,38 @@
           "type": "import"
         },
         {
-          "line": 24,
-          "path": "agent/server.py",
+          "line": 3,
+          "path": "agent/slack/tools/add_reaction.py",
           "type": "import"
         },
         {
           "line": 7,
-          "path": "agent/tools/_sandbox_output.py",
+          "path": "agent/slack/tools/attach_html.py",
+          "type": "import"
+        },
+        {
+          "line": 5,
+          "path": "agent/slack/tools/move_thread.py",
+          "type": "import"
+        },
+        {
+          "line": 3,
+          "path": "agent/slack/tools/request_pr_review.py",
+          "type": "import"
+        },
+        {
+          "line": 5,
+          "path": "agent/slack/tools/thread_reply.py",
+          "type": "import"
+        },
+        {
+          "line": 6,
+          "path": "agent/slack/tools/thread_reply.py",
           "type": "import"
         },
         {
           "line": 5,
           "path": "agent/tools/add_finding.py",
-          "type": "import"
-        },
-        {
-          "line": 6,
-          "path": "agent/tools/add_finding.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "agent/tools/admin_gate.py",
           "type": "import"
         },
         {
@@ -52605,66 +52679,16 @@
         {
           "line": 10,
           "path": "agent/tools/approve_plan.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "agent/tools/approve_plan.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "agent/tools/background_execute.py",
-          "type": "import"
-        },
-        {
-          "line": 5,
-          "path": "agent/tools/create_sandbox_file_download_url.py",
-          "type": "import"
-        },
-        {
-          "line": 3,
-          "path": "agent/tools/create_sandbox_service_url.py",
           "type": "import"
         },
         {
           "line": 8,
           "path": "agent/tools/enter_plan_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "agent/tools/enter_plan_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 6,
-          "path": "agent/tools/fetch_review_diff.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "agent/tools/list_review_findings.py",
           "type": "import"
         },
         {
           "line": 6,
           "path": "agent/tools/manage_baby_sit.py",
-          "type": "import"
-        },
-        {
-          "line": 5,
-          "path": "agent/tools/manage_code_channel.py",
-          "type": "import"
-        },
-        {
-          "line": 7,
-          "path": "agent/tools/notify_automation_channel.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
-          "path": "agent/tools/open_pull_request.py",
           "type": "import"
         },
         {
@@ -52683,42 +52707,12 @@
           "type": "import"
         },
         {
-          "line": 12,
-          "path": "agent/tools/read_repo_file.py",
-          "type": "import"
-        },
-        {
           "line": 7,
           "path": "agent/tools/read_user_settings.py",
           "type": "import"
         },
         {
-          "line": 6,
-          "path": "agent/tools/recreate_sandbox.py",
-          "type": "import"
-        },
-        {
-          "line": 3,
-          "path": "agent/tools/reply_to_finding_thread.py",
-          "type": "import"
-        },
-        {
-          "line": 3,
-          "path": "agent/tools/request_pr_review.py",
-          "type": "import"
-        },
-        {
-          "line": 3,
-          "path": "agent/tools/resolve_finding_thread.py",
-          "type": "import"
-        },
-        {
           "line": 8,
-          "path": "agent/tools/save_plan.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
           "path": "agent/tools/save_plan.py",
           "type": "import"
         },
@@ -52734,82 +52728,17 @@
         },
         {
           "line": 12,
-          "path": "agent/tools/schedule_thread_wakeup.py",
-          "type": "import"
-        },
-        {
-          "line": 6,
-          "path": "agent/tools/search_repo_code.py",
-          "type": "import"
-        },
-        {
-          "line": 3,
-          "path": "agent/tools/slack_add_reaction.py",
-          "type": "import"
-        },
-        {
-          "line": 7,
-          "path": "agent/tools/slack_attach_html.py",
-          "type": "import"
-        },
-        {
-          "line": 5,
-          "path": "agent/tools/slack_move_thread.py",
-          "type": "import"
-        },
-        {
-          "line": 7,
-          "path": "agent/tools/slack_start_new_thread.py",
-          "type": "import"
-        },
-        {
-          "line": 5,
-          "path": "agent/tools/slack_thread_reply.py",
-          "type": "import"
-        },
-        {
-          "line": 6,
-          "path": "agent/tools/slack_thread_reply.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
           "path": "agent/tools/threads.py",
           "type": "import"
         },
         {
           "line": 13,
           "path": "agent/tools/threads.py",
-          "type": "import"
-        },
-        {
-          "line": 5,
-          "path": "agent/tools/update_finding.py",
           "type": "import"
         },
         {
           "line": 5,
           "path": "agent/tools/user_skills.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "agent/utils/auth.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "agent/utils/auth.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
-          "path": "agent/utils/github_token.py",
-          "type": "import"
-        },
-        {
-          "line": 24,
-          "path": "agent/utils/sandbox_state.py",
           "type": "import"
         },
         {
@@ -52843,12 +52772,12 @@
           "type": "import"
         },
         {
-          "line": 188,
+          "line": 189,
           "path": "tests/agent/test_plan_mode.py",
           "type": "import"
         },
         {
-          "line": 216,
+          "line": 217,
           "path": "tests/agent/test_plan_mode.py",
           "type": "import"
         },
@@ -52858,7 +52787,7 @@
           "type": "import"
         },
         {
-          "line": 382,
+          "line": 381,
           "path": "tests/agent/test_plan_mode.py",
           "type": "import"
         },
@@ -52949,8 +52878,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "2c11a34ddac1c17e6c313ccc42ed44c613bf50b3",
-    "pushed_at": "2026-09-02T11:33:57Z"
+    "head_sha": "d120e43316fa49664829a759f391a11bffcfe936",
+    "pushed_at": "2026-09-03T12:08:15Z"
   },
   "langchain-ai/openevals": {
     "analysis": {
@@ -57343,8 +57272,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "c33ca27f5e8f920b27a9414927f4c7e2c1887fa8",
-    "pushed_at": "2026-09-02T11:51:31Z"
+    "head_sha": "9a7924befd7026e41e445ba809370009e5e985a6",
+    "pushed_at": "2026-09-03T12:05:15Z"
   },
   "mfmezger/conversational-agent-langchain": {
     "analysis": {
@@ -57868,7 +57797,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "359a2332f57d9000924baba269ed24e4e15ad8b0",
-    "pushed_at": "2026-09-02T02:29:17Z"
+    "pushed_at": "2026-09-03T08:00:42Z"
   },
   "midodimori/langrepl": {
     "analysis": {
@@ -58336,7 +58265,7 @@
   },
   "mlflow/mlflow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-02T12:00:03Z",
+    "pushed_at": "2026-09-03T11:44:34Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "modelscope/easydistill": {
@@ -68003,6 +67932,8 @@
         "policy_node_id",
         "n1",
         "n2",
+        "seed_node",
+        "persistent_node",
         "n1",
         "n2",
         "a",
@@ -68028,7 +67959,7 @@
         "alice",
         "bob"
       ],
-      "nodes_confirmed": 196,
+      "nodes_confirmed": 198,
       "nodes_dynamic_unknown": true,
       "project_kind": "unknown",
       "state_field_names_confirmed": [],
@@ -68041,8 +67972,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "110f6deb1e490a77f67cbd6fa7f47320736bf00a",
-    "pushed_at": "2026-09-02T12:07:12Z"
+    "head_sha": "5809418421cf2327114746f590d8e5e180c35912",
+    "pushed_at": "2026-09-03T11:50:04Z"
   },
   "shenjianan97/persistent-agent-runtime": {
     "analysis": {
@@ -73174,7 +73105,7 @@
   },
   "vectorize-io/hindsight": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-02T12:03:15Z",
+    "pushed_at": "2026-09-03T10:46:07Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "velocitybolt/open-extract": {
@@ -74008,7 +73939,7 @@
   },
   "volcengine/OpenViking": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-02T12:02:15Z",
+    "pushed_at": "2026-09-03T11:26:09Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "vstorm-co/full-stack-ai-agent-template": {
@@ -77095,7 +77026,7 @@
   },
   "zenml-io/zenml": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-02T09:27:39Z",
+    "pushed_at": "2026-09-03T12:04:51Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "zezhishao/DailyArXiv": {
