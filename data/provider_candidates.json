@@ -354,12 +354,6 @@
     ]
   },
   {
-    "signal": "JUDGE_ANTHROPIC_API_KEY",
-    "repositories": [
-      "langchain-ai/open-swe"
-    ]
-  },
-  {
     "signal": "JWT_SECRET_KEY",
     "repositories": [
       "xerrors/Yuxi"
