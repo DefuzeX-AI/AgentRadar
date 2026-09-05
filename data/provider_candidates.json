@@ -828,6 +828,12 @@
     ]
   },
   {
+    "signal": "YUXI_LOAD_API_KEY",
+    "repositories": [
+      "xerrors/Yuxi"
+    ]
+  },
+  {
     "signal": "ZAI_API_KEY",
     "repositories": [
       "PurpleAILAB/Decepticon"
