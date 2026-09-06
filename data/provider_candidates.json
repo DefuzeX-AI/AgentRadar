@@ -65,12 +65,6 @@
     ]
   },
   {
-    "signal": "BASETEN_API_KEY",
-    "repositories": [
-      "langchain-ai/open-swe"
-    ]
-  },
-  {
     "signal": "BING_API_KEY",
     "repositories": [
       "assafelovic/gpt-researcher"
@@ -177,12 +171,6 @@
     ]
   },
   {
-    "signal": "DAYTONA_API_KEY",
-    "repositories": [
-      "langchain-ai/open-swe"
-    ]
-  },
-  {
     "signal": "DECEPTICON_LLM__PROXY_API_KEY",
     "repositories": [
       "PurpleAILAB/Decepticon"
@@ -232,7 +220,6 @@
     "signal": "E2B_API_KEY",
     "repositories": [
       "bytedance/deer-flow",
-      "langchain-ai/open-swe",
       "rllm-org/rllm"
     ]
   },
@@ -378,18 +365,6 @@
     ]
   },
   {
-    "signal": "LANGSMITH_GATEWAY_API_KEY",
-    "repositories": [
-      "langchain-ai/open-swe"
-    ]
-  },
-  {
-    "signal": "LINEAR_API_KEY",
-    "repositories": [
-      "langchain-ai/open-swe"
-    ]
-  },
-  {
     "signal": "LITELLM_API_KEY",
     "repositories": [
       "confident-ai/deepeval"
@@ -458,12 +433,6 @@
     "signal": "MODELSLAB_API_KEY",
     "repositories": [
       "assafelovic/gpt-researcher"
-    ]
-  },
-  {
-    "signal": "MODEL_API_KEY",
-    "repositories": [
-      "langchain-ai/open-swe"
     ]
   },
   {
@@ -628,14 +597,7 @@
   {
     "signal": "RUNLOOP_API_KEY",
     "repositories": [
-      "langchain-ai/deepagents",
-      "langchain-ai/open-swe"
-    ]
-  },
-  {
-    "signal": "SANDBOX_LANGSMITH_API_KEY",
-    "repositories": [
-      "langchain-ai/open-swe"
+      "langchain-ai/deepagents"
     ]
   },
   {
@@ -692,12 +654,6 @@
     "signal": "SKILLSPECTOR_COMPAT_API_KEY",
     "repositories": [
       "NVIDIA/SkillSpector"
-    ]
-  },
-  {
-    "signal": "STAGEHAND_MODEL_API_KEY",
-    "repositories": [
-      "langchain-ai/open-swe"
     ]
   },
   {
