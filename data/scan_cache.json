@@ -1766,8 +1766,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "d5eeadbd4f34c961be8d85298b4bd5ae95ba56ce",
-    "pushed_at": "2026-09-05T23:01:13Z"
+    "head_sha": "30dccec0744d55612366aa3d444eb7dc12f7831b",
+    "pushed_at": "2026-09-07T13:12:12Z"
   },
   "Arvo-AI/aurora": {
     "analysis": {
@@ -2168,7 +2168,7 @@
   },
   "BerriAI/litellm": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-06T11:32:15Z",
+    "pushed_at": "2026-09-07T13:29:30Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "Bessouat40/RAGLight": {
@@ -3004,6 +3004,7 @@
         "duckdb",
         "google-auth",
         "google-cloud-bigquery",
+        "huggingface-hub",
         "inquirerpy",
         "jinja2",
         "lancedb",
@@ -3014,6 +3015,8 @@
         "lxml",
         "mcp",
         "mysqlclient",
+        "numpy",
+        "onnxruntime",
         "opendal",
         "oracledb",
         "pandas",
@@ -3041,6 +3044,7 @@
         "snowflake-connector-python",
         "sqlglot",
         "starlette",
+        "tokenizers",
         "trino",
         "typer",
         "urllib3",
@@ -3048,7 +3052,7 @@
         "wren-core-py",
         "wrenai"
       ],
-      "direct_dependency_count": 51,
+      "direct_dependency_count": 55,
       "direction": "coding_agent",
       "external_apis_confirmed": [
         {
@@ -3110,8 +3114,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "10a6432afb24c5ba92f87d13693393e8b0a66401",
-    "pushed_at": "2026-09-04T15:52:51Z"
+    "head_sha": "c59ec230d2a117bb85313efeb24a5107342322c0",
+    "pushed_at": "2026-09-07T08:47:52Z"
   },
   "ChaitanyaEswarRajeshJakki/gemini-youtube-automation": {
     "analysis": {
@@ -6676,8 +6680,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "ad42cc8ddaa565cd6b9751cf75fadd849c1e8649",
-    "pushed_at": "2026-09-01T11:35:27Z"
+    "head_sha": "d4efe4816cbe48423e7e7fb707824a71344ca234",
+    "pushed_at": "2026-09-06T14:24:36Z"
   },
   "GoogleCloudPlatform/agent-starter-pack": {
     "analysis": {
@@ -7173,8 +7177,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "2308f257384c11232269f2fce593e05ea28cedb9",
-    "pushed_at": "2026-09-06T07:50:13Z"
+    "head_sha": "a4f06a29f61f2dec3764da294db77478521de259",
+    "pushed_at": "2026-09-06T18:44:06Z"
   },
   "HKUSTDial/DeepEar": {
     "analysis": {
@@ -10562,7 +10566,7 @@
   },
   "LearningCircuit/local-deep-research": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-06T08:30:01Z",
+    "pushed_at": "2026-09-07T06:07:22Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "LegalQuants/lq-ai": {
@@ -13516,8 +13520,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "7805bb94843d91cb9937f57264ca52642164499b",
-    "pushed_at": "2026-09-01T08:36:09Z"
+    "head_sha": "704bc9544260c2f41222dc0f92982521709496ab",
+    "pushed_at": "2026-09-07T12:11:59Z"
   },
   "NVlabs/SpatialClaw": {
     "analysis": {
@@ -16854,7 +16858,7 @@
   },
   "Shubhamsaboo/awesome-llm-apps": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-02T23:13:03Z",
+    "pushed_at": "2026-09-07T07:12:53Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "SponsioLabs/Sponsio": {
@@ -26734,12 +26738,12 @@
           "type": "import"
         },
         {
-          "line": 742,
+          "line": 752,
           "path": "backend/packages/harness/deerflow/agents/middlewares/llm_error_handling_middleware.py",
           "type": "import"
         },
         {
-          "line": 763,
+          "line": 773,
           "path": "backend/packages/harness/deerflow/agents/middlewares/llm_error_handling_middleware.py",
           "type": "import"
         },
@@ -27049,12 +27053,12 @@
           "type": "import"
         },
         {
-          "line": 15,
+          "line": 16,
           "path": "backend/packages/harness/deerflow/mcp/tools.py",
           "type": "import"
         },
         {
-          "line": 360,
+          "line": 389,
           "path": "backend/packages/harness/deerflow/mcp/tools.py",
           "type": "import"
         },
@@ -27529,12 +27533,12 @@
           "type": "import"
         },
         {
-          "line": 1784,
+          "line": 1806,
           "path": "backend/tests/test_client.py",
           "type": "import"
         },
         {
-          "line": 3265,
+          "line": 3303,
           "path": "backend/tests/test_client.py",
           "type": "import"
         },
@@ -28239,6 +28243,11 @@
           "type": "import"
         },
         {
+          "line": 4,
+          "path": "backend/tests/test_thread_archive.py",
+          "type": "import"
+        },
+        {
           "line": 2,
           "path": "backend/tests/test_thread_data_middleware.py",
           "type": "import"
@@ -28299,12 +28308,12 @@
           "type": "import"
         },
         {
-          "line": 1341,
+          "line": 1342,
           "path": "backend/tests/test_threads_router.py",
           "type": "import"
         },
         {
-          "line": 1372,
+          "line": 1373,
           "path": "backend/tests/test_threads_router.py",
           "type": "import"
         },
@@ -28324,7 +28333,7 @@
           "type": "import"
         },
         {
-          "line": 1103,
+          "line": 1105,
           "path": "backend/tests/test_tool_error_handling_middleware.py",
           "type": "import"
         },
@@ -28469,8 +28478,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "e3df6ea4a81137520b4eb04d42d56cc5749e375a",
-    "pushed_at": "2026-09-06T08:46:51Z"
+    "head_sha": "cbd6621d526a3a5bfb3a435e5b2edbce31afd625",
+    "pushed_at": "2026-09-07T10:43:01Z"
   },
   "cft0808/edict": {
     "analysis": {
@@ -28513,7 +28522,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "14a207557719c046af0f993a7bff1cc5a5015b33",
-    "pushed_at": "2026-08-03T11:24:42Z"
+    "pushed_at": "2026-09-07T02:26:10Z"
   },
   "chatchat-space/LangGraph-Chatchat": {
     "analysis": {
@@ -29222,7 +29231,7 @@
   },
   "comet-ml/opik": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-05T21:47:23Z",
+    "pushed_at": "2026-09-07T13:13:20Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "confident-ai/deepeval": {
@@ -29569,8 +29578,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "077c81b1bffc7eabc3733f950f21b87c09d695ad",
-    "pushed_at": "2026-09-03T10:35:12Z"
+    "head_sha": "f94d940c1e5afc4b280420fe73fe17d146274018",
+    "pushed_at": "2026-09-06T14:43:27Z"
   },
   "csml-rpi/Foam-Agent": {
     "analysis": {
@@ -33707,8 +33716,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "547422865cca9fb5a82915c074d899428c145ff4",
-    "pushed_at": "2026-09-04T17:52:53Z"
+    "head_sha": "b943c9e8486cdc7fe6cb2f4cfe151ae53f0a884d",
+    "pushed_at": "2026-09-06T12:29:05Z"
   },
   "getzep/zep": {
     "analyzer_version": 1,
@@ -36639,8 +36648,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "717217c39f76cc702868b058ca80955b15433844",
-    "pushed_at": "2026-09-05T13:50:51Z"
+    "head_sha": "8c2c2f8721881e2a00e81593b2571aea18f6d6e6",
+    "pushed_at": "2026-09-07T02:57:20Z"
   },
   "ilsilfverskiold/Awesome-LLM-Resources-List": {
     "analysis": {
@@ -43370,8 +43379,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "6c89fe2197a2dfe4f3851cda38565bcadba6066b",
-    "pushed_at": "2026-09-06T08:19:20Z"
+    "head_sha": "07d2952d346d81d06bd181db8c560a77f2b51bc8",
+    "pushed_at": "2026-09-07T09:18:38Z"
   },
   "langchain-ai/langchain": {
     "analysis": {
@@ -44327,8 +44336,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "eef3eaeac8ff2646c43b37ac2a755a5e7978e8b4",
-    "pushed_at": "2026-09-06T08:33:06Z"
+    "head_sha": "fa942aec719abd92026dcb56cab8e50a38776611",
+    "pushed_at": "2026-09-07T08:38:28Z"
   },
   "langchain-ai/langchain-aws": {
     "analysis": {
@@ -52864,16 +52873,6 @@
           "type": "import"
         },
         {
-          "line": 7,
-          "path": "agent/utils/tracing.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
-          "path": "agent/utils/tracing.py",
-          "type": "import"
-        },
-        {
           "line": 5,
           "path": "tests/agent/test_admin_environments.py",
           "type": "import"
@@ -53000,8 +52999,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "4dff9ccb3e37c27cc64c11dd2e5cc69bc04c8705",
-    "pushed_at": "2026-09-06T08:45:52Z"
+    "head_sha": "8a7982d0976240b4e3dee076f91735751b4c93f3",
+    "pushed_at": "2026-09-07T11:19:41Z"
   },
   "langchain-ai/openevals": {
     "analysis": {
@@ -57919,7 +57918,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "359a2332f57d9000924baba269ed24e4e15ad8b0",
-    "pushed_at": "2026-09-04T03:39:53Z"
+    "pushed_at": "2026-09-07T10:23:18Z"
   },
   "midodimori/langrepl": {
     "analysis": {
@@ -58387,7 +58386,7 @@
   },
   "mlflow/mlflow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-06T11:09:45Z",
+    "pushed_at": "2026-09-07T13:23:00Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "modelscope/easydistill": {
@@ -68117,8 +68116,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "34fe19601c409c66aa3341b9d102243fc4f80d94",
-    "pushed_at": "2026-09-06T11:02:03Z"
+    "head_sha": "07c74cc544225a8e23e1b02cc026687e7930c996",
+    "pushed_at": "2026-09-07T12:39:17Z"
   },
   "shenjianan97/persistent-agent-runtime": {
     "analysis": {
@@ -73250,7 +73249,7 @@
   },
   "vectorize-io/hindsight": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-06T03:32:10Z",
+    "pushed_at": "2026-09-07T13:32:36Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "velocitybolt/open-extract": {
@@ -74084,7 +74083,7 @@
   },
   "volcengine/OpenViking": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-06T07:01:48Z",
+    "pushed_at": "2026-09-07T13:31:45Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "vstorm-co/full-stack-ai-agent-template": {
@@ -77191,7 +77190,7 @@
   },
   "zenml-io/zenml": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-05T10:35:08Z",
+    "pushed_at": "2026-09-07T12:47:00Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "zezhishao/DailyArXiv": {
