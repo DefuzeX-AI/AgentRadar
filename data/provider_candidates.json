@@ -195,6 +195,12 @@
     ]
   },
   {
+    "signal": "DEEPAGENTS_TALON_HISTORY_EMBED_API_KEY",
+    "repositories": [
+      "langchain-ai/deepagents"
+    ]
+  },
+  {
     "signal": "DEEPGRAM_API_KEY",
     "repositories": [
       "confident-ai/deepeval"
@@ -654,6 +660,12 @@
     "signal": "SKILLSPECTOR_COMPAT_API_KEY",
     "repositories": [
       "NVIDIA/SkillSpector"
+    ]
+  },
+  {
+    "signal": "SOFYA_API_KEY",
+    "repositories": [
+      "bytedance/deer-flow"
     ]
   },
   {
