@@ -1766,8 +1766,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "7b5a9dc8fb2fc1ae1402ecabe7c25ecfd7b2cba3",
-    "pushed_at": "2026-09-10T06:20:22Z"
+    "head_sha": "d69a92e16ac29dc8a7a7262aa18ddeaccfea2b70",
+    "pushed_at": "2026-09-11T05:46:23Z"
   },
   "Arvo-AI/aurora": {
     "analysis": {
@@ -2168,7 +2168,7 @@
   },
   "BerriAI/litellm": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-10T11:26:24Z",
+    "pushed_at": "2026-09-11T11:12:37Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "Bessouat40/RAGLight": {
@@ -3114,8 +3114,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "ad30c6cfbf0d1e6f8c450b2128d4cf5310fc2a67",
-    "pushed_at": "2026-09-10T08:58:43Z"
+    "head_sha": "be1f9b57d2664aeb8287eef3eae3d931d90da3b9",
+    "pushed_at": "2026-09-11T11:25:22Z"
   },
   "ChaitanyaEswarRajeshJakki/gemini-youtube-automation": {
     "analysis": {
@@ -13521,7 +13521,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "69dcdfb74487d361ba4c811d088cfdea2ff3a9dc",
-    "pushed_at": "2026-09-10T11:52:43Z"
+    "pushed_at": "2026-09-11T09:45:17Z"
   },
   "NVlabs/SpatialClaw": {
     "analysis": {
@@ -15400,8 +15400,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "077abf6fa7a3a51f9ff255c37f8886c6c8256082",
-    "pushed_at": "2026-09-10T07:48:41Z"
+    "head_sha": "66f644db05954ae950c13554ce0cc9f4df020af8",
+    "pushed_at": "2026-09-10T19:36:02Z"
   },
   "Pan-Chera/Multi-Agent-CAD": {
     "analysis": {
@@ -16858,7 +16858,7 @@
   },
   "Shubhamsaboo/awesome-llm-apps": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-10T06:46:34Z",
+    "pushed_at": "2026-09-11T01:23:03Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "SponsioLabs/Sponsio": {
@@ -26507,6 +26507,7 @@
         "alembic",
         "asyncpg",
         "bcrypt",
+        "beautifulsoup4",
         "boxlite",
         "coincurve",
         "croniter",
@@ -26523,6 +26524,7 @@
         "exa-py",
         "fastapi",
         "firecrawl-py",
+        "html5lib",
         "httpx",
         "jieba",
         "kubernetes",
@@ -26576,7 +26578,7 @@
         "uvicorn",
         "wecom-aibot-python-sdk"
       ],
-      "direct_dependency_count": 74,
+      "direct_dependency_count": 76,
       "direction": "research_agent",
       "external_apis_confirmed": [
         {
@@ -26749,7 +26751,7 @@
           "type": "import"
         },
         {
-          "line": 68,
+          "line": 79,
           "path": "backend/packages/harness/deerflow/agents/middlewares/loop_detection_middleware.py",
           "type": "import"
         },
@@ -26774,12 +26776,12 @@
           "type": "import"
         },
         {
-          "line": 39,
+          "line": 50,
           "path": "backend/packages/harness/deerflow/agents/middlewares/read_before_write_middleware.py",
           "type": "import"
         },
         {
-          "line": 40,
+          "line": 51,
           "path": "backend/packages/harness/deerflow/agents/middlewares/read_before_write_middleware.py",
           "type": "import"
         },
@@ -27794,67 +27796,67 @@
           "type": "import"
         },
         {
-          "line": 1831,
+          "line": 1863,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 1832,
+          "line": 1864,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 1872,
+          "line": 1904,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 1873,
+          "line": 1905,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 2026,
+          "line": 2058,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 2123,
+          "line": 2155,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 2124,
+          "line": 2156,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 2204,
+          "line": 2236,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 2205,
+          "line": 2237,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 2298,
+          "line": 2330,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 2299,
+          "line": 2331,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 3407,
+          "line": 3504,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 3408,
+          "line": 3505,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
@@ -27929,7 +27931,7 @@
           "type": "import"
         },
         {
-          "line": 1019,
+          "line": 1147,
           "path": "backend/tests/test_mcp_session_pool.py",
           "type": "import"
         },
@@ -28531,8 +28533,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "48a8978b7b6e1ce84454103f1831bf0c5cc3b1eb",
-    "pushed_at": "2026-09-10T08:46:01Z"
+    "head_sha": "3f0b6ecc811190481897f1ed02c2ba0c1f69799e",
+    "pushed_at": "2026-09-11T11:05:48Z"
   },
   "cft0808/edict": {
     "analysis": {
@@ -29284,7 +29286,7 @@
   },
   "comet-ml/opik": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-10T12:12:06Z",
+    "pushed_at": "2026-09-11T11:58:14Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "confident-ai/deepeval": {
@@ -33769,8 +33771,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "4bd728790e836950c3922e84f6f989f1380f54f2",
-    "pushed_at": "2026-09-10T02:36:37Z"
+    "head_sha": "c64e45c111fd43ca7f5536a7f84a73f6acafd5b1",
+    "pushed_at": "2026-09-10T20:19:38Z"
   },
   "getzep/zep": {
     "analyzer_version": 1,
@@ -36701,8 +36703,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "532ce63a3438172fa82df4f3279deec1dae1ada0",
-    "pushed_at": "2026-09-09T10:54:05Z"
+    "head_sha": "1d9b31d00b3e3b8c42858966bec1a3ded71c2d85",
+    "pushed_at": "2026-09-11T06:07:47Z"
   },
   "ilsilfverskiold/Awesome-LLM-Resources-List": {
     "analysis": {
@@ -43374,7 +43376,7 @@
           "type": "import"
         },
         {
-          "line": 76,
+          "line": 83,
           "path": "libs/talon/deepagents_talon/runtime.py",
           "type": "import"
         },
@@ -43429,7 +43431,7 @@
           "type": "import"
         },
         {
-          "line": 36,
+          "line": 35,
           "path": "libs/talon/tests/test_runtime.py",
           "type": "import"
         },
@@ -43609,8 +43611,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "4fb301d647c860d0d8f2108149e58cd9fe623352",
-    "pushed_at": "2026-09-10T09:14:27Z"
+    "head_sha": "54696577caf3dfcefb662db08b4a8034ec6a35cd",
+    "pushed_at": "2026-09-11T09:14:14Z"
   },
   "langchain-ai/langchain": {
     "analysis": {
@@ -44566,8 +44568,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "60357692c76651a7cd6153496a24658fa355bdcc",
-    "pushed_at": "2026-09-10T08:29:06Z"
+    "head_sha": "d5d7cc56ab3932c9a10dc76b31cd5d4a778c3f2a",
+    "pushed_at": "2026-09-11T08:28:30Z"
   },
   "langchain-ai/langchain-aws": {
     "analysis": {
@@ -51995,7 +51997,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "e539ac122f4126f6dd850581c1494948cf620e31",
-    "pushed_at": "2026-09-09T07:22:45Z"
+    "pushed_at": "2026-09-10T17:11:59Z"
   },
   "langchain-ai/langgraph-bigtool": {
     "analysis": {
@@ -52746,7 +52748,7 @@
         "websockets"
       ],
       "direct_dependency_count": 31,
-      "direction": "browser_automation",
+      "direction": "coding_agent",
       "external_apis_confirmed": [
         {
           "access_model": "commercial",
@@ -52841,6 +52843,16 @@
         {
           "line": 15,
           "path": "agent/middleware/check_message_queue.py",
+          "type": "import"
+        },
+        {
+          "line": 20,
+          "path": "agent/middleware/conversation_offloading.py",
+          "type": "import"
+        },
+        {
+          "line": 21,
+          "path": "agent/middleware/conversation_offloading.py",
           "type": "import"
         },
         {
@@ -52961,6 +52973,11 @@
         {
           "line": 16,
           "path": "agent/middleware/workflow_push_guard.py",
+          "type": "import"
+        },
+        {
+          "line": 9,
+          "path": "agent/middleware/workspace_skills.py",
           "type": "import"
         },
         {
@@ -53124,12 +53141,12 @@
           "type": "import"
         },
         {
-          "line": 17,
+          "line": 19,
           "path": "tests/agent/test_agent_assembly_context.py",
           "type": "import"
         },
         {
-          "line": 10,
+          "line": 12,
           "path": "tests/agent/test_factory_tool_loading.py",
           "type": "import"
         },
@@ -53155,6 +53172,11 @@
         },
         {
           "line": 9,
+          "path": "tests/middleware/test_conversation_offloading.py",
+          "type": "import"
+        },
+        {
+          "line": 9,
           "path": "tests/middleware/test_dynamic_tools.py",
           "type": "import"
         },
@@ -53169,7 +53191,7 @@
           "type": "import"
         },
         {
-          "line": 4,
+          "line": 6,
           "path": "tests/models/test_agent_subagent_models.py",
           "type": "import"
         },
@@ -53189,7 +53211,7 @@
           "type": "import"
         },
         {
-          "line": 11,
+          "line": 13,
           "path": "tests/sandbox/test_proxy_auth.py",
           "type": "import"
         },
@@ -53229,6 +53251,7 @@
         "done",
         "environment_slug",
         "feedback",
+        "invocation_id",
         "prepare_run_id",
         "refresh_kind",
         "result",
@@ -53239,7 +53262,7 @@
         "thread_ts",
         "watch_key"
       ],
-      "state_fields_confirmed": 15,
+      "state_fields_confirmed": 16,
       "state_fields_unknown": true,
       "subagent_names_confirmed": [],
       "subagents_confirmed": 0,
@@ -53248,8 +53271,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "27f4e3c996608907d4648306947a575078a01178",
-    "pushed_at": "2026-09-10T12:09:33Z"
+    "head_sha": "5a2c0bfa1094344d37da8627b08e410e5a6b2a8b",
+    "pushed_at": "2026-09-11T12:06:31Z"
   },
   "langchain-ai/openevals": {
     "analysis": {
@@ -57645,8 +57668,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "02f7a9b2c4fe38dedb96631e48c85c74ad58b605",
-    "pushed_at": "2026-09-09T14:40:27Z"
+    "head_sha": "c7ee362aff94a369af70f13f2b4f853f6793ff4c",
+    "pushed_at": "2026-09-11T10:43:07Z"
   },
   "mfmezger/conversational-agent-langchain": {
     "analysis": {
@@ -58638,7 +58661,7 @@
   },
   "mlflow/mlflow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-10T11:51:45Z",
+    "pushed_at": "2026-09-11T11:16:51Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "modelscope/easydistill": {
@@ -61229,7 +61252,7 @@
   },
   "opensandbox-group/OpenSandbox": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-10T07:20:49Z",
+    "pushed_at": "2026-09-11T08:20:24Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "oracle/agent-spec": {
@@ -66663,7 +66686,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "3b40c37cf6a262cf4d28cc987ebe4f4cf797956c",
-    "pushed_at": "2026-09-06T06:05:48Z"
+    "pushed_at": "2026-09-11T04:51:48Z"
   },
   "ro-anderson/multi-agent-rag-customer-support": {
     "analysis": {
@@ -68379,8 +68402,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "161748f0b048110e648ede8c96cbfeddff6db924",
-    "pushed_at": "2026-09-10T10:52:53Z"
+    "head_sha": "bea9b2aa4870dc298e57307814db6efea367ac29",
+    "pushed_at": "2026-09-11T12:10:53Z"
   },
   "shenjianan97/persistent-agent-runtime": {
     "analysis": {
@@ -73512,7 +73535,7 @@
   },
   "vectorize-io/hindsight": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-10T10:36:10Z",
+    "pushed_at": "2026-09-11T09:47:20Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "velocitybolt/open-extract": {
@@ -76249,8 +76272,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "caff3208c9db9128aa0b277bc5c669141383ddbd",
-    "pushed_at": "2026-09-10T10:55:12Z"
+    "head_sha": "9820648eebd4c77daf521886bc19b6cf06b88015",
+    "pushed_at": "2026-09-11T11:32:24Z"
   },
   "xiongQvQ/AI_Find_Customer": {
     "analysis": {
@@ -77517,7 +77540,7 @@
   },
   "zenml-io/zenml": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-09T18:41:20Z",
+    "pushed_at": "2026-09-10T18:10:52Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "zezhishao/DailyArXiv": {
