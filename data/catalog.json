@@ -3,8 +3,8 @@
     "repo": "TauricResearch/TradingAgents",
     "url": "https://github.com/TauricResearch/TradingAgents",
     "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-    "github_stars": 104614,
-    "github_forks": 20048,
+    "github_stars": 104749,
+    "github_forks": 20098,
     "primary_language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-09-07T22:51:54Z",
@@ -171,12 +171,12 @@
     "repo": "bytedance/deer-flow",
     "url": "https://github.com/bytedance/deer-flow",
     "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-    "github_stars": 82272,
-    "github_forks": 11342,
+    "github_stars": 82310,
+    "github_forks": 11348,
     "primary_language": "Python",
     "license": "MIT",
-    "last_push": "2026-09-11T11:05:48Z",
-    "head_sha": "3f0b6ecc811190481897f1ed02c2ba0c1f69799e",
+    "last_push": "2026-09-12T09:27:05Z",
+    "head_sha": "0464502af1c51d7185e6f51d4de65b074a16d5aa",
     "langgraph_status": "confirmed",
     "langgraph_evidence": [
       {
@@ -202,7 +202,7 @@
       {
         "type": "import",
         "path": "backend/app/gateway/services.py",
-        "line": 23
+        "line": 24
       },
       {
         "type": "import",
@@ -397,17 +397,17 @@
       {
         "type": "import",
         "path": "backend/packages/harness/deerflow/agents/middlewares/title_middleware.py",
-        "line": 10
-      },
-      {
-        "type": "import",
-        "path": "backend/packages/harness/deerflow/agents/middlewares/title_middleware.py",
-        "line": 11
-      },
-      {
-        "type": "import",
-        "path": "backend/packages/harness/deerflow/agents/middlewares/title_middleware.py",
         "line": 12
+      },
+      {
+        "type": "import",
+        "path": "backend/packages/harness/deerflow/agents/middlewares/title_middleware.py",
+        "line": 13
+      },
+      {
+        "type": "import",
+        "path": "backend/packages/harness/deerflow/agents/middlewares/title_middleware.py",
+        "line": 14
       },
       {
         "type": "import",
@@ -707,7 +707,7 @@
       {
         "type": "import",
         "path": "backend/packages/harness/deerflow/runtime/runs/worker.py",
-        "line": 1023
+        "line": 1024
       },
       {
         "type": "import",
@@ -1112,7 +1112,7 @@
       {
         "type": "import",
         "path": "backend/tests/test_client.py",
-        "line": 3331
+        "line": 3414
       },
       {
         "type": "import",
@@ -1327,67 +1327,67 @@
       {
         "type": "import",
         "path": "backend/tests/test_gateway_services.py",
-        "line": 1863
+        "line": 1924
       },
       {
         "type": "import",
         "path": "backend/tests/test_gateway_services.py",
-        "line": 1864
+        "line": 1925
       },
       {
         "type": "import",
         "path": "backend/tests/test_gateway_services.py",
-        "line": 1904
+        "line": 1965
       },
       {
         "type": "import",
         "path": "backend/tests/test_gateway_services.py",
-        "line": 1905
+        "line": 1966
       },
       {
         "type": "import",
         "path": "backend/tests/test_gateway_services.py",
-        "line": 2058
+        "line": 2119
       },
       {
         "type": "import",
         "path": "backend/tests/test_gateway_services.py",
-        "line": 2155
+        "line": 2216
       },
       {
         "type": "import",
         "path": "backend/tests/test_gateway_services.py",
-        "line": 2156
+        "line": 2217
       },
       {
         "type": "import",
         "path": "backend/tests/test_gateway_services.py",
-        "line": 2236
+        "line": 2297
       },
       {
         "type": "import",
         "path": "backend/tests/test_gateway_services.py",
-        "line": 2237
+        "line": 2298
       },
       {
         "type": "import",
         "path": "backend/tests/test_gateway_services.py",
-        "line": 2330
+        "line": 2391
       },
       {
         "type": "import",
         "path": "backend/tests/test_gateway_services.py",
-        "line": 2331
+        "line": 2392
       },
       {
         "type": "import",
         "path": "backend/tests/test_gateway_services.py",
-        "line": 3504
+        "line": 3565
       },
       {
         "type": "import",
         "path": "backend/tests/test_gateway_services.py",
-        "line": 3505
+        "line": 3566
       },
       {
         "type": "import",
@@ -1726,6 +1726,11 @@
       },
       {
         "type": "import",
+        "path": "backend/tests/test_sandbox_skill_sync_cancellation.py",
+        "line": 7
+      },
+      {
+        "type": "import",
         "path": "backend/tests/test_setup_agent_e2e_user_isolation.py",
         "line": 297
       },
@@ -1762,47 +1767,47 @@
       {
         "type": "import",
         "path": "backend/tests/test_subagent_executor.py",
-        "line": 1625
+        "line": 1755
       },
       {
         "type": "import",
         "path": "backend/tests/test_subagent_executor.py",
-        "line": 1684
+        "line": 1814
       },
       {
         "type": "import",
         "path": "backend/tests/test_subagent_executor.py",
-        "line": 1726
+        "line": 1856
       },
       {
         "type": "import",
         "path": "backend/tests/test_subagent_executor.py",
-        "line": 1758
+        "line": 1888
       },
       {
         "type": "import",
         "path": "backend/tests/test_subagent_executor.py",
-        "line": 1799
+        "line": 1929
       },
       {
         "type": "import",
         "path": "backend/tests/test_subagent_executor.py",
-        "line": 3062
+        "line": 3192
       },
       {
         "type": "import",
         "path": "backend/tests/test_subagent_executor.py",
-        "line": 3418
+        "line": 3548
       },
       {
         "type": "import",
         "path": "backend/tests/test_subagent_executor.py",
-        "line": 3419
+        "line": 3549
       },
       {
         "type": "import",
         "path": "backend/tests/test_subagent_executor.py",
-        "line": 4271
+        "line": 4401
       },
       {
         "type": "import",
@@ -1837,12 +1842,12 @@
       {
         "type": "import",
         "path": "backend/tests/test_thread_run_idempotency.py",
-        "line": 627
+        "line": 628
       },
       {
         "type": "import",
         "path": "backend/tests/test_thread_run_idempotency.py",
-        "line": 628
+        "line": 629
       },
       {
         "type": "import",
@@ -1887,17 +1892,17 @@
       {
         "type": "import",
         "path": "backend/tests/test_threads_router.py",
-        "line": 1123
+        "line": 1126
       },
       {
         "type": "import",
         "path": "backend/tests/test_threads_router.py",
-        "line": 1485
+        "line": 1487
       },
       {
         "type": "import",
         "path": "backend/tests/test_threads_router.py",
-        "line": 1516
+        "line": 1518
       },
       {
         "type": "import",
@@ -2215,8 +2220,8 @@
     "repo": "assafelovic/gpt-researcher",
     "url": "https://github.com/assafelovic/gpt-researcher",
     "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
-    "github_stars": 29410,
-    "github_forks": 3993,
+    "github_stars": 29419,
+    "github_forks": 3995,
     "primary_language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-08-27T19:34:56Z",
@@ -2560,12 +2565,12 @@
     "repo": "langchain-ai/deepagents",
     "url": "https://github.com/langchain-ai/deepagents",
     "description": "The batteries-included agent harness.",
-    "github_stars": 29318,
+    "github_stars": 29335,
     "github_forks": 4105,
     "primary_language": "Python",
     "license": "MIT",
-    "last_push": "2026-09-11T09:14:14Z",
-    "head_sha": "54696577caf3dfcefb662db08b4a8034ec6a35cd",
+    "last_push": "2026-09-12T09:12:44Z",
+    "head_sha": "9e7d62ff6e7131505995a706d717e01837aa8617",
     "langgraph_status": "confirmed",
     "langgraph_evidence": [
       {
@@ -4376,8 +4381,8 @@
     "repo": "confident-ai/deepeval",
     "url": "https://github.com/confident-ai/deepeval",
     "description": "The LLM Evaluation Framework",
-    "github_stars": 18219,
-    "github_forks": 1920,
+    "github_stars": 18230,
+    "github_forks": 1921,
     "primary_language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-09-08T07:08:59Z",
@@ -4727,45 +4732,14 @@
     "repo": "Canner/WrenAI",
     "url": "https://github.com/Canner/WrenAI",
     "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
-    "github_stars": 17580,
-    "github_forks": 2000,
+    "github_stars": 17588,
+    "github_forks": 2001,
     "primary_language": "Python",
     "license": "NOASSERTION",
     "last_push": "2026-09-11T11:25:22Z",
     "head_sha": "be1f9b57d2664aeb8287eef3eae3d931d90da3b9",
-    "langgraph_status": "confirmed",
-    "langgraph_evidence": [
-      {
-        "type": "import",
-        "path": "sdk/wren-langchain/examples/langgraph_demo.py",
-        "line": 61
-      },
-      {
-        "type": "import",
-        "path": "sdk/wren-langchain/examples/langgraph_demo.py",
-        "line": 62
-      },
-      {
-        "type": "import",
-        "path": "sdk/wren-langchain/examples/langgraph_demo.py",
-        "line": 63
-      },
-      {
-        "type": "import",
-        "path": "sdk/wren-langchain/tests/integration/test_langgraph_toolnode.py",
-        "line": 17
-      },
-      {
-        "type": "import",
-        "path": "sdk/wren-langchain/tests/integration/test_langgraph_toolnode.py",
-        "line": 18
-      }
-    ],
-    "langgraph_dependency": true,
-    "tutorial_only": false,
-    "project_kind": "agent_project",
-    "direction": "coding_agent",
-    "direct_dependency_count": 55,
+    "agent_factories_confirmed": 0,
+    "conditional_edges_confirmed": 1,
     "direct_dependencies": [
       "boto3",
       "clickhouse-connect",
@@ -4823,46 +4797,77 @@
       "wren-core-py",
       "wrenai"
     ],
+    "direct_dependency_count": 55,
+    "direction": "coding_agent",
     "external_apis_confirmed": [
       {
-        "provider": "openai",
         "access_model": "commercial",
         "evidence": [
           "import",
           "environment_variable"
-        ]
+        ],
+        "provider": "openai"
       }
     ],
     "external_apis_unknown": [],
-    "nodes_confirmed": 3,
+    "langgraph_dependency": true,
+    "langgraph_evidence": [
+      {
+        "line": 61,
+        "path": "sdk/wren-langchain/examples/langgraph_demo.py",
+        "type": "import"
+      },
+      {
+        "line": 62,
+        "path": "sdk/wren-langchain/examples/langgraph_demo.py",
+        "type": "import"
+      },
+      {
+        "line": 63,
+        "path": "sdk/wren-langchain/examples/langgraph_demo.py",
+        "type": "import"
+      },
+      {
+        "line": 17,
+        "path": "sdk/wren-langchain/tests/integration/test_langgraph_toolnode.py",
+        "type": "import"
+      },
+      {
+        "line": 18,
+        "path": "sdk/wren-langchain/tests/integration/test_langgraph_toolnode.py",
+        "type": "import"
+      }
+    ],
+    "langgraph_status": "confirmed",
     "node_names_confirmed": [
       "agent",
       "tools",
       "tools"
     ],
+    "nodes_confirmed": 3,
     "nodes_dynamic_unknown": false,
-    "conditional_edges_confirmed": 1,
-    "state_fields_confirmed": 1,
+    "project_kind": "agent_project",
     "state_field_names_confirmed": [
       "messages"
     ],
-    "agent_factories_confirmed": 0,
-    "subagents_confirmed": 0,
+    "state_fields_confirmed": 1,
+    "state_fields_unknown": true,
     "subagent_names_confirmed": [],
+    "subagents_confirmed": 0,
     "subagents_unknown": true,
     "subgraphs_confirmed": 0,
-    "state_fields_unknown": true
+    "tutorial_only": false
   },
   {
     "repo": "NVIDIA/SkillSpector",
     "url": "https://github.com/NVIDIA/SkillSpector",
     "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-    "github_stars": 16934,
-    "github_forks": 1442,
+    "github_stars": 17006,
+    "github_forks": 1448,
     "primary_language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-09-11T09:45:17Z",
-    "head_sha": "69dcdfb74487d361ba4c811d088cfdea2ff3a9dc",
+    "last_push": "2026-09-12T09:34:38Z",
+    "head_sha": "66e7983b5af5e7c755b2c7ce1ccba4a30245c556",
     "langgraph_status": "confirmed",
     "langgraph_evidence": [
       {
@@ -4965,12 +4970,12 @@
     "repo": "Arize-ai/phoenix",
     "url": "https://github.com/Arize-ai/phoenix",
     "description": "AI Observability & Evaluation",
-    "github_stars": 11416,
-    "github_forks": 1122,
+    "github_stars": 11419,
+    "github_forks": 1125,
     "primary_language": "Python",
     "license": "NOASSERTION",
-    "last_push": "2026-09-11T05:46:23Z",
-    "head_sha": "d69a92e16ac29dc8a7a7262aa18ddeaccfea2b70",
+    "last_push": "2026-09-12T04:31:55Z",
+    "head_sha": "e12748298b366605cc0e2aa60e659f473efbff99",
     "langgraph_status": "confirmed",
     "langgraph_evidence": [
       {
@@ -5299,12 +5304,12 @@
     "repo": "langchain-ai/open-swe",
     "url": "https://github.com/langchain-ai/open-swe",
     "description": "An Open-Source Asynchronous Coding Agent",
-    "github_stars": 10696,
+    "github_stars": 10698,
     "github_forks": 1261,
     "primary_language": "Python",
     "license": "MIT",
-    "last_push": "2026-09-11T12:06:31Z",
-    "head_sha": "5a2c0bfa1094344d37da8627b08e410e5a6b2a8b",
+    "last_push": "2026-09-12T11:17:11Z",
+    "head_sha": "fea4c7858aa93b675b26e47395173d2ca25e5693",
     "langgraph_status": "confirmed",
     "langgraph_evidence": [
       {
@@ -5867,8 +5872,8 @@
     "repo": "GetBindu/Bindu",
     "url": "https://github.com/GetBindu/Bindu",
     "description": "Bindu: The identity, communication, and payments layer for AI agents.",
-    "github_stars": 9837,
-    "github_forks": 443,
+    "github_stars": 9833,
+    "github_forks": 442,
     "primary_language": "Python",
     "license": "NOASSERTION",
     "last_push": "2026-09-06T14:24:36Z",
@@ -6013,7 +6018,7 @@
     "repo": "traceloop/openllmetry",
     "url": "https://github.com/traceloop/openllmetry",
     "description": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
-    "github_stars": 7428,
+    "github_stars": 7427,
     "github_forks": 1072,
     "primary_language": "Python",
     "license": "Apache-2.0",
@@ -6343,220 +6348,14 @@
     "repo": "xerrors/Yuxi",
     "url": "https://github.com/xerrors/Yuxi",
     "description": "可私有部署的多租户知识智能体平台：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Self-hosted knowledge agent platform for RAG, knowledge graphs and multi-agent workflows.",
-    "github_stars": 6926,
-    "github_forks": 1078,
+    "github_stars": 6938,
+    "github_forks": 1086,
     "primary_language": "Python",
     "license": "MIT",
     "last_push": "2026-09-11T11:32:24Z",
     "head_sha": "9820648eebd4c77daf521886bc19b6cf06b88015",
-    "langgraph_status": "confirmed",
-    "langgraph_evidence": [
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/base.py",
-        "line": 9
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/base.py",
-        "line": 10
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/base.py",
-        "line": 11
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/middlewares/memory.py",
-        "line": 11
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/middlewares/skills.py",
-        "line": 14
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/middlewares/subagent_task.py",
-        "line": 12
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/middlewares/subagent_task.py",
-        "line": 13
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/middlewares/summary.py",
-        "line": 26
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/middlewares/summary.py",
-        "line": 27
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/middlewares/token_usage.py",
-        "line": 24
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/toolkits/buildin/install_skill.py",
-        "line": 9
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/toolkits/buildin/install_skill.py",
-        "line": 10
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/toolkits/buildin/tools.py",
-        "line": 13
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/toolkits/buildin/tools.py",
-        "line": 14
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/agents/toolkits/kbs/tools.py",
-        "line": 10
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/repositories/agent_state_repository.py",
-        "line": 7
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/services/chat_service.py",
-        "line": 23
-      },
-      {
-        "type": "import",
-        "path": "backend/package/yuxi/storage/postgres/manager.py",
-        "line": 7
-      },
-      {
-        "type": "import",
-        "path": "backend/test/integration/api/test_context_compression_router.py",
-        "line": 13
-      },
-      {
-        "type": "import",
-        "path": "backend/test/integration/api/test_context_compression_router.py",
-        "line": 14
-      },
-      {
-        "type": "import",
-        "path": "backend/test/integration/services/test_checkpoint_concurrency.py",
-        "line": 9
-      },
-      {
-        "type": "import",
-        "path": "backend/test/performance/probe.py",
-        "line": 119
-      },
-      {
-        "type": "import",
-        "path": "backend/test/performance/stage_probe.py",
-        "line": 198
-      },
-      {
-        "type": "import",
-        "path": "backend/test/performance/stage_probe.py",
-        "line": 199
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/agents/test_agent_stream_close.py",
-        "line": 6
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/agents/test_agent_stream_close.py",
-        "line": 7
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/agents/test_base_tool_event_normalize.py",
-        "line": 8
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/agents/test_provider_reasoning.py",
-        "line": 8
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/agents/test_provider_reasoning.py",
-        "line": 9
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/agents/test_streaming_toolcall_fix.py",
-        "line": 17
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/agents/test_streaming_toolcall_fix.py",
-        "line": 18
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/backends/test_sandbox_backends.py",
-        "line": 18
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/middlewares/test_skills_middleware.py",
-        "line": 9
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/middlewares/test_steer_safety_gate.py",
-        "line": 15
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/middlewares/test_subagent_task_middleware.py",
-        "line": 10
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/middlewares/test_subagent_task_middleware.py",
-        "line": 11
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/services/test_chat_service_langfuse_stream.py",
-        "line": 21
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/services/test_chat_service_langfuse_stream.py",
-        "line": 22
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/services/test_chat_service_langfuse_stream.py",
-        "line": 23
-      },
-      {
-        "type": "import",
-        "path": "backend/test/unit/services/test_chat_service_langfuse_stream.py",
-        "line": 24
-      }
-    ],
-    "langgraph_dependency": true,
-    "tutorial_only": false,
-    "project_kind": "agent_project",
-    "direction": "data_sql",
-    "direct_dependency_count": 75,
+    "agent_factories_confirmed": 0,
+    "conditional_edges_confirmed": 0,
     "direct_dependencies": [
       "agent-sandbox",
       "aioboto3",
@@ -6634,36 +6433,38 @@
       "websockets",
       "yuxi"
     ],
+    "direct_dependency_count": 75,
+    "direction": "data_sql",
     "external_apis_confirmed": [
       {
-        "provider": "anthropic",
         "access_model": "commercial",
         "evidence": [
           "import"
-        ]
+        ],
+        "provider": "anthropic"
       },
       {
-        "provider": "google_genai",
         "access_model": "commercial_or_free_tier",
         "evidence": [
           "import"
-        ]
+        ],
+        "provider": "google_genai"
       },
       {
-        "provider": "openai",
         "access_model": "commercial",
         "evidence": [
           "dependency",
           "import"
-        ]
+        ],
+        "provider": "openai"
       },
       {
-        "provider": "tavily",
         "access_model": "commercial_or_free_tier",
         "evidence": [
           "dependency",
           "import"
-        ]
+        ],
+        "provider": "tavily"
       }
     ],
     "external_apis_unknown": [
@@ -6676,7 +6477,210 @@
       "SILICONFLOW_API_KEY",
       "YUXI_LOAD_API_KEY"
     ],
-    "nodes_confirmed": 5,
+    "langgraph_dependency": true,
+    "langgraph_evidence": [
+      {
+        "line": 9,
+        "path": "backend/package/yuxi/agents/base.py",
+        "type": "import"
+      },
+      {
+        "line": 10,
+        "path": "backend/package/yuxi/agents/base.py",
+        "type": "import"
+      },
+      {
+        "line": 11,
+        "path": "backend/package/yuxi/agents/base.py",
+        "type": "import"
+      },
+      {
+        "line": 11,
+        "path": "backend/package/yuxi/agents/middlewares/memory.py",
+        "type": "import"
+      },
+      {
+        "line": 14,
+        "path": "backend/package/yuxi/agents/middlewares/skills.py",
+        "type": "import"
+      },
+      {
+        "line": 12,
+        "path": "backend/package/yuxi/agents/middlewares/subagent_task.py",
+        "type": "import"
+      },
+      {
+        "line": 13,
+        "path": "backend/package/yuxi/agents/middlewares/subagent_task.py",
+        "type": "import"
+      },
+      {
+        "line": 26,
+        "path": "backend/package/yuxi/agents/middlewares/summary.py",
+        "type": "import"
+      },
+      {
+        "line": 27,
+        "path": "backend/package/yuxi/agents/middlewares/summary.py",
+        "type": "import"
+      },
+      {
+        "line": 24,
+        "path": "backend/package/yuxi/agents/middlewares/token_usage.py",
+        "type": "import"
+      },
+      {
+        "line": 9,
+        "path": "backend/package/yuxi/agents/toolkits/buildin/install_skill.py",
+        "type": "import"
+      },
+      {
+        "line": 10,
+        "path": "backend/package/yuxi/agents/toolkits/buildin/install_skill.py",
+        "type": "import"
+      },
+      {
+        "line": 13,
+        "path": "backend/package/yuxi/agents/toolkits/buildin/tools.py",
+        "type": "import"
+      },
+      {
+        "line": 14,
+        "path": "backend/package/yuxi/agents/toolkits/buildin/tools.py",
+        "type": "import"
+      },
+      {
+        "line": 10,
+        "path": "backend/package/yuxi/agents/toolkits/kbs/tools.py",
+        "type": "import"
+      },
+      {
+        "line": 7,
+        "path": "backend/package/yuxi/repositories/agent_state_repository.py",
+        "type": "import"
+      },
+      {
+        "line": 23,
+        "path": "backend/package/yuxi/services/chat_service.py",
+        "type": "import"
+      },
+      {
+        "line": 7,
+        "path": "backend/package/yuxi/storage/postgres/manager.py",
+        "type": "import"
+      },
+      {
+        "line": 13,
+        "path": "backend/test/integration/api/test_context_compression_router.py",
+        "type": "import"
+      },
+      {
+        "line": 14,
+        "path": "backend/test/integration/api/test_context_compression_router.py",
+        "type": "import"
+      },
+      {
+        "line": 9,
+        "path": "backend/test/integration/services/test_checkpoint_concurrency.py",
+        "type": "import"
+      },
+      {
+        "line": 119,
+        "path": "backend/test/performance/probe.py",
+        "type": "import"
+      },
+      {
+        "line": 198,
+        "path": "backend/test/performance/stage_probe.py",
+        "type": "import"
+      },
+      {
+        "line": 199,
+        "path": "backend/test/performance/stage_probe.py",
+        "type": "import"
+      },
+      {
+        "line": 6,
+        "path": "backend/test/unit/agents/test_agent_stream_close.py",
+        "type": "import"
+      },
+      {
+        "line": 7,
+        "path": "backend/test/unit/agents/test_agent_stream_close.py",
+        "type": "import"
+      },
+      {
+        "line": 8,
+        "path": "backend/test/unit/agents/test_base_tool_event_normalize.py",
+        "type": "import"
+      },
+      {
+        "line": 8,
+        "path": "backend/test/unit/agents/test_provider_reasoning.py",
+        "type": "import"
+      },
+      {
+        "line": 9,
+        "path": "backend/test/unit/agents/test_provider_reasoning.py",
+        "type": "import"
+      },
+      {
+        "line": 17,
+        "path": "backend/test/unit/agents/test_streaming_toolcall_fix.py",
+        "type": "import"
+      },
+      {
+        "line": 18,
+        "path": "backend/test/unit/agents/test_streaming_toolcall_fix.py",
+        "type": "import"
+      },
+      {
+        "line": 18,
+        "path": "backend/test/unit/backends/test_sandbox_backends.py",
+        "type": "import"
+      },
+      {
+        "line": 9,
+        "path": "backend/test/unit/middlewares/test_skills_middleware.py",
+        "type": "import"
+      },
+      {
+        "line": 15,
+        "path": "backend/test/unit/middlewares/test_steer_safety_gate.py",
+        "type": "import"
+      },
+      {
+        "line": 10,
+        "path": "backend/test/unit/middlewares/test_subagent_task_middleware.py",
+        "type": "import"
+      },
+      {
+        "line": 11,
+        "path": "backend/test/unit/middlewares/test_subagent_task_middleware.py",
+        "type": "import"
+      },
+      {
+        "line": 21,
+        "path": "backend/test/unit/services/test_chat_service_langfuse_stream.py",
+        "type": "import"
+      },
+      {
+        "line": 22,
+        "path": "backend/test/unit/services/test_chat_service_langfuse_stream.py",
+        "type": "import"
+      },
+      {
+        "line": 23,
+        "path": "backend/test/unit/services/test_chat_service_langfuse_stream.py",
+        "type": "import"
+      },
+      {
+        "line": 24,
+        "path": "backend/test/unit/services/test_chat_service_langfuse_stream.py",
+        "type": "import"
+      }
+    ],
+    "langgraph_status": "confirmed",
     "node_names_confirmed": [
       "idle",
       "increment",
@@ -6684,9 +6688,9 @@
       "model",
       "work"
     ],
+    "nodes_confirmed": 5,
     "nodes_dynamic_unknown": false,
-    "conditional_edges_confirmed": 0,
-    "state_fields_confirmed": 5,
+    "project_kind": "agent_project",
     "state_field_names_confirmed": [
       "_summarization_event",
       "_summarization_session_id",
@@ -6694,12 +6698,13 @@
       "token_usage",
       "value"
     ],
-    "agent_factories_confirmed": 0,
-    "subagents_confirmed": 0,
+    "state_fields_confirmed": 5,
+    "state_fields_unknown": true,
     "subagent_names_confirmed": [],
+    "subagents_confirmed": 0,
     "subagents_unknown": true,
     "subgraphs_confirmed": 0,
-    "state_fields_unknown": true
+    "tutorial_only": false
   },
   {
     "repo": "GoogleCloudPlatform/agent-starter-pack",
@@ -6792,8 +6797,8 @@
     "repo": "microsoft/agent-governance-toolkit",
     "url": "https://github.com/microsoft/agent-governance-toolkit",
     "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
-    "github_stars": 6240,
-    "github_forks": 1109,
+    "github_stars": 6246,
+    "github_forks": 1112,
     "primary_language": "Python",
     "license": "MIT",
     "last_push": "2026-09-10T09:28:06Z",
@@ -7060,19 +7065,8 @@
     "license": "Apache-2.0",
     "last_push": "2026-09-11T04:51:48Z",
     "head_sha": "3b40c37cf6a262cf4d28cc987ebe4f4cf797956c",
-    "langgraph_status": "confirmed",
-    "langgraph_evidence": [
-      {
-        "type": "import",
-        "path": "cookbooks/agent_frameworks/agentflow/langgraph.py",
-        "line": 7
-      }
-    ],
-    "langgraph_dependency": true,
-    "tutorial_only": false,
-    "project_kind": "unknown",
-    "direction": "research_agent",
-    "direct_dependency_count": 67,
+    "agent_factories_confirmed": 1,
+    "conditional_edges_confirmed": 0,
     "direct_dependencies": [
       "agentcore-rl-toolkit",
       "aiosqlite",
@@ -7142,38 +7136,40 @@
       "verl",
       "vllm"
     ],
+    "direct_dependency_count": 67,
+    "direction": "research_agent",
     "external_apis_confirmed": [
       {
-        "provider": "fireworks",
         "access_model": "commercial_or_free_tier",
         "evidence": [
           "dependency",
           "import",
           "environment_variable"
-        ]
+        ],
+        "provider": "fireworks"
       },
       {
-        "provider": "google_genai",
         "access_model": "commercial_or_free_tier",
         "evidence": [
           "import"
-        ]
+        ],
+        "provider": "google_genai"
       },
       {
-        "provider": "openai",
         "access_model": "commercial",
         "evidence": [
           "dependency",
           "import",
           "environment_variable"
-        ]
+        ],
+        "provider": "openai"
       },
       {
-        "provider": "tavily",
         "access_model": "commercial_or_free_tier",
         "evidence": [
           "environment_variable"
-        ]
+        ],
+        "provider": "tavily"
       }
     ],
     "external_apis_unknown": [
@@ -7190,24 +7186,33 @@
       "TOGETHER_AI_API_KEY",
       "TOGETHER_API_KEY"
     ],
-    "nodes_confirmed": 0,
+    "langgraph_dependency": true,
+    "langgraph_evidence": [
+      {
+        "line": 7,
+        "path": "cookbooks/agent_frameworks/agentflow/langgraph.py",
+        "type": "import"
+      }
+    ],
+    "langgraph_status": "confirmed",
     "node_names_confirmed": [],
+    "nodes_confirmed": 0,
     "nodes_dynamic_unknown": false,
-    "conditional_edges_confirmed": 0,
-    "state_fields_confirmed": 0,
+    "project_kind": "unknown",
     "state_field_names_confirmed": [],
-    "agent_factories_confirmed": 1,
-    "subagents_confirmed": 0,
+    "state_fields_confirmed": 0,
+    "state_fields_unknown": true,
     "subagent_names_confirmed": [],
+    "subagents_confirmed": 0,
     "subagents_unknown": true,
     "subgraphs_confirmed": 0,
-    "state_fields_unknown": true
+    "tutorial_only": false
   },
   {
     "repo": "PurpleAILAB/Decepticon",
     "url": "https://github.com/PurpleAILAB/Decepticon",
     "description": "Autonomous Hacking Agent for Red Team",
-    "github_stars": 5485,
+    "github_stars": 5493,
     "github_forks": 1040,
     "primary_language": "Python",
     "license": "Apache-2.0",
