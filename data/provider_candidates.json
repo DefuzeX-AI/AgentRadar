@@ -335,6 +335,12 @@
     ]
   },
   {
+    "signal": "IMAGE_GENERATION_API_KEY",
+    "repositories": [
+      "bytedance/deer-flow"
+    ]
+  },
+  {
     "signal": "INFOQUEST_API_KEY",
     "repositories": [
       "bytedance/deer-flow"
