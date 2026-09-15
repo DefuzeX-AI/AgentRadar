@@ -1766,8 +1766,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "e12748298b366605cc0e2aa60e659f473efbff99",
-    "pushed_at": "2026-09-14T13:11:54Z"
+    "head_sha": "06a21cd04bcf533066b22e7b032ff4346996ed37",
+    "pushed_at": "2026-09-15T07:50:09Z"
   },
   "Arvo-AI/aurora": {
     "analysis": {
@@ -2168,7 +2168,7 @@
   },
   "BerriAI/litellm": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-14T13:49:28Z",
+    "pushed_at": "2026-09-15T12:43:20Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "Bessouat40/RAGLight": {
@@ -2283,6 +2283,304 @@
     "analyzer_version": 1,
     "pushed_at": "2026-07-01T21:21:45Z",
     "scan_error": "download exceeds 52428800 bytes"
+  },
+  "BitterSecurity/Decepticon": {
+    "analysis": {
+      "agent_factories_confirmed": 0,
+      "conditional_edges_confirmed": 0,
+      "direct_dependencies": [
+        "beautifulsoup4",
+        "click",
+        "cryptography",
+        "decepticon",
+        "decepticon-core",
+        "decepticon-sdk",
+        "deepagents",
+        "defusedxml",
+        "fastapi",
+        "httpx",
+        "langchain",
+        "langchain-anthropic",
+        "langchain-core",
+        "langchain-openai",
+        "langgraph",
+        "langgraph-cli",
+        "langgraph-sdk",
+        "mcp",
+        "neo4j",
+        "opentelemetry-api",
+        "opentelemetry-exporter-otlp",
+        "opentelemetry-sdk",
+        "pydantic",
+        "pydantic-settings",
+        "pyjwt",
+        "pytest",
+        "pytest-asyncio",
+        "python-dotenv",
+        "pyyaml",
+        "starlette",
+        "typer",
+        "typing-extensions",
+        "uvicorn",
+        "xxhash"
+      ],
+      "direct_dependency_count": 34,
+      "direction": "browser_automation",
+      "external_apis_confirmed": [
+        {
+          "access_model": "commercial",
+          "evidence": [
+            "dependency",
+            "import",
+            "environment_variable"
+          ],
+          "provider": "anthropic"
+        },
+        {
+          "access_model": "commercial_or_free_tier",
+          "evidence": [
+            "environment_variable"
+          ],
+          "provider": "fireworks"
+        },
+        {
+          "access_model": "commercial_or_free_tier",
+          "evidence": [
+            "environment_variable"
+          ],
+          "provider": "google_genai"
+        },
+        {
+          "access_model": "commercial_or_free_tier",
+          "evidence": [
+            "environment_variable"
+          ],
+          "provider": "groq"
+        },
+        {
+          "access_model": "commercial_or_free_tier",
+          "evidence": [
+            "environment_variable"
+          ],
+          "provider": "mistral"
+        },
+        {
+          "access_model": "commercial",
+          "evidence": [
+            "dependency",
+            "import",
+            "environment_variable"
+          ],
+          "provider": "openai"
+        }
+      ],
+      "external_apis_unknown": [
+        "AI_GATEWAY_API_KEY",
+        "AZURE_API_KEY",
+        "CHATGPT_ACCESS_TOKEN",
+        "CLOUDFLARE_AI_GATEWAY_API_KEY",
+        "COHERE_API_KEY",
+        "COPILOT_ACCESS_TOKEN",
+        "CUSTOM_OPENAI_API_KEY",
+        "DASHSCOPE_API_KEY",
+        "DECEPTICON_LLM__PROXY_API_KEY",
+        "DECEPTICON_SKILLOGY_API_KEY",
+        "DEEPSEEK_API_KEY",
+        "GEMINI_ACCESS_TOKEN",
+        "GROK_ACCESS_TOKEN",
+        "HOSTED_VLLM_API_KEY",
+        "KIMI_API_KEY",
+        "LLAMACPP_API_KEY",
+        "LMSTUDIO_API_KEY",
+        "MINIMAX_API_KEY",
+        "MOONSHOT_API_KEY",
+        "NANOGPT_API_KEY",
+        "NVIDIA_API_KEY",
+        "OLLAMA_API_KEY",
+        "OLLAMA_CLOUD_API_KEY",
+        "OPENCODE_API_KEY",
+        "OPENROUTER_API_KEY",
+        "PERPLEXITY_ACCESS_TOKEN",
+        "POSTHOG_CLI_API_KEY",
+        "QIANFAN_API_KEY",
+        "SHODAN_API_KEY",
+        "SKILLOGY_API_KEY",
+        "SYNTHETIC_API_KEY",
+        "TOGETHER_API_KEY",
+        "VENICE_API_KEY",
+        "VERCEL_AI_GATEWAY_API_KEY",
+        "VLLM_API_KEY",
+        "VOYAGE_API_KEY",
+        "XAI_API_KEY",
+        "ZAI_API_KEY",
+        "ZENMUX_API_KEY",
+        "ZOOMEYE_API_KEY"
+      ],
+      "langgraph_dependency": true,
+      "langgraph_evidence": [
+        {
+          "line": 86,
+          "path": "packages/decepticon/decepticon/backends/factory.py",
+          "type": "import"
+        },
+        {
+          "line": 81,
+          "path": "packages/decepticon/decepticon/core/subagent_streaming.py",
+          "type": "import"
+        },
+        {
+          "line": 159,
+          "path": "packages/decepticon/decepticon/core/subagent_streaming.py",
+          "type": "import"
+        },
+        {
+          "line": 127,
+          "path": "packages/decepticon/decepticon/middleware/budget.py",
+          "type": "import"
+        },
+        {
+          "line": 36,
+          "path": "packages/decepticon/decepticon/middleware/engagement.py",
+          "type": "import"
+        },
+        {
+          "line": 37,
+          "path": "packages/decepticon/decepticon/middleware/engagement.py",
+          "type": "import"
+        },
+        {
+          "line": 74,
+          "path": "packages/decepticon/decepticon/middleware/hitl.py",
+          "type": "import"
+        },
+        {
+          "line": 26,
+          "path": "packages/decepticon/decepticon/middleware/kg_internal/tools.py",
+          "type": "import"
+        },
+        {
+          "line": 108,
+          "path": "packages/decepticon/decepticon/middleware/notifications.py",
+          "type": "import"
+        },
+        {
+          "line": 57,
+          "path": "packages/decepticon/decepticon/middleware/prompt_injection_shield.py",
+          "type": "import"
+        },
+        {
+          "line": 246,
+          "path": "packages/decepticon/decepticon/middleware/prompt_injection_shield.py",
+          "type": "import"
+        },
+        {
+          "line": 59,
+          "path": "packages/decepticon/decepticon/middleware/roe.py",
+          "type": "import"
+        },
+        {
+          "line": 47,
+          "path": "packages/decepticon/decepticon/middleware/untrusted_output.py",
+          "type": "import"
+        },
+        {
+          "line": 23,
+          "path": "packages/decepticon/decepticon/tools/interaction/ask_user.py",
+          "type": "import"
+        },
+        {
+          "line": 24,
+          "path": "packages/decepticon/decepticon/tools/interaction/ask_user.py",
+          "type": "import"
+        },
+        {
+          "line": 10,
+          "path": "packages/decepticon/decepticon/tools/interaction/complete_planning.py",
+          "type": "import"
+        },
+        {
+          "line": 13,
+          "path": "packages/decepticon/decepticon/tools/opplan.py",
+          "type": "import"
+        },
+        {
+          "line": 14,
+          "path": "packages/decepticon/decepticon/tools/opplan.py",
+          "type": "import"
+        },
+        {
+          "line": 137,
+          "path": "packages/decepticon/decepticon/tools/opplan.py",
+          "type": "import"
+        },
+        {
+          "line": 30,
+          "path": "packages/decepticon/decepticon/tools/ops/tools.py",
+          "type": "import"
+        },
+        {
+          "line": 83,
+          "path": "packages/decepticon/tests/unit/backends/test_factory.py",
+          "type": "import"
+        },
+        {
+          "line": 167,
+          "path": "packages/decepticon/tests/unit/backends/test_factory.py",
+          "type": "import"
+        },
+        {
+          "line": 263,
+          "path": "packages/decepticon/tests/unit/middleware/test_budget_internals.py",
+          "type": "import"
+        },
+        {
+          "line": 282,
+          "path": "packages/decepticon/tests/unit/middleware/test_budget_internals.py",
+          "type": "import"
+        },
+        {
+          "line": 289,
+          "path": "packages/decepticon/tests/unit/middleware/test_budget_internals.py",
+          "type": "import"
+        },
+        {
+          "line": 13,
+          "path": "packages/decepticon/tests/unit/middleware/test_engagement.py",
+          "type": "import"
+        },
+        {
+          "line": 224,
+          "path": "packages/decepticon/tests/unit/middleware/test_untrusted_output.py",
+          "type": "import"
+        }
+      ],
+      "langgraph_status": "confirmed",
+      "node_names_confirmed": [
+        "n",
+        "set_name",
+        "keep_name",
+        "set_workspace",
+        "keep_workspace",
+        "branch_a",
+        "branch_b",
+        "branch_a",
+        "branch_b"
+      ],
+      "nodes_confirmed": 9,
+      "nodes_dynamic_unknown": false,
+      "project_kind": "agent_project",
+      "state_field_names_confirmed": [],
+      "state_fields_confirmed": 0,
+      "state_fields_unknown": true,
+      "subagent_names_confirmed": [],
+      "subagents_confirmed": 0,
+      "subagents_unknown": true,
+      "subgraphs_confirmed": 0,
+      "tutorial_only": false
+    },
+    "analyzer_version": 1,
+    "head_sha": "31e1c8e786c83bb20f5c3d9ebc482cf9fb8ffa06",
+    "pushed_at": "2026-08-30T13:22:58Z"
   },
   "BjornMelin/docmind-ai-llm": {
     "analysis": {
@@ -3114,8 +3412,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "20476c0cb6a836f867c375292323424fcd7ef1e0",
-    "pushed_at": "2026-09-14T09:25:15Z"
+    "head_sha": "cebd8b20cac3651676d3f5849e93f780782cf72b",
+    "pushed_at": "2026-09-15T08:55:53Z"
   },
   "ChaitanyaEswarRajeshJakki/gemini-youtube-automation": {
     "analysis": {
@@ -7177,8 +7475,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "0828686facbd3bdc233202b920d9425a24bd1224",
-    "pushed_at": "2026-09-14T09:53:03Z"
+    "head_sha": "a5b79422f9f0c6b23512159dfefc8031498df5b8",
+    "pushed_at": "2026-09-14T17:30:34Z"
   },
   "HKUSTDial/DeepEar": {
     "analysis": {
@@ -10566,7 +10864,7 @@
   },
   "LearningCircuit/local-deep-research": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-14T08:37:05Z",
+    "pushed_at": "2026-09-15T08:02:16Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "LegalQuants/lq-ai": {
@@ -13520,8 +13818,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "1c0eb569a2550172415aaebd83a62ea163cb3c06",
-    "pushed_at": "2026-09-12T19:53:55Z"
+    "head_sha": "f161b700d83d1e685f501c525d4cf7a8a49bd82e",
+    "pushed_at": "2026-09-15T05:46:23Z"
   },
   "NVlabs/SpatialClaw": {
     "analysis": {
@@ -15400,8 +15698,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "2ebfc1c2a38dbeeaeefac998323b476989602942",
-    "pushed_at": "2026-09-12T22:12:40Z"
+    "head_sha": "54fb4c52e322551b26ae2f9625af72d13f037068",
+    "pushed_at": "2026-09-15T08:52:27Z"
   },
   "Pan-Chera/Multi-Agent-CAD": {
     "analysis": {
@@ -17436,7 +17734,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "be952b8eccb49720509af544c6675233bc1f10d0",
-    "pushed_at": "2026-09-07T22:51:54Z"
+    "pushed_at": "2026-09-15T01:33:49Z"
   },
   "TeleAI-UAGI/Awesome-Agent-Memory": {
     "analysis": {
@@ -26742,12 +27040,12 @@
           "type": "import"
         },
         {
-          "line": 752,
+          "line": 755,
           "path": "backend/packages/harness/deerflow/agents/middlewares/llm_error_handling_middleware.py",
           "type": "import"
         },
         {
-          "line": 773,
+          "line": 776,
           "path": "backend/packages/harness/deerflow/agents/middlewares/llm_error_handling_middleware.py",
           "type": "import"
         },
@@ -26887,7 +27185,7 @@
           "type": "import"
         },
         {
-          "line": 51,
+          "line": 55,
           "path": "backend/packages/harness/deerflow/agents/middlewares/token_budget_middleware.py",
           "type": "import"
         },
@@ -27177,7 +27475,7 @@
           "type": "import"
         },
         {
-          "line": 33,
+          "line": 34,
           "path": "backend/packages/harness/deerflow/runtime/journal.py",
           "type": "import"
         },
@@ -27192,7 +27490,7 @@
           "type": "import"
         },
         {
-          "line": 1042,
+          "line": 1047,
           "path": "backend/packages/harness/deerflow/runtime/runs/worker.py",
           "type": "import"
         },
@@ -27887,12 +28185,12 @@
           "type": "import"
         },
         {
-          "line": 3801,
+          "line": 3823,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
         {
-          "line": 3802,
+          "line": 3824,
           "path": "backend/tests/test_gateway_services.py",
           "type": "import"
         },
@@ -28032,27 +28330,7 @@
           "type": "import"
         },
         {
-          "line": 468,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 1943,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 1986,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 2021,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 2047,
+          "line": 600,
           "path": "backend/tests/test_run_journal.py",
           "type": "import"
         },
@@ -28062,27 +28340,47 @@
           "type": "import"
         },
         {
-          "line": 2103,
+          "line": 2118,
           "path": "backend/tests/test_run_journal.py",
           "type": "import"
         },
         {
-          "line": 2138,
+          "line": 2153,
           "path": "backend/tests/test_run_journal.py",
           "type": "import"
         },
         {
-          "line": 2155,
+          "line": 2179,
           "path": "backend/tests/test_run_journal.py",
           "type": "import"
         },
         {
-          "line": 2177,
+          "line": 2207,
           "path": "backend/tests/test_run_journal.py",
           "type": "import"
         },
         {
-          "line": 2202,
+          "line": 2235,
+          "path": "backend/tests/test_run_journal.py",
+          "type": "import"
+        },
+        {
+          "line": 2270,
+          "path": "backend/tests/test_run_journal.py",
+          "type": "import"
+        },
+        {
+          "line": 2287,
+          "path": "backend/tests/test_run_journal.py",
+          "type": "import"
+        },
+        {
+          "line": 2309,
+          "path": "backend/tests/test_run_journal.py",
+          "type": "import"
+        },
+        {
+          "line": 2334,
           "path": "backend/tests/test_run_journal.py",
           "type": "import"
         },
@@ -28157,17 +28455,17 @@
           "type": "import"
         },
         {
-          "line": 3582,
+          "line": 3596,
           "path": "backend/tests/test_run_worker_rollback.py",
           "type": "import"
         },
         {
-          "line": 3583,
+          "line": 3597,
           "path": "backend/tests/test_run_worker_rollback.py",
           "type": "import"
         },
         {
-          "line": 3721,
+          "line": 3735,
           "path": "backend/tests/test_run_worker_rollback.py",
           "type": "import"
         },
@@ -28317,7 +28615,7 @@
           "type": "import"
         },
         {
-          "line": 4401,
+          "line": 4435,
           "path": "backend/tests/test_subagent_executor.py",
           "type": "import"
         },
@@ -28437,7 +28735,7 @@
           "type": "import"
         },
         {
-          "line": 8,
+          "line": 9,
           "path": "backend/tests/test_token_budget_middleware.py",
           "type": "import"
         },
@@ -28467,7 +28765,7 @@
           "type": "import"
         },
         {
-          "line": 11,
+          "line": 13,
           "path": "backend/tests/test_tool_progress_middleware.py",
           "type": "import"
         },
@@ -28600,8 +28898,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "6469833886487a71c25d17b6b543ecab9b0defca",
-    "pushed_at": "2026-09-14T13:23:59Z"
+    "head_sha": "14c9d44440780e63563e935046db8708e121a5b1",
+    "pushed_at": "2026-09-15T00:45:08Z"
   },
   "cft0808/edict": {
     "analysis": {
@@ -29353,7 +29651,7 @@
   },
   "comet-ml/opik": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-14T13:29:59Z",
+    "pushed_at": "2026-09-15T12:39:30Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "confident-ai/deepeval": {
@@ -29700,8 +29998,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "702e6094612754f001bf46f68811c72ef53f200d",
-    "pushed_at": "2026-09-14T13:40:00Z"
+    "head_sha": "1e4f9e6e9f0bdf01a88f9e4d69d0eb5d0de634c1",
+    "pushed_at": "2026-09-14T15:16:15Z"
   },
   "csml-rpi/Foam-Agent": {
     "analysis": {
@@ -42448,7 +42746,7 @@
           "type": "import"
         },
         {
-          "line": 1618,
+          "line": 1647,
           "path": "libs/code/deepagents_code/tui/textual_adapter.py",
           "type": "import"
         },
@@ -42613,12 +42911,12 @@
           "type": "import"
         },
         {
-          "line": 2529,
+          "line": 2566,
           "path": "libs/code/tests/unit_tests/test_auto_mode.py",
           "type": "import"
         },
         {
-          "line": 2530,
+          "line": 2567,
           "path": "libs/code/tests/unit_tests/test_auto_mode.py",
           "type": "import"
         },
@@ -43498,7 +43796,7 @@
           "type": "import"
         },
         {
-          "line": 35,
+          "line": 36,
           "path": "libs/talon/tests/test_runtime.py",
           "type": "import"
         },
@@ -43678,8 +43976,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "c08cae693e0036fcd45d979a7dfa3a7e306a0515",
-    "pushed_at": "2026-09-14T08:48:42Z"
+    "head_sha": "1d3232c0852c47af09119edea10eeec887e4f0da",
+    "pushed_at": "2026-09-15T09:14:47Z"
   },
   "langchain-ai/langchain": {
     "analysis": {
@@ -44635,8 +44933,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "4492ad7a804e94bdcc89bf148cfc8efd5e7d6ef7",
-    "pushed_at": "2026-09-14T13:57:34Z"
+    "head_sha": "41d357287c0470f70e45e232c711013258c0ac1a",
+    "pushed_at": "2026-09-15T08:31:17Z"
   },
   "langchain-ai/langchain-aws": {
     "analysis": {
@@ -52063,8 +52361,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "e539ac122f4126f6dd850581c1494948cf620e31",
-    "pushed_at": "2026-09-13T21:14:44Z"
+    "head_sha": "230927fb3a9ac9b2893a30322b4dfea7cdea9a8f",
+    "pushed_at": "2026-09-14T19:45:22Z"
   },
   "langchain-ai/langgraph-bigtool": {
     "analysis": {
@@ -52819,7 +53117,7 @@
         "websockets"
       ],
       "direct_dependency_count": 35,
-      "direction": "data_sql",
+      "direction": "coding_agent",
       "external_apis_confirmed": [
         {
           "access_model": "commercial",
@@ -52957,12 +53255,12 @@
           "type": "import"
         },
         {
-          "line": 8,
+          "line": 9,
           "path": "agent/middleware/model_selection.py",
           "type": "import"
         },
         {
-          "line": 9,
+          "line": 10,
           "path": "agent/middleware/model_selection.py",
           "type": "import"
         },
@@ -52987,7 +53285,7 @@
           "type": "import"
         },
         {
-          "line": 9,
+          "line": 10,
           "path": "agent/middleware/record_run_usage.py",
           "type": "import"
         },
@@ -53247,22 +53545,22 @@
           "type": "import"
         },
         {
-          "line": 184,
+          "line": 173,
           "path": "tests/agent/test_plan_mode.py",
           "type": "import"
         },
         {
-          "line": 212,
+          "line": 195,
           "path": "tests/agent/test_plan_mode.py",
           "type": "import"
         },
         {
-          "line": 304,
+          "line": 287,
           "path": "tests/agent/test_plan_mode.py",
           "type": "import"
         },
         {
-          "line": 375,
+          "line": 358,
           "path": "tests/agent/test_plan_mode.py",
           "type": "import"
         },
@@ -53367,8 +53665,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "9b5c2ecf486ac6dcc7ddb355ff4f5cf1cb6130a7",
-    "pushed_at": "2026-09-14T14:06:22Z"
+    "head_sha": "95ef929aa066198479f5da829067617107866f7a",
+    "pushed_at": "2026-09-15T12:40:02Z"
   },
   "langchain-ai/openevals": {
     "analysis": {
@@ -57765,7 +58063,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "c7ee362aff94a369af70f13f2b4f853f6793ff4c",
-    "pushed_at": "2026-09-14T05:26:28Z"
+    "pushed_at": "2026-09-14T19:12:46Z"
   },
   "mfmezger/conversational-agent-langchain": {
     "analysis": {
@@ -58288,8 +58586,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "1a896e70aca8ced2a243d5702cb0359d4ded5c50",
-    "pushed_at": "2026-09-14T04:41:05Z"
+    "head_sha": "a926ad9e536954ba1daed450b1f984d0615cb7fd",
+    "pushed_at": "2026-09-15T09:14:15Z"
   },
   "midodimori/langrepl": {
     "analysis": {
@@ -58757,7 +59055,7 @@
   },
   "mlflow/mlflow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-14T10:40:55Z",
+    "pushed_at": "2026-09-15T12:17:04Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "modelscope/easydistill": {
@@ -61348,7 +61646,7 @@
   },
   "opensandbox-group/OpenSandbox": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-14T10:02:39Z",
+    "pushed_at": "2026-09-15T12:41:03Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "oracle/agent-spec": {
@@ -68501,8 +68799,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "b4a922450268c259d22242749826013ccdb7b5c8",
-    "pushed_at": "2026-09-14T14:04:47Z"
+    "head_sha": "f6657709e9bf048138652033d3f5956c19b87d54",
+    "pushed_at": "2026-09-15T12:37:45Z"
   },
   "shenjianan97/persistent-agent-runtime": {
     "analysis": {
@@ -73634,7 +73932,7 @@
   },
   "vectorize-io/hindsight": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-14T14:07:55Z",
+    "pushed_at": "2026-09-15T12:43:34Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "velocitybolt/open-extract": {
@@ -76239,12 +76537,22 @@
           "type": "import"
         },
         {
-          "line": 13,
+          "line": 9,
+          "path": "backend/test/integration/api/test_checkpoint_state_view.py",
+          "type": "import"
+        },
+        {
+          "line": 10,
+          "path": "backend/test/integration/api/test_checkpoint_state_view.py",
+          "type": "import"
+        },
+        {
+          "line": 15,
           "path": "backend/test/integration/api/test_context_compression_router.py",
           "type": "import"
         },
         {
-          "line": 14,
+          "line": 16,
           "path": "backend/test/integration/api/test_context_compression_router.py",
           "type": "import"
         },
@@ -76279,7 +76587,7 @@
           "type": "import"
         },
         {
-          "line": 8,
+          "line": 10,
           "path": "backend/test/unit/agents/test_base_tool_event_normalize.py",
           "type": "import"
         },
@@ -76329,11 +76637,6 @@
           "type": "import"
         },
         {
-          "line": 21,
-          "path": "backend/test/unit/services/test_chat_service_langfuse_stream.py",
-          "type": "import"
-        },
-        {
           "line": 22,
           "path": "backend/test/unit/services/test_chat_service_langfuse_stream.py",
           "type": "import"
@@ -76347,27 +76650,56 @@
           "line": 24,
           "path": "backend/test/unit/services/test_chat_service_langfuse_stream.py",
           "type": "import"
+        },
+        {
+          "line": 25,
+          "path": "backend/test/unit/services/test_chat_service_langfuse_stream.py",
+          "type": "import"
+        },
+        {
+          "line": 8,
+          "path": "backend/test/unit/services/test_checkpoint_state_reader.py",
+          "type": "import"
+        },
+        {
+          "line": 9,
+          "path": "backend/test/unit/services/test_checkpoint_state_reader.py",
+          "type": "import"
+        },
+        {
+          "line": 10,
+          "path": "backend/test/unit/services/test_checkpoint_state_reader.py",
+          "type": "import"
         }
       ],
       "langgraph_status": "confirmed",
       "node_names_confirmed": [
+        "done",
         "idle",
         "increment",
         "work",
         "model",
-        "work"
+        "work",
+        "approval",
+        "sibling",
+        "done"
       ],
-      "nodes_confirmed": 5,
+      "nodes_confirmed": 9,
       "nodes_dynamic_unknown": false,
       "project_kind": "agent_project",
       "state_field_names_confirmed": [
         "_summarization_event",
         "_summarization_session_id",
+        "artifacts",
+        "files",
+        "internal_only",
         "messages",
+        "subagent_runs",
+        "todos",
         "token_usage",
         "value"
       ],
-      "state_fields_confirmed": 5,
+      "state_fields_confirmed": 10,
       "state_fields_unknown": true,
       "subagent_names_confirmed": [],
       "subagents_confirmed": 0,
@@ -76376,8 +76708,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "91a8e82e202635e2c240e40dc83bc581551ad262",
-    "pushed_at": "2026-09-14T09:35:18Z"
+    "head_sha": "2f4137eccb3d1379df6b29e3fe01a8ba5ea592f8",
+    "pushed_at": "2026-09-15T07:06:41Z"
   },
   "xiongQvQ/AI_Find_Customer": {
     "analysis": {
@@ -77644,7 +77976,7 @@
   },
   "zenml-io/zenml": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-14T10:56:50Z",
+    "pushed_at": "2026-09-15T11:38:10Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "zezhishao/DailyArXiv": {

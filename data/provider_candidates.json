@@ -14,7 +14,7 @@
   {
     "signal": "AI_GATEWAY_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -50,7 +50,7 @@
   {
     "signal": "AZURE_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -103,7 +103,7 @@
   {
     "signal": "CHATGPT_ACCESS_TOKEN",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -121,13 +121,13 @@
   {
     "signal": "CLOUDFLARE_AI_GATEWAY_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
     "signal": "COHERE_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon",
+      "BitterSecurity/Decepticon",
       "traceloop/openllmetry"
     ]
   },
@@ -140,7 +140,7 @@
   {
     "signal": "COPILOT_ACCESS_TOKEN",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -153,13 +153,13 @@
   {
     "signal": "CUSTOM_OPENAI_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
     "signal": "DASHSCOPE_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon",
+      "BitterSecurity/Decepticon",
       "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher"
     ]
@@ -173,13 +173,13 @@
   {
     "signal": "DECEPTICON_LLM__PROXY_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
     "signal": "DECEPTICON_SKILLOGY_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -209,7 +209,7 @@
   {
     "signal": "DEEPSEEK_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon",
+      "BitterSecurity/Decepticon",
       "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher",
       "bytedance/deer-flow",
@@ -264,7 +264,7 @@
   {
     "signal": "GEMINI_ACCESS_TOKEN",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -300,7 +300,7 @@
   {
     "signal": "GROK_ACCESS_TOKEN",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -319,7 +319,7 @@
   {
     "signal": "HOSTED_VLLM_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -361,7 +361,7 @@
   {
     "signal": "KIMI_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -391,7 +391,7 @@
   {
     "signal": "LLAMACPP_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -403,7 +403,7 @@
   {
     "signal": "LMSTUDIO_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -421,8 +421,8 @@
   {
     "signal": "MINIMAX_API_KEY",
     "repositories": [
+      "BitterSecurity/Decepticon",
       "GetBindu/Bindu",
-      "PurpleAILAB/Decepticon",
       "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher",
       "bytedance/deer-flow",
@@ -450,7 +450,7 @@
   {
     "signal": "MOONSHOT_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon",
+      "BitterSecurity/Decepticon",
       "TauricResearch/TradingAgents",
       "confident-ai/deepeval"
     ]
@@ -458,7 +458,7 @@
   {
     "signal": "NANOGPT_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -495,7 +495,7 @@
   {
     "signal": "NVIDIA_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon",
+      "BitterSecurity/Decepticon",
       "TauricResearch/TradingAgents",
       "langchain-ai/deepagents"
     ]
@@ -509,13 +509,13 @@
   {
     "signal": "OLLAMA_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
     "signal": "OLLAMA_CLOUD_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -533,14 +533,14 @@
   {
     "signal": "OPENCODE_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
     "signal": "OPENROUTER_API_KEY",
     "repositories": [
+      "BitterSecurity/Decepticon",
       "GetBindu/Bindu",
-      "PurpleAILAB/Decepticon",
       "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher",
       "confident-ai/deepeval"
@@ -561,7 +561,7 @@
   {
     "signal": "PERPLEXITY_ACCESS_TOKEN",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -579,7 +579,7 @@
   {
     "signal": "POSTHOG_CLI_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -591,7 +591,7 @@
   {
     "signal": "QIANFAN_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -647,7 +647,7 @@
   {
     "signal": "SHODAN_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -659,7 +659,7 @@
   {
     "signal": "SKILLOGY_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -689,7 +689,7 @@
   {
     "signal": "SYNTHETIC_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -713,7 +713,7 @@
   {
     "signal": "TOGETHER_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon",
+      "BitterSecurity/Decepticon",
       "rllm-org/rllm",
       "traceloop/openllmetry"
     ]
@@ -733,19 +733,19 @@
   {
     "signal": "VENICE_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
     "signal": "VERCEL_AI_GATEWAY_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
     "signal": "VLLM_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon",
+      "BitterSecurity/Decepticon",
       "bytedance/deer-flow"
     ]
   },
@@ -770,7 +770,7 @@
   {
     "signal": "VOYAGE_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon",
+      "BitterSecurity/Decepticon",
       "assafelovic/gpt-researcher",
       "traceloop/openllmetry"
     ]
@@ -791,7 +791,7 @@
   {
     "signal": "XAI_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon",
+      "BitterSecurity/Decepticon",
       "TauricResearch/TradingAgents"
     ]
   },
@@ -810,13 +810,13 @@
   {
     "signal": "ZAI_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
     "signal": "ZENMUX_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -834,7 +834,7 @@
   {
     "signal": "ZOOMEYE_API_KEY",
     "repositories": [
-      "PurpleAILAB/Decepticon"
+      "BitterSecurity/Decepticon"
     ]
   }
 ]
