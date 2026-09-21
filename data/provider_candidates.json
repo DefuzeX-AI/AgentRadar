@@ -251,6 +251,12 @@
     ]
   },
   {
+    "signal": "FLUXION_API_KEY",
+    "repositories": [
+      "awarexone/Agentic-Bug-Hunter"
+    ]
+  },
+  {
     "signal": "FORGE_API_KEY",
     "repositories": [
       "assafelovic/gpt-researcher"
