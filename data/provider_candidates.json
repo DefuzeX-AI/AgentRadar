@@ -224,6 +224,18 @@
     ]
   },
   {
+    "signal": "DEEPSEEK_TEST_API_KEY",
+    "repositories": [
+      "bytedance/deer-flow"
+    ]
+  },
+  {
+    "signal": "DEERFLOW_ACCESS_TOKEN",
+    "repositories": [
+      "bytedance/deer-flow"
+    ]
+  },
+  {
     "signal": "DOUBAO_SEARCH_API_KEY",
     "repositories": [
       "xerrors/Yuxi"
