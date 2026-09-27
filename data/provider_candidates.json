@@ -746,7 +746,8 @@
     "signal": "TYPESAFE_API_KEY",
     "repositories": [
       "NandhaKishorM/laya",
-      "TauricResearch/TradingAgents"
+      "TauricResearch/TradingAgents",
+      "assafelovic/gpt-researcher"
     ]
   },
   {
