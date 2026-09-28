@@ -1767,8 +1767,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "453503089b239803fb85e91602e63807295d4c5b",
-    "pushed_at": "2026-09-27T11:14:32Z"
+    "head_sha": "fe3a58eff29d41032b3a0e0b8d43283822ce2f45",
+    "pushed_at": "2026-09-28T15:35:48Z"
   },
   "Arvo-AI/aurora": {
     "analysis": {
@@ -2169,7 +2169,7 @@
   },
   "BerriAI/litellm": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-27T12:41:03Z",
+    "pushed_at": "2026-09-28T15:18:52Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "Bessouat40/RAGLight": {
@@ -7283,6 +7283,7 @@
         "metatrader5",
         "mini-racer",
         "mistune",
+        "mootdx",
         "more-itertools",
         "msgpack",
         "multidict",
@@ -7399,7 +7400,7 @@
         "zopfli",
         "zstandard"
       ],
-      "direct_dependency_count": 226,
+      "direct_dependency_count": 227,
       "direction": "finance",
       "external_apis_confirmed": [
         {
@@ -7476,8 +7477,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "0244eceaaf8d9e8ae79e2355836802acae3d1fc2",
-    "pushed_at": "2026-09-27T03:00:46Z"
+    "head_sha": "47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a",
+    "pushed_at": "2026-09-28T08:45:19Z"
   },
   "HKUSTDial/DeepEar": {
     "analysis": {
@@ -10865,7 +10866,7 @@
   },
   "LearningCircuit/local-deep-research": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-27T13:06:41Z",
+    "pushed_at": "2026-09-28T06:06:40Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "LegalQuants/lq-ai": {
@@ -13819,8 +13820,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "89e90872e2ec813bcb137bf6b3145c92e55811ae",
-    "pushed_at": "2026-09-26T05:24:37Z"
+    "head_sha": "09555eb6954ad76ec67b9a0203c196d7970ac3c9",
+    "pushed_at": "2026-09-28T15:04:32Z"
   },
   "NVlabs/SpatialClaw": {
     "analysis": {
@@ -14544,15 +14545,18 @@
       "agent_factories_confirmed": 0,
       "conditional_edges_confirmed": 0,
       "direct_dependencies": [
+        "crewai",
         "fastapi",
         "huggingface-hub",
         "langchain-core",
         "langgraph",
+        "llama-index-core",
         "mcp",
         "mkdocstrings-python",
         "numpy",
         "onnx",
         "onnxruntime",
+        "onnxscript",
         "pydantic",
         "python-multipart",
         "ruff",
@@ -14563,7 +14567,7 @@
         "uvicorn",
         "zensical"
       ],
-      "direct_dependency_count": 18,
+      "direct_dependency_count": 21,
       "direction": "rag_knowledge",
       "external_apis_confirmed": [],
       "external_apis_unknown": [
@@ -14601,8 +14605,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "4066d5d5fbf08b66c6757ddeedbd797bd7655bc0",
-    "pushed_at": "2026-09-26T16:25:54Z"
+    "head_sha": "9d955671415fc19f069b9cc998928075c1f255ec",
+    "pushed_at": "2026-09-27T19:38:50Z"
   },
   "NapthaAI/automcp": {
     "analysis": {
@@ -15764,8 +15768,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "762c89dfaa51432f0d34470616c9b8882b83c8cd",
-    "pushed_at": "2026-09-27T04:36:56Z"
+    "head_sha": "37a03b4d24a77b643c2b5b13cef5b717bc9c5c0a",
+    "pushed_at": "2026-09-28T15:32:37Z"
   },
   "Pan-Chera/Multi-Agent-CAD": {
     "analysis": {
@@ -26997,2410 +27001,9 @@
     "scan_error": "download exceeds 52428800 bytes"
   },
   "bytedance/deer-flow": {
-    "analysis": {
-      "agent_factories_confirmed": 0,
-      "conditional_edges_confirmed": 0,
-      "direct_dependencies": [
-        "agent-client-protocol",
-        "agent-sandbox",
-        "aiosqlite",
-        "alembic",
-        "asyncpg",
-        "bcrypt",
-        "beautifulsoup4",
-        "boxlite",
-        "coincurve",
-        "croniter",
-        "cryptography",
-        "ddgs",
-        "deerflow-extension-api",
-        "deerflow-harness",
-        "dingtalk-stream",
-        "discord-py",
-        "dotenv",
-        "duckdb",
-        "e2b-code-interpreter",
-        "email-validator",
-        "exa-py",
-        "fastapi",
-        "firecrawl-py",
-        "html5lib",
-        "httpx",
-        "jieba",
-        "jsonschema",
-        "kubernetes",
-        "langchain",
-        "langchain-anthropic",
-        "langchain-core",
-        "langchain-deepseek",
-        "langchain-google-genai",
-        "langchain-mcp-adapters",
-        "langchain-ollama",
-        "langchain-openai",
-        "langchain-openviking",
-        "langfuse",
-        "langgraph",
-        "langgraph-api",
-        "langgraph-checkpoint",
-        "langgraph-checkpoint-postgres",
-        "langgraph-checkpoint-sqlite",
-        "langgraph-cli",
-        "langgraph-runtime-inmem",
-        "langgraph-sdk",
-        "lark-oapi",
-        "markdown-to-mrkdwn",
-        "markdownify",
-        "markitdown",
-        "monocle-apptrace",
-        "monocle-test-tools",
-        "opensandbox",
-        "packaging",
-        "playwright",
-        "psycopg",
-        "psycopg-pool",
-        "pydantic",
-        "pyjwt",
-        "pymupdf4llm",
-        "pytest",
-        "python-dotenv",
-        "python-multipart",
-        "python-telegram-bot",
-        "pyyaml",
-        "readabilipy",
-        "redis",
-        "ruff",
-        "slack-sdk",
-        "sqlalchemy",
-        "sse-starlette",
-        "starlette",
-        "tavily-python",
-        "tenki",
-        "textual",
-        "tiktoken",
-        "tzdata",
-        "uvicorn",
-        "wecom-aibot-python-sdk"
-      ],
-      "direct_dependency_count": 79,
-      "direction": "research_agent",
-      "external_apis_confirmed": [
-        {
-          "access_model": "commercial",
-          "evidence": [
-            "dependency",
-            "import",
-            "environment_variable"
-          ],
-          "provider": "anthropic"
-        },
-        {
-          "access_model": "commercial_or_free_tier",
-          "evidence": [
-            "dependency",
-            "import"
-          ],
-          "provider": "exa"
-        },
-        {
-          "access_model": "commercial_or_free_tier",
-          "evidence": [
-            "dependency",
-            "environment_variable"
-          ],
-          "provider": "google_genai"
-        },
-        {
-          "access_model": "commercial",
-          "evidence": [
-            "dependency",
-            "import",
-            "environment_variable"
-          ],
-          "provider": "openai"
-        },
-        {
-          "access_model": "commercial_or_free_tier",
-          "evidence": [
-            "dependency",
-            "import",
-            "environment_variable"
-          ],
-          "provider": "tavily"
-        }
-      ],
-      "external_apis_unknown": [
-        "BRAVE_SEARCH_API_KEY",
-        "CRW_API_KEY",
-        "DEEPSEEK_API_KEY",
-        "DEEPSEEK_TEST_API_KEY",
-        "DEERFLOW_ACCESS_TOKEN",
-        "E2B_API_KEY",
-        "FIRECRAWL_API_KEY",
-        "GROUNDROUTE_API_KEY",
-        "IMAGE_GENERATION_API_KEY",
-        "INFOQUEST_API_KEY",
-        "JINA_API_KEY",
-        "MINIMAX_API_KEY",
-        "NOVITA_API_KEY",
-        "OPENVIKING_API_KEY",
-        "OPEN_SANDBOX_API_KEY",
-        "PROVISIONER_API_KEY",
-        "SERPER_API_KEY",
-        "SERPLY_API_KEY",
-        "SOFYA_API_KEY",
-        "STEPFUN_API_KEY",
-        "TENKI_API_KEY",
-        "VLLM_API_KEY",
-        "VOLCENGINE_API_KEY",
-        "VOLCENGINE_TTS_ACCESS_TOKEN"
-      ],
-      "langgraph_dependency": true,
-      "langgraph_evidence": [
-        {
-          "line": 49,
-          "path": "backend/app/gateway/checkpoint_retention.py",
-          "type": "import"
-        },
-        {
-          "line": 50,
-          "path": "backend/app/gateway/checkpoint_retention.py",
-          "type": "import"
-        },
-        {
-          "line": 51,
-          "path": "backend/app/gateway/checkpoint_retention.py",
-          "type": "import"
-        },
-        {
-          "line": 170,
-          "path": "backend/app/gateway/checkpoint_retention.py",
-          "type": "import"
-        },
-        {
-          "line": 28,
-          "path": "backend/app/gateway/deps.py",
-          "type": "import"
-        },
-        {
-          "line": 145,
-          "path": "backend/app/gateway/langgraph_studio.py",
-          "type": "import"
-        },
-        {
-          "line": 23,
-          "path": "backend/app/gateway/routers/threads.py",
-          "type": "import"
-        },
-        {
-          "line": 24,
-          "path": "backend/app/gateway/routers/threads.py",
-          "type": "import"
-        },
-        {
-          "line": 26,
-          "path": "backend/app/gateway/services.py",
-          "type": "import"
-        },
-        {
-          "line": 79,
-          "path": "backend/debug.py",
-          "type": "import"
-        },
-        {
-          "line": 16,
-          "path": "backend/extension_test_fixtures/bookmark_plugin_gateway.py",
-          "type": "import"
-        },
-        {
-          "line": 17,
-          "path": "backend/extension_test_fixtures/bookmark_plugin_gateway.py",
-          "type": "import"
-        },
-        {
-          "line": 33,
-          "path": "backend/packages/harness/deerflow/agents/factory.py",
-          "type": "import"
-        },
-        {
-          "line": 34,
-          "path": "backend/packages/harness/deerflow/agents/factory.py",
-          "type": "import"
-        },
-        {
-          "line": 20,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/artifact_capture_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 20,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/artifact_resolution_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 21,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/artifact_resolution_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/clarification_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 14,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/clarification_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 15,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/clarification_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 16,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/clarification_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 23,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/deferred_tool_filter_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 24,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/deferred_tool_filter_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 24,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/durable_context_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 59,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/dynamic_context_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 38,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/input_sanitization_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/knowledge_scope_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/knowledge_scope_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 14,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/knowledge_scope_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 24,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/llm_error_handling_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 859,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/llm_error_handling_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 880,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/llm_error_handling_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 78,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/loop_detection_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/mcp_routing_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/memory_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/memory_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 23,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/model_length_finish_reason_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 70,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/pii_redaction_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 71,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/pii_redaction_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 72,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/pii_redaction_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 49,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/read_before_write_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 50,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/read_before_write_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 57,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/safety_finish_reason_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 58,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/safety_finish_reason_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 258,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/safety_finish_reason_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 281,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/safety_finish_reason_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/sandbox_audit_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 14,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/sandbox_audit_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 17,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/skill_tool_policy_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 18,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/skill_tool_policy_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/subagent_limit_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 15,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/summarization_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 16,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/summarization_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 17,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/summarization_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 18,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/summarization_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/terminal_response_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/thread_data_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/thread_data_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/title_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/title_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 14,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/title_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 30,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/todo_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 56,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/token_budget_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/token_usage_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_error_handling_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_error_handling_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_error_handling_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 41,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_output_budget_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 42,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_output_budget_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 63,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_progress_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 64,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_progress_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 65,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_progress_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_promotion_audit_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_promotion_audit_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 14,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_promotion_audit_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 27,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_receipt_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 28,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_receipt_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 16,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_result_meta.py",
-          "type": "import"
-        },
-        {
-          "line": 36,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_result_sanitization_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 37,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/tool_result_sanitization_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 16,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/uploads_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 243,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/uploads_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 392,
-          "path": "backend/packages/harness/deerflow/agents/middlewares/view_image_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 19,
-          "path": "backend/packages/harness/deerflow/agents/task_continuity/archive.py",
-          "type": "import"
-        },
-        {
-          "line": 6,
-          "path": "backend/packages/harness/deerflow/agents/task_continuity/state.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
-          "path": "backend/packages/harness/deerflow/agents/task_continuity/tools.py",
-          "type": "import"
-        },
-        {
-          "line": 15,
-          "path": "backend/packages/harness/deerflow/agents/thread_state.py",
-          "type": "import"
-        },
-        {
-          "line": 16,
-          "path": "backend/packages/harness/deerflow/agents/thread_state.py",
-          "type": "import"
-        },
-        {
-          "line": 30,
-          "path": "backend/packages/harness/deerflow/checkpoint_patches.py",
-          "type": "import"
-        },
-        {
-          "line": 31,
-          "path": "backend/packages/harness/deerflow/checkpoint_patches.py",
-          "type": "import"
-        },
-        {
-          "line": 32,
-          "path": "backend/packages/harness/deerflow/checkpoint_patches.py",
-          "type": "import"
-        },
-        {
-          "line": 27,
-          "path": "backend/packages/harness/deerflow/community/browser_automation/tools.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/packages/harness/deerflow/community/browserless/tools.py",
-          "type": "import"
-        },
-        {
-          "line": 37,
-          "path": "backend/packages/harness/deerflow/extensions/isolation.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "backend/packages/harness/deerflow/guardrails/middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/packages/harness/deerflow/guardrails/middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/packages/harness/deerflow/guardrails/middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 69,
-          "path": "backend/packages/harness/deerflow/mcp/context_headers.py",
-          "type": "import"
-        },
-        {
-          "line": 16,
-          "path": "backend/packages/harness/deerflow/mcp/tools.py",
-          "type": "import"
-        },
-        {
-          "line": 447,
-          "path": "backend/packages/harness/deerflow/mcp/tools.py",
-          "type": "import"
-        },
-        {
-          "line": 49,
-          "path": "backend/packages/harness/deerflow/mcp/user_scoped_auth.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/packages/harness/deerflow/persistence/thread_meta/__init__.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/packages/harness/deerflow/persistence/thread_meta/memory.py",
-          "type": "import"
-        },
-        {
-          "line": 61,
-          "path": "backend/packages/harness/deerflow/runtime/checkpoint_state.py",
-          "type": "import"
-        },
-        {
-          "line": 104,
-          "path": "backend/packages/harness/deerflow/runtime/checkpoint_state.py",
-          "type": "import"
-        },
-        {
-          "line": 25,
-          "path": "backend/packages/harness/deerflow/runtime/checkpointer/async_provider.py",
-          "type": "import"
-        },
-        {
-          "line": 95,
-          "path": "backend/packages/harness/deerflow/runtime/checkpointer/async_provider.py",
-          "type": "import"
-        },
-        {
-          "line": 116,
-          "path": "backend/packages/harness/deerflow/runtime/checkpointer/async_provider.py",
-          "type": "import"
-        },
-        {
-          "line": 123,
-          "path": "backend/packages/harness/deerflow/runtime/checkpointer/async_provider.py",
-          "type": "import"
-        },
-        {
-          "line": 158,
-          "path": "backend/packages/harness/deerflow/runtime/checkpointer/async_provider.py",
-          "type": "import"
-        },
-        {
-          "line": 165,
-          "path": "backend/packages/harness/deerflow/runtime/checkpointer/async_provider.py",
-          "type": "import"
-        },
-        {
-          "line": 214,
-          "path": "backend/packages/harness/deerflow/runtime/checkpointer/async_provider.py",
-          "type": "import"
-        },
-        {
-          "line": 26,
-          "path": "backend/packages/harness/deerflow/runtime/checkpointer/cached_saver.py",
-          "type": "import"
-        },
-        {
-          "line": 27,
-          "path": "backend/packages/harness/deerflow/runtime/checkpointer/provider.py",
-          "type": "import"
-        },
-        {
-          "line": 112,
-          "path": "backend/packages/harness/deerflow/runtime/checkpointer/provider.py",
-          "type": "import"
-        },
-        {
-          "line": 120,
-          "path": "backend/packages/harness/deerflow/runtime/checkpointer/provider.py",
-          "type": "import"
-        },
-        {
-          "line": 134,
-          "path": "backend/packages/harness/deerflow/runtime/checkpointer/provider.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "backend/packages/harness/deerflow/runtime/context_compaction.py",
-          "type": "import"
-        },
-        {
-          "line": 21,
-          "path": "backend/packages/harness/deerflow/runtime/goal.py",
-          "type": "import"
-        },
-        {
-          "line": 35,
-          "path": "backend/packages/harness/deerflow/runtime/journal.py",
-          "type": "import"
-        },
-        {
-          "line": 36,
-          "path": "backend/packages/harness/deerflow/runtime/runs/worker.py",
-          "type": "import"
-        },
-        {
-          "line": 37,
-          "path": "backend/packages/harness/deerflow/runtime/runs/worker.py",
-          "type": "import"
-        },
-        {
-          "line": 1136,
-          "path": "backend/packages/harness/deerflow/runtime/runs/worker.py",
-          "type": "import"
-        },
-        {
-          "line": 41,
-          "path": "backend/packages/harness/deerflow/runtime/serialization.py",
-          "type": "import"
-        },
-        {
-          "line": 25,
-          "path": "backend/packages/harness/deerflow/runtime/store/async_provider.py",
-          "type": "import"
-        },
-        {
-          "line": 60,
-          "path": "backend/packages/harness/deerflow/runtime/store/async_provider.py",
-          "type": "import"
-        },
-        {
-          "line": 68,
-          "path": "backend/packages/harness/deerflow/runtime/store/async_provider.py",
-          "type": "import"
-        },
-        {
-          "line": 83,
-          "path": "backend/packages/harness/deerflow/runtime/store/async_provider.py",
-          "type": "import"
-        },
-        {
-          "line": 29,
-          "path": "backend/packages/harness/deerflow/runtime/store/provider.py",
-          "type": "import"
-        },
-        {
-          "line": 107,
-          "path": "backend/packages/harness/deerflow/runtime/store/provider.py",
-          "type": "import"
-        },
-        {
-          "line": 115,
-          "path": "backend/packages/harness/deerflow/runtime/store/provider.py",
-          "type": "import"
-        },
-        {
-          "line": 130,
-          "path": "backend/packages/harness/deerflow/runtime/store/provider.py",
-          "type": "import"
-        },
-        {
-          "line": 231,
-          "path": "backend/packages/harness/deerflow/runtime/user_context.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/packages/harness/deerflow/sandbox/middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "backend/packages/harness/deerflow/sandbox/middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/packages/harness/deerflow/sandbox/middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/packages/harness/deerflow/sandbox/middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 3,
-          "path": "backend/packages/harness/deerflow/sandbox/overwrite.py",
-          "type": "import"
-        },
-        {
-          "line": 21,
-          "path": "backend/packages/harness/deerflow/skills/describe.py",
-          "type": "import"
-        },
-        {
-          "line": 28,
-          "path": "backend/packages/harness/deerflow/subagents/executor.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/packages/harness/deerflow/tools/builtins/batch_task_tool.py",
-          "type": "import"
-        },
-        {
-          "line": 20,
-          "path": "backend/packages/harness/deerflow/tools/builtins/list_uploaded_files_tool.py",
-          "type": "import"
-        },
-        {
-          "line": 6,
-          "path": "backend/packages/harness/deerflow/tools/builtins/present_file_tool.py",
-          "type": "import"
-        },
-        {
-          "line": 7,
-          "path": "backend/packages/harness/deerflow/tools/builtins/present_file_tool.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/packages/harness/deerflow/tools/builtins/review_skill_package_tool.py",
-          "type": "import"
-        },
-        {
-          "line": 5,
-          "path": "backend/packages/harness/deerflow/tools/builtins/setup_agent_tool.py",
-          "type": "import"
-        },
-        {
-          "line": 17,
-          "path": "backend/packages/harness/deerflow/tools/builtins/task_tool.py",
-          "type": "import"
-        },
-        {
-          "line": 18,
-          "path": "backend/packages/harness/deerflow/tools/builtins/task_tool.py",
-          "type": "import"
-        },
-        {
-          "line": 33,
-          "path": "backend/packages/harness/deerflow/tools/builtins/tool_search.py",
-          "type": "import"
-        },
-        {
-          "line": 34,
-          "path": "backend/packages/harness/deerflow/tools/builtins/update_agent_tool.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "backend/packages/harness/deerflow/tools/builtins/view_image_tool.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/packages/harness/deerflow/utils/custom_events.py",
-          "type": "import"
-        },
-        {
-          "line": 58,
-          "path": "backend/scripts/benchmark/checkpoint/bench_channels.py",
-          "type": "import"
-        },
-        {
-          "line": 59,
-          "path": "backend/scripts/benchmark/checkpoint/bench_channels.py",
-          "type": "import"
-        },
-        {
-          "line": 60,
-          "path": "backend/scripts/benchmark/checkpoint/bench_channels.py",
-          "type": "import"
-        },
-        {
-          "line": 61,
-          "path": "backend/scripts/benchmark/checkpoint/bench_channels.py",
-          "type": "import"
-        },
-        {
-          "line": 62,
-          "path": "backend/scripts/benchmark/checkpoint/bench_channels.py",
-          "type": "import"
-        },
-        {
-          "line": 577,
-          "path": "backend/scripts/benchmark/checkpoint/bench_channels.py",
-          "type": "import"
-        },
-        {
-          "line": 585,
-          "path": "backend/scripts/benchmark/checkpoint/bench_channels.py",
-          "type": "import"
-        },
-        {
-          "line": 538,
-          "path": "backend/scripts/benchmark/checkpoint/bench_production.py",
-          "type": "import"
-        },
-        {
-          "line": 677,
-          "path": "backend/scripts/benchmark/checkpoint/bench_production.py",
-          "type": "import"
-        },
-        {
-          "line": 50,
-          "path": "backend/scripts/benchmark/checkpoint/bench_tool_result_probe.py",
-          "type": "import"
-        },
-        {
-          "line": 51,
-          "path": "backend/scripts/benchmark/checkpoint/bench_tool_result_probe.py",
-          "type": "import"
-        },
-        {
-          "line": 52,
-          "path": "backend/scripts/benchmark/checkpoint/bench_tool_result_probe.py",
-          "type": "import"
-        },
-        {
-          "line": 24,
-          "path": "backend/scripts/manual_task_continuity_check.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/tests/blocking_io/test_artifact_middlewares.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/tests/blocking_io/test_run_journal_callbacks.py",
-          "type": "import"
-        },
-        {
-          "line": 15,
-          "path": "backend/tests/test_artifact_integration.py",
-          "type": "import"
-        },
-        {
-          "line": 2,
-          "path": "backend/tests/test_artifact_resolution_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "backend/tests/test_artifact_review_regressions.py",
-          "type": "import"
-        },
-        {
-          "line": 119,
-          "path": "backend/tests/test_artifact_review_regressions.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/tests/test_artifact_safety_review.py",
-          "type": "import"
-        },
-        {
-          "line": 288,
-          "path": "backend/tests/test_auth.py",
-          "type": "import"
-        },
-        {
-          "line": 7,
-          "path": "backend/tests/test_batch_task_tool.py",
-          "type": "import"
-        },
-        {
-          "line": 138,
-          "path": "backend/tests/test_bench_checkpoint_production.py",
-          "type": "import"
-        },
-        {
-          "line": 139,
-          "path": "backend/tests/test_bench_checkpoint_production.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "backend/tests/test_bookmark_plugin.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/tests/test_bookmark_plugin.py",
-          "type": "import"
-        },
-        {
-          "line": 6,
-          "path": "backend/tests/test_cached_history_saver.py",
-          "type": "import"
-        },
-        {
-          "line": 27,
-          "path": "backend/tests/test_cached_history_saver_integration.py",
-          "type": "import"
-        },
-        {
-          "line": 28,
-          "path": "backend/tests/test_cached_history_saver_integration.py",
-          "type": "import"
-        },
-        {
-          "line": 29,
-          "path": "backend/tests/test_cached_history_saver_integration.py",
-          "type": "import"
-        },
-        {
-          "line": 30,
-          "path": "backend/tests/test_cached_history_saver_integration.py",
-          "type": "import"
-        },
-        {
-          "line": 31,
-          "path": "backend/tests/test_cached_history_saver_integration.py",
-          "type": "import"
-        },
-        {
-          "line": 6,
-          "path": "backend/tests/test_checkpoint_cache_redis.py",
-          "type": "import"
-        },
-        {
-          "line": 124,
-          "path": "backend/tests/test_checkpoint_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 125,
-          "path": "backend/tests/test_checkpoint_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 15,
-          "path": "backend/tests/test_checkpoint_patches.py",
-          "type": "import"
-        },
-        {
-          "line": 16,
-          "path": "backend/tests/test_checkpoint_patches.py",
-          "type": "import"
-        },
-        {
-          "line": 17,
-          "path": "backend/tests/test_checkpoint_patches.py",
-          "type": "import"
-        },
-        {
-          "line": 40,
-          "path": "backend/tests/test_checkpoint_retention_contract.py",
-          "type": "import"
-        },
-        {
-          "line": 41,
-          "path": "backend/tests/test_checkpoint_retention_contract.py",
-          "type": "import"
-        },
-        {
-          "line": 42,
-          "path": "backend/tests/test_checkpoint_retention_contract.py",
-          "type": "import"
-        },
-        {
-          "line": 43,
-          "path": "backend/tests/test_checkpoint_retention_contract.py",
-          "type": "import"
-        },
-        {
-          "line": 44,
-          "path": "backend/tests/test_checkpoint_retention_contract.py",
-          "type": "import"
-        },
-        {
-          "line": 25,
-          "path": "backend/tests/test_checkpoint_retention_service.py",
-          "type": "import"
-        },
-        {
-          "line": 26,
-          "path": "backend/tests/test_checkpoint_retention_service.py",
-          "type": "import"
-        },
-        {
-          "line": 27,
-          "path": "backend/tests/test_checkpoint_retention_service.py",
-          "type": "import"
-        },
-        {
-          "line": 28,
-          "path": "backend/tests/test_checkpoint_retention_service.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "backend/tests/test_checkpoint_state.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/tests/test_checkpoint_state.py",
-          "type": "import"
-        },
-        {
-          "line": 87,
-          "path": "backend/tests/test_checkpoint_state.py",
-          "type": "import"
-        },
-        {
-          "line": 308,
-          "path": "backend/tests/test_checkpoint_state.py",
-          "type": "import"
-        },
-        {
-          "line": 238,
-          "path": "backend/tests/test_checkpointer.py",
-          "type": "import"
-        },
-        {
-          "line": 247,
-          "path": "backend/tests/test_checkpointer.py",
-          "type": "import"
-        },
-        {
-          "line": 964,
-          "path": "backend/tests/test_checkpointer.py",
-          "type": "import"
-        },
-        {
-          "line": 997,
-          "path": "backend/tests/test_checkpointer.py",
-          "type": "import"
-        },
-        {
-          "line": 1013,
-          "path": "backend/tests/test_checkpointer.py",
-          "type": "import"
-        },
-        {
-          "line": 1147,
-          "path": "backend/tests/test_checkpointer.py",
-          "type": "import"
-        },
-        {
-          "line": 1183,
-          "path": "backend/tests/test_checkpointer.py",
-          "type": "import"
-        },
-        {
-          "line": 6,
-          "path": "backend/tests/test_checkpointer_none_fix.py",
-          "type": "import"
-        },
-        {
-          "line": 7,
-          "path": "backend/tests/test_clarification_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 500,
-          "path": "backend/tests/test_clarification_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 779,
-          "path": "backend/tests/test_clarification_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 788,
-          "path": "backend/tests/test_clarification_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 169,
-          "path": "backend/tests/test_client.py",
-          "type": "import"
-        },
-        {
-          "line": 2271,
-          "path": "backend/tests/test_client.py",
-          "type": "import"
-        },
-        {
-          "line": 3988,
-          "path": "backend/tests/test_client.py",
-          "type": "import"
-        },
-        {
-          "line": 15,
-          "path": "backend/tests/test_command_tool_result_semantics.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
-          "path": "backend/tests/test_context_compaction.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "backend/tests/test_context_compaction.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/tests/test_context_compaction.py",
-          "type": "import"
-        },
-        {
-          "line": 14,
-          "path": "backend/tests/test_conversation_access.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "backend/tests/test_create_deerflow_agent.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/tests/test_create_deerflow_agent.py",
-          "type": "import"
-        },
-        {
-          "line": 14,
-          "path": "backend/tests/test_custom_events.py",
-          "type": "import"
-        },
-        {
-          "line": 15,
-          "path": "backend/tests/test_custom_events.py",
-          "type": "import"
-        },
-        {
-          "line": 16,
-          "path": "backend/tests/test_custom_events.py",
-          "type": "import"
-        },
-        {
-          "line": 17,
-          "path": "backend/tests/test_custom_events.py",
-          "type": "import"
-        },
-        {
-          "line": 2,
-          "path": "backend/tests/test_deferred_setup.py",
-          "type": "import"
-        },
-        {
-          "line": 23,
-          "path": "backend/tests/test_delegation_ledger_live.py",
-          "type": "import"
-        },
-        {
-          "line": 24,
-          "path": "backend/tests/test_delegation_ledger_live.py",
-          "type": "import"
-        },
-        {
-          "line": 39,
-          "path": "backend/tests/test_delta_channel_checkpointers.py",
-          "type": "import"
-        },
-        {
-          "line": 40,
-          "path": "backend/tests/test_delta_channel_checkpointers.py",
-          "type": "import"
-        },
-        {
-          "line": 41,
-          "path": "backend/tests/test_delta_channel_checkpointers.py",
-          "type": "import"
-        },
-        {
-          "line": 42,
-          "path": "backend/tests/test_delta_channel_checkpointers.py",
-          "type": "import"
-        },
-        {
-          "line": 43,
-          "path": "backend/tests/test_delta_channel_checkpointers.py",
-          "type": "import"
-        },
-        {
-          "line": 44,
-          "path": "backend/tests/test_delta_channel_checkpointers.py",
-          "type": "import"
-        },
-        {
-          "line": 45,
-          "path": "backend/tests/test_delta_channel_checkpointers.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "backend/tests/test_delta_channel_state.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/tests/test_delta_channel_state.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/tests/test_delta_channel_state.py",
-          "type": "import"
-        },
-        {
-          "line": 14,
-          "path": "backend/tests/test_delta_channel_state.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/tests/test_durable_context_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/tests/test_durable_context_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 14,
-          "path": "backend/tests/test_dynamic_context_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 265,
-          "path": "backend/tests/test_dynamic_context_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 363,
-          "path": "backend/tests/test_dynamic_context_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 679,
-          "path": "backend/tests/test_dynamic_context_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/tests/test_ensure_sandbox_initialized.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "backend/tests/test_extension_isolation.py",
-          "type": "import"
-        },
-        {
-          "line": 21,
-          "path": "backend/tests/test_extension_system_model_calls.py",
-          "type": "import"
-        },
-        {
-          "line": 17,
-          "path": "backend/tests/test_extension_task_lifecycle.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/tests/test_extension_task_store_runtime.py",
-          "type": "import"
-        },
-        {
-          "line": 23,
-          "path": "backend/tests/test_external_system_message_boundary.py",
-          "type": "import"
-        },
-        {
-          "line": 24,
-          "path": "backend/tests/test_gateway_checkpoint_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 25,
-          "path": "backend/tests/test_gateway_checkpoint_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 26,
-          "path": "backend/tests/test_gateway_checkpoint_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 31,
-          "path": "backend/tests/test_gateway_run_drain_shutdown.py",
-          "type": "import"
-        },
-        {
-          "line": 309,
-          "path": "backend/tests/test_gateway_run_drain_shutdown.py",
-          "type": "import"
-        },
-        {
-          "line": 28,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 29,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 2292,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 2293,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 2591,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 2592,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 2745,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 2897,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 2898,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 2978,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 2979,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 3072,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 3073,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 3366,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 4564,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 4565,
-          "path": "backend/tests/test_gateway_services.py",
-          "type": "import"
-        },
-        {
-          "line": 7,
-          "path": "backend/tests/test_goal_worker.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
-          "path": "backend/tests/test_goal_worker.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "backend/tests/test_guardrail_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/tests/test_input_sanitization_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
-          "path": "backend/tests/test_interrupt_serialization.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "backend/tests/test_interrupt_serialization.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/tests/test_jev_classify_extension.py",
-          "type": "import"
-        },
-        {
-          "line": 14,
-          "path": "backend/tests/test_jev_classify_extension.py",
-          "type": "import"
-        },
-        {
-          "line": 20,
-          "path": "backend/tests/test_jev_context_extension.py",
-          "type": "import"
-        },
-        {
-          "line": 23,
-          "path": "backend/tests/test_jev_result_screening_extension.py",
-          "type": "import"
-        },
-        {
-          "line": 24,
-          "path": "backend/tests/test_jev_result_screening_extension.py",
-          "type": "import"
-        },
-        {
-          "line": 25,
-          "path": "backend/tests/test_jev_result_screening_extension.py",
-          "type": "import"
-        },
-        {
-          "line": 25,
-          "path": "backend/tests/test_jev_screening_pipeline.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
-          "path": "backend/tests/test_knowledge_citation_budget.py",
-          "type": "import"
-        },
-        {
-          "line": 6,
-          "path": "backend/tests/test_knowledge_scope_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 169,
-          "path": "backend/tests/test_langgraph_studio_lifespan.py",
-          "type": "import"
-        },
-        {
-          "line": 18,
-          "path": "backend/tests/test_llm_error_handling_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 221,
-          "path": "backend/tests/test_mcp_context_headers.py",
-          "type": "import"
-        },
-        {
-          "line": 222,
-          "path": "backend/tests/test_mcp_context_headers.py",
-          "type": "import"
-        },
-        {
-          "line": 536,
-          "path": "backend/tests/test_mcp_context_headers.py",
-          "type": "import"
-        },
-        {
-          "line": 537,
-          "path": "backend/tests/test_mcp_context_headers.py",
-          "type": "import"
-        },
-        {
-          "line": 658,
-          "path": "backend/tests/test_mcp_context_headers.py",
-          "type": "import"
-        },
-        {
-          "line": 659,
-          "path": "backend/tests/test_mcp_context_headers.py",
-          "type": "import"
-        },
-        {
-          "line": 1228,
-          "path": "backend/tests/test_mcp_session_pool.py",
-          "type": "import"
-        },
-        {
-          "line": 207,
-          "path": "backend/tests/test_mcp_sync_wrapper.py",
-          "type": "import"
-        },
-        {
-          "line": 208,
-          "path": "backend/tests/test_mcp_sync_wrapper.py",
-          "type": "import"
-        },
-        {
-          "line": 209,
-          "path": "backend/tests/test_mcp_sync_wrapper.py",
-          "type": "import"
-        },
-        {
-          "line": 320,
-          "path": "backend/tests/test_mcp_sync_wrapper.py",
-          "type": "import"
-        },
-        {
-          "line": 295,
-          "path": "backend/tests/test_mcp_task_ordinary_e2e.py",
-          "type": "import"
-        },
-        {
-          "line": 296,
-          "path": "backend/tests/test_mcp_task_ordinary_e2e.py",
-          "type": "import"
-        },
-        {
-          "line": 4,
-          "path": "backend/tests/test_memory_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 6,
-          "path": "backend/tests/test_memory_pii_redaction.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/tests/test_memory_thread_meta_isolation.py",
-          "type": "import"
-        },
-        {
-          "line": 36,
-          "path": "backend/tests/test_multiturn_message_stream_graph_integration.py",
-          "type": "import"
-        },
-        {
-          "line": 18,
-          "path": "backend/tests/test_pii_redaction_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/tests/test_plugin_tools.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "backend/tests/test_plugin_tools.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "backend/tests/test_present_files_e2e_user_isolation.py",
-          "type": "import"
-        },
-        {
-          "line": 488,
-          "path": "backend/tests/test_project_context_injection.py",
-          "type": "import"
-        },
-        {
-          "line": 1111,
-          "path": "backend/tests/test_ragflow_tools.py",
-          "type": "import"
-        },
-        {
-          "line": 1112,
-          "path": "backend/tests/test_ragflow_tools.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/tests/test_read_before_write_cancellation.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "backend/tests/test_read_before_write_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
-          "path": "backend/tests/test_run_duration_checkpoint.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "backend/tests/test_run_duration_checkpoint.py",
-          "type": "import"
-        },
-        {
-          "line": 139,
-          "path": "backend/tests/test_run_events_endpoint.py",
-          "type": "import"
-        },
-        {
-          "line": 600,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 2274,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 2275,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 2332,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 2375,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 2410,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 2436,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 2464,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 2492,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 2527,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 2544,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 2566,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 2591,
-          "path": "backend/tests/test_run_journal.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/tests/test_run_worker_delivery.py",
-          "type": "import"
-        },
-        {
-          "line": 21,
-          "path": "backend/tests/test_run_worker_delta_resume.py",
-          "type": "import"
-        },
-        {
-          "line": 22,
-          "path": "backend/tests/test_run_worker_delta_resume.py",
-          "type": "import"
-        },
-        {
-          "line": 23,
-          "path": "backend/tests/test_run_worker_delta_resume.py",
-          "type": "import"
-        },
-        {
-          "line": 24,
-          "path": "backend/tests/test_run_worker_delta_resume.py",
-          "type": "import"
-        },
-        {
-          "line": 25,
-          "path": "backend/tests/test_run_worker_delta_resume.py",
-          "type": "import"
-        },
-        {
-          "line": 26,
-          "path": "backend/tests/test_run_worker_delta_resume.py",
-          "type": "import"
-        },
-        {
-          "line": 14,
-          "path": "backend/tests/test_run_worker_rollback.py",
-          "type": "import"
-        },
-        {
-          "line": 15,
-          "path": "backend/tests/test_run_worker_rollback.py",
-          "type": "import"
-        },
-        {
-          "line": 16,
-          "path": "backend/tests/test_run_worker_rollback.py",
-          "type": "import"
-        },
-        {
-          "line": 17,
-          "path": "backend/tests/test_run_worker_rollback.py",
-          "type": "import"
-        },
-        {
-          "line": 18,
-          "path": "backend/tests/test_run_worker_rollback.py",
-          "type": "import"
-        },
-        {
-          "line": 19,
-          "path": "backend/tests/test_run_worker_rollback.py",
-          "type": "import"
-        },
-        {
-          "line": 20,
-          "path": "backend/tests/test_run_worker_rollback.py",
-          "type": "import"
-        },
-        {
-          "line": 3802,
-          "path": "backend/tests/test_run_worker_rollback.py",
-          "type": "import"
-        },
-        {
-          "line": 3803,
-          "path": "backend/tests/test_run_worker_rollback.py",
-          "type": "import"
-        },
-        {
-          "line": 3941,
-          "path": "backend/tests/test_run_worker_rollback.py",
-          "type": "import"
-        },
-        {
-          "line": 303,
-          "path": "backend/tests/test_runtime_lifecycle_e2e.py",
-          "type": "import"
-        },
-        {
-          "line": 492,
-          "path": "backend/tests/test_runtime_lifecycle_e2e.py",
-          "type": "import"
-        },
-        {
-          "line": 7,
-          "path": "backend/tests/test_safety_finish_reason_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 724,
-          "path": "backend/tests/test_safety_finish_reason_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 763,
-          "path": "backend/tests/test_safety_finish_reason_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 790,
-          "path": "backend/tests/test_safety_finish_reason_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 811,
-          "path": "backend/tests/test_safety_finish_reason_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 831,
-          "path": "backend/tests/test_safety_finish_reason_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 811,
-          "path": "backend/tests/test_sandbox_authorization.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "backend/tests/test_sandbox_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/tests/test_sandbox_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/tests/test_sandbox_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 14,
-          "path": "backend/tests/test_sandbox_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/tests/test_sandbox_reference_ownership.py",
-          "type": "import"
-        },
-        {
-          "line": 7,
-          "path": "backend/tests/test_sandbox_skill_sync_cancellation.py",
-          "type": "import"
-        },
-        {
-          "line": 297,
-          "path": "backend/tests/test_setup_agent_e2e_user_isolation.py",
-          "type": "import"
-        },
-        {
-          "line": 351,
-          "path": "backend/tests/test_setup_agent_e2e_user_isolation.py",
-          "type": "import"
-        },
-        {
-          "line": 396,
-          "path": "backend/tests/test_setup_agent_e2e_user_isolation.py",
-          "type": "import"
-        },
-        {
-          "line": 465,
-          "path": "backend/tests/test_setup_agent_e2e_user_isolation.py",
-          "type": "import"
-        },
-        {
-          "line": 11,
-          "path": "backend/tests/test_skill_tool_policy_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/tests/test_skill_tool_policy_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "backend/tests/test_skill_usage.py",
-          "type": "import"
-        },
-        {
-          "line": 34,
-          "path": "backend/tests/test_stateless_runs_owner_isolation.py",
-          "type": "import"
-        },
-        {
-          "line": 2152,
-          "path": "backend/tests/test_subagent_executor.py",
-          "type": "import"
-        },
-        {
-          "line": 2211,
-          "path": "backend/tests/test_subagent_executor.py",
-          "type": "import"
-        },
-        {
-          "line": 2253,
-          "path": "backend/tests/test_subagent_executor.py",
-          "type": "import"
-        },
-        {
-          "line": 2285,
-          "path": "backend/tests/test_subagent_executor.py",
-          "type": "import"
-        },
-        {
-          "line": 2326,
-          "path": "backend/tests/test_subagent_executor.py",
-          "type": "import"
-        },
-        {
-          "line": 3930,
-          "path": "backend/tests/test_subagent_executor.py",
-          "type": "import"
-        },
-        {
-          "line": 4235,
-          "path": "backend/tests/test_subagent_executor.py",
-          "type": "import"
-        },
-        {
-          "line": 4236,
-          "path": "backend/tests/test_subagent_executor.py",
-          "type": "import"
-        },
-        {
-          "line": 4351,
-          "path": "backend/tests/test_subagent_executor.py",
-          "type": "import"
-        },
-        {
-          "line": 4352,
-          "path": "backend/tests/test_subagent_executor.py",
-          "type": "import"
-        },
-        {
-          "line": 5238,
-          "path": "backend/tests/test_subagent_executor.py",
-          "type": "import"
-        },
-        {
-          "line": 21,
-          "path": "backend/tests/test_subagent_turn_budget.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/tests/test_summarization_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/tests/test_task_continuity.py",
-          "type": "import"
-        },
-        {
-          "line": 290,
-          "path": "backend/tests/test_task_continuity.py",
-          "type": "import"
-        },
-        {
-          "line": 431,
-          "path": "backend/tests/test_task_continuity.py",
-          "type": "import"
-        },
-        {
-          "line": 16,
-          "path": "backend/tests/test_task_tool_core_logic.py",
-          "type": "import"
-        },
-        {
-          "line": 4,
-          "path": "backend/tests/test_thread_archive.py",
-          "type": "import"
-        },
-        {
-          "line": 3,
-          "path": "backend/tests/test_thread_data_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/tests/test_thread_regenerate_prepare.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/tests/test_thread_regenerate_prepare.py",
-          "type": "import"
-        },
-        {
-          "line": 628,
-          "path": "backend/tests/test_thread_run_idempotency.py",
-          "type": "import"
-        },
-        {
-          "line": 629,
-          "path": "backend/tests/test_thread_run_idempotency.py",
-          "type": "import"
-        },
-        {
-          "line": 22,
-          "path": "backend/tests/test_thread_runs_internal_scope.py",
-          "type": "import"
-        },
-        {
-          "line": 17,
-          "path": "backend/tests/test_threads_checkpoint_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 18,
-          "path": "backend/tests/test_threads_checkpoint_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 19,
-          "path": "backend/tests/test_threads_checkpoint_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 20,
-          "path": "backend/tests/test_threads_checkpoint_mode.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/tests/test_threads_router.py",
-          "type": "import"
-        },
-        {
-          "line": 14,
-          "path": "backend/tests/test_threads_router.py",
-          "type": "import"
-        },
-        {
-          "line": 15,
-          "path": "backend/tests/test_threads_router.py",
-          "type": "import"
-        },
-        {
-          "line": 16,
-          "path": "backend/tests/test_threads_router.py",
-          "type": "import"
-        },
-        {
-          "line": 1301,
-          "path": "backend/tests/test_threads_router.py",
-          "type": "import"
-        },
-        {
-          "line": 1662,
-          "path": "backend/tests/test_threads_router.py",
-          "type": "import"
-        },
-        {
-          "line": 1693,
-          "path": "backend/tests/test_threads_router.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "backend/tests/test_title_middleware_core_logic.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "backend/tests/test_token_budget_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 7,
-          "path": "backend/tests/test_token_usage_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/tests/test_tool_error_handling_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 1237,
-          "path": "backend/tests/test_tool_error_handling_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
-          "path": "backend/tests/test_tool_error_handling_subagent_stamp.py",
-          "type": "import"
-        },
-        {
-          "line": 21,
-          "path": "backend/tests/test_tool_output_budget_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 13,
-          "path": "backend/tests/test_tool_progress_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
-          "path": "backend/tests/test_tool_promotion_audit_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 10,
-          "path": "backend/tests/test_tool_receipt_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 257,
-          "path": "backend/tests/test_tool_receipt_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "backend/tests/test_tool_result_meta.py",
-          "type": "import"
-        },
-        {
-          "line": 15,
-          "path": "backend/tests/test_tool_result_sanitization_middleware.py",
-          "type": "import"
-        },
-        {
-          "line": 8,
-          "path": "backend/tests/test_tui_persistence.py",
-          "type": "import"
-        },
-        {
-          "line": 125,
-          "path": "backend/tests/test_update_agent_e2e_user_isolation.py",
-          "type": "import"
-        },
-        {
-          "line": 168,
-          "path": "backend/tests/test_update_agent_e2e_user_isolation.py",
-          "type": "import"
-        },
-        {
-          "line": 224,
-          "path": "backend/tests/test_update_agent_e2e_user_isolation.py",
-          "type": "import"
-        },
-        {
-          "line": 12,
-          "path": "backend/tests/test_user_context.py",
-          "type": "import"
-        },
-        {
-          "line": 382,
-          "path": "backend/tests/test_worker_stream_subgraph_namespace.py",
-          "type": "import"
-        },
-        {
-          "line": 383,
-          "path": "backend/tests/test_worker_stream_subgraph_namespace.py",
-          "type": "import"
-        },
-        {
-          "line": 488,
-          "path": "backend/tests/test_worker_stream_subgraph_namespace.py",
-          "type": "import"
-        },
-        {
-          "line": 26,
-          "path": "examples/deerflow-extension-example/deerflow_extension_example/plugin.py",
-          "type": "import"
-        },
-        {
-          "line": 31,
-          "path": "examples/deerflow-extension-jev-screening/deerflow_extension_jev_screening/screener.py",
-          "type": "import"
-        },
-        {
-          "line": 32,
-          "path": "examples/deerflow-extension-jev-screening/deerflow_extension_jev_screening/screener.py",
-          "type": "import"
-        }
-      ],
-      "langgraph_status": "confirmed",
-      "node_names_confirmed": [
-        "tools",
-        "as_node",
-        "noop",
-        "tool",
-        "tools",
-        "step0",
-        "step1",
-        "pause",
-        "step2",
-        "step3",
-        "noop",
-        "noop",
-        "noop",
-        "increment",
-        "child",
-        "append",
-        "emit",
-        "noop",
-        "writer",
-        "reply",
-        "ask_credential",
-        "tools",
-        "tools",
-        "tools",
-        "tools",
-        "tools",
-        "tools",
-        "tools",
-        "tools",
-        "tools",
-        "first",
-        "second",
-        "answer",
-        "answer",
-        "append_message",
-        "append",
-        "step",
-        "finish",
-        "tools",
-        "child_model",
-        "child_tool",
-        "child_final",
-        "delegate",
-        "reply",
-        "reply",
-        "child_model",
-        "child_tool",
-        "child_fallback",
-        "child_final",
-        "delegate"
-      ],
-      "nodes_confirmed": 50,
-      "nodes_dynamic_unknown": true,
-      "project_kind": "agent_project",
-      "state_field_names_confirmed": [
-        "artifacts",
-        "count",
-        "messages",
-        "title",
-        "value"
-      ],
-      "state_fields_confirmed": 5,
-      "state_fields_unknown": true,
-      "subagent_names_confirmed": [],
-      "subagents_confirmed": 0,
-      "subagents_unknown": true,
-      "subgraphs_confirmed": 1,
-      "tutorial_only": false
-    },
     "analyzer_version": 1,
-    "head_sha": "827acf51dc4a713d99632f0319a62ee487598c77",
-    "pushed_at": "2026-09-27T13:05:16Z"
+    "pushed_at": "2026-09-28T14:47:29Z",
+    "scan_error": "selected source exceeds scan size limit"
   },
   "cft0808/edict": {
     "analysis": {
@@ -29443,7 +27046,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "14a207557719c046af0f993a7bff1cc5a5015b33",
-    "pushed_at": "2026-09-21T02:28:20Z"
+    "pushed_at": "2026-09-28T02:33:22Z"
   },
   "chatchat-space/LangGraph-Chatchat": {
     "analysis": {
@@ -30152,7 +27755,7 @@
   },
   "comet-ml/opik": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-27T12:21:35Z",
+    "pushed_at": "2026-09-28T15:35:48Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "confident-ai/deepeval": {
@@ -30499,8 +28102,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "385117c9c46e6935866422b7aa1f67e5e2824472",
-    "pushed_at": "2026-09-25T16:00:39Z"
+    "head_sha": "a7519f5cd1b178459d4b30601aec9546811e6ee6",
+    "pushed_at": "2026-09-28T05:06:12Z"
   },
   "csml-rpi/Foam-Agent": {
     "analysis": {
@@ -37569,8 +35172,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "ecd03cdaeb07d27d9dec4839c60c307c4b525fe3",
-    "pushed_at": "2026-09-27T10:27:48Z"
+    "head_sha": "b5bc01fe20be0312ff4eb1722dd1dc1013bb1788",
+    "pushed_at": "2026-09-28T11:19:21Z"
   },
   "ilsilfverskiold/Awesome-LLM-Resources-List": {
     "analysis": {
@@ -42764,6 +40367,7 @@
         "ruff",
         "runloop-api-client",
         "sentence-transformers",
+        "slack-sdk",
         "sqlalchemy",
         "tavily-python",
         "textual",
@@ -42781,7 +40385,7 @@
         "voyageai",
         "wcmatch"
       ],
-      "direct_dependency_count": 107,
+      "direct_dependency_count": 108,
       "direction": "data_sql",
       "external_apis_confirmed": [
         {
@@ -44181,12 +41785,12 @@
           "type": "import"
         },
         {
-          "line": 36,
+          "line": 50,
           "path": "libs/talon/deepagents_talon/__main__.py",
           "type": "import"
         },
         {
-          "line": 207,
+          "line": 329,
           "path": "libs/talon/deepagents_talon/__main__.py",
           "type": "import"
         },
@@ -44266,22 +41870,22 @@
           "type": "import"
         },
         {
-          "line": 32,
-          "path": "libs/talon/deepagents_talon/runtime.py",
-          "type": "import"
-        },
-        {
-          "line": 33,
-          "path": "libs/talon/deepagents_talon/runtime.py",
-          "type": "import"
-        },
-        {
           "line": 34,
           "path": "libs/talon/deepagents_talon/runtime.py",
           "type": "import"
         },
         {
-          "line": 89,
+          "line": 35,
+          "path": "libs/talon/deepagents_talon/runtime.py",
+          "type": "import"
+        },
+        {
+          "line": 36,
+          "path": "libs/talon/deepagents_talon/runtime.py",
+          "type": "import"
+        },
+        {
+          "line": 98,
           "path": "libs/talon/deepagents_talon/runtime.py",
           "type": "import"
         },
@@ -44326,12 +41930,12 @@
           "type": "import"
         },
         {
-          "line": 8,
+          "line": 9,
           "path": "libs/talon/tests/test_main.py",
           "type": "import"
         },
         {
-          "line": 9,
+          "line": 10,
           "path": "libs/talon/tests/test_main.py",
           "type": "import"
         },
@@ -44512,6 +42116,11 @@
         },
         {
           "line": 8,
+          "path": "libs/talon/tests/unit_tests/test_scheduled_history.py",
+          "type": "import"
+        },
+        {
+          "line": 8,
           "path": "libs/talon/tests/unit_tests/test_store_archive.py",
           "type": "import"
         },
@@ -44570,9 +42179,11 @@
         "reply",
         "reply",
         "tools",
+        "reply",
+        "reply",
         "reply"
       ],
-      "nodes_confirmed": 18,
+      "nodes_confirmed": 20,
       "nodes_dynamic_unknown": true,
       "project_kind": "agent_project",
       "state_field_names_confirmed": [
@@ -44588,8 +42199,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "0c756c4f8037d9132c96b5191d4ef1f5a57a42f8",
-    "pushed_at": "2026-09-27T09:13:29Z"
+    "head_sha": "86923e160c18a6c090045ef1d60a17bd0d65760d",
+    "pushed_at": "2026-09-28T15:17:12Z"
   },
   "langchain-ai/langchain": {
     "analysis": {
@@ -45563,8 +43174,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "80b74090515a594cc8421fb2d82e98f4e256c29f",
-    "pushed_at": "2026-09-27T12:45:16Z"
+    "head_sha": "42f04f460d8ed1a34ed53bcbaf40fd92b1f777e5",
+    "pushed_at": "2026-09-28T13:57:51Z"
   },
   "langchain-ai/langchain-aws": {
     "analysis": {
@@ -52994,8 +50605,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "7daa3ab49d678a5da75edb08baa87db4a2be52c3",
-    "pushed_at": "2026-09-27T00:57:15Z"
+    "head_sha": "07b33185eab893be2ed031eedae52f09314bf77c",
+    "pushed_at": "2026-09-28T13:32:32Z"
   },
   "langchain-ai/langgraph-bigtool": {
     "analysis": {
@@ -53735,6 +51346,7 @@
         "langchain-modal",
         "langchain-openai",
         "langchain-runloop",
+        "langchain-typesafe",
         "langgraph",
         "langgraph-checkpoint-sqlite",
         "langgraph-cli",
@@ -53755,8 +51367,8 @@
         "uvicorn",
         "websockets"
       ],
-      "direct_dependency_count": 41,
-      "direction": "browser_automation",
+      "direct_dependency_count": 42,
+      "direction": "coding_agent",
       "external_apis_confirmed": [
         {
           "access_model": "commercial",
@@ -53899,12 +51511,12 @@
           "type": "import"
         },
         {
-          "line": 8,
+          "line": 10,
           "path": "agent/middleware/model_selection.py",
           "type": "import"
         },
         {
-          "line": 9,
+          "line": 11,
           "path": "agent/middleware/model_selection.py",
           "type": "import"
         },
@@ -54069,7 +51681,7 @@
           "type": "import"
         },
         {
-          "line": 24,
+          "line": 25,
           "path": "agent/sandboxes/state.py",
           "type": "import"
         },
@@ -54452,8 +52064,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "89ff499efa11be6bcaf62fe9763b26805f2171b4",
-    "pushed_at": "2026-09-27T08:57:45Z"
+    "head_sha": "0d1846133a65bb9d8a54b8d089222cd9e7c73fcc",
+    "pushed_at": "2026-09-28T15:35:52Z"
   },
   "langchain-ai/openevals": {
     "analysis": {
@@ -59433,8 +57045,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "6b644564d112b879e48183bc1655fcf73c86d23e",
-    "pushed_at": "2026-09-26T20:29:38Z"
+    "head_sha": "2f95f1a40253b959fbdc07fba7e61f6d64300982",
+    "pushed_at": "2026-09-28T15:35:42Z"
   },
   "midodimori/langrepl": {
     "analysis": {
@@ -59902,7 +57514,7 @@
   },
   "mlflow/mlflow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-27T12:01:57Z",
+    "pushed_at": "2026-09-28T14:02:01Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "modelscope/easydistill": {
@@ -62493,7 +60105,7 @@
   },
   "opensandbox-group/OpenSandbox": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-27T04:16:11Z",
+    "pushed_at": "2026-09-28T11:34:51Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "oracle/agent-spec": {
@@ -69606,6 +67218,8 @@
         "web_dev",
         "n1",
         "n2",
+        "Alice",
+        "Acme",
         "alice",
         "bob",
         "carol",
@@ -69644,8 +67258,14 @@
         "b",
         "seed_node",
         "persistent_node",
+        "alice",
+        "bob",
+        "acme",
         "n1",
         "n2",
+        "alice",
+        "bob",
+        "acme",
         "n1",
         "a",
         "b",
@@ -69670,7 +67290,7 @@
         "alice",
         "bob"
       ],
-      "nodes_confirmed": 256,
+      "nodes_confirmed": 264,
       "nodes_dynamic_unknown": true,
       "project_kind": "unknown",
       "state_field_names_confirmed": [],
@@ -69683,8 +67303,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "373fd14ba12a52abb40b52964be85fbc43245efa",
-    "pushed_at": "2026-09-27T11:05:51Z"
+    "head_sha": "a756c5a0186902569b4935da115776b9bb3dbf7d",
+    "pushed_at": "2026-09-28T14:22:15Z"
   },
   "shenjianan97/persistent-agent-runtime": {
     "analysis": {
@@ -74816,7 +72436,7 @@
   },
   "vectorize-io/hindsight": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-26T14:14:46Z",
+    "pushed_at": "2026-09-28T14:42:21Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "velocitybolt/open-extract": {
@@ -75604,8 +73224,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "104361bccbca37ab27f79da658fd4e14c4096a17",
-    "pushed_at": "2026-09-27T13:05:53Z"
+    "head_sha": "29fa24f619b02927d3bae38e17924f28f86345ba",
+    "pushed_at": "2026-09-28T09:15:13Z"
   },
   "vndee/llm-sandbox": {
     "analysis": {
@@ -77368,12 +74988,12 @@
           "type": "import"
         },
         {
-          "line": 26,
+          "line": 24,
           "path": "backend/package/yuxi/agents/middlewares/summary.py",
           "type": "import"
         },
         {
-          "line": 27,
+          "line": 25,
           "path": "backend/package/yuxi/agents/middlewares/summary.py",
           "type": "import"
         },
@@ -77543,12 +75163,12 @@
           "type": "import"
         },
         {
-          "line": 689,
+          "line": 694,
           "path": "backend/test/unit/middlewares/test_subagent_task_middleware.py",
           "type": "import"
         },
         {
-          "line": 691,
+          "line": 696,
           "path": "backend/test/unit/middlewares/test_subagent_task_middleware.py",
           "type": "import"
         },
@@ -77637,8 +75257,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "b9916da9dfc48194053be045f46197a1b8679349",
-    "pushed_at": "2026-09-27T12:53:27Z"
+    "head_sha": "b9c3f13f44e70bb2ccada481ef7284889230162e",
+    "pushed_at": "2026-09-28T14:31:03Z"
   },
   "xiongQvQ/AI_Find_Customer": {
     "analysis": {
@@ -78905,7 +76525,7 @@
   },
   "zenml-io/zenml": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-26T20:38:15Z",
+    "pushed_at": "2026-09-28T09:30:44Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "zezhishao/DailyArXiv": {

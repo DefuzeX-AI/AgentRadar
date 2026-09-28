@@ -89,12 +89,6 @@
     ]
   },
   {
-    "signal": "BRAVE_SEARCH_API_KEY",
-    "repositories": [
-      "bytedance/deer-flow"
-    ]
-  },
-  {
     "signal": "CARTESIA_API_KEY",
     "repositories": [
       "confident-ai/deepeval"
@@ -146,8 +140,7 @@
   {
     "signal": "CRW_API_KEY",
     "repositories": [
-      "assafelovic/gpt-researcher",
-      "bytedance/deer-flow"
+      "assafelovic/gpt-researcher"
     ]
   },
   {
@@ -212,20 +205,7 @@
       "BitterSecurity/Decepticon",
       "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher",
-      "bytedance/deer-flow",
       "confident-ai/deepeval"
-    ]
-  },
-  {
-    "signal": "DEEPSEEK_TEST_API_KEY",
-    "repositories": [
-      "bytedance/deer-flow"
-    ]
-  },
-  {
-    "signal": "DEERFLOW_ACCESS_TOKEN",
-    "repositories": [
-      "bytedance/deer-flow"
     ]
   },
   {
@@ -237,7 +217,6 @@
   {
     "signal": "E2B_API_KEY",
     "repositories": [
-      "bytedance/deer-flow",
       "rllm-org/rllm"
     ]
   },
@@ -251,7 +230,6 @@
     "signal": "FIRECRAWL_API_KEY",
     "repositories": [
       "assafelovic/gpt-researcher",
-      "bytedance/deer-flow",
       "rllm-org/rllm"
     ]
   },
@@ -324,8 +302,7 @@
   {
     "signal": "GROUNDROUTE_API_KEY",
     "repositories": [
-      "assafelovic/gpt-researcher",
-      "bytedance/deer-flow"
+      "assafelovic/gpt-researcher"
     ]
   },
   {
@@ -344,24 +321,6 @@
     "signal": "IAM_API_KEY",
     "repositories": [
       "traceloop/openllmetry"
-    ]
-  },
-  {
-    "signal": "IMAGE_GENERATION_API_KEY",
-    "repositories": [
-      "bytedance/deer-flow"
-    ]
-  },
-  {
-    "signal": "INFOQUEST_API_KEY",
-    "repositories": [
-      "bytedance/deer-flow"
-    ]
-  },
-  {
-    "signal": "JINA_API_KEY",
-    "repositories": [
-      "bytedance/deer-flow"
     ]
   },
   {
@@ -443,7 +402,6 @@
       "GetBindu/Bindu",
       "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher",
-      "bytedance/deer-flow",
       "rllm-org/rllm"
     ]
   },
@@ -505,12 +463,6 @@
     ]
   },
   {
-    "signal": "NOVITA_API_KEY",
-    "repositories": [
-      "bytedance/deer-flow"
-    ]
-  },
-  {
     "signal": "NVIDIA_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon",
@@ -565,18 +517,6 @@
     ]
   },
   {
-    "signal": "OPENVIKING_API_KEY",
-    "repositories": [
-      "bytedance/deer-flow"
-    ]
-  },
-  {
-    "signal": "OPEN_SANDBOX_API_KEY",
-    "repositories": [
-      "bytedance/deer-flow"
-    ]
-  },
-  {
     "signal": "PERPLEXITY_ACCESS_TOKEN",
     "repositories": [
       "BitterSecurity/Decepticon"
@@ -598,12 +538,6 @@
     "signal": "POSTHOG_CLI_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon"
-    ]
-  },
-  {
-    "signal": "PROVISIONER_API_KEY",
-    "repositories": [
-      "bytedance/deer-flow"
     ]
   },
   {
@@ -652,14 +586,7 @@
     "signal": "SERPER_API_KEY",
     "repositories": [
       "assafelovic/gpt-researcher",
-      "bytedance/deer-flow",
       "rllm-org/rllm"
-    ]
-  },
-  {
-    "signal": "SERPLY_API_KEY",
-    "repositories": [
-      "bytedance/deer-flow"
     ]
   },
   {
@@ -687,18 +614,6 @@
     ]
   },
   {
-    "signal": "SOFYA_API_KEY",
-    "repositories": [
-      "bytedance/deer-flow"
-    ]
-  },
-  {
-    "signal": "STEPFUN_API_KEY",
-    "repositories": [
-      "bytedance/deer-flow"
-    ]
-  },
-  {
     "signal": "SWANLAB_API_KEY",
     "repositories": [
       "rllm-org/rllm"
@@ -708,12 +623,6 @@
     "signal": "SYNTHETIC_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon"
-    ]
-  },
-  {
-    "signal": "TENKI_API_KEY",
-    "repositories": [
-      "bytedance/deer-flow"
     ]
   },
   {
@@ -771,26 +680,13 @@
   {
     "signal": "VLLM_API_KEY",
     "repositories": [
-      "BitterSecurity/Decepticon",
-      "bytedance/deer-flow"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
     "signal": "VLLM_OPENAI_API_KEY",
     "repositories": [
       "assafelovic/gpt-researcher"
-    ]
-  },
-  {
-    "signal": "VOLCENGINE_API_KEY",
-    "repositories": [
-      "bytedance/deer-flow"
-    ]
-  },
-  {
-    "signal": "VOLCENGINE_TTS_ACCESS_TOKEN",
-    "repositories": [
-      "bytedance/deer-flow"
     ]
   },
   {
