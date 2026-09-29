@@ -348,6 +348,12 @@
     ]
   },
   {
+    "signal": "LANGSMITH_GATEWAY_API_KEY",
+    "repositories": [
+      "langchain-ai/deepagents"
+    ]
+  },
+  {
     "signal": "LAYA_API_KEY",
     "repositories": [
       "NandhaKishorM/laya"
