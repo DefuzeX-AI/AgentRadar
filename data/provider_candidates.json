@@ -95,6 +95,12 @@
     ]
   },
   {
+    "signal": "CEREBRAS_API_KEY",
+    "repositories": [
+      "awarexone/Agentic-Bug-Hunter"
+    ]
+  },
+  {
     "signal": "CHATGPT_ACCESS_TOKEN",
     "repositories": [
       "BitterSecurity/Decepticon"
@@ -205,6 +211,7 @@
       "BitterSecurity/Decepticon",
       "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher",
+      "awarexone/Agentic-Bug-Hunter",
       "confident-ai/deepeval"
     ]
   },
@@ -231,6 +238,12 @@
     "repositories": [
       "assafelovic/gpt-researcher",
       "rllm-org/rllm"
+    ]
+  },
+  {
+    "signal": "FLUXION_API_KEY",
+    "repositories": [
+      "awarexone/Agentic-Bug-Hunter"
     ]
   },
   {
@@ -362,6 +375,7 @@
   {
     "signal": "LITELLM_API_KEY",
     "repositories": [
+      "awarexone/Agentic-Bug-Hunter",
       "confident-ai/deepeval"
     ]
   },
@@ -434,6 +448,7 @@
     "repositories": [
       "BitterSecurity/Decepticon",
       "TauricResearch/TradingAgents",
+      "awarexone/Agentic-Bug-Hunter",
       "confident-ai/deepeval"
     ]
   },
@@ -519,13 +534,26 @@
       "GetBindu/Bindu",
       "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher",
+      "awarexone/Agentic-Bug-Hunter",
       "confident-ai/deepeval"
+    ]
+  },
+  {
+    "signal": "ORCAROUTER_API_KEY",
+    "repositories": [
+      "awarexone/Agentic-Bug-Hunter"
     ]
   },
   {
     "signal": "PERPLEXITY_ACCESS_TOKEN",
     "repositories": [
       "BitterSecurity/Decepticon"
+    ]
+  },
+  {
+    "signal": "PERPLEXITY_API_KEY",
+    "repositories": [
+      "awarexone/Agentic-Bug-Hunter"
     ]
   },
   {
@@ -550,6 +578,12 @@
     "signal": "QIANFAN_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon"
+    ]
+  },
+  {
+    "signal": "REQUESTY_API_KEY",
+    "repositories": [
+      "awarexone/Agentic-Bug-Hunter"
     ]
   },
   {
@@ -647,6 +681,7 @@
     "signal": "TOGETHER_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon",
+      "awarexone/Agentic-Bug-Hunter",
       "rllm-org/rllm",
       "traceloop/openllmetry"
     ]
@@ -720,7 +755,8 @@
     "signal": "XAI_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon",
-      "TauricResearch/TradingAgents"
+      "TauricResearch/TradingAgents",
+      "awarexone/Agentic-Bug-Hunter"
     ]
   },
   {
