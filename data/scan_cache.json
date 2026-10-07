@@ -1552,8 +1552,6 @@
         "pyyaml",
         "qdrant-client",
         "requests",
-        "scikit-learn",
-        "scipy",
         "snowballstemmer",
         "sphinx",
         "sphinx-autosummary-accessors",
@@ -1574,7 +1572,7 @@
         "websockets",
         "wrapt"
       ],
-      "direct_dependency_count": 129,
+      "direct_dependency_count": 127,
       "direction": "data_sql",
       "external_apis_confirmed": [
         {
@@ -1769,8 +1767,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "7556cee07aa7ec4272ddb88ef9a6dc5a3105249d",
-    "pushed_at": "2026-10-06T13:21:46Z"
+    "head_sha": "3383f07731f1f26ef758ecf49ee1eae9c7e0ef3d",
+    "pushed_at": "2026-10-07T14:17:55Z"
   },
   "Arvo-AI/aurora": {
     "analysis": {
@@ -2171,7 +2169,7 @@
   },
   "BerriAI/litellm": {
     "analyzer_version": 1,
-    "pushed_at": "2026-10-06T13:53:27Z",
+    "pushed_at": "2026-10-07T14:33:14Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "Bessouat40/RAGLight": {
@@ -2507,17 +2505,17 @@
           "type": "import"
         },
         {
-          "line": 14,
+          "line": 16,
           "path": "packages/decepticon/decepticon/tools/opplan.py",
           "type": "import"
         },
         {
-          "line": 15,
+          "line": 17,
           "path": "packages/decepticon/decepticon/tools/opplan.py",
           "type": "import"
         },
         {
-          "line": 200,
+          "line": 297,
           "path": "packages/decepticon/decepticon/tools/opplan.py",
           "type": "import"
         },
@@ -2587,8 +2585,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "e2b42ab3cf00cc597db486944da0f4099fbb3fc0",
-    "pushed_at": "2026-10-05T12:12:56Z"
+    "head_sha": "b3d4bbf852fec3a13380c942a91228c97333d5c8",
+    "pushed_at": "2026-10-07T12:11:16Z"
   },
   "BjornMelin/docmind-ai-llm": {
     "analysis": {
@@ -3421,8 +3419,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "f4bfb208f9bbd965967278647c4b987b94aded9f",
-    "pushed_at": "2026-10-06T02:27:19Z"
+    "head_sha": "eab640c67c91ab6fd237dc19629c22f77497d89b",
+    "pushed_at": "2026-10-07T02:44:52Z"
   },
   "ChaitanyaEswarRajeshJakki/gemini-youtube-automation": {
     "analysis": {
@@ -10566,7 +10564,7 @@
   },
   "LearningCircuit/local-deep-research": {
     "analyzer_version": 1,
-    "pushed_at": "2026-10-06T04:14:08Z",
+    "pushed_at": "2026-10-07T08:05:30Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "LegalQuants/lq-ai": {
@@ -13521,8 +13519,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "ef0f96d76f197b80a8e25c32dac39cc85b104e4d",
-    "pushed_at": "2026-10-06T10:17:45Z"
+    "head_sha": "3c8e4b958fda9602e0044885f766be0e49f03585",
+    "pushed_at": "2026-10-07T09:24:43Z"
   },
   "NVlabs/SpatialClaw": {
     "analysis": {
@@ -14306,8 +14304,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "a4a8921afebfd852bba0000475cfb6ab737a124c",
-    "pushed_at": "2026-10-05T17:36:41Z"
+    "head_sha": "3cf26cbcb18725dbc2d127bb8bb2c4c43243ae63",
+    "pushed_at": "2026-10-07T14:16:29Z"
   },
   "NapthaAI/automcp": {
     "analysis": {
@@ -26710,7 +26708,7 @@
   },
   "bytedance/deer-flow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-10-06T13:18:54Z",
+    "pushed_at": "2026-10-07T13:16:46Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "cft0808/edict": {
@@ -27463,7 +27461,7 @@
   },
   "comet-ml/opik": {
     "analyzer_version": 1,
-    "pushed_at": "2026-10-06T14:08:51Z",
+    "pushed_at": "2026-10-07T14:32:23Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "confident-ai/deepeval": {
@@ -27810,8 +27808,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "ec9b9837a3bf4a41b7fc01f2de0bfeba4997c159",
-    "pushed_at": "2026-10-05T07:44:31Z"
+    "head_sha": "ad72061ecb35da7a4db0ead23483e05bf54fcf13",
+    "pushed_at": "2026-10-07T14:25:02Z"
   },
   "csml-rpi/Foam-Agent": {
     "analysis": {
@@ -31948,8 +31946,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "2a85bbbf27f3d0d07dd3a8bf6dc8700c5193c066",
-    "pushed_at": "2026-10-05T19:15:08Z"
+    "head_sha": "aa5bb2706929fce502d99d8c7c4ddbb77bff4995",
+    "pushed_at": "2026-10-06T20:43:31Z"
   },
   "getzep/zep": {
     "analyzer_version": 1,
@@ -34880,8 +34878,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "07a27bd45636020880e025bf6ae8e0311d43f9b0",
-    "pushed_at": "2026-10-06T10:15:24Z"
+    "head_sha": "cb3f6e5145d5f3381a20237817fe611b7c49332b",
+    "pushed_at": "2026-10-07T08:05:57Z"
   },
   "ilsilfverskiold/Awesome-LLM-Resources-List": {
     "analysis": {
@@ -40351,17 +40349,17 @@
           "type": "import"
         },
         {
-          "line": 329,
+          "line": 351,
           "path": "libs/code/deepagents_code/built_in_skills/deepagents-thread-inspector/scripts/inspect_sessions.py",
           "type": "import"
         },
         {
-          "line": 330,
+          "line": 352,
           "path": "libs/code/deepagents_code/built_in_skills/deepagents-thread-inspector/scripts/inspect_sessions.py",
           "type": "import"
         },
         {
-          "line": 331,
+          "line": 353,
           "path": "libs/code/deepagents_code/built_in_skills/deepagents-thread-inspector/scripts/inspect_sessions.py",
           "type": "import"
         },
@@ -40546,42 +40544,42 @@
           "type": "import"
         },
         {
-          "line": 24,
-          "path": "libs/code/deepagents_code/sessions.py",
-          "type": "import"
-        },
-        {
           "line": 25,
           "path": "libs/code/deepagents_code/sessions.py",
           "type": "import"
         },
         {
-          "line": 785,
+          "line": 26,
           "path": "libs/code/deepagents_code/sessions.py",
           "type": "import"
         },
         {
-          "line": 1285,
+          "line": 845,
           "path": "libs/code/deepagents_code/sessions.py",
           "type": "import"
         },
         {
-          "line": 1286,
+          "line": 1345,
           "path": "libs/code/deepagents_code/sessions.py",
           "type": "import"
         },
         {
-          "line": 1332,
+          "line": 1346,
           "path": "libs/code/deepagents_code/sessions.py",
           "type": "import"
         },
         {
-          "line": 1333,
+          "line": 1392,
           "path": "libs/code/deepagents_code/sessions.py",
           "type": "import"
         },
         {
-          "line": 1785,
+          "line": 1393,
+          "path": "libs/code/deepagents_code/sessions.py",
+          "type": "import"
+        },
+        {
+          "line": 1941,
           "path": "libs/code/deepagents_code/sessions.py",
           "type": "import"
         },
@@ -40616,7 +40614,7 @@
           "type": "import"
         },
         {
-          "line": 1823,
+          "line": 1826,
           "path": "libs/code/deepagents_code/tui/textual_adapter.py",
           "type": "import"
         },
@@ -40701,7 +40699,7 @@
           "type": "import"
         },
         {
-          "line": 481,
+          "line": 537,
           "path": "libs/code/tests/unit_tests/skills/test_thread_inspector.py",
           "type": "import"
         },
@@ -41041,17 +41039,17 @@
           "type": "import"
         },
         {
-          "line": 12,
+          "line": 13,
           "path": "libs/code/tests/unit_tests/test_sessions.py",
           "type": "import"
         },
         {
-          "line": 1901,
+          "line": 2058,
           "path": "libs/code/tests/unit_tests/test_sessions.py",
           "type": "import"
         },
         {
-          "line": 1945,
+          "line": 2102,
           "path": "libs/code/tests/unit_tests/test_sessions.py",
           "type": "import"
         },
@@ -42188,8 +42186,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "e6f59d00ea459d8797dd8d9eb23d8c0960cfd427",
-    "pushed_at": "2026-10-06T11:24:45Z"
+    "head_sha": "d900425c7b834319e7ae797f6d77017b3b4c6e4e",
+    "pushed_at": "2026-10-07T14:25:26Z"
   },
   "langchain-ai/langchain": {
     "analysis": {
@@ -43168,8 +43166,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "0c24e89bdcd2d94d215d38a9b365f72ca0ff4ad0",
-    "pushed_at": "2026-10-06T13:47:23Z"
+    "head_sha": "4db8c0e8359dc9789669af140e9c2728718566f8",
+    "pushed_at": "2026-10-07T14:08:00Z"
   },
   "langchain-ai/langchain-aws": {
     "analysis": {
@@ -43831,7 +43829,7 @@
   "langchain-ai/langgraph": {
     "analysis": {
       "agent_factories_confirmed": 56,
-      "conditional_edges_confirmed": 121,
+      "conditional_edges_confirmed": 122,
       "direct_dependencies": [
         "aiosqlite",
         "click",
@@ -44248,7 +44246,7 @@
           "type": "import"
         },
         {
-          "line": 18,
+          "line": 19,
           "path": "libs/checkpoint-postgres/langgraph/checkpoint/postgres/base.py",
           "type": "import"
         },
@@ -44523,6 +44521,11 @@
           "type": "import"
         },
         {
+          "line": 10,
+          "path": "libs/checkpoint-sqlite/langgraph/checkpoint/sqlite/utils.py",
+          "type": "import"
+        },
+        {
           "line": 1,
           "path": "libs/checkpoint-sqlite/langgraph/store/sqlite/__init__.py",
           "type": "import"
@@ -44705,6 +44708,21 @@
         {
           "line": 13,
           "path": "libs/checkpoint-sqlite/tests/test_ttl.py",
+          "type": "import"
+        },
+        {
+          "line": 8,
+          "path": "libs/checkpoint-sqlite/tests/test_writes_task_path_migration.py",
+          "type": "import"
+        },
+        {
+          "line": 10,
+          "path": "libs/checkpoint-sqlite/tests/test_writes_task_path_migration.py",
+          "type": "import"
+        },
+        {
+          "line": 11,
+          "path": "libs/checkpoint-sqlite/tests/test_writes_task_path_migration.py",
           "type": "import"
         },
         {
@@ -45843,12 +45861,7 @@
           "type": "import"
         },
         {
-          "line": 31,
-          "path": "libs/langgraph/langgraph/pregel/_algo.py",
-          "type": "import"
-        },
-        {
-          "line": 34,
+          "line": 32,
           "path": "libs/langgraph/langgraph/pregel/_algo.py",
           "type": "import"
         },
@@ -45858,7 +45871,7 @@
           "type": "import"
         },
         {
-          "line": 65,
+          "line": 36,
           "path": "libs/langgraph/langgraph/pregel/_algo.py",
           "type": "import"
         },
@@ -45928,6 +45941,11 @@
           "type": "import"
         },
         {
+          "line": 79,
+          "path": "libs/langgraph/langgraph/pregel/_algo.py",
+          "type": "import"
+        },
+        {
           "line": 17,
           "path": "libs/langgraph/langgraph/pregel/_call.py",
           "type": "import"
@@ -45968,12 +45986,7 @@
           "type": "import"
         },
         {
-          "line": 9,
-          "path": "libs/langgraph/langgraph/pregel/_checkpoint.py",
-          "type": "import"
-        },
-        {
-          "line": 16,
+          "line": 10,
           "path": "libs/langgraph/langgraph/pregel/_checkpoint.py",
           "type": "import"
         },
@@ -45983,17 +45996,17 @@
           "type": "import"
         },
         {
-          "line": 19,
+          "line": 18,
           "path": "libs/langgraph/langgraph/pregel/_checkpoint.py",
           "type": "import"
         },
         {
-          "line": 23,
+          "line": 20,
           "path": "libs/langgraph/langgraph/pregel/_checkpoint.py",
           "type": "import"
         },
         {
-          "line": 31,
+          "line": 24,
           "path": "libs/langgraph/langgraph/pregel/_checkpoint.py",
           "type": "import"
         },
@@ -46009,6 +46022,11 @@
         },
         {
           "line": 34,
+          "path": "libs/langgraph/langgraph/pregel/_checkpoint.py",
+          "type": "import"
+        },
+        {
+          "line": 35,
           "path": "libs/langgraph/langgraph/pregel/_checkpoint.py",
           "type": "import"
         },
@@ -46118,17 +46136,22 @@
           "type": "import"
         },
         {
+          "line": 25,
+          "path": "libs/langgraph/langgraph/pregel/_loop.py",
+          "type": "import"
+        },
+        {
           "line": 26,
           "path": "libs/langgraph/langgraph/pregel/_loop.py",
           "type": "import"
         },
         {
-          "line": 27,
+          "line": 35,
           "path": "libs/langgraph/langgraph/pregel/_loop.py",
           "type": "import"
         },
         {
-          "line": 36,
+          "line": 38,
           "path": "libs/langgraph/langgraph/pregel/_loop.py",
           "type": "import"
         },
@@ -46138,7 +46161,7 @@
           "type": "import"
         },
         {
-          "line": 40,
+          "line": 63,
           "path": "libs/langgraph/langgraph/pregel/_loop.py",
           "type": "import"
         },
@@ -46158,7 +46181,7 @@
           "type": "import"
         },
         {
-          "line": 67,
+          "line": 71,
           "path": "libs/langgraph/langgraph/pregel/_loop.py",
           "type": "import"
         },
@@ -46188,37 +46211,27 @@
           "type": "import"
         },
         {
-          "line": 77,
+          "line": 80,
           "path": "libs/langgraph/langgraph/pregel/_loop.py",
           "type": "import"
         },
         {
-          "line": 81,
+          "line": 84,
           "path": "libs/langgraph/langgraph/pregel/_loop.py",
           "type": "import"
         },
         {
-          "line": 85,
+          "line": 98,
           "path": "libs/langgraph/langgraph/pregel/_loop.py",
           "type": "import"
         },
         {
-          "line": 99,
+          "line": 112,
           "path": "libs/langgraph/langgraph/pregel/_loop.py",
           "type": "import"
         },
         {
-          "line": 111,
-          "path": "libs/langgraph/langgraph/pregel/_loop.py",
-          "type": "import"
-        },
-        {
-          "line": 116,
-          "path": "libs/langgraph/langgraph/pregel/_loop.py",
-          "type": "import"
-        },
-        {
-          "line": 123,
+          "line": 117,
           "path": "libs/langgraph/langgraph/pregel/_loop.py",
           "type": "import"
         },
@@ -46243,7 +46256,7 @@
           "type": "import"
         },
         {
-          "line": 132,
+          "line": 128,
           "path": "libs/langgraph/langgraph/pregel/_loop.py",
           "type": "import"
         },
@@ -46254,6 +46267,11 @@
         },
         {
           "line": 134,
+          "path": "libs/langgraph/langgraph/pregel/_loop.py",
+          "type": "import"
+        },
+        {
+          "line": 135,
           "path": "libs/langgraph/langgraph/pregel/_loop.py",
           "type": "import"
         },
@@ -46673,22 +46691,12 @@
           "type": "import"
         },
         {
-          "line": 130,
-          "path": "libs/langgraph/langgraph/pregel/main.py",
-          "type": "import"
-        },
-        {
           "line": 131,
           "path": "libs/langgraph/langgraph/pregel/main.py",
           "type": "import"
         },
         {
-          "line": 144,
-          "path": "libs/langgraph/langgraph/pregel/main.py",
-          "type": "import"
-        },
-        {
-          "line": 145,
+          "line": 132,
           "path": "libs/langgraph/langgraph/pregel/main.py",
           "type": "import"
         },
@@ -46698,17 +46706,17 @@
           "type": "import"
         },
         {
-          "line": 150,
+          "line": 147,
           "path": "libs/langgraph/langgraph/pregel/main.py",
           "type": "import"
         },
         {
-          "line": 154,
+          "line": 148,
           "path": "libs/langgraph/langgraph/pregel/main.py",
           "type": "import"
         },
         {
-          "line": 155,
+          "line": 152,
           "path": "libs/langgraph/langgraph/pregel/main.py",
           "type": "import"
         },
@@ -46733,12 +46741,12 @@
           "type": "import"
         },
         {
-          "line": 163,
+          "line": 160,
           "path": "libs/langgraph/langgraph/pregel/main.py",
           "type": "import"
         },
         {
-          "line": 164,
+          "line": 161,
           "path": "libs/langgraph/langgraph/pregel/main.py",
           "type": "import"
         },
@@ -46758,12 +46766,12 @@
           "type": "import"
         },
         {
-          "line": 174,
+          "line": 168,
           "path": "libs/langgraph/langgraph/pregel/main.py",
           "type": "import"
         },
         {
-          "line": 175,
+          "line": 169,
           "path": "libs/langgraph/langgraph/pregel/main.py",
           "type": "import"
         },
@@ -46778,17 +46786,27 @@
           "type": "import"
         },
         {
-          "line": 183,
+          "line": 178,
           "path": "libs/langgraph/langgraph/pregel/main.py",
           "type": "import"
         },
         {
-          "line": 199,
+          "line": 179,
           "path": "libs/langgraph/langgraph/pregel/main.py",
           "type": "import"
         },
         {
-          "line": 200,
+          "line": 185,
+          "path": "libs/langgraph/langgraph/pregel/main.py",
+          "type": "import"
+        },
+        {
+          "line": 201,
+          "path": "libs/langgraph/langgraph/pregel/main.py",
+          "type": "import"
+        },
+        {
+          "line": 202,
           "path": "libs/langgraph/langgraph/pregel/main.py",
           "type": "import"
         },
@@ -47293,22 +47311,17 @@
           "type": "import"
         },
         {
-          "line": 14,
-          "path": "libs/langgraph/tests/test_delta_channel_exit_mode.py",
-          "type": "import"
-        },
-        {
           "line": 15,
           "path": "libs/langgraph/tests/test_delta_channel_exit_mode.py",
           "type": "import"
         },
         {
-          "line": 18,
+          "line": 16,
           "path": "libs/langgraph/tests/test_delta_channel_exit_mode.py",
           "type": "import"
         },
         {
-          "line": 19,
+          "line": 17,
           "path": "libs/langgraph/tests/test_delta_channel_exit_mode.py",
           "type": "import"
         },
@@ -47319,6 +47332,21 @@
         },
         {
           "line": 21,
+          "path": "libs/langgraph/tests/test_delta_channel_exit_mode.py",
+          "type": "import"
+        },
+        {
+          "line": 22,
+          "path": "libs/langgraph/tests/test_delta_channel_exit_mode.py",
+          "type": "import"
+        },
+        {
+          "line": 23,
+          "path": "libs/langgraph/tests/test_delta_channel_exit_mode.py",
+          "type": "import"
+        },
+        {
+          "line": 24,
           "path": "libs/langgraph/tests/test_delta_channel_exit_mode.py",
           "type": "import"
         },
@@ -47398,6 +47426,26 @@
           "type": "import"
         },
         {
+          "line": 7,
+          "path": "libs/langgraph/tests/test_delta_channel_parallel_order.py",
+          "type": "import"
+        },
+        {
+          "line": 10,
+          "path": "libs/langgraph/tests/test_delta_channel_parallel_order.py",
+          "type": "import"
+        },
+        {
+          "line": 11,
+          "path": "libs/langgraph/tests/test_delta_channel_parallel_order.py",
+          "type": "import"
+        },
+        {
+          "line": 12,
+          "path": "libs/langgraph/tests/test_delta_channel_parallel_order.py",
+          "type": "import"
+        },
+        {
           "line": 6,
           "path": "libs/langgraph/tests/test_delta_channel_subgraph.py",
           "type": "import"
@@ -47468,7 +47516,7 @@
           "type": "import"
         },
         {
-          "line": 27,
+          "line": 25,
           "path": "libs/langgraph/tests/test_delta_channel_update_state.py",
           "type": "import"
         },
@@ -47484,6 +47532,11 @@
         },
         {
           "line": 30,
+          "path": "libs/langgraph/tests/test_delta_channel_update_state.py",
+          "type": "import"
+        },
+        {
+          "line": 31,
           "path": "libs/langgraph/tests/test_delta_channel_update_state.py",
           "type": "import"
         },
@@ -49357,6 +49410,21 @@
         "respond",
         "noop",
         "respond",
+        "done",
+        "ask",
+        "after",
+        "done",
+        "ask",
+        "done",
+        "ask",
+        "z_done",
+        "a_asks",
+        "a",
+        "b",
+        "ask",
+        "after",
+        "done",
+        "ask",
         "n",
         "n",
         "b",
@@ -49384,6 +49452,7 @@
         "noop",
         "noop",
         "noop",
+        "worker",
         "a",
         "b",
         "child",
@@ -50720,7 +50789,7 @@
         "ask_human",
         "run_subgraph"
       ],
-      "nodes_confirmed": 1434,
+      "nodes_confirmed": 1450,
       "nodes_dynamic_unknown": true,
       "project_kind": "framework_or_library",
       "state_field_names_confirmed": [
@@ -50835,8 +50904,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "55b0e36c51d2922b11640b980fcfca1064243a96",
-    "pushed_at": "2026-10-06T14:15:23Z"
+    "head_sha": "736a18eaab6d80eed54d4c842c1297c8c87fef80",
+    "pushed_at": "2026-10-07T13:38:45Z"
   },
   "langchain-ai/langgraph-bigtool": {
     "analysis": {
@@ -51599,7 +51668,7 @@
         "websockets"
       ],
       "direct_dependency_count": 43,
-      "direction": "data_sql",
+      "direction": "coding_agent",
       "external_apis_confirmed": [
         {
           "access_model": "commercial",
@@ -51702,7 +51771,7 @@
           "type": "import"
         },
         {
-          "line": 100,
+          "line": 101,
           "path": "agent/mcp/cli_tools.py",
           "type": "import"
         },
@@ -52338,8 +52407,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "233a334db0558e38347679df50e5c0df55919bd5",
-    "pushed_at": "2026-10-06T14:15:32Z"
+    "head_sha": "4fcd23b4ae818a7fa4d49350d43c100b29f5842e",
+    "pushed_at": "2026-10-07T14:30:46Z"
   },
   "langchain-ai/openevals": {
     "analysis": {
@@ -56737,8 +56806,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "c93420c49a6b14c3d446bdb156d96811908fd90a",
-    "pushed_at": "2026-10-06T05:29:57Z"
+    "head_sha": "b7ad69afda6b6ed030347c66d48a13e4de9dec08",
+    "pushed_at": "2026-10-07T13:12:17Z"
   },
   "mfmezger/conversational-agent-langchain": {
     "analysis": {
@@ -57319,8 +57388,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "aa52fe11f10e4463881d7d716b55a96ee476a735",
-    "pushed_at": "2026-10-06T09:44:09Z"
+    "head_sha": "f68f2cf312c7e1366d6fd5654c51d8380c815222",
+    "pushed_at": "2026-10-07T08:51:13Z"
   },
   "midodimori/langrepl": {
     "analysis": {
@@ -57788,7 +57857,7 @@
   },
   "mlflow/mlflow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-10-06T14:13:13Z",
+    "pushed_at": "2026-10-07T14:02:02Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "modelscope/easydistill": {
@@ -65813,7 +65882,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "3b40c37cf6a262cf4d28cc987ebe4f4cf797956c",
-    "pushed_at": "2026-10-06T02:46:40Z"
+    "pushed_at": "2026-10-07T05:03:51Z"
   },
   "ro-anderson/multi-agent-rag-customer-support": {
     "analysis": {
@@ -66993,6 +67062,7 @@
         "kombu",
         "langchain-core",
         "langchain-protocol",
+        "langcodes",
         "langdetect",
         "langsmith",
         "lark",
@@ -67245,7 +67315,7 @@
         "zipp",
         "zstandard"
       ],
-      "direct_dependency_count": 427,
+      "direct_dependency_count": 428,
       "direction": "rag_knowledge",
       "external_apis_confirmed": [
         {
@@ -67604,8 +67674,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "9a71df67bb50800bd74ebef25f4472726c571458",
-    "pushed_at": "2026-10-06T08:09:15Z"
+    "head_sha": "320761de5d040a54a3220acc563223b4a7ffdc51",
+    "pushed_at": "2026-10-07T14:02:42Z"
   },
   "shenjianan97/persistent-agent-runtime": {
     "analysis": {
@@ -70079,8 +70149,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "9b8ae35986ee66b0c6fbe9ae562c441796167a48",
-    "pushed_at": "2026-10-06T08:01:52Z"
+    "head_sha": "1556ede43aa6c6b0a46f3dbda0cf44ad19ee742e",
+    "pushed_at": "2026-10-07T14:01:53Z"
   },
   "structureclaw/structureclaw": {
     "analysis": {
@@ -71542,8 +71612,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "0409856fa7aaed1ffb00a77da0ed2fdbde4a9f44",
-    "pushed_at": "2026-10-05T15:23:44Z"
+    "head_sha": "df4921a40940cdce136c4409380a55e9d4c7a96d",
+    "pushed_at": "2026-10-06T18:13:02Z"
   },
   "trpc-group/trpc-agent-python": {
     "analysis": {
@@ -73076,7 +73146,7 @@
   },
   "vectorize-io/hindsight": {
     "analyzer_version": 1,
-    "pushed_at": "2026-10-06T14:09:45Z",
+    "pushed_at": "2026-10-07T14:23:02Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "velocitybolt/open-extract": {
@@ -73864,8 +73934,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "0d43bebcef8de39942409e63a926ae126d7b63fc",
-    "pushed_at": "2026-10-02T12:01:28Z"
+    "head_sha": "bb79ec0e5a192503667da329a59a6ca16ef0e750",
+    "pushed_at": "2026-10-07T11:02:54Z"
   },
   "vndee/llm-sandbox": {
     "analysis": {
@@ -77165,7 +77235,7 @@
   },
   "zenml-io/zenml": {
     "analyzer_version": 1,
-    "pushed_at": "2026-10-06T13:57:20Z",
+    "pushed_at": "2026-10-07T11:32:25Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "zezhishao/DailyArXiv": {
