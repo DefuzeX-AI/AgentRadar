@@ -350,7 +350,8 @@
   {
     "signal": "LANGSMITH_GATEWAY_API_KEY",
     "repositories": [
-      "langchain-ai/deepagents"
+      "langchain-ai/deepagents",
+      "langchain-ai/open-swe"
     ]
   },
   {
@@ -524,6 +525,12 @@
   },
   {
     "signal": "PERPLEXITY_ACCESS_TOKEN",
+    "repositories": [
+      "BitterSecurity/Decepticon"
+    ]
+  },
+  {
+    "signal": "PERPLEXITY_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon"
     ]
