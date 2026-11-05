@@ -2,128 +2,128 @@
   {
     "repo": "vinta/awesome-python",
     "url": "https://github.com/vinta/awesome-python",
-    "github_stars": 326047,
+    "github_stars": 332676,
     "first_seen": "2026-08-24T21:28:31+00:00",
-    "last_seen": "2026-10-09T14:25:29+00:00",
+    "last_seen": "2026-11-05T15:35:23+00:00",
     "scan_status": "excluded_collection",
     "detail": null
   },
   {
     "repo": "langchain-ai/langchain",
     "url": "https://github.com/langchain-ai/langchain",
-    "github_stars": 147463,
+    "github_stars": 149082,
     "first_seen": "2026-08-24T21:28:31+00:00",
-    "last_seen": "2026-10-09T14:25:39+00:00",
+    "last_seen": "2026-11-05T15:35:30+00:00",
     "scan_status": "excluded_framework_or_library",
     "detail": null
   },
   {
     "repo": "Shubhamsaboo/awesome-llm-apps",
     "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-    "github_stars": 140887,
+    "github_stars": 143951,
     "first_seen": "2026-08-24T21:28:40+00:00",
-    "last_seen": "2026-10-09T14:25:39+00:00",
+    "last_seen": "2026-11-05T15:35:36+00:00",
     "scan_status": "scan_failed",
     "detail": "download exceeds 52428800 bytes"
   },
   {
     "repo": "TauricResearch/TradingAgents",
     "url": "https://github.com/TauricResearch/TradingAgents",
-    "github_stars": 110358,
+    "github_stars": 120765,
     "first_seen": "2026-08-24T21:28:40+00:00",
-    "last_seen": "2026-10-09T14:25:39+00:00",
+    "last_seen": "2026-11-05T15:35:38+00:00",
     "scan_status": "cataloged_confirmed",
     "detail": null
   },
   {
-    "repo": "bytedance/deer-flow",
-    "url": "https://github.com/bytedance/deer-flow",
-    "github_stars": 83579,
-    "first_seen": "2026-08-24T21:28:40+00:00",
-    "last_seen": "2026-10-09T14:25:43+00:00",
-    "scan_status": "scan_failed",
-    "detail": "selected source exceeds scan size limit"
-  },
-  {
     "repo": "datawhalechina/hello-agents",
     "url": "https://github.com/datawhalechina/hello-agents",
-    "github_stars": 82226,
+    "github_stars": 86144,
     "first_seen": "2026-08-24T21:28:52+00:00",
-    "last_seen": "2026-10-09T14:25:43+00:00",
+    "last_seen": "2026-11-05T15:35:45+00:00",
     "scan_status": "scan_failed",
     "detail": "download exceeds 52428800 bytes"
   },
   {
+    "repo": "bytedance/deer-flow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "github_stars": 85028,
+    "first_seen": "2026-08-24T21:28:40+00:00",
+    "last_seen": "2026-11-05T15:35:49+00:00",
+    "scan_status": "scan_failed",
+    "detail": "selected source exceeds scan size limit"
+  },
+  {
     "repo": "ComposioHQ/awesome-claude-skills",
     "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-    "github_stars": 76743,
+    "github_stars": 78817,
     "first_seen": "2026-08-24T21:28:52+00:00",
-    "last_seen": "2026-10-09T14:25:43+00:00",
+    "last_seen": "2026-11-05T15:35:49+00:00",
     "scan_status": "excluded_collection",
     "detail": null
   },
   {
     "repo": "josephmisiti/awesome-machine-learning",
     "url": "https://github.com/josephmisiti/awesome-machine-learning",
-    "github_stars": 74555,
+    "github_stars": 74754,
     "first_seen": "2026-08-24T21:28:52+00:00",
-    "last_seen": "2026-10-09T14:25:43+00:00",
+    "last_seen": "2026-11-05T15:35:50+00:00",
     "scan_status": "excluded_collection",
     "detail": null
   },
   {
     "repo": "mem0ai/mem0",
     "url": "https://github.com/mem0ai/mem0",
-    "github_stars": 66890,
+    "github_stars": 68465,
     "first_seen": "2026-08-24T21:28:52+00:00",
-    "last_seen": "2026-10-09T14:25:49+00:00",
+    "last_seen": "2026-11-05T15:35:54+00:00",
     "scan_status": "unknown",
     "detail": null
   },
   {
     "repo": "BerriAI/litellm",
     "url": "https://github.com/BerriAI/litellm",
-    "github_stars": 60494,
+    "github_stars": 62771,
     "first_seen": "2026-08-24T21:29:02+00:00",
-    "last_seen": "2026-10-09T14:25:55+00:00",
+    "last_seen": "2026-11-05T15:36:02+00:00",
     "scan_status": "scan_failed",
     "detail": "download exceeds 52428800 bytes"
   },
   {
     "repo": "vectorize-io/hindsight",
     "url": "https://github.com/vectorize-io/hindsight",
-    "github_stars": 47590,
+    "github_stars": 59033,
     "first_seen": "2026-08-24T21:29:38+00:00",
-    "last_seen": "2026-10-09T14:25:58+00:00",
+    "last_seen": "2026-11-05T15:36:07+00:00",
     "scan_status": "scan_failed",
     "detail": "download exceeds 52428800 bytes"
   },
   {
     "repo": "langchain-ai/langgraph",
     "url": "https://github.com/langchain-ai/langgraph",
-    "github_stars": 42958,
+    "github_stars": 44512,
     "first_seen": "2026-08-24T21:29:02+00:00",
-    "last_seen": "2026-10-09T14:26:05+00:00",
+    "last_seen": "2026-11-05T15:36:11+00:00",
     "scan_status": "excluded_framework_or_library",
-    "detail": null
-  },
-  {
-    "repo": "ashishpatel26/500-AI-Agents-Projects",
-    "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
-    "github_stars": 38412,
-    "first_seen": "2026-08-24T21:29:02+00:00",
-    "last_seen": "2026-10-09T14:26:05+00:00",
-    "scan_status": "excluded_collection",
     "detail": null
   },
   {
     "repo": "volcengine/OpenViking",
     "url": "https://github.com/volcengine/OpenViking",
-    "github_stars": 36432,
+    "github_stars": 41613,
     "first_seen": "2026-08-24T21:29:12+00:00",
-    "last_seen": "2026-09-10T12:16:33+00:00",
+    "last_seen": "2026-11-05T15:36:15+00:00",
     "scan_status": "scan_failed",
     "detail": "download exceeds 52428800 bytes"
+  },
+  {
+    "repo": "ashishpatel26/500-AI-Agents-Projects",
+    "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+    "github_stars": 39315,
+    "first_seen": "2026-08-24T21:29:02+00:00",
+    "last_seen": "2026-11-05T15:36:15+00:00",
+    "scan_status": "excluded_collection",
+    "detail": null
   },
   {
     "repo": "HKUDS/Vibe-Trading",
@@ -137,117 +137,117 @@
   {
     "repo": "NandhaKishorM/laya",
     "url": "https://github.com/NandhaKishorM/laya",
-    "github_stars": 31897,
+    "github_stars": 35051,
     "first_seen": "2026-09-24T12:47:08+00:00",
-    "last_seen": "2026-10-09T14:26:14+00:00",
+    "last_seen": "2026-11-05T15:36:21+00:00",
     "scan_status": "cataloged_confirmed",
     "detail": null
   },
   {
     "repo": "getzep/graphiti",
     "url": "https://github.com/getzep/graphiti",
-    "github_stars": 31588,
+    "github_stars": 32557,
     "first_seen": "2026-08-24T21:29:12+00:00",
-    "last_seen": "2026-10-09T14:26:17+00:00",
+    "last_seen": "2026-11-05T15:36:24+00:00",
     "scan_status": "probable",
     "detail": null
   },
   {
     "repo": "langchain-ai/deepagents",
     "url": "https://github.com/langchain-ai/deepagents",
-    "github_stars": 30071,
+    "github_stars": 31007,
     "first_seen": "2026-08-24T21:29:12+00:00",
-    "last_seen": "2026-10-09T14:26:34+00:00",
+    "last_seen": "2026-11-05T15:36:34+00:00",
     "scan_status": "cataloged_confirmed",
     "detail": null
   },
   {
     "repo": "assafelovic/gpt-researcher",
     "url": "https://github.com/assafelovic/gpt-researcher",
-    "github_stars": 29975,
+    "github_stars": 30499,
     "first_seen": "2026-08-24T21:29:12+00:00",
-    "last_seen": "2026-10-09T14:26:34+00:00",
+    "last_seen": "2026-11-05T15:36:37+00:00",
     "scan_status": "cataloged_confirmed",
     "detail": null
   },
   {
     "repo": "mlflow/mlflow",
     "url": "https://github.com/mlflow/mlflow",
-    "github_stars": 28328,
+    "github_stars": 28691,
     "first_seen": "2026-08-24T21:29:22+00:00",
-    "last_seen": "2026-10-09T14:26:37+00:00",
-    "scan_status": "scan_failed",
-    "detail": "download exceeds 52428800 bytes"
-  },
-  {
-    "repo": "comet-ml/opik",
-    "url": "https://github.com/comet-ml/opik",
-    "github_stars": 22474,
-    "first_seen": "2026-08-24T21:29:35+00:00",
-    "last_seen": "2026-10-09T14:26:42+00:00",
+    "last_seen": "2026-11-05T15:36:40+00:00",
     "scan_status": "scan_failed",
     "detail": "download exceeds 52428800 bytes"
   },
   {
     "repo": "NVIDIA/SkillSpector",
     "url": "https://github.com/NVIDIA/SkillSpector",
-    "github_stars": 19760,
+    "github_stars": 24453,
     "first_seen": "2026-08-24T21:30:03+00:00",
-    "last_seen": "2026-10-09T14:26:48+00:00",
+    "last_seen": "2026-11-05T15:36:45+00:00",
     "scan_status": "cataloged_confirmed",
     "detail": null
   },
   {
+    "repo": "comet-ml/opik",
+    "url": "https://github.com/comet-ml/opik",
+    "github_stars": 23199,
+    "first_seen": "2026-08-24T21:29:35+00:00",
+    "last_seen": "2026-11-05T15:36:52+00:00",
+    "scan_status": "scan_failed",
+    "detail": "download exceeds 52428800 bytes"
+  },
+  {
     "repo": "confident-ai/deepeval",
     "url": "https://github.com/confident-ai/deepeval",
-    "github_stars": 18722,
+    "github_stars": 19317,
     "first_seen": "2026-08-24T21:29:54+00:00",
-    "last_seen": "2026-10-09T14:26:48+00:00",
+    "last_seen": "2026-11-05T15:36:57+00:00",
     "scan_status": "cataloged_confirmed",
     "detail": null
   },
   {
     "repo": "emcie-co/parlant",
     "url": "https://github.com/emcie-co/parlant",
-    "github_stars": 18302,
+    "github_stars": 18325,
     "first_seen": "2026-08-24T21:29:49+00:00",
-    "last_seen": "2026-10-09T14:26:48+00:00",
+    "last_seen": "2026-11-05T15:37:04+00:00",
     "scan_status": "unknown",
     "detail": null
   },
   {
     "repo": "Canner/WrenAI",
     "url": "https://github.com/Canner/WrenAI",
-    "github_stars": 17831,
+    "github_stars": 18082,
     "first_seen": "2026-08-24T21:29:56+00:00",
-    "last_seen": "2026-10-09T14:26:51+00:00",
+    "last_seen": "2026-11-05T15:37:08+00:00",
     "scan_status": "cataloged_confirmed",
     "detail": null
   },
   {
     "repo": "cft0808/edict",
     "url": "https://github.com/cft0808/edict",
-    "github_stars": 16978,
+    "github_stars": 17046,
     "first_seen": "2026-08-24T21:30:00+00:00",
-    "last_seen": "2026-10-09T14:26:51+00:00",
+    "last_seen": "2026-11-05T15:37:08+00:00",
     "scan_status": "unknown",
     "detail": null
   },
   {
     "repo": "owainlewis/awesome-artificial-intelligence",
     "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
-    "github_stars": 16639,
+    "github_stars": 16787,
     "first_seen": "2026-08-24T21:30:01+00:00",
-    "last_seen": "2026-10-09T14:26:51+00:00",
+    "last_seen": "2026-11-05T15:37:08+00:00",
     "scan_status": "excluded_collection",
     "detail": null
   },
   {
     "repo": "Arindam200/awesome-ai-apps",
     "url": "https://github.com/Arindam200/awesome-ai-apps",
-    "github_stars": 16095,
+    "github_stars": 16719,
     "first_seen": "2026-08-24T21:30:28+00:00",
-    "last_seen": "2026-10-09T14:26:51+00:00",
+    "last_seen": "2026-11-05T15:37:11+00:00",
     "scan_status": "scan_failed",
     "detail": "download exceeds 52428800 bytes"
   },
@@ -263,92 +263,101 @@
   {
     "repo": "semantica-agi/semantica",
     "url": "https://github.com/semantica-agi/semantica",
-    "github_stars": 13856,
+    "github_stars": 14447,
     "first_seen": "2026-08-24T21:30:52+00:00",
-    "last_seen": "2026-10-09T14:27:03+00:00",
+    "last_seen": "2026-11-05T15:37:18+00:00",
     "scan_status": "unknown",
     "detail": null
   },
   {
     "repo": "The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
     "url": "https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
-    "github_stars": 12697,
+    "github_stars": 12740,
     "first_seen": "2026-08-24T21:30:30+00:00",
-    "last_seen": "2026-10-09T14:27:03+00:00",
+    "last_seen": "2026-11-05T15:37:18+00:00",
     "scan_status": "unknown",
     "detail": null
   },
   {
     "repo": "Arize-ai/phoenix",
     "url": "https://github.com/Arize-ai/phoenix",
-    "github_stars": 11768,
+    "github_stars": 12160,
     "first_seen": "2026-08-24T21:30:38+00:00",
-    "last_seen": "2026-10-09T14:27:17+00:00",
+    "last_seen": "2026-11-05T15:37:28+00:00",
     "scan_status": "cataloged_confirmed",
     "detail": null
   },
   {
     "repo": "yizhiyanhua-ai/fireworks-tech-graph",
     "url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
-    "github_stars": 11638,
+    "github_stars": 11942,
     "first_seen": "2026-08-24T21:30:42+00:00",
-    "last_seen": "2026-10-09T14:27:17+00:00",
+    "last_seen": "2026-11-05T15:37:30+00:00",
     "scan_status": "unknown",
     "detail": null
   },
   {
     "repo": "The-Pocket/PocketFlow",
     "url": "https://github.com/The-Pocket/PocketFlow",
-    "github_stars": 11228,
+    "github_stars": 11306,
     "first_seen": "2026-08-24T21:30:40+00:00",
-    "last_seen": "2026-10-09T14:27:17+00:00",
+    "last_seen": "2026-11-05T15:37:30+00:00",
     "scan_status": "unknown",
     "detail": null
   },
   {
     "repo": "langchain-ai/open-swe",
     "url": "https://github.com/langchain-ai/open-swe",
-    "github_stars": 10828,
+    "github_stars": 11177,
     "first_seen": "2026-08-24T21:30:55+00:00",
-    "last_seen": "2026-10-09T14:27:24+00:00",
+    "last_seen": "2026-11-05T15:37:36+00:00",
     "scan_status": "cataloged_confirmed",
     "detail": null
   },
   {
     "repo": "OpenPipe/ART",
     "url": "https://github.com/OpenPipe/ART",
-    "github_stars": 10789,
+    "github_stars": 10841,
     "first_seen": "2026-08-24T21:30:47+00:00",
-    "last_seen": "2026-10-09T14:27:36+00:00",
+    "last_seen": "2026-11-05T15:37:44+00:00",
     "scan_status": "probable",
-    "detail": null
-  },
-  {
-    "repo": "GetBindu/Bindu",
-    "url": "https://github.com/GetBindu/Bindu",
-    "github_stars": 10085,
-    "first_seen": "2026-08-24T21:31:01+00:00",
-    "last_seen": "2026-10-09T14:27:36+00:00",
-    "scan_status": "cataloged_confirmed",
     "detail": null
   },
   {
     "repo": "jamwithai/production-agentic-rag-course",
     "url": "https://github.com/jamwithai/production-agentic-rag-course",
-    "github_stars": 9688,
+    "github_stars": 10034,
     "first_seen": "2026-08-24T21:31:03+00:00",
-    "last_seen": "2026-10-09T14:27:36+00:00",
+    "last_seen": "2026-11-05T15:37:44+00:00",
     "scan_status": "excluded_tutorial",
+    "detail": null
+  },
+  {
+    "repo": "GetBindu/Bindu",
+    "url": "https://github.com/GetBindu/Bindu",
+    "github_stars": 10007,
+    "first_seen": "2026-08-24T21:31:01+00:00",
+    "last_seen": "2026-11-05T15:37:44+00:00",
+    "scan_status": "cataloged_confirmed",
     "detail": null
   },
   {
     "repo": "LearningCircuit/local-deep-research",
     "url": "https://github.com/LearningCircuit/local-deep-research",
-    "github_stars": 9171,
+    "github_stars": 9505,
     "first_seen": "2026-08-24T21:30:57+00:00",
-    "last_seen": "2026-10-09T14:27:39+00:00",
+    "last_seen": "2026-11-05T15:37:48+00:00",
     "scan_status": "scan_failed",
     "detail": "selected source exceeds scan size limit"
+  },
+  {
+    "repo": "ai-boost/awesome-prompts",
+    "url": "https://github.com/ai-boost/awesome-prompts",
+    "github_stars": 9176,
+    "first_seen": "2026-11-05T15:37:51+00:00",
+    "last_seen": "2026-11-05T15:37:51+00:00",
+    "scan_status": "excluded_collection",
+    "detail": null
   },
   {
     "repo": "strands-agents/harness-sdk",
@@ -360,29 +369,29 @@
     "detail": null
   },
   {
-    "repo": "traceloop/openllmetry",
-    "url": "https://github.com/traceloop/openllmetry",
-    "github_stars": 7481,
-    "first_seen": "2026-08-24T21:31:11+00:00",
-    "last_seen": "2026-10-09T14:27:48+00:00",
+    "repo": "xerrors/Yuxi",
+    "url": "https://github.com/xerrors/Yuxi",
+    "github_stars": 7609,
+    "first_seen": "2026-08-24T21:31:27+00:00",
+    "last_seen": "2026-11-05T15:37:56+00:00",
     "scan_status": "cataloged_confirmed",
     "detail": null
   },
   {
-    "repo": "xerrors/Yuxi",
-    "url": "https://github.com/xerrors/Yuxi",
-    "github_stars": 7334,
-    "first_seen": "2026-08-24T21:31:27+00:00",
-    "last_seen": "2026-10-09T14:27:48+00:00",
+    "repo": "traceloop/openllmetry",
+    "url": "https://github.com/traceloop/openllmetry",
+    "github_stars": 7522,
+    "first_seen": "2026-08-24T21:31:11+00:00",
+    "last_seen": "2026-11-05T15:38:00+00:00",
     "scan_status": "cataloged_confirmed",
     "detail": null
   },
   {
     "repo": "lintsinghua/DeepAudit",
     "url": "https://github.com/lintsinghua/DeepAudit",
-    "github_stars": 7129,
+    "github_stars": 7276,
     "first_seen": "2026-08-24T21:31:24+00:00",
-    "last_seen": "2026-10-09T14:27:48+00:00",
+    "last_seen": "2026-11-05T15:38:04+00:00",
     "scan_status": "scan_failed",
     "detail": "download exceeds 52428800 bytes"
   },
@@ -396,6 +405,24 @@
     "detail": null
   },
   {
+    "repo": "BitterSecurity/Decepticon",
+    "url": "https://github.com/BitterSecurity/Decepticon",
+    "github_stars": 6538,
+    "first_seen": "2026-09-15T12:46:25+00:00",
+    "last_seen": "2026-11-05T15:38:09+00:00",
+    "scan_status": "cataloged_confirmed",
+    "detail": null
+  },
+  {
+    "repo": "microsoft/agent-governance-toolkit",
+    "url": "https://github.com/microsoft/agent-governance-toolkit",
+    "github_stars": 6520,
+    "first_seen": "2026-08-24T21:31:55+00:00",
+    "last_seen": "2026-11-05T15:38:19+00:00",
+    "scan_status": "cataloged_confirmed",
+    "detail": null
+  },
+  {
     "repo": "WenyuChiou/awesome-agentic-ai-zh",
     "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
     "github_stars": 6512,
@@ -405,74 +432,65 @@
     "detail": "download exceeds 52428800 bytes"
   },
   {
-    "repo": "microsoft/agent-governance-toolkit",
-    "url": "https://github.com/microsoft/agent-governance-toolkit",
-    "github_stars": 6416,
-    "first_seen": "2026-08-24T21:31:55+00:00",
-    "last_seen": "2026-10-09T14:28:03+00:00",
-    "scan_status": "cataloged_confirmed",
-    "detail": null
-  },
-  {
     "repo": "aymericdamien/TopDeepLearning",
     "url": "https://github.com/aymericdamien/TopDeepLearning",
-    "github_stars": 6361,
+    "github_stars": 6417,
     "first_seen": "2026-08-24T21:31:46+00:00",
-    "last_seen": "2026-10-09T14:28:03+00:00",
+    "last_seen": "2026-11-05T15:38:19+00:00",
     "scan_status": "excluded_collection",
     "detail": null
   },
   {
     "repo": "ikaijua/Awesome-AITools",
     "url": "https://github.com/ikaijua/Awesome-AITools",
-    "github_stars": 6219,
+    "github_stars": 6278,
     "first_seen": "2026-08-24T21:31:47+00:00",
-    "last_seen": "2026-10-09T14:28:03+00:00",
+    "last_seen": "2026-11-05T15:38:20+00:00",
     "scan_status": "excluded_collection",
     "detail": null
   },
   {
+    "repo": "wuyoscar/GPT-Image2-Skill",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill",
+    "github_stars": 6010,
+    "first_seen": "2026-08-24T21:33:02+00:00",
+    "last_seen": "2026-11-05T15:38:20+00:00",
+    "scan_status": "scan_failed",
+    "detail": "download exceeds 52428800 bytes"
+  },
+  {
     "repo": "AgentOps-AI/agentops",
     "url": "https://github.com/AgentOps-AI/agentops",
-    "github_stars": 5888,
+    "github_stars": 5949,
     "first_seen": "2026-08-24T21:32:07+00:00",
-    "last_seen": "2026-10-09T14:28:03+00:00",
+    "last_seen": "2026-11-05T15:38:20+00:00",
     "scan_status": "scan_failed",
     "detail": "download exceeds 52428800 bytes"
   },
   {
     "repo": "rllm-org/rllm",
     "url": "https://github.com/rllm-org/rllm",
-    "github_stars": 5864,
+    "github_stars": 5909,
     "first_seen": "2026-08-24T21:31:57+00:00",
-    "last_seen": "2026-10-09T14:28:07+00:00",
+    "last_seen": "2026-11-05T15:38:23+00:00",
     "scan_status": "cataloged_confirmed",
     "detail": null
   },
   {
-    "repo": "BitterSecurity/Decepticon",
-    "url": "https://github.com/BitterSecurity/Decepticon",
-    "github_stars": 5719,
-    "first_seen": "2026-09-15T12:46:25+00:00",
-    "last_seen": "2026-10-09T14:28:14+00:00",
-    "scan_status": "cataloged_confirmed",
-    "detail": null
-  },
-  {
-    "repo": "wuyoscar/GPT-Image2-Skill",
-    "url": "https://github.com/wuyoscar/GPT-Image2-Skill",
-    "github_stars": 5694,
-    "first_seen": "2026-08-24T21:33:02+00:00",
-    "last_seen": "2026-10-09T14:28:14+00:00",
+    "repo": "didilili/ai-agents-from-zero",
+    "url": "https://github.com/didilili/ai-agents-from-zero",
+    "github_stars": 5838,
+    "first_seen": "2026-08-24T21:33:19+00:00",
+    "last_seen": "2026-11-05T15:38:26+00:00",
     "scan_status": "scan_failed",
     "detail": "download exceeds 52428800 bytes"
   },
   {
     "repo": "zenml-io/zenml",
     "url": "https://github.com/zenml-io/zenml",
-    "github_stars": 5609,
+    "github_stars": 5635,
     "first_seen": "2026-08-24T21:32:19+00:00",
-    "last_seen": "2026-10-09T14:28:17+00:00",
+    "last_seen": "2026-11-05T15:38:30+00:00",
     "scan_status": "scan_failed",
     "detail": "download exceeds 52428800 bytes"
   },
@@ -547,15 +565,6 @@
     "last_seen": "2026-08-25T00:13:46+00:00",
     "scan_status": "cataloged_confirmed",
     "detail": null
-  },
-  {
-    "repo": "didilili/ai-agents-from-zero",
-    "url": "https://github.com/didilili/ai-agents-from-zero",
-    "github_stars": 4043,
-    "first_seen": "2026-08-24T21:33:19+00:00",
-    "last_seen": "2026-08-25T00:13:46+00:00",
-    "scan_status": "scan_failed",
-    "detail": "download exceeds 52428800 bytes"
   },
   {
     "repo": "lemony-ai/cascadeflow",

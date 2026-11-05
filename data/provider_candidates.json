@@ -95,7 +95,25 @@
     ]
   },
   {
+    "signal": "CEREBRAS_API_KEY",
+    "repositories": [
+      "BitterSecurity/Decepticon"
+    ]
+  },
+  {
     "signal": "CHATGPT_ACCESS_TOKEN",
+    "repositories": [
+      "BitterSecurity/Decepticon"
+    ]
+  },
+  {
+    "signal": "CHEAPER_INFERENCE_API_KEY",
+    "repositories": [
+      "BitterSecurity/Decepticon"
+    ]
+  },
+  {
+    "signal": "CHUTES_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon"
     ]
@@ -176,21 +194,9 @@
     ]
   },
   {
-    "signal": "DEEPAGENTS_CODE_ANTHROPIC_API_KEY",
+    "signal": "DECEPTICON_SKILLOGY_OPENAI_API_KEY",
     "repositories": [
-      "langchain-ai/deepagents"
-    ]
-  },
-  {
-    "signal": "DEEPAGENTS_CODE_OPENAI_API_KEY",
-    "repositories": [
-      "langchain-ai/deepagents"
-    ]
-  },
-  {
-    "signal": "DEEPAGENTS_TALON_HISTORY_EMBED_API_KEY",
-    "repositories": [
-      "langchain-ai/deepagents"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -200,18 +206,18 @@
     ]
   },
   {
+    "signal": "DEEPINFRA_API_KEY",
+    "repositories": [
+      "BitterSecurity/Decepticon"
+    ]
+  },
+  {
     "signal": "DEEPSEEK_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon",
       "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher",
       "confident-ai/deepeval"
-    ]
-  },
-  {
-    "signal": "DOUBAO_SEARCH_API_KEY",
-    "repositories": [
-      "xerrors/Yuxi"
     ]
   },
   {
@@ -330,6 +336,12 @@
     ]
   },
   {
+    "signal": "KILO_API_KEY",
+    "repositories": [
+      "BitterSecurity/Decepticon"
+    ]
+  },
+  {
     "signal": "KIMI_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon"
@@ -397,12 +409,6 @@
     ]
   },
   {
-    "signal": "MINERU_API_KEY",
-    "repositories": [
-      "xerrors/Yuxi"
-    ]
-  },
-  {
     "signal": "MINIMAX_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon",
@@ -453,6 +459,7 @@
   {
     "signal": "NEBIUS_API_KEY",
     "repositories": [
+      "BitterSecurity/Decepticon",
       "assafelovic/gpt-researcher"
     ]
   },
@@ -467,6 +474,12 @@
     "signal": "NOTTE_API_KEY",
     "repositories": [
       "GetBindu/Bindu"
+    ]
+  },
+  {
+    "signal": "NOVITA_API_KEY",
+    "repositories": [
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -499,6 +512,12 @@
     "signal": "OPENAI_COMPATIBLE_API_KEY",
     "repositories": [
       "TauricResearch/TradingAgents"
+    ]
+  },
+  {
+    "signal": "OPENAI_COMPAT_GATEWAY_API_KEY",
+    "repositories": [
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -560,6 +579,12 @@
     ]
   },
   {
+    "signal": "REQUESTY_API_KEY",
+    "repositories": [
+      "BitterSecurity/Decepticon"
+    ]
+  },
+  {
     "signal": "RLLM_AGENT_API_KEY",
     "repositories": [
       "rllm-org/rllm"
@@ -575,6 +600,18 @@
     "signal": "RUNLOOP_API_KEY",
     "repositories": [
       "langchain-ai/deepagents"
+    ]
+  },
+  {
+    "signal": "RUNYOUR_API_KEY",
+    "repositories": [
+      "BitterSecurity/Decepticon"
+    ]
+  },
+  {
+    "signal": "SAMBANOVA_API_KEY",
+    "repositories": [
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -611,7 +648,7 @@
   {
     "signal": "SILICONFLOW_API_KEY",
     "repositories": [
-      "xerrors/Yuxi"
+      "BitterSecurity/Decepticon"
     ]
   },
   {
@@ -670,6 +707,12 @@
       "NandhaKishorM/laya",
       "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher"
+    ]
+  },
+  {
+    "signal": "UPSTAGE_API_KEY",
+    "repositories": [
+      "BitterSecurity/Decepticon"
     ]
   },
   {
