@@ -370,8 +370,7 @@
   {
     "signal": "LANGSMITH_GATEWAY_API_KEY",
     "repositories": [
-      "langchain-ai/deepagents",
-      "langchain-ai/open-swe"
+      "langchain-ai/deepagents"
     ]
   },
   {
