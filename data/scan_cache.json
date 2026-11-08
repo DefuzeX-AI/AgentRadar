@@ -1752,7 +1752,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "464a60fd3c24aaed780cea3f2e0e437d3c8ba037",
-    "pushed_at": "2026-11-07T12:24:34Z"
+    "pushed_at": "2026-11-08T12:30:24Z"
   },
   "Arvo-AI/aurora": {
     "analysis": {
@@ -2153,7 +2153,7 @@
   },
   "BerriAI/litellm": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-07T14:07:20Z",
+    "pushed_at": "2026-11-08T11:18:00Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "Bessouat40/RAGLight": {
@@ -2791,8 +2791,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "38fccaee158eb2a989ac2e293cf86d5a88e41daf",
-    "pushed_at": "2026-11-07T02:06:20Z"
+    "head_sha": "df879550544d36b6b1e69062f05adae28537adf2",
+    "pushed_at": "2026-11-07T20:52:02Z"
   },
   "BjornMelin/docmind-ai-llm": {
     "analysis": {
@@ -10770,7 +10770,7 @@
   },
   "LearningCircuit/local-deep-research": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-07T14:05:32Z",
+    "pushed_at": "2026-11-08T14:16:44Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "LegalQuants/lq-ai": {
@@ -14455,6 +14455,7 @@
       "direct_dependencies": [
         "agno",
         "crewai",
+        "cryptography",
         "fastapi",
         "huggingface-hub",
         "langchain-core",
@@ -14481,7 +14482,7 @@
         "vegaml",
         "zensical"
       ],
-      "direct_dependency_count": 27,
+      "direct_dependency_count": 28,
       "direction": "rag_knowledge",
       "external_apis_confirmed": [],
       "external_apis_unknown": [
@@ -14519,8 +14520,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "4444f2f56acdd31a633d594e9f3227f853241d9e",
-    "pushed_at": "2026-11-06T16:34:39Z"
+    "head_sha": "3c346a2f8b542838eed6a1d210aa378c79e71c4c",
+    "pushed_at": "2026-11-08T07:52:29Z"
   },
   "NapthaAI/automcp": {
     "analysis": {
@@ -15682,8 +15683,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "fb3ef878fbeb251fedc88eee319e5238e4640202",
-    "pushed_at": "2026-11-07T13:35:44Z"
+    "head_sha": "023fbb2007fea23575907a07bc0d7b0b44c30937",
+    "pushed_at": "2026-11-08T03:04:10Z"
   },
   "Pan-Chera/Multi-Agent-CAD": {
     "analysis": {
@@ -21331,8 +21332,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "cc6587f6e15e67c04a914b888bcb1ec9cae090e7",
-    "pushed_at": "2026-11-07T08:34:30Z"
+    "head_sha": "61375ec514cf4a27db639322df61ec879039c0f4",
+    "pushed_at": "2026-11-08T08:34:01Z"
   },
   "ai-christianson/RA.Aid": {
     "analysis": {
@@ -26953,7 +26954,7 @@
   },
   "bytedance/deer-flow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-07T13:44:06Z",
+    "pushed_at": "2026-11-08T14:10:10Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "cft0808/edict": {
@@ -28053,8 +28054,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "696248fd7f8b4db1aa0d4f05cee22c3d2cc5857b",
-    "pushed_at": "2026-11-06T02:47:32Z"
+    "head_sha": "93b4b3063a0b5ab043b46375e591cfcf9ed0d43f",
+    "pushed_at": "2026-11-07T21:30:17Z"
   },
   "csml-rpi/Foam-Agent": {
     "analysis": {
@@ -30458,8 +30459,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "a7b957ce88f594c1743a47dc1f567f8e7aaed9d9",
-    "pushed_at": "2026-11-06T21:21:57Z"
+    "head_sha": "cbe3311cf3a3a8282b94c7646410c8293d993068",
+    "pushed_at": "2026-11-08T11:48:23Z"
   },
   "eosho/langchain_data_agent": {
     "analysis": {
@@ -32165,8 +32166,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "747b480ec6b12ecb718f1e2bc588b20ee36ea9c2",
-    "pushed_at": "2026-11-06T04:49:51Z"
+    "head_sha": "024b83679e48e41d59a7d1714ac0870aff2e4676",
+    "pushed_at": "2026-11-08T01:05:18Z"
   },
   "getzep/zep": {
     "analyzer_version": 1,
@@ -35097,8 +35098,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "0105a6974477fa4b7d34b077a7e7525e99f35da4",
-    "pushed_at": "2026-11-06T12:57:58Z"
+    "head_sha": "e998330afe9a05d502fc2383e1ab1f7ed8cbda22",
+    "pushed_at": "2026-11-08T08:56:51Z"
   },
   "ilsilfverskiold/Awesome-LLM-Resources-List": {
     "analysis": {
@@ -42443,8 +42444,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "9c5d330893e0580ece0422511248d1048373cd7f",
-    "pushed_at": "2026-11-07T09:08:08Z"
+    "head_sha": "4182b6f89ddc8236159e0b51e76eeb3c8ca01eb8",
+    "pushed_at": "2026-11-08T09:08:05Z"
   },
   "langchain-ai/langchain": {
     "analysis": {
@@ -43454,7 +43455,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "d9caf083577c43a91c5bf6bd1f7dfc289581184d",
-    "pushed_at": "2026-11-07T09:18:20Z"
+    "pushed_at": "2026-11-08T08:15:55Z"
   },
   "langchain-ai/langchain-aws": {
     "analysis": {
@@ -51750,7 +51751,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "e5e37b5d70dbfd93c7006bd90a658c6179a95946",
-    "pushed_at": "2026-11-06T17:24:12Z"
+    "pushed_at": "2026-11-08T00:33:40Z"
   },
   "langchain-ai/langgraph-bigtool": {
     "analysis": {
@@ -53091,6 +53092,11 @@
           "type": "import"
         },
         {
+          "line": 13,
+          "path": "openswe/tools/goal.py",
+          "type": "import"
+        },
+        {
           "line": 6,
           "path": "openswe/tools/manage_baby_sit.py",
           "type": "import"
@@ -53133,11 +53139,6 @@
         {
           "line": 8,
           "path": "openswe/tools/report_platform_issue.py",
-          "type": "import"
-        },
-        {
-          "line": 9,
-          "path": "openswe/tools/report_work_state.py",
           "type": "import"
         },
         {
@@ -53266,22 +53267,22 @@
           "type": "import"
         },
         {
-          "line": 1393,
+          "line": 1404,
           "path": "tests/reviewer/test_agent_api.py",
           "type": "import"
         },
         {
-          "line": 1394,
+          "line": 1405,
           "path": "tests/reviewer/test_agent_api.py",
           "type": "import"
         },
         {
-          "line": 1455,
+          "line": 1466,
           "path": "tests/reviewer/test_agent_api.py",
           "type": "import"
         },
         {
-          "line": 1552,
+          "line": 1563,
           "path": "tests/reviewer/test_agent_api.py",
           "type": "import"
         },
@@ -53359,8 +53360,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "fd5ee0a8a8bb074a48a09bda737ff76c58cb1753",
-    "pushed_at": "2026-11-07T14:00:48Z"
+    "head_sha": "82364a02943300ade58376cbd19123425bcf4f4a",
+    "pushed_at": "2026-11-08T08:25:19Z"
   },
   "langchain-ai/openevals": {
     "analysis": {
@@ -58340,8 +58341,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "ea260c5401934bc324dfe53bf8cd8da80ec95f91",
-    "pushed_at": "2026-11-06T17:43:27Z"
+    "head_sha": "fa310ff19ba6c6d017520fbf132e85059b181931",
+    "pushed_at": "2026-11-07T20:50:20Z"
   },
   "midodimori/langrepl": {
     "analysis": {
@@ -58809,7 +58810,7 @@
   },
   "mlflow/mlflow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-07T14:04:06Z",
+    "pushed_at": "2026-11-08T14:09:02Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "modelscope/easydistill": {
@@ -68636,8 +68637,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "8edaaeeb9a77d75dc2821803a1dcb9665874b932",
-    "pushed_at": "2026-11-07T04:33:22Z"
+    "head_sha": "39cf7216d2326b012436efebf8a227e82f37dd3b",
+    "pushed_at": "2026-11-08T02:46:59Z"
   },
   "shenjianan97/persistent-agent-runtime": {
     "analysis": {
@@ -74108,7 +74109,7 @@
   },
   "vectorize-io/hindsight": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-07T11:27:47Z",
+    "pushed_at": "2026-11-08T13:28:52Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "velocitybolt/open-extract": {
@@ -74896,8 +74897,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "ad564c31c02d44bb48c74922168e437994e1c243",
-    "pushed_at": "2026-11-06T17:47:24Z"
+    "head_sha": "0bd444d073eb7b5b4095261c6085b6da5d94da21",
+    "pushed_at": "2026-11-08T13:01:12Z"
   },
   "vndee/llm-sandbox": {
     "analysis": {
@@ -74942,7 +74943,7 @@
   },
   "volcengine/OpenViking": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-07T14:00:58Z",
+    "pushed_at": "2026-11-08T13:41:19Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "vstorm-co/full-stack-ai-agent-template": {
