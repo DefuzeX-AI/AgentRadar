@@ -1752,7 +1752,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "464a60fd3c24aaed780cea3f2e0e437d3c8ba037",
-    "pushed_at": "2026-11-08T12:30:24Z"
+    "pushed_at": "2026-11-09T17:31:15Z"
   },
   "Arvo-AI/aurora": {
     "analysis": {
@@ -2153,7 +2153,7 @@
   },
   "BerriAI/litellm": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-08T11:18:00Z",
+    "pushed_at": "2026-11-09T17:34:29Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "Bessouat40/RAGLight": {
@@ -2791,8 +2791,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "df879550544d36b6b1e69062f05adae28537adf2",
-    "pushed_at": "2026-11-07T20:52:02Z"
+    "head_sha": "b1de9a8bf0928c64cf441a43a3f386ebecbe12e4",
+    "pushed_at": "2026-11-09T14:16:30Z"
   },
   "BjornMelin/docmind-ai-llm": {
     "analysis": {
@@ -3625,8 +3625,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "548eee3e864b11e7f11eee15ae82be178a295f22",
-    "pushed_at": "2026-11-06T11:25:33Z"
+    "head_sha": "c4d6ac35f73759cb2de53c4ae0557788c300f708",
+    "pushed_at": "2026-11-09T10:21:18Z"
   },
   "ChaitanyaEswarRajeshJakki/gemini-youtube-automation": {
     "analysis": {
@@ -10770,7 +10770,7 @@
   },
   "LearningCircuit/local-deep-research": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-08T14:16:44Z",
+    "pushed_at": "2026-11-09T12:10:04Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "LegalQuants/lq-ai": {
@@ -14520,8 +14520,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "3c346a2f8b542838eed6a1d210aa378c79e71c4c",
-    "pushed_at": "2026-11-08T07:52:29Z"
+    "head_sha": "b8a0f0991d95a953411f2e16f91bddc2ffdaf79a",
+    "pushed_at": "2026-11-09T06:53:58Z"
   },
   "NapthaAI/automcp": {
     "analysis": {
@@ -17141,7 +17141,7 @@
   },
   "Shubhamsaboo/awesome-llm-apps": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-06T05:53:36Z",
+    "pushed_at": "2026-11-08T17:14:10Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "SponsioLabs/Sponsio": {
@@ -21332,8 +21332,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "61375ec514cf4a27db639322df61ec879039c0f4",
-    "pushed_at": "2026-11-08T08:34:01Z"
+    "head_sha": "7fc1bc107e4fcffa7a19fff52ca307db0667b166",
+    "pushed_at": "2026-11-09T08:33:13Z"
   },
   "ai-christianson/RA.Aid": {
     "analysis": {
@@ -24296,7 +24296,6 @@
         "pyphen",
         "pytest",
         "pytest-asyncio",
-        "pytest-forked",
         "pytest-timeout",
         "python-docx",
         "python-dotenv",
@@ -24345,7 +24344,7 @@
         "zopfli",
         "zstandard"
       ],
-      "direct_dependency_count": 173,
+      "direct_dependency_count": 172,
       "direction": "research_agent",
       "external_apis_confirmed": [
         {
@@ -24488,8 +24487,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "3582a6841fe7dc801e2a34e34ee408641aea9bce",
-    "pushed_at": "2026-10-10T22:03:53Z"
+    "head_sha": "ddd4db36208d9c8e49f3b2436efda97baecb5433",
+    "pushed_at": "2026-11-09T15:17:21Z"
   },
   "awarexone/Agentic-Bug-Hunter": {
     "analysis": {
@@ -26954,7 +26953,7 @@
   },
   "bytedance/deer-flow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-08T14:10:10Z",
+    "pushed_at": "2026-11-09T13:53:27Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "cft0808/edict": {
@@ -27707,7 +27706,7 @@
   },
   "comet-ml/opik": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-07T02:36:50Z",
+    "pushed_at": "2026-11-09T16:07:49Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "confident-ai/deepeval": {
@@ -30459,8 +30458,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "cbe3311cf3a3a8282b94c7646410c8293d993068",
-    "pushed_at": "2026-11-08T11:48:23Z"
+    "head_sha": "ce21fd2a68a023259621fa8f3f8908d8444719c5",
+    "pushed_at": "2026-11-08T19:03:36Z"
   },
   "eosho/langchain_data_agent": {
     "analysis": {
@@ -32166,8 +32165,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "024b83679e48e41d59a7d1714ac0870aff2e4676",
-    "pushed_at": "2026-11-08T01:05:18Z"
+    "head_sha": "e911422602068a0dc28e72a1961698269e9aefb2",
+    "pushed_at": "2026-11-09T09:35:23Z"
   },
   "getzep/zep": {
     "analyzer_version": 1,
@@ -40581,7 +40580,7 @@
           "type": "import"
         },
         {
-          "line": 64,
+          "line": 65,
           "path": "libs/code/deepagents_code/goal_tools.py",
           "type": "import"
         },
@@ -40601,7 +40600,7 @@
           "type": "import"
         },
         {
-          "line": 51,
+          "line": 52,
           "path": "libs/code/deepagents_code/local_context.py",
           "type": "import"
         },
@@ -41126,72 +41125,72 @@
           "type": "import"
         },
         {
-          "line": 195,
+          "line": 225,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 204,
+          "line": 234,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 216,
+          "line": 246,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 322,
+          "line": 352,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 323,
+          "line": 353,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 382,
+          "line": 412,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 466,
+          "line": 496,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1217,
+          "line": 1247,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1227,
+          "line": 1257,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1234,
+          "line": 1264,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1241,
+          "line": 1271,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1250,
+          "line": 1280,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1259,
+          "line": 1289,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
         {
-          "line": 1278,
+          "line": 1308,
           "path": "libs/code/tests/unit_tests/test_remote_client.py",
           "type": "import"
         },
@@ -42106,6 +42105,16 @@
           "type": "import"
         },
         {
+          "line": 21,
+          "path": "libs/talon/deepagents_talon/subagent_control.py",
+          "type": "import"
+        },
+        {
+          "line": 22,
+          "path": "libs/talon/deepagents_talon/subagent_control.py",
+          "type": "import"
+        },
+        {
           "line": 15,
           "path": "libs/talon/deepagents_talon/subagents.py",
           "type": "import"
@@ -42116,7 +42125,7 @@
           "type": "import"
         },
         {
-          "line": 34,
+          "line": 35,
           "path": "libs/talon/deepagents_talon/subagents.py",
           "type": "import"
         },
@@ -42444,8 +42453,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "4182b6f89ddc8236159e0b51e76eeb3c8ca01eb8",
-    "pushed_at": "2026-11-08T09:08:05Z"
+    "head_sha": "93e10b3c5f44ff5a5c4ca93ca3ff90c588670b38",
+    "pushed_at": "2026-11-09T17:04:02Z"
   },
   "langchain-ai/langchain": {
     "analysis": {
@@ -43454,8 +43463,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "d9caf083577c43a91c5bf6bd1f7dfc289581184d",
-    "pushed_at": "2026-11-08T08:15:55Z"
+    "head_sha": "19af93964f4efff09a5bfa467deba76227ea9fa0",
+    "pushed_at": "2026-11-09T16:25:38Z"
   },
   "langchain-ai/langchain-aws": {
     "analysis": {
@@ -52484,7 +52493,6 @@
         "jinja2",
         "langchain",
         "langchain-anthropic",
-        "langchain-core",
         "langchain-fireworks",
         "langchain-google-genai",
         "langchain-openai",
@@ -52518,7 +52526,7 @@
         "uvicorn",
         "websockets"
       ],
-      "direct_dependency_count": 48,
+      "direct_dependency_count": 47,
       "direction": "browser_automation",
       "external_apis_confirmed": [
         {
@@ -53360,8 +53368,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "82364a02943300ade58376cbd19123425bcf4f4a",
-    "pushed_at": "2026-11-08T08:25:19Z"
+    "head_sha": "f84450508630cbd79099de49b3d00dcdf3be9a49",
+    "pushed_at": "2026-11-09T17:33:52Z"
   },
   "langchain-ai/openevals": {
     "analysis": {
@@ -58342,7 +58350,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "fa310ff19ba6c6d017520fbf132e85059b181931",
-    "pushed_at": "2026-11-07T20:50:20Z"
+    "pushed_at": "2026-11-09T08:40:02Z"
   },
   "midodimori/langrepl": {
     "analysis": {
@@ -58810,7 +58818,7 @@
   },
   "mlflow/mlflow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-08T14:09:02Z",
+    "pushed_at": "2026-11-09T15:07:31Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "modelscope/easydistill": {
@@ -68638,7 +68646,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "39cf7216d2326b012436efebf8a227e82f37dd3b",
-    "pushed_at": "2026-11-08T02:46:59Z"
+    "pushed_at": "2026-11-09T09:12:46Z"
   },
   "shenjianan97/persistent-agent-runtime": {
     "analysis": {
@@ -72576,7 +72584,7 @@
     },
     "analyzer_version": 1,
     "head_sha": "e3d651a0c9f2f5f5019819df5b6320273fd65049",
-    "pushed_at": "2026-11-05T16:26:50Z"
+    "pushed_at": "2026-11-09T13:57:46Z"
   },
   "trpc-group/trpc-agent-python": {
     "analysis": {
@@ -74109,7 +74117,7 @@
   },
   "vectorize-io/hindsight": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-08T13:28:52Z",
+    "pushed_at": "2026-11-09T17:16:33Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "velocitybolt/open-extract": {
@@ -74897,8 +74905,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "0bd444d073eb7b5b4095261c6085b6da5d94da21",
-    "pushed_at": "2026-11-08T13:01:12Z"
+    "head_sha": "bcd84599acc172208f0544a61f3bfa47fd39e9b6",
+    "pushed_at": "2026-11-08T14:42:33Z"
   },
   "vndee/llm-sandbox": {
     "analysis": {
@@ -74943,7 +74951,7 @@
   },
   "volcengine/OpenViking": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-08T13:41:19Z",
+    "pushed_at": "2026-11-09T16:05:36Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "vstorm-co/full-stack-ai-agent-template": {
@@ -76488,7 +76496,7 @@
   },
   "wuyoscar/GPT-Image2-Skill": {
     "analyzer_version": 1,
-    "pushed_at": "2026-09-30T11:54:50Z",
+    "pushed_at": "2026-11-08T22:34:08Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "xerrors/Yuxi": {
