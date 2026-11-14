@@ -412,6 +412,7 @@
     "repositories": [
       "BitterSecurity/Decepticon",
       "GetBindu/Bindu",
+      "NVIDIA/SkillSpector",
       "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher",
       "rllm-org/rllm"

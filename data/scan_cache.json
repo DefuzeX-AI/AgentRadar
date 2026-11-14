@@ -1436,7 +1436,7 @@
   },
   "Arindam200/awesome-ai-apps": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-05T13:00:50Z",
+    "pushed_at": "2026-11-13T18:55:18Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "Arize-ai/phoenix": {
@@ -1749,8 +1749,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "e95eea62062c7e46a56212b517d720bd98991e1b",
-    "pushed_at": "2026-11-13T13:27:28Z"
+    "head_sha": "a9ce4b0f4d177d506150671e56756bff307b8734",
+    "pushed_at": "2026-11-14T12:16:47Z"
   },
   "Arvo-AI/aurora": {
     "analysis": {
@@ -2151,7 +2151,7 @@
   },
   "BerriAI/litellm": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-13T15:25:04Z",
+    "pushed_at": "2026-11-14T14:15:27Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "Bessouat40/RAGLight": {
@@ -2439,7 +2439,7 @@
           "type": "import"
         },
         {
-          "line": 180,
+          "line": 199,
           "path": "packages/decepticon/decepticon/backends/factory.py",
           "type": "import"
         },
@@ -2819,8 +2819,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "1b1c2457f4a7ebb3fec5a09e6383f36e929b901b",
-    "pushed_at": "2026-11-13T07:47:12Z"
+    "head_sha": "4cecf55b9272e50f97324fd560e8c7daaad7bc1f",
+    "pushed_at": "2026-11-14T10:59:57Z"
   },
   "BjornMelin/docmind-ai-llm": {
     "analysis": {
@@ -10798,7 +10798,7 @@
   },
   "LearningCircuit/local-deep-research": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-13T11:31:32Z",
+    "pushed_at": "2026-11-14T14:03:45Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "LegalQuants/lq-ai": {
@@ -13714,6 +13714,7 @@
       "external_apis_unknown": [
         "ANTHROPIC_PROXY_API_KEY",
         "AZURE_OPENAI_API_KEY",
+        "MINIMAX_API_KEY",
         "SKILLSPECTOR_COMPAT_API_KEY"
       ],
       "langgraph_dependency": true,
@@ -13756,8 +13757,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "9dc82fe473329b2b742aa5097dcfe7ae55f51b01",
-    "pushed_at": "2026-11-13T11:36:55Z"
+    "head_sha": "c81615007d40e86051a302a3cf897f8a05264928",
+    "pushed_at": "2026-11-14T04:49:48Z"
   },
   "NVlabs/SpatialClaw": {
     "analysis": {
@@ -15558,167 +15559,9 @@
     "pushed_at": "2026-03-25T22:47:30Z"
   },
   "OpenPipe/ART": {
-    "analysis": {
-      "agent_factories_confirmed": 0,
-      "conditional_edges_confirmed": 0,
-      "direct_dependencies": [
-        "accelerate",
-        "aiohttp",
-        "anthropic",
-        "apache-tvm-ffi",
-        "apex",
-        "asyncio",
-        "awscli",
-        "beautifulsoup4",
-        "bitsandbytes",
-        "causal-conv1d",
-        "click",
-        "duckdb",
-        "fastapi",
-        "feedparser",
-        "flash-attn-4",
-        "flash-linear-attention",
-        "flashinfer-cubin",
-        "flashinfer-python",
-        "gql",
-        "hf-xet",
-        "huggingface-hub",
-        "langchain-core",
-        "langchain-openai",
-        "langgraph",
-        "litellm",
-        "lxml",
-        "lxml-html-clean",
-        "mamba-ssm",
-        "matplotlib",
-        "mcp",
-        "megatron-bridge",
-        "megatron-core",
-        "ml-dtypes",
-        "msgspec",
-        "nbclient",
-        "nbmake",
-        "nest-asyncio",
-        "newspaper3k",
-        "ninja",
-        "nixl-cu12",
-        "nixl-cu13",
-        "numpy",
-        "nvidia-cuda-cccl-cu12",
-        "nvidia-cudnn-frontend",
-        "nvidia-cutlass-dsl",
-        "nvidia-ml-py",
-        "nvidia-modelopt",
-        "nvidia-nccl-cu12",
-        "nvidia-nccl-cu13",
-        "nvidia-resiliency-ext",
-        "openai",
-        "openpipe-art",
-        "orjson",
-        "peft",
-        "pillow",
-        "polars",
-        "protobuf",
-        "pyarrow",
-        "pybind11",
-        "pydantic",
-        "pytest",
-        "python-dotenv",
-        "quack-kernels",
-        "requests",
-        "scipy",
-        "seaborn",
-        "setproctitle",
-        "setuptools",
-        "tblib",
-        "tenacity",
-        "tilelang",
-        "tinker",
-        "tinker-cookbook",
-        "torch",
-        "torchao",
-        "torchaudio",
-        "torchmonarch",
-        "torchvision",
-        "transformer-engine",
-        "transformer-engine-cu12",
-        "transformer-engine-cu13",
-        "transformer-engine-torch",
-        "transformers",
-        "triton-kernels",
-        "trl",
-        "typer",
-        "typing-extensions",
-        "unsloth",
-        "unsloth-zoo",
-        "uv",
-        "uvicorn",
-        "vllm",
-        "wandb",
-        "weave"
-      ],
-      "direct_dependency_count": 94,
-      "direction": "research_agent",
-      "external_apis_confirmed": [
-        {
-          "access_model": "commercial",
-          "evidence": [
-            "dependency",
-            "import",
-            "environment_variable"
-          ],
-          "provider": "anthropic"
-        },
-        {
-          "access_model": "commercial_or_free_tier",
-          "evidence": [
-            "environment_variable"
-          ],
-          "provider": "google_genai"
-        },
-        {
-          "access_model": "commercial",
-          "evidence": [
-            "dependency",
-            "import",
-            "environment_variable"
-          ],
-          "provider": "openai"
-        }
-      ],
-      "external_apis_unknown": [
-        "ALPHAVANTAGE_API_KEY",
-        "BALLDONTLIE_API_KEY",
-        "GOOGLE_MAPS_API_KEY",
-        "OPENPIPE_API_KEY",
-        "OPENROUTER_API_KEY",
-        "TAU_BENCH_API_KEY",
-        "TINKER_API_KEY",
-        "TOGETHER_API_KEY",
-        "WANDB_API_KEY",
-        "YOUR_OPENPIPE_API_KEY",
-        "YOUR_TOGETHER_API_KEY",
-        "YOUR_WANDB_API_KEY"
-      ],
-      "langgraph_dependency": true,
-      "langgraph_evidence": [],
-      "langgraph_status": "probable",
-      "node_names_confirmed": [],
-      "nodes_confirmed": 0,
-      "nodes_dynamic_unknown": false,
-      "project_kind": "agent_project",
-      "state_field_names_confirmed": [],
-      "state_fields_confirmed": 0,
-      "state_fields_unknown": true,
-      "subagent_names_confirmed": [],
-      "subagents_confirmed": 0,
-      "subagents_unknown": true,
-      "subgraphs_confirmed": 0,
-      "tutorial_only": false
-    },
     "analyzer_version": 1,
-    "head_sha": "534620a41b82ed89667f4642cc0b8e1d00e2269b",
-    "pushed_at": "2026-11-10T22:06:53Z"
+    "pushed_at": "2026-11-13T18:27:09Z",
+    "scan_error": "GitHub rate limit requires a wait longer than 60 seconds"
   },
   "Pan-Chera/Multi-Agent-CAD": {
     "analysis": {
@@ -21366,8 +21209,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "f26786e6414729f2c2550b25bfb19e617f4f58c1",
-    "pushed_at": "2026-11-13T08:34:30Z"
+    "head_sha": "9abef394b13986b6d79d513898fa347206a76d9b",
+    "pushed_at": "2026-11-14T11:51:44Z"
   },
   "ai-christianson/RA.Aid": {
     "analysis": {
@@ -26987,7 +26830,7 @@
   },
   "bytedance/deer-flow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-13T15:23:29Z",
+    "pushed_at": "2026-11-14T14:10:33Z",
     "scan_error": "selected source exceeds scan size limit"
   },
   "cft0808/edict": {
@@ -27740,7 +27583,7 @@
   },
   "comet-ml/opik": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-13T14:18:04Z",
+    "pushed_at": "2026-11-14T11:26:32Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "confident-ai/deepeval": {
@@ -30501,8 +30344,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "a754b1b90fee324d66c56fb4f0bffa5f5e639847",
-    "pushed_at": "2026-11-12T21:02:12Z"
+    "head_sha": "65040d19b5e4bc8a4ca3d2c0786d712263ff07da",
+    "pushed_at": "2026-11-14T12:40:43Z"
   },
   "eosho/langchain_data_agent": {
     "analysis": {
@@ -32208,8 +32051,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "ebef986a0b2360211b65751c111cacb4a7d790eb",
-    "pushed_at": "2026-11-11T01:25:29Z"
+    "head_sha": "ed23196506eba8806fae6da831d73fcd2ad714d8",
+    "pushed_at": "2026-11-14T09:12:40Z"
   },
   "getzep/zep": {
     "analyzer_version": 1,
@@ -35140,8 +34983,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "8449df6f19f8a093530f0c85c05b838093f497ce",
-    "pushed_at": "2026-11-13T07:07:21Z"
+    "head_sha": "2cddf3d75487dabc73c83d665ae1afac42c1a4e0",
+    "pushed_at": "2026-11-14T14:09:12Z"
   },
   "ilsilfverskiold/Awesome-LLM-Resources-List": {
     "analysis": {
@@ -40593,6 +40436,11 @@
           "type": "import"
         },
         {
+          "line": 33,
+          "path": "libs/code/deepagents_code/client/non_interactive.py",
+          "type": "import"
+        },
+        {
           "line": 23,
           "path": "libs/code/deepagents_code/extensions/hosting.py",
           "type": "import"
@@ -40828,27 +40676,27 @@
           "type": "import"
         },
         {
-          "line": 3119,
+          "line": 3135,
           "path": "libs/code/tests/unit_tests/test_agent.py",
           "type": "import"
         },
         {
-          "line": 3162,
+          "line": 3178,
           "path": "libs/code/tests/unit_tests/test_agent.py",
           "type": "import"
         },
         {
-          "line": 3163,
+          "line": 3179,
           "path": "libs/code/tests/unit_tests/test_agent.py",
           "type": "import"
         },
         {
-          "line": 3189,
+          "line": 3205,
           "path": "libs/code/tests/unit_tests/test_agent.py",
           "type": "import"
         },
         {
-          "line": 4870,
+          "line": 4886,
           "path": "libs/code/tests/unit_tests/test_agent.py",
           "type": "import"
         },
@@ -41123,7 +40971,7 @@
           "type": "import"
         },
         {
-          "line": 1196,
+          "line": 1195,
           "path": "libs/code/tests/unit_tests/test_non_interactive.py",
           "type": "import"
         },
@@ -42148,7 +41996,7 @@
           "type": "import"
         },
         {
-          "line": 37,
+          "line": 44,
           "path": "libs/talon/deepagents_talon/store_archive.py",
           "type": "import"
         },
@@ -42244,6 +42092,11 @@
         },
         {
           "line": 12,
+          "path": "libs/talon/tests/unit_tests/test_archive.py",
+          "type": "import"
+        },
+        {
+          "line": 13,
           "path": "libs/talon/tests/unit_tests/test_archive.py",
           "type": "import"
         },
@@ -42524,8 +42377,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "e1c7735f1044519db63d9ab511bf881a0a8efddc",
-    "pushed_at": "2026-11-13T15:08:26Z"
+    "head_sha": "a93aed4bca3a5e4d45bff393e16092222767e6c3",
+    "pushed_at": "2026-11-14T09:08:01Z"
   },
   "langchain-ai/langchain": {
     "analysis": {
@@ -42534,7 +42387,6 @@
       "direct_dependencies": [
         "aiohttp",
         "anthropic",
-        "async-timeout",
         "azure-identity",
         "certifi",
         "chromadb",
@@ -42597,13 +42449,12 @@
         "tenacity",
         "tiktoken",
         "tokenizers",
-        "tomli",
         "transformers",
         "typing-extensions",
         "uuid-utils",
         "vcrpy"
       ],
-      "direct_dependency_count": 70,
+      "direct_dependency_count": 68,
       "direction": "rag_knowledge",
       "external_apis_confirmed": [
         {
@@ -43569,8 +43420,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "7cb2b2af62c04c618deaca435328a1eae5b4da53",
-    "pushed_at": "2026-11-13T15:28:09Z"
+    "head_sha": "ea17e48f0a4336c920394fd029de99f1568b4c38",
+    "pushed_at": "2026-11-14T08:44:18Z"
   },
   "langchain-ai/langchain-aws": {
     "analysis": {
@@ -51870,8 +51721,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "3183e90eca59850a607d8a4c1b24fa8c5c8a2b69",
-    "pushed_at": "2026-11-13T06:53:08Z"
+    "head_sha": "08a2016953789a4f579b4d36bd1967941ec62012",
+    "pushed_at": "2026-11-14T01:43:55Z"
   },
   "langchain-ai/langgraph-bigtool": {
     "analysis": {
@@ -52691,7 +52542,7 @@
           "type": "import"
         },
         {
-          "line": 34,
+          "line": 35,
           "path": "mda/rt/backend.py",
           "type": "import"
         },
@@ -52706,12 +52557,12 @@
           "type": "import"
         },
         {
-          "line": 36,
+          "line": 37,
           "path": "mda/rt/file_tools.py",
           "type": "import"
         },
         {
-          "line": 37,
+          "line": 38,
           "path": "mda/rt/file_tools.py",
           "type": "import"
         },
@@ -52806,6 +52657,11 @@
           "type": "import"
         },
         {
+          "line": 26,
+          "path": "mda/rt/tools.py",
+          "type": "import"
+        },
+        {
           "line": 18,
           "path": "mda/rt/validate_image_reads.py",
           "type": "import"
@@ -52813,16 +52669,6 @@
         {
           "line": 19,
           "path": "mda/rt/validate_image_reads.py",
-          "type": "import"
-        },
-        {
-          "line": 43,
-          "path": "mda/tests/test_backend_calls.py",
-          "type": "import"
-        },
-        {
-          "line": 44,
-          "path": "mda/tests/test_backend_calls.py",
           "type": "import"
         },
         {
@@ -52836,12 +52682,22 @@
           "type": "import"
         },
         {
+          "line": 47,
+          "path": "mda/tests/test_backend_calls.py",
+          "type": "import"
+        },
+        {
+          "line": 48,
+          "path": "mda/tests/test_backend_calls.py",
+          "type": "import"
+        },
+        {
           "line": 16,
           "path": "mda/tests/test_local_tools.py",
           "type": "import"
         },
         {
-          "line": 843,
+          "line": 854,
           "path": "mda/tests/test_loop.py",
           "type": "import"
         },
@@ -52971,7 +52827,7 @@
           "type": "import"
         },
         {
-          "line": 7,
+          "line": 8,
           "path": "openswe/analytics/posthog.py",
           "type": "import"
         },
@@ -52996,12 +52852,12 @@
           "type": "import"
         },
         {
-          "line": 131,
+          "line": 125,
           "path": "openswe/mcp/caller.py",
           "type": "import"
         },
         {
-          "line": 132,
+          "line": 126,
           "path": "openswe/mcp/caller.py",
           "type": "import"
         },
@@ -53396,27 +53252,27 @@
           "type": "import"
         },
         {
-          "line": 750,
+          "line": 749,
           "path": "tests/reviewer/test_agent_api.py",
           "type": "import"
         },
         {
-          "line": 1398,
+          "line": 1402,
           "path": "tests/reviewer/test_agent_api.py",
           "type": "import"
         },
         {
-          "line": 1399,
+          "line": 1403,
           "path": "tests/reviewer/test_agent_api.py",
           "type": "import"
         },
         {
-          "line": 1460,
+          "line": 1464,
           "path": "tests/reviewer/test_agent_api.py",
           "type": "import"
         },
         {
-          "line": 1557,
+          "line": 1561,
           "path": "tests/reviewer/test_agent_api.py",
           "type": "import"
         },
@@ -53494,8 +53350,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "1714adf7a6f074e2b3369eac20edd70630478aee",
-    "pushed_at": "2026-11-13T15:11:46Z"
+    "head_sha": "d182338d01fa1f86e8f212080c340171d4b964c2",
+    "pushed_at": "2026-11-14T14:12:34Z"
   },
   "langchain-ai/openevals": {
     "analysis": {
@@ -58475,8 +58331,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "c3342ce2ff2d53918ac37928d5526effe902faea",
-    "pushed_at": "2026-11-13T14:46:43Z"
+    "head_sha": "678070abf15417acdb4a5dd826667a5d83f54d67",
+    "pushed_at": "2026-11-14T08:46:23Z"
   },
   "midodimori/langrepl": {
     "analysis": {
@@ -58944,7 +58800,7 @@
   },
   "mlflow/mlflow": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-13T15:21:26Z",
+    "pushed_at": "2026-11-14T11:44:25Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "modelscope/easydistill": {
@@ -68711,6 +68567,9 @@
         "policy_node_id",
         "n1",
         "n2",
+        "memory:only",
+        "decision:first",
+        "decision:second",
         "n1",
         "n2",
         "n1",
@@ -68758,7 +68617,7 @@
         "alice",
         "bob"
       ],
-      "nodes_confirmed": 298,
+      "nodes_confirmed": 301,
       "nodes_dynamic_unknown": true,
       "project_kind": "unknown",
       "state_field_names_confirmed": [],
@@ -68771,8 +68630,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "ee3bb93242ed7cda8fa6e654cfaf76f2e7fec190",
-    "pushed_at": "2026-11-13T15:12:00Z"
+    "head_sha": "1e14db0af8d78890b9a1513b49bef264cbb59e9b",
+    "pushed_at": "2026-11-13T22:45:13Z"
   },
   "shenjianan97/persistent-agent-runtime": {
     "analysis": {
@@ -74243,7 +74102,7 @@
   },
   "vectorize-io/hindsight": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-13T15:20:35Z",
+    "pushed_at": "2026-11-14T11:22:33Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "velocitybolt/open-extract": {
@@ -75077,7 +74936,7 @@
   },
   "volcengine/OpenViking": {
     "analyzer_version": 1,
-    "pushed_at": "2026-11-13T15:15:08Z",
+    "pushed_at": "2026-11-14T10:49:56Z",
     "scan_error": "download exceeds 52428800 bytes"
   },
   "vstorm-co/full-stack-ai-agent-template": {
@@ -76277,8 +76136,8 @@
       "tutorial_only": false
     },
     "analyzer_version": 1,
-    "head_sha": "b381e7f14b9fa5c2456b27eb2830efaccb53ac2e",
-    "pushed_at": "2026-11-13T09:51:05Z"
+    "head_sha": "f7230363d2b5d8a43244144646c14978dc375016",
+    "pushed_at": "2026-11-14T13:57:45Z"
   },
   "wjayesh/mahilo": {
     "analysis": {
