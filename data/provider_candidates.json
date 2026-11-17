@@ -126,6 +126,12 @@
     ]
   },
   {
+    "signal": "CLAW_EVAL_JUDGE_API_KEY",
+    "repositories": [
+      "rllm-org/rllm"
+    ]
+  },
+  {
     "signal": "CLOUDFLARE_AI_GATEWAY_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon"
@@ -217,6 +223,12 @@
     ]
   },
   {
+    "signal": "E2B_API_KEY",
+    "repositories": [
+      "rllm-org/rllm"
+    ]
+  },
+  {
     "signal": "ELEVENLABS_API_KEY",
     "repositories": [
       "confident-ai/deepeval"
@@ -225,7 +237,8 @@
   {
     "signal": "FIRECRAWL_API_KEY",
     "repositories": [
-      "assafelovic/gpt-researcher"
+      "assafelovic/gpt-researcher",
+      "rllm-org/rllm"
     ]
   },
   {
@@ -280,6 +293,12 @@
     "signal": "GOOGLE_GENERATIVE_AI_API_KEY",
     "repositories": [
       "Arize-ai/phoenix"
+    ]
+  },
+  {
+    "signal": "GOOGLE_SEARCH_SECRET_KEY",
+    "repositories": [
+      "rllm-org/rllm"
     ]
   },
   {
@@ -404,7 +423,8 @@
       "GetBindu/Bindu",
       "NVIDIA/SkillSpector",
       "TauricResearch/TradingAgents",
-      "assafelovic/gpt-researcher"
+      "assafelovic/gpt-researcher",
+      "rllm-org/rllm"
     ]
   },
   {
@@ -584,6 +604,18 @@
     ]
   },
   {
+    "signal": "RLLM_AGENT_API_KEY",
+    "repositories": [
+      "rllm-org/rllm"
+    ]
+  },
+  {
+    "signal": "RLLM_API_KEY",
+    "repositories": [
+      "rllm-org/rllm"
+    ]
+  },
+  {
     "signal": "RUNLOOP_API_KEY",
     "repositories": [
       "langchain-ai/deepagents"
@@ -622,7 +654,8 @@
   {
     "signal": "SERPER_API_KEY",
     "repositories": [
-      "assafelovic/gpt-researcher"
+      "assafelovic/gpt-researcher",
+      "rllm-org/rllm"
     ]
   },
   {
@@ -650,9 +683,27 @@
     ]
   },
   {
+    "signal": "SWANLAB_API_KEY",
+    "repositories": [
+      "rllm-org/rllm"
+    ]
+  },
+  {
     "signal": "SYNTHETIC_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon"
+    ]
+  },
+  {
+    "signal": "TINKER_API_KEY",
+    "repositories": [
+      "rllm-org/rllm"
+    ]
+  },
+  {
+    "signal": "TOGETHER_AI_API_KEY",
+    "repositories": [
+      "rllm-org/rllm"
     ]
   },
   {
@@ -660,6 +711,7 @@
     "repositories": [
       "BitterSecurity/Decepticon",
       "awarexone/Agentic-Bug-Hunter",
+      "rllm-org/rllm",
       "traceloop/openllmetry"
     ]
   },
