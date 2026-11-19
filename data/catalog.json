@@ -3,8 +3,8 @@
     "repo": "TauricResearch/TradingAgents",
     "url": "https://github.com/TauricResearch/TradingAgents",
     "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-    "github_stars": 123059,
-    "github_forks": 23596,
+    "github_stars": 123144,
+    "github_forks": 23613,
     "primary_language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-11-17T03:59:28Z",
@@ -196,12 +196,12 @@
     "repo": "NandhaKishorM/laya",
     "url": "https://github.com/NandhaKishorM/laya",
     "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
-    "github_stars": 35665,
-    "github_forks": 3200,
+    "github_stars": 35700,
+    "github_forks": 3202,
     "primary_language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-11-18T02:48:42Z",
-    "head_sha": "a27ed198f304ed16382220cf9e718ec3aa8d2fcb",
+    "last_push": "2026-11-19T13:29:14Z",
+    "head_sha": "a6367e6952e3cdb408348bfa2d478b87b828ee51",
     "langgraph_status": "confirmed",
     "langgraph_evidence": [
       {
@@ -281,12 +281,12 @@
     "repo": "langchain-ai/deepagents",
     "url": "https://github.com/langchain-ai/deepagents",
     "description": "The batteries-included agent harness.",
-    "github_stars": 31397,
-    "github_forks": 4432,
+    "github_stars": 31446,
+    "github_forks": 4439,
     "primary_language": "Python",
     "license": "MIT",
-    "last_push": "2026-11-18T16:10:57Z",
-    "head_sha": "c81b7a8bc2d2ee8e16066797e4e9be13409d1d0b",
+    "last_push": "2026-11-19T16:24:28Z",
+    "head_sha": "a29e85409c9bea2650a822153c195d11118cbf4d",
     "langgraph_status": "confirmed",
     "langgraph_evidence": [
       {
@@ -302,22 +302,22 @@
       {
         "type": "import",
         "path": "libs/acp/deepagents_acp/server.py",
-        "line": 60
+        "line": 55
       },
       {
         "type": "import",
         "path": "libs/acp/deepagents_acp/server.py",
-        "line": 61
+        "line": 56
       },
       {
         "type": "import",
         "path": "libs/acp/deepagents_acp/server.py",
-        "line": 62
+        "line": 57
       },
       {
         "type": "import",
         "path": "libs/acp/deepagents_acp/server.py",
-        "line": 79
+        "line": 74
       },
       {
         "type": "import",
@@ -337,7 +337,12 @@
       {
         "type": "import",
         "path": "libs/acp/tests/test_agent.py",
-        "line": 45
+        "line": 44
+      },
+      {
+        "type": "import",
+        "path": "libs/acp/tests/test_agent.py",
+        "line": 49
       },
       {
         "type": "import",
@@ -348,11 +353,6 @@
         "type": "import",
         "path": "libs/acp/tests/test_agent.py",
         "line": 51
-      },
-      {
-        "type": "import",
-        "path": "libs/acp/tests/test_agent.py",
-        "line": 52
       },
       {
         "type": "import",
@@ -1811,18 +1811,23 @@
       },
       {
         "type": "import",
-        "path": "libs/partners/quickjs/langchain_quickjs/_repl.py",
-        "line": 26
+        "path": "libs/partners/quickjs/langchain_quickjs/_ptc.py",
+        "line": 39
+      },
+      {
+        "type": "import",
+        "path": "libs/partners/quickjs/langchain_quickjs/_ptc.py",
+        "line": 49
       },
       {
         "type": "import",
         "path": "libs/partners/quickjs/langchain_quickjs/_repl.py",
-        "line": 27
+        "line": 18
       },
       {
         "type": "import",
         "path": "libs/partners/quickjs/langchain_quickjs/_repl.py",
-        "line": 63
+        "line": 62
       },
       {
         "type": "import",
@@ -1832,17 +1837,17 @@
       {
         "type": "import",
         "path": "libs/partners/quickjs/langchain_quickjs/middleware.py",
-        "line": 32
+        "line": 30
       },
       {
         "type": "import",
         "path": "libs/partners/quickjs/langchain_quickjs/middleware.py",
-        "line": 33
+        "line": 31
       },
       {
         "type": "import",
         "path": "libs/partners/quickjs/langchain_quickjs/middleware.py",
-        "line": 37
+        "line": 35
       },
       {
         "type": "import",
@@ -1857,7 +1862,7 @@
       {
         "type": "import",
         "path": "libs/partners/quickjs/tests/unit_tests/test_ptc.py",
-        "line": 16
+        "line": 17
       },
       {
         "type": "import",
@@ -1871,28 +1876,13 @@
       },
       {
         "type": "import",
-        "path": "libs/partners/quickjs/tests/unit_tests/test_shutdown.py",
-        "line": 17
-      },
-      {
-        "type": "import",
-        "path": "libs/partners/quickjs/tests/unit_tests/test_shutdown.py",
+        "path": "libs/partners/quickjs/tests/unit_tests/test_slot_cleanup.py",
         "line": 18
       },
       {
         "type": "import",
-        "path": "libs/partners/quickjs/tests/unit_tests/test_shutdown.py",
-        "line": 24
-      },
-      {
-        "type": "import",
         "path": "libs/partners/quickjs/tests/unit_tests/test_slot_cleanup.py",
-        "line": 20
-      },
-      {
-        "type": "import",
-        "path": "libs/partners/quickjs/tests/unit_tests/test_slot_cleanup.py",
-        "line": 21
+        "line": 19
       },
       {
         "type": "import",
@@ -1902,17 +1892,17 @@
       {
         "type": "import",
         "path": "libs/partners/quickjs/tests/unit_tests/test_snapshot.py",
-        "line": 503
+        "line": 505
       },
       {
         "type": "import",
         "path": "libs/partners/quickjs/tests/unit_tests/test_snapshot.py",
-        "line": 544
+        "line": 546
       },
       {
         "type": "import",
         "path": "libs/partners/quickjs/tests/unit_tests/test_snapshot.py",
-        "line": 945
+        "line": 943
       },
       {
         "type": "import",
@@ -2593,8 +2583,8 @@
     "repo": "assafelovic/gpt-researcher",
     "url": "https://github.com/assafelovic/gpt-researcher",
     "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
-    "github_stars": 30771,
-    "github_forks": 4238,
+    "github_stars": 30784,
+    "github_forks": 4240,
     "primary_language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-11-12T19:34:46Z",
@@ -2921,12 +2911,12 @@
     "repo": "NVIDIA/SkillSpector",
     "url": "https://github.com/NVIDIA/SkillSpector",
     "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-    "github_stars": 26766,
-    "github_forks": 2385,
+    "github_stars": 26926,
+    "github_forks": 2395,
     "primary_language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-11-18T14:20:25Z",
-    "head_sha": "107a422ecbf230f5f867953c473bdd23155ea828",
+    "last_push": "2026-11-19T14:51:51Z",
+    "head_sha": "48e0f942ea1f5fdb7aa096a6f65a0adeda2ecc4e",
     "langgraph_status": "confirmed",
     "langgraph_evidence": [
       {
@@ -2949,7 +2939,7 @@
     "tutorial_only": false,
     "project_kind": "agent_project",
     "direction": "unknown",
-    "direct_dependency_count": 33,
+    "direct_dependency_count": 34,
     "direct_dependencies": [
       "boto3",
       "build",
@@ -2981,6 +2971,7 @@
       "tree-sitter",
       "tree-sitter-bash",
       "tree-sitter-javascript",
+      "tree-sitter-typescript",
       "twine",
       "typer",
       "yara-python"
@@ -3035,12 +3026,12 @@
     "repo": "confident-ai/deepeval",
     "url": "https://github.com/confident-ai/deepeval",
     "description": "The LLM Evaluation Framework",
-    "github_stars": 19547,
-    "github_forks": 2222,
+    "github_stars": 19563,
+    "github_forks": 2229,
     "primary_language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-11-18T02:54:30Z",
-    "head_sha": "f678c9ea23914ae98df1424b768d31def4e1353e",
+    "last_push": "2026-11-19T06:28:47Z",
+    "head_sha": "7ca6e6cb03d7f65e0ba77cd926b9233d380a8bfa",
     "langgraph_status": "confirmed",
     "langgraph_evidence": [
       {
@@ -3394,14 +3385,45 @@
     "repo": "Canner/WrenAI",
     "url": "https://github.com/Canner/WrenAI",
     "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
-    "github_stars": 18333,
-    "github_forks": 2115,
+    "github_stars": 18343,
+    "github_forks": 2116,
     "primary_language": "Python",
     "license": "NOASSERTION",
-    "last_push": "2026-11-17T02:56:11Z",
-    "head_sha": "9f19fe08dc3c8039506cadabcbd30c293bb85967",
-    "agent_factories_confirmed": 0,
-    "conditional_edges_confirmed": 1,
+    "last_push": "2026-11-19T02:41:14Z",
+    "head_sha": "31390f6153887e893ebebb7d5b663eb131c782d2",
+    "langgraph_status": "confirmed",
+    "langgraph_evidence": [
+      {
+        "type": "import",
+        "path": "sdk/wren-langchain/examples/langgraph_demo.py",
+        "line": 61
+      },
+      {
+        "type": "import",
+        "path": "sdk/wren-langchain/examples/langgraph_demo.py",
+        "line": 62
+      },
+      {
+        "type": "import",
+        "path": "sdk/wren-langchain/examples/langgraph_demo.py",
+        "line": 63
+      },
+      {
+        "type": "import",
+        "path": "sdk/wren-langchain/tests/integration/test_langgraph_toolnode.py",
+        "line": 17
+      },
+      {
+        "type": "import",
+        "path": "sdk/wren-langchain/tests/integration/test_langgraph_toolnode.py",
+        "line": 18
+      }
+    ],
+    "langgraph_dependency": true,
+    "tutorial_only": false,
+    "project_kind": "agent_project",
+    "direction": "coding_agent",
+    "direct_dependency_count": 56,
     "direct_dependencies": [
       "boto3",
       "clickhouse-connect",
@@ -3460,77 +3482,46 @@
       "wren-core-py",
       "wrenai"
     ],
-    "direct_dependency_count": 56,
-    "direction": "coding_agent",
     "external_apis_confirmed": [
       {
+        "provider": "openai",
         "access_model": "commercial",
         "evidence": [
           "import",
           "environment_variable"
-        ],
-        "provider": "openai"
+        ]
       }
     ],
     "external_apis_unknown": [],
-    "langgraph_dependency": true,
-    "langgraph_evidence": [
-      {
-        "line": 61,
-        "path": "sdk/wren-langchain/examples/langgraph_demo.py",
-        "type": "import"
-      },
-      {
-        "line": 62,
-        "path": "sdk/wren-langchain/examples/langgraph_demo.py",
-        "type": "import"
-      },
-      {
-        "line": 63,
-        "path": "sdk/wren-langchain/examples/langgraph_demo.py",
-        "type": "import"
-      },
-      {
-        "line": 17,
-        "path": "sdk/wren-langchain/tests/integration/test_langgraph_toolnode.py",
-        "type": "import"
-      },
-      {
-        "line": 18,
-        "path": "sdk/wren-langchain/tests/integration/test_langgraph_toolnode.py",
-        "type": "import"
-      }
-    ],
-    "langgraph_status": "confirmed",
+    "nodes_confirmed": 3,
     "node_names_confirmed": [
       "agent",
       "tools",
       "tools"
     ],
-    "nodes_confirmed": 3,
     "nodes_dynamic_unknown": false,
-    "project_kind": "agent_project",
+    "conditional_edges_confirmed": 1,
+    "state_fields_confirmed": 1,
     "state_field_names_confirmed": [
       "messages"
     ],
-    "state_fields_confirmed": 1,
-    "state_fields_unknown": true,
-    "subagent_names_confirmed": [],
+    "agent_factories_confirmed": 0,
     "subagents_confirmed": 0,
+    "subagent_names_confirmed": [],
     "subagents_unknown": true,
     "subgraphs_confirmed": 0,
-    "tutorial_only": false
+    "state_fields_unknown": true
   },
   {
     "repo": "Arize-ai/phoenix",
     "url": "https://github.com/Arize-ai/phoenix",
     "description": "AI Observability & Evaluation",
-    "github_stars": 12343,
-    "github_forks": 1310,
+    "github_stars": 12356,
+    "github_forks": 1317,
     "primary_language": "Python",
     "license": "NOASSERTION",
-    "last_push": "2026-11-18T16:01:27Z",
-    "head_sha": "e37d177e60c75ba267652bb2125de3cb322dd460",
+    "last_push": "2026-11-19T16:35:59Z",
+    "head_sha": "de8b34c11855b5d2265e7fc8febb8f7c26a691d3",
     "langgraph_status": "confirmed",
     "langgraph_evidence": [
       {
@@ -3842,12 +3833,12 @@
     "repo": "langchain-ai/open-swe",
     "url": "https://github.com/langchain-ai/open-swe",
     "description": "An Open-Source Asynchronous Coding Agent",
-    "github_stars": 11235,
+    "github_stars": 11241,
     "github_forks": 1320,
     "primary_language": "Python",
     "license": "MIT",
-    "last_push": "2026-11-18T16:30:13Z",
-    "head_sha": "e2d031e29a02d219bb0c3b2b5add3c8d8d912b7e",
+    "last_push": "2026-11-19T16:37:31Z",
+    "head_sha": "71e89a65fe894ac0100fb8a72adecab9f32e63bd",
     "langgraph_status": "confirmed",
     "langgraph_evidence": [
       {
@@ -3888,6 +3879,11 @@
       {
         "type": "import",
         "path": "mda/rt/managed_sandbox.py",
+        "line": 49
+      },
+      {
+        "type": "import",
+        "path": "mda/rt/managed_sandbox.py",
         "line": 50
       },
       {
@@ -3897,18 +3893,13 @@
       },
       {
         "type": "import",
-        "path": "mda/rt/managed_sandbox.py",
-        "line": 52
+        "path": "mda/rt/mcp.py",
+        "line": 27
       },
       {
         "type": "import",
         "path": "mda/rt/mcp.py",
-        "line": 25
-      },
-      {
-        "type": "import",
-        "path": "mda/rt/mcp.py",
-        "line": 26
+        "line": 28
       },
       {
         "type": "import",
@@ -3988,11 +3979,6 @@
       {
         "type": "import",
         "path": "mda/tests/test_backend_calls.py",
-        "line": 45
-      },
-      {
-        "type": "import",
-        "path": "mda/tests/test_backend_calls.py",
         "line": 46
       },
       {
@@ -4007,18 +3993,23 @@
       },
       {
         "type": "import",
+        "path": "mda/tests/test_backend_calls.py",
+        "line": 49
+      },
+      {
+        "type": "import",
         "path": "mda/tests/test_local_tools.py",
         "line": 16
       },
       {
         "type": "import",
         "path": "mda/tests/test_loop.py",
-        "line": 851
+        "line": 860
       },
       {
         "type": "import",
         "path": "mda/tests/test_mcp.py",
-        "line": 7
+        "line": 10
       },
       {
         "type": "import",
@@ -4029,11 +4020,6 @@
         "type": "import",
         "path": "mda/tests/test_offload.py",
         "line": 11
-      },
-      {
-        "type": "import",
-        "path": "mda/tests/test_shared_graph.py",
-        "line": 38
       },
       {
         "type": "import",
@@ -4059,6 +4045,16 @@
         "type": "import",
         "path": "mda/tests/test_shared_graph.py",
         "line": 43
+      },
+      {
+        "type": "import",
+        "path": "mda/tests/test_shared_graph.py",
+        "line": 44
+      },
+      {
+        "type": "import",
+        "path": "mda/tests/test_shared_graph.py",
+        "line": 45
       },
       {
         "type": "import",
@@ -4173,12 +4169,12 @@
       {
         "type": "import",
         "path": "openswe/mcp/caller.py",
-        "line": 115
+        "line": 117
       },
       {
         "type": "import",
         "path": "openswe/mcp/caller.py",
-        "line": 116
+        "line": 118
       },
       {
         "type": "import",
@@ -4308,12 +4304,12 @@
       {
         "type": "import",
         "path": "openswe/server.py",
-        "line": 24
+        "line": 25
       },
       {
         "type": "import",
         "path": "openswe/server.py",
-        "line": 25
+        "line": 26
       },
       {
         "type": "import",
@@ -4508,12 +4504,12 @@
       {
         "type": "import",
         "path": "tests/agent/test_admin_workspaces.py",
-        "line": 8
+        "line": 5
       },
       {
         "type": "import",
         "path": "tests/agent/test_agent_assembly_context.py",
-        "line": 10
+        "line": 9
       },
       {
         "type": "import",
@@ -4533,7 +4529,7 @@
       {
         "type": "import",
         "path": "tests/github/test_github_app.py",
-        "line": 10
+        "line": 8
       },
       {
         "type": "import",
@@ -4588,27 +4584,27 @@
       {
         "type": "import",
         "path": "tests/reviewer/test_agent_api.py",
-        "line": 896
+        "line": 891
       },
       {
         "type": "import",
         "path": "tests/reviewer/test_agent_api.py",
-        "line": 1590
+        "line": 1637
       },
       {
         "type": "import",
         "path": "tests/reviewer/test_agent_api.py",
-        "line": 1591
+        "line": 1638
       },
       {
         "type": "import",
         "path": "tests/reviewer/test_agent_api.py",
-        "line": 1652
+        "line": 1699
       },
       {
         "type": "import",
         "path": "tests/reviewer/test_agent_api.py",
-        "line": 1749
+        "line": 1796
       },
       {
         "type": "import",
@@ -4618,7 +4614,7 @@
       {
         "type": "import",
         "path": "tests/reviewer/test_review_scout_launch.py",
-        "line": 83
+        "line": 81
       },
       {
         "type": "import",
@@ -4665,7 +4661,7 @@
     "tutorial_only": false,
     "project_kind": "agent_project",
     "direction": "browser_automation",
-    "direct_dependency_count": 47,
+    "direct_dependency_count": 48,
     "direct_dependencies": [
       "aiohttp",
       "alembic",
@@ -4697,6 +4693,7 @@
       "mcp",
       "open-swe-runtime-api",
       "openai",
+      "orjson",
       "pillow",
       "pydantic",
       "pygments",
@@ -4759,8 +4756,10 @@
     "external_apis_unknown": [
       "LANGGRAPH_API_KEY"
     ],
-    "nodes_confirmed": 5,
+    "nodes_confirmed": 7,
     "node_names_confirmed": [
+      "first",
+      "second",
       "name",
       "tools",
       "subagent_a",
@@ -4769,8 +4768,9 @@
     ],
     "nodes_dynamic_unknown": false,
     "conditional_edges_confirmed": 0,
-    "state_fields_confirmed": 1,
+    "state_fields_confirmed": 2,
     "state_field_names_confirmed": [
+      "answer",
       "done"
     ],
     "agent_factories_confirmed": 0,
@@ -4784,7 +4784,7 @@
     "repo": "GetBindu/Bindu",
     "url": "https://github.com/GetBindu/Bindu",
     "description": "Bindu: The identity, communication, and payments layer for AI agents.",
-    "github_stars": 9977,
+    "github_stars": 9970,
     "github_forks": 666,
     "primary_language": "Python",
     "license": "NOASSERTION",
@@ -4930,12 +4930,12 @@
     "repo": "xerrors/Yuxi",
     "url": "https://github.com/xerrors/Yuxi",
     "description": "可私有部署的多租户知识智能体平台：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Yuxi = Cloud Agents + Knowledge RAG, Self-hosted knowledge agent platform for RAG, knowledge graphs and multi-agent workflows.",
-    "github_stars": 7698,
-    "github_forks": 1277,
+    "github_stars": 7706,
+    "github_forks": 1278,
     "primary_language": "Python",
     "license": "MIT",
-    "last_push": "2026-11-18T09:30:43Z",
-    "head_sha": "47e4e5a6d905584b3ed47c993c8a7aeb47c15f39",
+    "last_push": "2026-11-19T08:00:39Z",
+    "head_sha": "a682382cc8e2b99c2f2f113784055b06ca7cd819",
     "langgraph_status": "confirmed",
     "langgraph_evidence": [
       {
@@ -5002,6 +5002,16 @@
         "type": "import",
         "path": "backend/test/integration/services/test_checkpoint_concurrency.py",
         "line": 9
+      },
+      {
+        "type": "import",
+        "path": "backend/test/integration/services/test_checkpoint_retention.py",
+        "line": 240
+      },
+      {
+        "type": "import",
+        "path": "backend/test/integration/services/test_checkpoint_retention.py",
+        "line": 241
       },
       {
         "type": "import",
@@ -5492,11 +5502,12 @@
       "NOTION_API_KEY",
       "YUXI_LOAD_API_KEY"
     ],
-    "nodes_confirmed": 17,
+    "nodes_confirmed": 18,
     "node_names_confirmed": [
       "done",
       "idle",
       "increment",
+      "bump",
       "approval",
       "done",
       "approval",
@@ -5542,11 +5553,11 @@
     "url": "https://github.com/traceloop/openllmetry",
     "description": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
     "github_stars": 7544,
-    "github_forks": 1194,
+    "github_forks": 1197,
     "primary_language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-11-18T09:41:43Z",
-    "head_sha": "864f8591081251a40a40e0bb06a4d8084c3664d2",
+    "last_push": "2026-11-19T14:41:30Z",
+    "head_sha": "285c7bf0d07cb5d178632c523f5011373938c1d9",
     "langgraph_status": "confirmed",
     "langgraph_evidence": [
       {
@@ -5856,390 +5867,14 @@
     "repo": "BitterSecurity/Decepticon",
     "url": "https://github.com/BitterSecurity/Decepticon",
     "description": "Autonomous Hacking Agent for Red Team",
-    "github_stars": 6641,
-    "github_forks": 1274,
+    "github_stars": 6648,
+    "github_forks": 1281,
     "primary_language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-11-18T13:33:00Z",
     "head_sha": "be0892d55187c2ebb9ee24109020558241eaab14",
-    "langgraph_status": "confirmed",
-    "langgraph_evidence": [
-      {
-        "type": "import",
-        "path": "packages/decepticon-sdk/tests/test_host_surface.py",
-        "line": 237
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/backends/factory.py",
-        "line": 122
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/backends/factory.py",
-        "line": 199
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/core/subagent_streaming.py",
-        "line": 82
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/core/subagent_streaming.py",
-        "line": 160
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/artifact_tools.py",
-        "line": 8
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/budget.py",
-        "line": 172
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/budget.py",
-        "line": 193
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/engagement.py",
-        "line": 38
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/engagement.py",
-        "line": 39
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/filesystem.py",
-        "line": 516
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/hitl.py",
-        "line": 74
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/kg_internal/tools.py",
-        "line": 27
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/notifications.py",
-        "line": 109
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/opplan.py",
-        "line": 73
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/opplan_dispatch.py",
-        "line": 20
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/prompt_injection_shield.py",
-        "line": 57
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/prompt_injection_shield.py",
-        "line": 246
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/run_controls.py",
-        "line": 55
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/run_controls.py",
-        "line": 130
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/search_runtime.py",
-        "line": 28
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/search_runtime.py",
-        "line": 29
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/search_runtime.py",
-        "line": 30
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/search_tools.py",
-        "line": 8
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/search_tools.py",
-        "line": 9
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/time_window.py",
-        "line": 60
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/time_window.py",
-        "line": 112
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/untrusted_output.py",
-        "line": 47
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/workflow.py",
-        "line": 12
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/middleware/workflow.py",
-        "line": 13
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/tools/interaction/ask_user.py",
-        "line": 23
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/tools/interaction/ask_user.py",
-        "line": 24
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/tools/interaction/complete_planning.py",
-        "line": 12
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/tools/opplan.py",
-        "line": 18
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/tools/opplan.py",
-        "line": 19
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/tools/opplan.py",
-        "line": 332
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/tools/ops/tools.py",
-        "line": 31
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/decepticon/tools/reporting/tools.py",
-        "line": 19
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/backends/test_factory.py",
-        "line": 84
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/backends/test_factory.py",
-        "line": 170
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_budget_internals.py",
-        "line": 263
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_budget_internals.py",
-        "line": 282
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_budget_internals.py",
-        "line": 289
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_engagement.py",
-        "line": 13
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_engagement.py",
-        "line": 859
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_model_override.py",
-        "line": 24
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_model_override.py",
-        "line": 25
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_model_override.py",
-        "line": 26
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_run_controls.py",
-        "line": 14
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_run_controls.py",
-        "line": 15
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_run_controls.py",
-        "line": 85
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_run_controls.py",
-        "line": 247
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_step_budget_checkpoint.py",
-        "line": 10
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_step_budget_checkpoint.py",
-        "line": 11
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_time_window.py",
-        "line": 140
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_time_window.py",
-        "line": 141
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/middleware/test_untrusted_output.py",
-        "line": 224
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/reporting/test_finding_quality.py",
-        "line": 15
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/reporting/test_finding_quality.py",
-        "line": 16
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/reporting/test_finding_quality.py",
-        "line": 17
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/reporting/test_sarif_remote.py",
-        "line": 17
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/reporting/test_sarif_remote.py",
-        "line": 18
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/reporting/test_sarif_remote.py",
-        "line": 19
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/search_v2/test_registration.py",
-        "line": 9
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/search_v2/test_search_runtime.py",
-        "line": 13
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/search_v2/test_search_runtime.py",
-        "line": 14
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/workflows/test_objective_status_refusals.py",
-        "line": 14
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/workflows/test_opplan_gating.py",
-        "line": 8
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/workflows/test_opplan_mutation.py",
-        "line": 7
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/workflows/test_planning_workflow.py",
-        "line": 13
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/workflows/test_planning_workflow.py",
-        "line": 14
-      },
-      {
-        "type": "import",
-        "path": "packages/decepticon/tests/unit/workflows/test_workflow_checkpoint.py",
-        "line": 8
-      },
-      {
-        "type": "import",
-        "path": "tests/agent_parity/case.py",
-        "line": 27
-      },
-      {
-        "type": "import",
-        "path": "tests/agent_parity/case.py",
-        "line": 28
-      }
-    ],
-    "langgraph_dependency": true,
-    "tutorial_only": false,
-    "project_kind": "agent_project",
-    "direction": "browser_automation",
-    "direct_dependency_count": 42,
+    "agent_factories_confirmed": 0,
+    "conditional_edges_confirmed": 0,
     "direct_dependencies": [
       "beautifulsoup4",
       "bs-autobot",
@@ -6284,59 +5919,61 @@
       "uvicorn",
       "xxhash"
     ],
+    "direct_dependency_count": 42,
+    "direction": "browser_automation",
     "external_apis_confirmed": [
       {
-        "provider": "anthropic",
         "access_model": "commercial",
         "evidence": [
           "dependency",
           "import",
           "environment_variable"
-        ]
+        ],
+        "provider": "anthropic"
       },
       {
-        "provider": "exa",
         "access_model": "commercial_or_free_tier",
         "evidence": [
           "environment_variable"
-        ]
+        ],
+        "provider": "exa"
       },
       {
-        "provider": "fireworks",
         "access_model": "commercial_or_free_tier",
         "evidence": [
           "environment_variable"
-        ]
+        ],
+        "provider": "fireworks"
       },
       {
-        "provider": "google_genai",
         "access_model": "commercial_or_free_tier",
         "evidence": [
           "environment_variable"
-        ]
+        ],
+        "provider": "google_genai"
       },
       {
-        "provider": "groq",
         "access_model": "commercial_or_free_tier",
         "evidence": [
           "environment_variable"
-        ]
+        ],
+        "provider": "groq"
       },
       {
-        "provider": "mistral",
         "access_model": "commercial_or_free_tier",
         "evidence": [
           "environment_variable"
-        ]
+        ],
+        "provider": "mistral"
       },
       {
-        "provider": "openai",
         "access_model": "commercial",
         "evidence": [
           "dependency",
           "import",
           "environment_variable"
-        ]
+        ],
+        "provider": "openai"
       }
     ],
     "external_apis_unknown": [
@@ -6396,7 +6033,380 @@
       "ZENMUX_API_KEY",
       "ZOOMEYE_API_KEY"
     ],
-    "nodes_confirmed": 15,
+    "langgraph_dependency": true,
+    "langgraph_evidence": [
+      {
+        "line": 237,
+        "path": "packages/decepticon-sdk/tests/test_host_surface.py",
+        "type": "import"
+      },
+      {
+        "line": 122,
+        "path": "packages/decepticon/decepticon/backends/factory.py",
+        "type": "import"
+      },
+      {
+        "line": 199,
+        "path": "packages/decepticon/decepticon/backends/factory.py",
+        "type": "import"
+      },
+      {
+        "line": 82,
+        "path": "packages/decepticon/decepticon/core/subagent_streaming.py",
+        "type": "import"
+      },
+      {
+        "line": 160,
+        "path": "packages/decepticon/decepticon/core/subagent_streaming.py",
+        "type": "import"
+      },
+      {
+        "line": 8,
+        "path": "packages/decepticon/decepticon/middleware/artifact_tools.py",
+        "type": "import"
+      },
+      {
+        "line": 172,
+        "path": "packages/decepticon/decepticon/middleware/budget.py",
+        "type": "import"
+      },
+      {
+        "line": 193,
+        "path": "packages/decepticon/decepticon/middleware/budget.py",
+        "type": "import"
+      },
+      {
+        "line": 38,
+        "path": "packages/decepticon/decepticon/middleware/engagement.py",
+        "type": "import"
+      },
+      {
+        "line": 39,
+        "path": "packages/decepticon/decepticon/middleware/engagement.py",
+        "type": "import"
+      },
+      {
+        "line": 516,
+        "path": "packages/decepticon/decepticon/middleware/filesystem.py",
+        "type": "import"
+      },
+      {
+        "line": 74,
+        "path": "packages/decepticon/decepticon/middleware/hitl.py",
+        "type": "import"
+      },
+      {
+        "line": 27,
+        "path": "packages/decepticon/decepticon/middleware/kg_internal/tools.py",
+        "type": "import"
+      },
+      {
+        "line": 109,
+        "path": "packages/decepticon/decepticon/middleware/notifications.py",
+        "type": "import"
+      },
+      {
+        "line": 73,
+        "path": "packages/decepticon/decepticon/middleware/opplan.py",
+        "type": "import"
+      },
+      {
+        "line": 20,
+        "path": "packages/decepticon/decepticon/middleware/opplan_dispatch.py",
+        "type": "import"
+      },
+      {
+        "line": 57,
+        "path": "packages/decepticon/decepticon/middleware/prompt_injection_shield.py",
+        "type": "import"
+      },
+      {
+        "line": 246,
+        "path": "packages/decepticon/decepticon/middleware/prompt_injection_shield.py",
+        "type": "import"
+      },
+      {
+        "line": 55,
+        "path": "packages/decepticon/decepticon/middleware/run_controls.py",
+        "type": "import"
+      },
+      {
+        "line": 130,
+        "path": "packages/decepticon/decepticon/middleware/run_controls.py",
+        "type": "import"
+      },
+      {
+        "line": 28,
+        "path": "packages/decepticon/decepticon/middleware/search_runtime.py",
+        "type": "import"
+      },
+      {
+        "line": 29,
+        "path": "packages/decepticon/decepticon/middleware/search_runtime.py",
+        "type": "import"
+      },
+      {
+        "line": 30,
+        "path": "packages/decepticon/decepticon/middleware/search_runtime.py",
+        "type": "import"
+      },
+      {
+        "line": 8,
+        "path": "packages/decepticon/decepticon/middleware/search_tools.py",
+        "type": "import"
+      },
+      {
+        "line": 9,
+        "path": "packages/decepticon/decepticon/middleware/search_tools.py",
+        "type": "import"
+      },
+      {
+        "line": 60,
+        "path": "packages/decepticon/decepticon/middleware/time_window.py",
+        "type": "import"
+      },
+      {
+        "line": 112,
+        "path": "packages/decepticon/decepticon/middleware/time_window.py",
+        "type": "import"
+      },
+      {
+        "line": 47,
+        "path": "packages/decepticon/decepticon/middleware/untrusted_output.py",
+        "type": "import"
+      },
+      {
+        "line": 12,
+        "path": "packages/decepticon/decepticon/middleware/workflow.py",
+        "type": "import"
+      },
+      {
+        "line": 13,
+        "path": "packages/decepticon/decepticon/middleware/workflow.py",
+        "type": "import"
+      },
+      {
+        "line": 23,
+        "path": "packages/decepticon/decepticon/tools/interaction/ask_user.py",
+        "type": "import"
+      },
+      {
+        "line": 24,
+        "path": "packages/decepticon/decepticon/tools/interaction/ask_user.py",
+        "type": "import"
+      },
+      {
+        "line": 12,
+        "path": "packages/decepticon/decepticon/tools/interaction/complete_planning.py",
+        "type": "import"
+      },
+      {
+        "line": 18,
+        "path": "packages/decepticon/decepticon/tools/opplan.py",
+        "type": "import"
+      },
+      {
+        "line": 19,
+        "path": "packages/decepticon/decepticon/tools/opplan.py",
+        "type": "import"
+      },
+      {
+        "line": 332,
+        "path": "packages/decepticon/decepticon/tools/opplan.py",
+        "type": "import"
+      },
+      {
+        "line": 31,
+        "path": "packages/decepticon/decepticon/tools/ops/tools.py",
+        "type": "import"
+      },
+      {
+        "line": 19,
+        "path": "packages/decepticon/decepticon/tools/reporting/tools.py",
+        "type": "import"
+      },
+      {
+        "line": 84,
+        "path": "packages/decepticon/tests/unit/backends/test_factory.py",
+        "type": "import"
+      },
+      {
+        "line": 170,
+        "path": "packages/decepticon/tests/unit/backends/test_factory.py",
+        "type": "import"
+      },
+      {
+        "line": 263,
+        "path": "packages/decepticon/tests/unit/middleware/test_budget_internals.py",
+        "type": "import"
+      },
+      {
+        "line": 282,
+        "path": "packages/decepticon/tests/unit/middleware/test_budget_internals.py",
+        "type": "import"
+      },
+      {
+        "line": 289,
+        "path": "packages/decepticon/tests/unit/middleware/test_budget_internals.py",
+        "type": "import"
+      },
+      {
+        "line": 13,
+        "path": "packages/decepticon/tests/unit/middleware/test_engagement.py",
+        "type": "import"
+      },
+      {
+        "line": 859,
+        "path": "packages/decepticon/tests/unit/middleware/test_engagement.py",
+        "type": "import"
+      },
+      {
+        "line": 24,
+        "path": "packages/decepticon/tests/unit/middleware/test_model_override.py",
+        "type": "import"
+      },
+      {
+        "line": 25,
+        "path": "packages/decepticon/tests/unit/middleware/test_model_override.py",
+        "type": "import"
+      },
+      {
+        "line": 26,
+        "path": "packages/decepticon/tests/unit/middleware/test_model_override.py",
+        "type": "import"
+      },
+      {
+        "line": 14,
+        "path": "packages/decepticon/tests/unit/middleware/test_run_controls.py",
+        "type": "import"
+      },
+      {
+        "line": 15,
+        "path": "packages/decepticon/tests/unit/middleware/test_run_controls.py",
+        "type": "import"
+      },
+      {
+        "line": 85,
+        "path": "packages/decepticon/tests/unit/middleware/test_run_controls.py",
+        "type": "import"
+      },
+      {
+        "line": 247,
+        "path": "packages/decepticon/tests/unit/middleware/test_run_controls.py",
+        "type": "import"
+      },
+      {
+        "line": 10,
+        "path": "packages/decepticon/tests/unit/middleware/test_step_budget_checkpoint.py",
+        "type": "import"
+      },
+      {
+        "line": 11,
+        "path": "packages/decepticon/tests/unit/middleware/test_step_budget_checkpoint.py",
+        "type": "import"
+      },
+      {
+        "line": 140,
+        "path": "packages/decepticon/tests/unit/middleware/test_time_window.py",
+        "type": "import"
+      },
+      {
+        "line": 141,
+        "path": "packages/decepticon/tests/unit/middleware/test_time_window.py",
+        "type": "import"
+      },
+      {
+        "line": 224,
+        "path": "packages/decepticon/tests/unit/middleware/test_untrusted_output.py",
+        "type": "import"
+      },
+      {
+        "line": 15,
+        "path": "packages/decepticon/tests/unit/reporting/test_finding_quality.py",
+        "type": "import"
+      },
+      {
+        "line": 16,
+        "path": "packages/decepticon/tests/unit/reporting/test_finding_quality.py",
+        "type": "import"
+      },
+      {
+        "line": 17,
+        "path": "packages/decepticon/tests/unit/reporting/test_finding_quality.py",
+        "type": "import"
+      },
+      {
+        "line": 17,
+        "path": "packages/decepticon/tests/unit/reporting/test_sarif_remote.py",
+        "type": "import"
+      },
+      {
+        "line": 18,
+        "path": "packages/decepticon/tests/unit/reporting/test_sarif_remote.py",
+        "type": "import"
+      },
+      {
+        "line": 19,
+        "path": "packages/decepticon/tests/unit/reporting/test_sarif_remote.py",
+        "type": "import"
+      },
+      {
+        "line": 9,
+        "path": "packages/decepticon/tests/unit/search_v2/test_registration.py",
+        "type": "import"
+      },
+      {
+        "line": 13,
+        "path": "packages/decepticon/tests/unit/search_v2/test_search_runtime.py",
+        "type": "import"
+      },
+      {
+        "line": 14,
+        "path": "packages/decepticon/tests/unit/search_v2/test_search_runtime.py",
+        "type": "import"
+      },
+      {
+        "line": 14,
+        "path": "packages/decepticon/tests/unit/workflows/test_objective_status_refusals.py",
+        "type": "import"
+      },
+      {
+        "line": 8,
+        "path": "packages/decepticon/tests/unit/workflows/test_opplan_gating.py",
+        "type": "import"
+      },
+      {
+        "line": 7,
+        "path": "packages/decepticon/tests/unit/workflows/test_opplan_mutation.py",
+        "type": "import"
+      },
+      {
+        "line": 13,
+        "path": "packages/decepticon/tests/unit/workflows/test_planning_workflow.py",
+        "type": "import"
+      },
+      {
+        "line": 14,
+        "path": "packages/decepticon/tests/unit/workflows/test_planning_workflow.py",
+        "type": "import"
+      },
+      {
+        "line": 8,
+        "path": "packages/decepticon/tests/unit/workflows/test_workflow_checkpoint.py",
+        "type": "import"
+      },
+      {
+        "line": 27,
+        "path": "tests/agent_parity/case.py",
+        "type": "import"
+      },
+      {
+        "line": 28,
+        "path": "tests/agent_parity/case.py",
+        "type": "import"
+      }
+    ],
+    "langgraph_status": "confirmed",
     "node_names_confirmed": [
       "hydrate",
       "n",
@@ -6414,9 +6424,9 @@
       "tools",
       "tools"
     ],
+    "nodes_confirmed": 15,
     "nodes_dynamic_unknown": true,
-    "conditional_edges_confirmed": 0,
-    "state_fields_confirmed": 8,
+    "project_kind": "agent_project",
     "state_field_names_confirmed": [
       "authorization_confirmed",
       "engagement_name",
@@ -6427,23 +6437,24 @@
       "target_value",
       "workspace_path"
     ],
-    "agent_factories_confirmed": 0,
-    "subagents_confirmed": 0,
+    "state_fields_confirmed": 8,
+    "state_fields_unknown": true,
     "subagent_names_confirmed": [],
+    "subagents_confirmed": 0,
     "subagents_unknown": true,
     "subgraphs_confirmed": 0,
-    "state_fields_unknown": true
+    "tutorial_only": false
   },
   {
     "repo": "microsoft/agent-governance-toolkit",
     "url": "https://github.com/microsoft/agent-governance-toolkit",
     "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
-    "github_stars": 6576,
+    "github_stars": 6580,
     "github_forks": 1128,
     "primary_language": "Python",
     "license": "MIT",
-    "last_push": "2026-11-17T20:38:49Z",
-    "head_sha": "3528751afe521dec00911972f3f6059abda8b8cb",
+    "last_push": "2026-11-18T23:38:29Z",
+    "head_sha": "f85abe1fffc5aaeed716a94bd6654677329215b9",
     "langgraph_status": "confirmed",
     "langgraph_evidence": [
       {
@@ -6758,8 +6769,8 @@
     "repo": "awarexone/Agentic-Bug-Hunter",
     "url": "https://github.com/awarexone/Agentic-Bug-Hunter",
     "description": "AI-powered bug bounty hunting toolkit that works with or without subscription.",
-    "github_stars": 5987,
-    "github_forks": 1096,
+    "github_stars": 6000,
+    "github_forks": 1098,
     "primary_language": "Python",
     "license": "MIT",
     "last_push": "2026-11-12T05:22:33Z",
@@ -6880,8 +6891,8 @@
     "repo": "rllm-org/rllm",
     "url": "https://github.com/rllm-org/rllm",
     "description": "Democratizing Reinforcement Learning for LLMs",
-    "github_stars": 5925,
-    "github_forks": 645,
+    "github_stars": 5926,
+    "github_forks": 644,
     "primary_language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-10-16T19:02:56Z",
