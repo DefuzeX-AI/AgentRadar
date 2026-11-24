@@ -18,12 +18,6 @@
     ]
   },
   {
-    "signal": "ALPHA_VANTAGE_API_KEY",
-    "repositories": [
-      "TauricResearch/TradingAgents"
-    ]
-  },
-  {
     "signal": "ANTHROPIC_PROXY_API_KEY",
     "repositories": [
       "NVIDIA/SkillSpector"
@@ -132,6 +126,12 @@
     ]
   },
   {
+    "signal": "CLAW_EVAL_JUDGE_API_KEY",
+    "repositories": [
+      "rllm-org/rllm"
+    ]
+  },
+  {
     "signal": "CLOUDFLARE_AI_GATEWAY_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon"
@@ -172,14 +172,7 @@
     "signal": "DASHSCOPE_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon",
-      "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher"
-    ]
-  },
-  {
-    "signal": "DASHSCOPE_CN_API_KEY",
-    "repositories": [
-      "TauricResearch/TradingAgents"
     ]
   },
   {
@@ -216,10 +209,15 @@
     "signal": "DEEPSEEK_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon",
-      "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher",
       "awarexone/Agentic-Bug-Hunter",
       "confident-ai/deepeval"
+    ]
+  },
+  {
+    "signal": "E2B_API_KEY",
+    "repositories": [
+      "rllm-org/rllm"
     ]
   },
   {
@@ -231,7 +229,8 @@
   {
     "signal": "FIRECRAWL_API_KEY",
     "repositories": [
-      "assafelovic/gpt-researcher"
+      "assafelovic/gpt-researcher",
+      "rllm-org/rllm"
     ]
   },
   {
@@ -244,12 +243,6 @@
     "signal": "FORGE_API_KEY",
     "repositories": [
       "assafelovic/gpt-researcher"
-    ]
-  },
-  {
-    "signal": "FRED_API_KEY",
-    "repositories": [
-      "TauricResearch/TradingAgents"
     ]
   },
   {
@@ -286,6 +279,12 @@
     "signal": "GOOGLE_GENERATIVE_AI_API_KEY",
     "repositories": [
       "Arize-ai/phoenix"
+    ]
+  },
+  {
+    "signal": "GOOGLE_SEARCH_SECRET_KEY",
+    "repositories": [
+      "rllm-org/rllm"
     ]
   },
   {
@@ -415,14 +414,8 @@
       "BitterSecurity/Decepticon",
       "GetBindu/Bindu",
       "NVIDIA/SkillSpector",
-      "TauricResearch/TradingAgents",
-      "assafelovic/gpt-researcher"
-    ]
-  },
-  {
-    "signal": "MINIMAX_CN_API_KEY",
-    "repositories": [
-      "TauricResearch/TradingAgents"
+      "assafelovic/gpt-researcher",
+      "rllm-org/rllm"
     ]
   },
   {
@@ -441,7 +434,6 @@
     "signal": "MOONSHOT_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon",
-      "TauricResearch/TradingAgents",
       "awarexone/Agentic-Bug-Hunter",
       "confident-ai/deepeval"
     ]
@@ -488,7 +480,6 @@
     "signal": "NVIDIA_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon",
-      "TauricResearch/TradingAgents",
       "langchain-ai/deepagents"
     ]
   },
@@ -508,12 +499,6 @@
     "signal": "OLLAMA_CLOUD_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon"
-    ]
-  },
-  {
-    "signal": "OPENAI_COMPATIBLE_API_KEY",
-    "repositories": [
-      "TauricResearch/TradingAgents"
     ]
   },
   {
@@ -539,7 +524,6 @@
     "repositories": [
       "BitterSecurity/Decepticon",
       "GetBindu/Bindu",
-      "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher",
       "awarexone/Agentic-Bug-Hunter",
       "confident-ai/deepeval"
@@ -602,6 +586,18 @@
     ]
   },
   {
+    "signal": "RLLM_AGENT_API_KEY",
+    "repositories": [
+      "rllm-org/rllm"
+    ]
+  },
+  {
+    "signal": "RLLM_API_KEY",
+    "repositories": [
+      "rllm-org/rllm"
+    ]
+  },
+  {
     "signal": "RUNLOOP_API_KEY",
     "repositories": [
       "langchain-ai/deepagents"
@@ -640,7 +636,8 @@
   {
     "signal": "SERPER_API_KEY",
     "repositories": [
-      "assafelovic/gpt-researcher"
+      "assafelovic/gpt-researcher",
+      "rllm-org/rllm"
     ]
   },
   {
@@ -668,9 +665,27 @@
     ]
   },
   {
+    "signal": "SWANLAB_API_KEY",
+    "repositories": [
+      "rllm-org/rllm"
+    ]
+  },
+  {
     "signal": "SYNTHETIC_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon"
+    ]
+  },
+  {
+    "signal": "TINKER_API_KEY",
+    "repositories": [
+      "rllm-org/rllm"
+    ]
+  },
+  {
+    "signal": "TOGETHER_AI_API_KEY",
+    "repositories": [
+      "rllm-org/rllm"
     ]
   },
   {
@@ -678,6 +693,7 @@
     "repositories": [
       "BitterSecurity/Decepticon",
       "awarexone/Agentic-Bug-Hunter",
+      "rllm-org/rllm",
       "traceloop/openllmetry"
     ]
   },
@@ -691,7 +707,6 @@
     "signal": "TYPESAFE_API_KEY",
     "repositories": [
       "NandhaKishorM/laya",
-      "TauricResearch/TradingAgents",
       "assafelovic/gpt-researcher"
     ]
   },
@@ -756,7 +771,6 @@
     "signal": "XAI_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon",
-      "TauricResearch/TradingAgents",
       "awarexone/Agentic-Bug-Hunter"
     ]
   },
@@ -782,18 +796,6 @@
     "signal": "ZENMUX_API_KEY",
     "repositories": [
       "BitterSecurity/Decepticon"
-    ]
-  },
-  {
-    "signal": "ZHIPU_API_KEY",
-    "repositories": [
-      "TauricResearch/TradingAgents"
-    ]
-  },
-  {
-    "signal": "ZHIPU_CN_API_KEY",
-    "repositories": [
-      "TauricResearch/TradingAgents"
     ]
   },
   {
