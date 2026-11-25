@@ -598,6 +598,12 @@
     ]
   },
   {
+    "signal": "ROBIN_EVAL_SANDBOX_API_KEY",
+    "repositories": [
+      "langchain-ai/open-swe"
+    ]
+  },
+  {
     "signal": "RUNLOOP_API_KEY",
     "repositories": [
       "langchain-ai/deepagents"
